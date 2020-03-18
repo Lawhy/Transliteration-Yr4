@@ -1,0 +1,4150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TransliterationCorpus CorpusFormat="UTF-8" CorpusID="B-PeEn" CorpusSize="1000" CorpusType="Development" NameSource="Western" SourceLang="Persian" TargetLang="English">
+	<Name ID="1">
+		<SourceName>ذکیﺍﻩ</SourceName>
+		<TargetName ID="1">zakiyyah</TargetName>
+	</Name>
+	<Name ID="2">
+		<SourceName>ریکﻝﻭﻑ</SourceName>
+		<TargetName ID="1">rijckloff</TargetName>
+	</Name>
+	<Name ID="3">
+		<SourceName>ریگیﺕﺍ</SourceName>
+		<TargetName ID="1">bregitta</TargetName>
+	</Name>
+	<Name ID="4">
+		<SourceName>ریﺝکﻝﺍﻑ</SourceName>
+		<TargetName ID="1">rijckloff</TargetName>
+	</Name>
+	<Name ID="5">
+		<SourceName>ریﺝیﻥﺍﻝﺩ</SourceName>
+		<TargetName ID="1">reginald</TargetName>
+	</Name>
+	<Name ID="6">
+		<SourceName>رﺍﺱچﻥ</SourceName>
+		<TargetName ID="1">kruschen</TargetName>
+	</Name>
+	<Name ID="7">
+		<SourceName>رﺍﻑ</SourceName>
+		<TargetName ID="1">ruff</TargetName>
+	</Name>
+	<Name ID="8">
+		<SourceName>رﺍﻭیﺍﻩ</SourceName>
+		<TargetName ID="1">rawiyah</TargetName>
+	</Name>
+	<Name ID="9">
+		<SourceName>رﺍﻭﺱر</SourceName>
+		<TargetName ID="1">rauser</TargetName>
+	</Name>
+	<Name ID="10">
+		<SourceName>رﺝیﻥﺍﻝﺩ</SourceName>
+		<TargetName ID="1">reginald</TargetName>
+	</Name>
+	<Name ID="11">
+		<SourceName>رﺩﺍ</SourceName>
+		<TargetName ID="1">rawdah</TargetName>
+	</Name>
+	<Name ID="12">
+		<SourceName>رﺵیﺩﺍ</SourceName>
+		<TargetName ID="1">rashida</TargetName>
+	</Name>
+	<Name ID="13">
+		<SourceName>رﻕﺍﻩ</SourceName>
+		<TargetName ID="1">raqqah</TargetName>
+	</Name>
+	<Name ID="14">
+		<SourceName>رﻥﺱﻭﻡ</SourceName>
+		<TargetName ID="1">ransom</TargetName>
+	</Name>
+	<Name ID="15">
+		<SourceName>رﻭﺩﺍ</SourceName>
+		<TargetName ID="1">rawdah</TargetName>
+	</Name>
+	<Name ID="16">
+		<SourceName>رﻭﺩﻥﺏرگ</SourceName>
+		<TargetName ID="1">roodenburg</TargetName>
+	</Name>
+	<Name ID="17">
+		<SourceName>رﻭﺩﻭﻝﻑ</SourceName>
+		<TargetName ID="1">roedolf</TargetName>
+	</Name>
+	<Name ID="18">
+		<SourceName>رﻭﺩﻭﻝﻑﺍﺱ</SourceName>
+		<TargetName ID="1">rudolphus</TargetName>
+	</Name>
+	<Name ID="19">
+		<SourceName>رﻭﻡﺍﻥﻭ</SourceName>
+		<TargetName ID="1">romano</TargetName>
+	</Name>
+	<Name ID="20">
+		<SourceName>رﻭﻭﺕ</SourceName>
+		<TargetName ID="1">ruudt</TargetName>
+		<TargetName ID="2">vrouwtje</TargetName>
+	</Name>
+	<Name ID="21">
+		<SourceName>زری</SourceName>
+		<TargetName ID="1">zaria</TargetName>
+	</Name>
+	<Name ID="22">
+		<SourceName>زک</SourceName>
+		<TargetName ID="1">zeke</TargetName>
+	</Name>
+	<Name ID="23">
+		<SourceName>زکی</SourceName>
+		<TargetName ID="1">zaki</TargetName>
+	</Name>
+	<Name ID="24">
+		<SourceName>زﺍکﻝ</SourceName>
+		<TargetName ID="1">zeacle</TargetName>
+	</Name>
+	<Name ID="25">
+		<SourceName>ظﻩیرﺍ</SourceName>
+		<TargetName ID="1">zahara</TargetName>
+		<TargetName ID="2">zahirah</TargetName>
+	</Name>
+	<Name ID="26">
+		<SourceName>پکﺭ</SourceName>
+		<TargetName ID="1">packer</TargetName>
+	</Name>
+	<Name ID="27">
+		<SourceName>پگﺭﺍﻡ</SourceName>
+		<TargetName ID="1">pegram</TargetName>
+	</Name>
+	<Name ID="28">
+		<SourceName>پیکﺍﻥﻭ</SourceName>
+		<TargetName ID="1">picano</TargetName>
+	</Name>
+	<Name ID="29">
+		<SourceName>پیکﺯ</SourceName>
+		<TargetName ID="1">peaks</TargetName>
+	</Name>
+	<Name ID="30">
+		<SourceName>پیکﺱ</SourceName>
+		<TargetName ID="1">peaks</TargetName>
+	</Name>
+	<Name ID="31">
+		<SourceName>پیکﻭک</SourceName>
+		<TargetName ID="1">peacock</TargetName>
+	</Name>
+	<Name ID="32">
+		<SourceName>پیﺕﺭﺱﻭﻥ</SourceName>
+		<TargetName ID="1">peterson</TargetName>
+		<TargetName ID="2">petersson</TargetName>
+	</Name>
+	<Name ID="33">
+		<SourceName>پیﺭﻝﻡﺍﻥ</SourceName>
+		<TargetName ID="1">pearlman</TargetName>
+	</Name>
+	<Name ID="34">
+		<SourceName>پیﻥﺍکﻝ</SourceName>
+		<TargetName ID="1">pinnacle</TargetName>
+	</Name>
+	<Name ID="35">
+		<SourceName>پیﻭﺍﺕ</SourceName>
+		<TargetName ID="1">pivot</TargetName>
+	</Name>
+	<Name ID="36">
+		<SourceName>پیﻭﺭیﻥﺕﻥ</SourceName>
+		<TargetName ID="1">purinton</TargetName>
+	</Name>
+	<Name ID="37">
+		<SourceName>پیﻭﻥیرﺱ</SourceName>
+		<TargetName ID="1">pioneers</TargetName>
+	</Name>
+	<Name ID="38">
+		<SourceName>پﺍپﻭیک</SourceName>
+		<TargetName ID="1">popovic</TargetName>
+	</Name>
+	<Name ID="39">
+		<SourceName>پﺍیﻝﺱﺕﻭﻥ</SourceName>
+		<TargetName ID="1">pylestone</TargetName>
+	</Name>
+	<Name ID="40">
+		<SourceName>پﺍیﻥ</SourceName>
+		<TargetName ID="1">payne</TargetName>
+	</Name>
+	<Name ID="41">
+		<SourceName>پﺍیﻥﺯ</SourceName>
+		<TargetName ID="1">pines</TargetName>
+	</Name>
+	<Name ID="42">
+		<SourceName>پﺍﺕیﻝ</SourceName>
+		<TargetName ID="1">patil</TargetName>
+	</Name>
+	<Name ID="43">
+		<SourceName>پﺍﺕﺭیﺱیﺍ</SourceName>
+		<TargetName ID="1">patricia</TargetName>
+	</Name>
+	<Name ID="44">
+		<SourceName>پﺍﻥیﺱی</SourceName>
+		<TargetName ID="1">panici</TargetName>
+	</Name>
+	<Name ID="45">
+		<SourceName>پﺍﻥﺍگﺱ</SourceName>
+		<TargetName ID="1">panagos</TargetName>
+	</Name>
+	<Name ID="46">
+		<SourceName>پﺕﺭﺯ</SourceName>
+		<TargetName ID="1">peters</TargetName>
+	</Name>
+	<Name ID="47">
+		<SourceName>پﺕﺭﻭیچ</SourceName>
+		<TargetName ID="1">petrovich</TargetName>
+	</Name>
+	<Name ID="48">
+		<SourceName>پﺩﺭﺱﻥ</SourceName>
+		<TargetName ID="1">pedersen</TargetName>
+	</Name>
+	<Name ID="49">
+		<SourceName>پﺭیکﻥ</SourceName>
+		<TargetName ID="1">perricone</TargetName>
+	</Name>
+	<Name ID="50">
+		<SourceName>پﺭیﺩی</SourceName>
+		<TargetName ID="1">preedy</TargetName>
+	</Name>
+	<Name ID="51">
+		<SourceName>پﺭیﻡﺭﻭ</SourceName>
+		<TargetName ID="1">primero</TargetName>
+	</Name>
+	<Name ID="52">
+		<SourceName>پﺭﺍﻡﻭﺩ</SourceName>
+		<TargetName ID="1">pramod</TargetName>
+	</Name>
+	<Name ID="53">
+		<SourceName>پﺭﺍﻭیﻝ</SourceName>
+		<TargetName ID="1">pravil</TargetName>
+	</Name>
+	<Name ID="54">
+		<SourceName>پﺭﺱﺕﻥ</SourceName>
+		<TargetName ID="1">preston</TargetName>
+	</Name>
+	<Name ID="55">
+		<SourceName>پﺭﻡﺍﻝ</SourceName>
+		<TargetName ID="1">premal</TargetName>
+	</Name>
+	<Name ID="56">
+		<SourceName>پﺭﻭپﺱ</SourceName>
+		<TargetName ID="1">propes</TargetName>
+	</Name>
+	<Name ID="57">
+		<SourceName>پﻝﺍیﺭ</SourceName>
+		<TargetName ID="1">plyler</TargetName>
+	</Name>
+	<Name ID="58">
+		<SourceName>پﻝﺕچﺭ</SourceName>
+		<TargetName ID="1">pletcher</TargetName>
+	</Name>
+	<Name ID="59">
+		<SourceName>پﻝﻥﺕﻩ</SourceName>
+		<TargetName ID="1">plante</TargetName>
+	</Name>
+	<Name ID="60">
+		<SourceName>پﻥﺕﻭﻥ</SourceName>
+		<TargetName ID="1">panton</TargetName>
+	</Name>
+	<Name ID="61">
+		<SourceName>پﻭگﺍ</SourceName>
+		<TargetName ID="1">puga</TargetName>
+	</Name>
+	<Name ID="62">
+		<SourceName>پﻭﺕیﺕ</SourceName>
+		<TargetName ID="1">petit</TargetName>
+		<TargetName ID="2">petite</TargetName>
+	</Name>
+	<Name ID="63">
+		<SourceName>پﻭﺭﺍﻩﻭ</SourceName>
+		<TargetName ID="1">purahoo</TargetName>
+	</Name>
+	<Name ID="64">
+		<SourceName>پﻭﻝک</SourceName>
+		<TargetName ID="1">polk</TargetName>
+	</Name>
+	<Name ID="65">
+		<SourceName>پﻭﻝﻭﻭیﻥ</SourceName>
+		<TargetName ID="1">polowin</TargetName>
+	</Name>
+	<Name ID="66">
+		<SourceName>چریﺱﺕﻑﻝ</SourceName>
+		<TargetName ID="1">christoffel</TargetName>
+	</Name>
+	<Name ID="67">
+		<SourceName>چرﻭیچ</SourceName>
+		<TargetName ID="1">scherwich</TargetName>
+	</Name>
+	<Name ID="68">
+		<SourceName>چیﺕﺍﻥ</SourceName>
+		<TargetName ID="1">chetan</TargetName>
+	</Name>
+	<Name ID="69">
+		<SourceName>چیﺱﻡﻥ</SourceName>
+		<TargetName ID="1">cheesman</TargetName>
+	</Name>
+	<Name ID="70">
+		<SourceName>چﺍر</SourceName>
+		<TargetName ID="1">char</TargetName>
+	</Name>
+	<Name ID="71">
+		<SourceName>چﺍﺕﺍﻥی</SourceName>
+		<TargetName ID="1">chatane</TargetName>
+	</Name>
+	<Name ID="72">
+		<SourceName>چﺍﺭﺩ</SourceName>
+		<TargetName ID="1">chard</TargetName>
+	</Name>
+	<Name ID="73">
+		<SourceName>چﺍﺯ</SourceName>
+		<TargetName ID="1">chaz</TargetName>
+	</Name>
+	<Name ID="74">
+		<SourceName>چﺕﺍﻝ</SourceName>
+		<TargetName ID="1">chetal</TargetName>
+	</Name>
+	<Name ID="75">
+		<SourceName>چﺭی</SourceName>
+		<TargetName ID="1">cherie</TargetName>
+		<TargetName ID="2">cherrie</TargetName>
+	</Name>
+	<Name ID="76">
+		<SourceName>چﺱﺕرﻡﺍﻥ</SourceName>
+		<TargetName ID="1">chesterman</TargetName>
+	</Name>
+	<Name ID="77">
+		<SourceName>چﻭﻡﺍ</SourceName>
+		<TargetName ID="1">choma</TargetName>
+	</Name>
+	<Name ID="78">
+		<SourceName>ژﺍﻥﺱ</SourceName>
+		<TargetName ID="1">jansje</TargetName>
+	</Name>
+	<Name ID="79">
+		<SourceName>ژﻭزﻑ</SourceName>
+		<TargetName ID="1">joseph</TargetName>
+	</Name>
+	<Name ID="80">
+		<SourceName>کریﺱﺍیﻥﺕﺍی</SourceName>
+		<TargetName ID="1">chrescyntie</TargetName>
+	</Name>
+	<Name ID="81">
+		<SourceName>کریﺱﺕیﺝﻥﺕﺝ</SourceName>
+		<TargetName ID="1">kristijntje</TargetName>
+	</Name>
+	<Name ID="82">
+		<SourceName>کریﺱﻭژﻥ</SourceName>
+		<TargetName ID="1">krisoijn</TargetName>
+	</Name>
+	<Name ID="83">
+		<SourceName>کرﺍکﻥ</SourceName>
+		<TargetName ID="1">kraken</TargetName>
+	</Name>
+	<Name ID="84">
+		<SourceName>کرﺍیﺱ</SourceName>
+		<TargetName ID="1">krause</TargetName>
+	</Name>
+	<Name ID="85">
+		<SourceName>کرﺱکیﻥﺕیﻩ</SourceName>
+		<TargetName ID="1">chrescyntie</TargetName>
+	</Name>
+	<Name ID="86">
+		<SourceName>کرﻭﻡ</SourceName>
+		<TargetName ID="1">croume</TargetName>
+	</Name>
+	<Name ID="87">
+		<SourceName>کپﺍﺱ</SourceName>
+		<TargetName ID="1">kepus</TargetName>
+	</Name>
+	<Name ID="88">
+		<SourceName>کپﻝ</SourceName>
+		<TargetName ID="1">keppel</TargetName>
+	</Name>
+	<Name ID="89">
+		<SourceName>کیرﺍﻥ</SourceName>
+		<TargetName ID="1">kiernan</TargetName>
+		<TargetName ID="2">kiran</TargetName>
+	</Name>
+	<Name ID="90">
+		<SourceName>کیﺭک</SourceName>
+		<TargetName ID="1">kirk</TargetName>
+	</Name>
+	<Name ID="91">
+		<SourceName>کیﺭﺏی</SourceName>
+		<TargetName ID="1">kirby</TargetName>
+	</Name>
+	<Name ID="92">
+		<SourceName>کیﻝﻩﻭﺭﻥ</SourceName>
+		<TargetName ID="1">kielhorn</TargetName>
+	</Name>
+	<Name ID="93">
+		<SourceName>کیﻥگﺍﺱﺕﻭﻥ</SourceName>
+		<TargetName ID="1">kingston</TargetName>
+	</Name>
+	<Name ID="94">
+		<SourceName>کیﻥگﺍﺱﻥﻭرﺙ</SourceName>
+		<TargetName ID="1">kingsnorth</TargetName>
+	</Name>
+	<Name ID="95">
+		<SourceName>کیﻥی</SourceName>
+		<TargetName ID="1">keene</TargetName>
+		<TargetName ID="2">kini</TargetName>
+		<TargetName ID="3">kinky</TargetName>
+		<TargetName ID="4">kinney</TargetName>
+	</Name>
+	<Name ID="96">
+		<SourceName>کیﻭﺱ</SourceName>
+		<TargetName ID="1">chaos</TargetName>
+	</Name>
+	<Name ID="97">
+		<SourceName>کﺍکی</SourceName>
+		<TargetName ID="1">kaki</TargetName>
+	</Name>
+	<Name ID="98">
+		<SourceName>کﺍیپﺭ</SourceName>
+		<TargetName ID="1">kuyper</TargetName>
+	</Name>
+	<Name ID="99">
+		<SourceName>کﺍیﺕ</SourceName>
+		<TargetName ID="1">kight</TargetName>
+		<TargetName ID="2">kyte</TargetName>
+	</Name>
+	<Name ID="100">
+		<SourceName>کﺍیﺱﺍر</SourceName>
+		<TargetName ID="1">caesar</TargetName>
+	</Name>
+	<Name ID="101">
+		<SourceName>کﺍﺕرﻥﺕﺝ</SourceName>
+		<TargetName ID="1">katryntje</TargetName>
+	</Name>
+	<Name ID="102">
+		<SourceName>کﺍﺕﺏﺭﺕ</SourceName>
+		<TargetName ID="1">cuthbert</TargetName>
+	</Name>
+	<Name ID="103">
+		<SourceName>کﺍﺕﺭ</SourceName>
+		<TargetName ID="1">cutter</TargetName>
+	</Name>
+	<Name ID="104">
+		<SourceName>کﺍﺭگیﻝ</SourceName>
+		<TargetName ID="1">cargill</TargetName>
+	</Name>
+	<Name ID="105">
+		<SourceName>کﺍﺭﻝﺍیﻝ</SourceName>
+		<TargetName ID="1">carlile</TargetName>
+	</Name>
+	<Name ID="106">
+		<SourceName>کﺍﺭﻝﺱﻭﻥ</SourceName>
+		<TargetName ID="1">carlson</TargetName>
+		<TargetName ID="2">karlsson</TargetName>
+	</Name>
+	<Name ID="107">
+		<SourceName>کﺍﺯﻭﻩیﺕﻭ</SourceName>
+		<TargetName ID="1">kazuhito</TargetName>
+	</Name>
+	<Name ID="108">
+		<SourceName>کﺍﺱیﻥﻝی</SourceName>
+		<TargetName ID="1">cassinelli</TargetName>
+	</Name>
+	<Name ID="109">
+		<SourceName>کﺍﺱﺕﻭﺭی</SourceName>
+		<TargetName ID="1">kasturi</TargetName>
+	</Name>
+	<Name ID="110">
+		<SourceName>کﺍﻑیﻥ</SourceName>
+		<TargetName ID="1">coffin</TargetName>
+	</Name>
+	<Name ID="111">
+		<SourceName>کﺍﻝپیﻥ</SourceName>
+		<TargetName ID="1">culpin</TargetName>
+	</Name>
+	<Name ID="112">
+		<SourceName>کﺍﻝﺍﻭﺍی</SourceName>
+		<TargetName ID="1">callaway</TargetName>
+	</Name>
+	<Name ID="113">
+		<SourceName>کﺍﻝﺏﺭگ</SourceName>
+		<TargetName ID="1">kallberg</TargetName>
+	</Name>
+	<Name ID="114">
+		<SourceName>کﺍﻝﺱیﻥ</SourceName>
+		<TargetName ID="1">calsyn</TargetName>
+	</Name>
+	<Name ID="115">
+		<SourceName>کﺍﻝﻩیﻥﻩ</SourceName>
+		<TargetName ID="1">culhane</TargetName>
+	</Name>
+	<Name ID="116">
+		<SourceName>کﺍﻝﻭﺭﺕ</SourceName>
+		<TargetName ID="1">calvert</TargetName>
+	</Name>
+	<Name ID="117">
+		<SourceName>کﺍﻡﺏ</SourceName>
+		<TargetName ID="1">kamb</TargetName>
+	</Name>
+	<Name ID="118">
+		<SourceName>کﺍﻡﺏیی</SourceName>
+		<TargetName ID="1">combee</TargetName>
+	</Name>
+	<Name ID="119">
+		<SourceName>کﺍﻡﺭ</SourceName>
+		<TargetName ID="1">kummer</TargetName>
+	</Name>
+	<Name ID="120">
+		<SourceName>کﺍﻥیﺍﻥﻭ</SourceName>
+		<TargetName ID="1">caniano</TargetName>
+	</Name>
+	<Name ID="121">
+		<SourceName>کﺍﻥیﻭﻥ</SourceName>
+		<TargetName ID="1">canyon</TargetName>
+	</Name>
+	<Name ID="122">
+		<SourceName>کﺍﻥﺕﺍرﺍ</SourceName>
+		<TargetName ID="1">cantara</TargetName>
+	</Name>
+	<Name ID="123">
+		<SourceName>کﺍﻥﺩﺍیﻭ</SourceName>
+		<TargetName ID="1">candau</TargetName>
+	</Name>
+	<Name ID="124">
+		<SourceName>کﺍﻭﻥ</SourceName>
+		<TargetName ID="1">koven</TargetName>
+	</Name>
+	<Name ID="125">
+		<SourceName>کﺏیﺭ</SourceName>
+		<TargetName ID="1">kabir</TargetName>
+		<TargetName ID="2">kebir</TargetName>
+	</Name>
+	<Name ID="126">
+		<SourceName>کﺏیﺭﻩ</SourceName>
+		<TargetName ID="1">kebire</TargetName>
+	</Name>
+	<Name ID="127">
+		<SourceName>کﺕﺍﺭﺍ</SourceName>
+		<TargetName ID="1">kotara</TargetName>
+	</Name>
+	<Name ID="128">
+		<SourceName>کﺭکﺭﺍﻑﺕ</SourceName>
+		<TargetName ID="1">cracraft</TargetName>
+		<TargetName ID="2">crowcroft</TargetName>
+	</Name>
+	<Name ID="129">
+		<SourceName>کﺭیگﺍﻥ</SourceName>
+		<TargetName ID="1">kerrigan</TargetName>
+	</Name>
+	<Name ID="130">
+		<SourceName>کﺭییک</SourceName>
+		<TargetName ID="1">creek</TargetName>
+	</Name>
+	<Name ID="131">
+		<SourceName>کﺭیﺱﺕﺍ</SourceName>
+		<TargetName ID="1">christa</TargetName>
+		<TargetName ID="2">krista</TargetName>
+	</Name>
+	<Name ID="132">
+		<SourceName>کﺭیﺱﺕﺭ</SourceName>
+		<TargetName ID="1">christer</TargetName>
+		<TargetName ID="2">krister</TargetName>
+	</Name>
+	<Name ID="133">
+		<SourceName>کﺭﺱپﻭ</SourceName>
+		<TargetName ID="1">crespo</TargetName>
+	</Name>
+	<Name ID="134">
+		<SourceName>کﺭﺱﺕیﻥ</SourceName>
+		<TargetName ID="1">kerstin</TargetName>
+	</Name>
+	<Name ID="135">
+		<SourceName>کﺭﺱﻥ</SourceName>
+		<TargetName ID="1">curson</TargetName>
+	</Name>
+	<Name ID="136">
+		<SourceName>کﺭﻝی</SourceName>
+		<TargetName ID="1">corley</TargetName>
+	</Name>
+	<Name ID="137">
+		<SourceName>کﺭﻝﻭ</SourceName>
+		<TargetName ID="1">kirlew</TargetName>
+	</Name>
+	<Name ID="138">
+		<SourceName>کﺭﻡیک</SourceName>
+		<TargetName ID="1">cormick</TargetName>
+	</Name>
+	<Name ID="139">
+		<SourceName>کﺭﻡﺭ</SourceName>
+		<TargetName ID="1">cramer</TargetName>
+	</Name>
+	<Name ID="140">
+		<SourceName>کﺭﻭﺍﺱﺯ</SourceName>
+		<TargetName ID="1">crevasses</TargetName>
+	</Name>
+	<Name ID="141">
+		<SourceName>کﺭﻭﻡﺭ</SourceName>
+		<TargetName ID="1">kromer</TargetName>
+	</Name>
+	<Name ID="142">
+		<SourceName>کﺱیﺩی</SourceName>
+		<TargetName ID="1">cassidy</TargetName>
+	</Name>
+	<Name ID="143">
+		<SourceName>کﺵﻝﻥ</SourceName>
+		<TargetName ID="1">keshlan</TargetName>
+	</Name>
+	<Name ID="144">
+		<SourceName>کﻝیﻡﻭﻑ</SourceName>
+		<TargetName ID="1">kelimoff</TargetName>
+	</Name>
+	<Name ID="145">
+		<SourceName>کﻝﺍرﺕ</SourceName>
+		<TargetName ID="1">klaartje</TargetName>
+	</Name>
+	<Name ID="146">
+		<SourceName>کﻝﺍﻭﺩیﺍ</SourceName>
+		<TargetName ID="1">claudia</TargetName>
+	</Name>
+	<Name ID="147">
+		<SourceName>کﻝﻭﺏ</SourceName>
+		<TargetName ID="1">club</TargetName>
+	</Name>
+	<Name ID="148">
+		<SourceName>کﻡﺱﻑیﻝﺩ</SourceName>
+		<TargetName ID="1">camsfield</TargetName>
+	</Name>
+	<Name ID="149">
+		<SourceName>کﻥﺍﻡﻭﺭی</SourceName>
+		<TargetName ID="1">kanamori</TargetName>
+	</Name>
+	<Name ID="150">
+		<SourceName>کﻥﻭیﻥﺱ</SourceName>
+		<TargetName ID="1">konvinse</TargetName>
+	</Name>
+	<Name ID="151">
+		<SourceName>کﻭ</SourceName>
+		<TargetName ID="1">kev</TargetName>
+		<TargetName ID="2">koo</TargetName>
+		<TargetName ID="3">kao</TargetName>
+		<TargetName ID="4">kou</TargetName>
+	</Name>
+	<Name ID="152">
+		<SourceName>کﻭرﺍی</SourceName>
+		<TargetName ID="1">koray</TargetName>
+	</Name>
+	<Name ID="153">
+		<SourceName>کﻭرﻥیﺵ</SourceName>
+		<TargetName ID="1">cornish</TargetName>
+		<TargetName ID="2">cornish</TargetName>
+	</Name>
+	<Name ID="154">
+		<SourceName>کﻭرﻥﻝیز</SourceName>
+		<TargetName ID="1">cornellis</TargetName>
+	</Name>
+	<Name ID="155">
+		<SourceName>کﻭرﻥﻝﻭﺱ</SourceName>
+		<TargetName ID="1">cornelius</TargetName>
+	</Name>
+	<Name ID="156">
+		<SourceName>کﻭرﻭکی</SourceName>
+		<TargetName ID="1">kuroki</TargetName>
+	</Name>
+	<Name ID="157">
+		<SourceName>کﻭپﺝﺍﻥﺯ</SourceName>
+		<TargetName ID="1">coppejans</TargetName>
+	</Name>
+	<Name ID="158">
+		<SourceName>کﻭیزﻡﻥ</SourceName>
+		<TargetName ID="1">coesmans</TargetName>
+	</Name>
+	<Name ID="159">
+		<SourceName>کﻭییﻡﻥ</SourceName>
+		<TargetName ID="1">coeyman</TargetName>
+	</Name>
+	<Name ID="160">
+		<SourceName>کﻭﺏیﻝﺍ</SourceName>
+		<TargetName ID="1">qubilah</TargetName>
+	</Name>
+	<Name ID="161">
+		<SourceName>کﻭﺩیﺵ</SourceName>
+		<TargetName ID="1">kodish</TargetName>
+	</Name>
+	<Name ID="162">
+		<SourceName>کﻭﺭﻥﺯ</SourceName>
+		<TargetName ID="1">corns</TargetName>
+	</Name>
+	<Name ID="163">
+		<SourceName>کﻭﺱﺕﺍﺭ</SourceName>
+		<TargetName ID="1">kostur</TargetName>
+	</Name>
+	<Name ID="164">
+		<SourceName>کﻭﺱﻭگﻩ</SourceName>
+		<TargetName ID="1">kosuge</TargetName>
+	</Name>
+	<Name ID="165">
+		<SourceName>کﻭﻝیﻩﺍ</SourceName>
+		<TargetName ID="1">koliha</TargetName>
+	</Name>
+	<Name ID="166">
+		<SourceName>گریﻥکﻩ</SourceName>
+		<TargetName ID="1">greinke</TargetName>
+	</Name>
+	<Name ID="167">
+		<SourceName>گرﺩﻥر</SourceName>
+		<TargetName ID="1">gardner</TargetName>
+	</Name>
+	<Name ID="168">
+		<SourceName>گرﻭپ</SourceName>
+		<TargetName ID="1">group</TargetName>
+	</Name>
+	<Name ID="169">
+		<SourceName>گرﻭﺱﺏک</SourceName>
+		<TargetName ID="1">groesbeck</TargetName>
+	</Name>
+	<Name ID="170">
+		<SourceName>گیﺯﺍﻭ</SourceName>
+		<TargetName ID="1">gizaw</TargetName>
+	</Name>
+	<Name ID="171">
+		<SourceName>گیﻝﻡﺭ</SourceName>
+		<TargetName ID="1">gilmer</TargetName>
+	</Name>
+	<Name ID="172">
+		<SourceName>گیﻝﻡﻭﺭ</SourceName>
+		<TargetName ID="1">gilmore</TargetName>
+	</Name>
+	<Name ID="173">
+		<SourceName>گیﻝﻭﺕ</SourceName>
+		<TargetName ID="1">gaillot</TargetName>
+	</Name>
+	<Name ID="174">
+		<SourceName>گیﻭﺯ</SourceName>
+		<TargetName ID="1">guse</TargetName>
+	</Name>
+	<Name ID="175">
+		<SourceName>گیﻭﻝیﺕی</SourceName>
+		<TargetName ID="1">giulietti</TargetName>
+	</Name>
+	<Name ID="176">
+		<SourceName>گﺍﺕرکﻭﻝ</SourceName>
+		<TargetName ID="1">gathercole</TargetName>
+	</Name>
+	<Name ID="177">
+		<SourceName>گﺍﺕیﺭ</SourceName>
+		<TargetName ID="1">gautier</TargetName>
+	</Name>
+	<Name ID="178">
+		<SourceName>گﺍﺩﺏﺕ</SourceName>
+		<TargetName ID="1">godbout</TargetName>
+	</Name>
+	<Name ID="179">
+		<SourceName>گﺍﺩﻡﺍﻥﺩﻭﺭ</SourceName>
+		<TargetName ID="1">gudmundur</TargetName>
+	</Name>
+	<Name ID="180">
+		<SourceName>گﺍﺭﺏی</SourceName>
+		<TargetName ID="1">garbee</TargetName>
+	</Name>
+	<Name ID="181">
+		<SourceName>گﺍﺭﺏﻩ</SourceName>
+		<TargetName ID="1">garbe</TargetName>
+	</Name>
+	<Name ID="182">
+		<SourceName>گﺍﺭﺕﺱ</SourceName>
+		<TargetName ID="1">garth</TargetName>
+	</Name>
+	<Name ID="183">
+		<SourceName>گﺍﺭﺵﻭﻝ</SourceName>
+		<TargetName ID="1">garshol</TargetName>
+	</Name>
+	<Name ID="184">
+		<SourceName>گﺍﺱﺕﻝﻭ</SourceName>
+		<TargetName ID="1">gostelow</TargetName>
+	</Name>
+	<Name ID="185">
+		<SourceName>گﺍﻑﻥی</SourceName>
+		<TargetName ID="1">gaffney</TargetName>
+	</Name>
+	<Name ID="186">
+		<SourceName>گﺍﻝیﻥﺱکی</SourceName>
+		<TargetName ID="1">galensky</TargetName>
+	</Name>
+	<Name ID="187">
+		<SourceName>گﺍﻝﻭﺍﻥ</SourceName>
+		<TargetName ID="1">galvan</TargetName>
+	</Name>
+	<Name ID="188">
+		<SourceName>گﺍﻥﺕریپ</SourceName>
+		<TargetName ID="1">guntrip</TargetName>
+	</Name>
+	<Name ID="189">
+		<SourceName>گﺍﻥﺕﻭرپﻩ</SourceName>
+		<TargetName ID="1">gunthorpe</TargetName>
+	</Name>
+	<Name ID="190">
+		<SourceName>گﺍﻥﺵ</SourceName>
+		<TargetName ID="1">ganesh</TargetName>
+	</Name>
+	<Name ID="191">
+		<SourceName>گﺍﻭﺭ</SourceName>
+		<TargetName ID="1">gower</TargetName>
+	</Name>
+	<Name ID="192">
+		<SourceName>گﺩﺏری</SourceName>
+		<TargetName ID="1">gadbury</TargetName>
+	</Name>
+	<Name ID="193">
+		<SourceName>گﺭیپﻥکﺭﻝ</SourceName>
+		<TargetName ID="1">griepenkerl</TargetName>
+	</Name>
+	<Name ID="194">
+		<SourceName>گﺭﺍیﻡﺯ</SourceName>
+		<TargetName ID="1">grimes</TargetName>
+	</Name>
+	<Name ID="195">
+		<SourceName>گﺭﺍﺱ</SourceName>
+		<TargetName ID="1">gross</TargetName>
+	</Name>
+	<Name ID="196">
+		<SourceName>گﺭﺍﻥﺩﺍﺱﺕﺭﻭﻡ</SourceName>
+		<TargetName ID="1">grundstroem</TargetName>
+	</Name>
+	<Name ID="197">
+		<SourceName>گﺭﺍﻩﺍﻡ</SourceName>
+		<TargetName ID="1">graham</TargetName>
+		<TargetName ID="2">grahame</TargetName>
+	</Name>
+	<Name ID="198">
+		<SourceName>گﺭﺏﺭ</SourceName>
+		<TargetName ID="1">gerber</TargetName>
+	</Name>
+	<Name ID="199">
+		<SourceName>گﺭﺩﻥ</SourceName>
+		<TargetName ID="1">gorden</TargetName>
+	</Name>
+	<Name ID="200">
+		<SourceName>گﺭﻭگﻭﺭی</SourceName>
+		<TargetName ID="1">gregoire</TargetName>
+	</Name>
+	<Name ID="201">
+		<SourceName>گﺭﻭﻩﻭﻝ</SourceName>
+		<TargetName ID="1">grohol</TargetName>
+	</Name>
+	<Name ID="202">
+		<SourceName>گﺱکیﻥﺱ</SourceName>
+		<TargetName ID="1">gaskins</TargetName>
+	</Name>
+	<Name ID="203">
+		<SourceName>گﺱکﻭیگﻥﻩ</SourceName>
+		<TargetName ID="1">gascoigne</TargetName>
+	</Name>
+	<Name ID="204">
+		<SourceName>گﻝﺩزﻡﻥ</SourceName>
+		<TargetName ID="1">geldefsman</TargetName>
+	</Name>
+	<Name ID="205">
+		<SourceName>گﻭریر</SourceName>
+		<TargetName ID="1">guerrier</TargetName>
+	</Name>
+	<Name ID="206">
+		<SourceName>گﻭرﻥی</SourceName>
+		<TargetName ID="1">gurney</TargetName>
+	</Name>
+	<Name ID="207">
+		<SourceName>گﻭیﻭﺩﺍ</SourceName>
+		<TargetName ID="1">gouda</TargetName>
+	</Name>
+	<Name ID="208">
+		<SourceName>گﻭﺩﻡﺍﻥ</SourceName>
+		<TargetName ID="1">goodman</TargetName>
+	</Name>
+	<Name ID="209">
+		<SourceName>گﻭﺩﻩﻭ</SourceName>
+		<TargetName ID="1">goodhew</TargetName>
+	</Name>
+	<Name ID="210">
+		<SourceName>گﻭﺭﺍﻝﺍﻭﺍﻝﺍ</SourceName>
+		<TargetName ID="1">goralwalla</TargetName>
+	</Name>
+	<Name ID="211">
+		<SourceName>گﻭﻝک</SourceName>
+		<TargetName ID="1">gohlke</TargetName>
+	</Name>
+	<Name ID="212">
+		<SourceName>گﻭﻝﺱﺏﺍی</SourceName>
+		<TargetName ID="1">goolsby</TargetName>
+	</Name>
+	<Name ID="213">
+		<SourceName>ییﺕﻡﺍﻥ</SourceName>
+		<TargetName ID="1">yeatman</TargetName>
+	</Name>
+	<Name ID="214">
+		<SourceName>یﺍکﻭﺕﺍ</SourceName>
+		<TargetName ID="1">yakootah</TargetName>
+	</Name>
+	<Name ID="215">
+		<SourceName>یﺍﻥکﻭ</SourceName>
+		<TargetName ID="1">yanco</TargetName>
+	</Name>
+	<Name ID="216">
+		<SourceName>یﺍﻥیک</SourceName>
+		<TargetName ID="1">yarnick</TargetName>
+	</Name>
+	<Name ID="217">
+		<SourceName>یﺱیرﺍ</SourceName>
+		<TargetName ID="1">yasirah</TargetName>
+	</Name>
+	<Name ID="218">
+		<SourceName>یﻭﺩﺍﺕ</SourceName>
+		<TargetName ID="1">udut</TargetName>
+	</Name>
+	<Name ID="219">
+		<SourceName>ﺍرچﺩیﻝ</SourceName>
+		<TargetName ID="1">archdale</TargetName>
+	</Name>
+	<Name ID="220">
+		<SourceName>ﺍرﻥ</SourceName>
+		<TargetName ID="1">aaron</TargetName>
+	</Name>
+	<Name ID="221">
+		<SourceName>ﺍرﻥﻭﻝﺩز</SourceName>
+		<TargetName ID="1">arnoldus</TargetName>
+	</Name>
+	<Name ID="222">
+		<SourceName>ﺍپﺍکﻭ</SourceName>
+		<TargetName ID="1">opalko</TargetName>
+	</Name>
+	<Name ID="223">
+		<SourceName>ﺍپﺝﻩ</SourceName>
+		<TargetName ID="1">epje</TargetName>
+	</Name>
+	<Name ID="224">
+		<SourceName>ﺍپﻝیﺏی</SourceName>
+		<TargetName ID="1">applebee</TargetName>
+		<TargetName ID="2">appleby</TargetName>
+	</Name>
+	<Name ID="225">
+		<SourceName>ﺍچ</SourceName>
+		<TargetName ID="1">ech</TargetName>
+	</Name>
+	<Name ID="226">
+		<SourceName>ﺍکﺍﻥﺍ</SourceName>
+		<TargetName ID="1">akkana</TargetName>
+	</Name>
+	<Name ID="227">
+		<SourceName>ﺍکﺏﺭ</SourceName>
+		<TargetName ID="1">akbar</TargetName>
+	</Name>
+	<Name ID="228">
+		<SourceName>ﺍکﻝﺍ</SourceName>
+		<TargetName ID="1">akella</TargetName>
+	</Name>
+	<Name ID="229">
+		<SourceName>ﺍکﻡ</SourceName>
+		<TargetName ID="1">akeem</TargetName>
+	</Name>
+	<Name ID="230">
+		<SourceName>ﺍیزﺍک</SourceName>
+		<TargetName ID="1">isacq</TargetName>
+	</Name>
+	<Name ID="231">
+		<SourceName>ﺍیکﻝ</SourceName>
+		<TargetName ID="1">oickle</TargetName>
+	</Name>
+	<Name ID="232">
+		<SourceName>ﺍیﺍﺯ</SourceName>
+		<TargetName ID="1">ayaz</TargetName>
+	</Name>
+	<Name ID="233">
+		<SourceName>ﺍیﺏﺍرﺍ</SourceName>
+		<TargetName ID="1">ibarra</TargetName>
+	</Name>
+	<Name ID="234">
+		<SourceName>ﺍیﺏﺍچ</SourceName>
+		<TargetName ID="1">ebach</TargetName>
+	</Name>
+	<Name ID="235">
+		<SourceName>ﺍیﺝﻩ</SourceName>
+		<TargetName ID="1">aetje</TargetName>
+	</Name>
+	<Name ID="236">
+		<SourceName>ﺍیﺭﺍﻥی</SourceName>
+		<TargetName ID="1">irani</TargetName>
+	</Name>
+	<Name ID="237">
+		<SourceName>ﺍیﺭﺩﻭ</SourceName>
+		<TargetName ID="1">airdo</TargetName>
+	</Name>
+	<Name ID="238">
+		<SourceName>ﺍیﺯﻝ</SourceName>
+		<TargetName ID="1">eisele</TargetName>
+	</Name>
+	<Name ID="239">
+		<SourceName>ﺍیﺯﻥ</SourceName>
+		<TargetName ID="1">izen</TargetName>
+	</Name>
+	<Name ID="240">
+		<SourceName>ﺍیﺱﺕﻡﻭﺱ</SourceName>
+		<TargetName ID="1">isthmus</TargetName>
+	</Name>
+	<Name ID="241">
+		<SourceName>ﺍیﺱﻥﺱﺕﺍﺕ</SourceName>
+		<TargetName ID="1">aisenstat</TargetName>
+	</Name>
+	<Name ID="242">
+		<SourceName>ﺍیﺱﻭﻥ</SourceName>
+		<TargetName ID="1">asson</TargetName>
+		<TargetName ID="2">ayson</TargetName>
+	</Name>
+	<Name ID="243">
+		<SourceName>ﺍیﻝﺭ</SourceName>
+		<TargetName ID="1">iler</TargetName>
+	</Name>
+	<Name ID="244">
+		<SourceName>ﺍیﻥگﻝﺱ</SourceName>
+		<TargetName ID="1">ingles</TargetName>
+	</Name>
+	<Name ID="245">
+		<SourceName>ﺍیﻥﺕرﻥﺱ</SourceName>
+		<TargetName ID="1">entrance</TargetName>
+	</Name>
+	<Name ID="246">
+		<SourceName>ﺍیﻥﺩﺍﻝیﺱ</SourceName>
+		<TargetName ID="1">indulis</TargetName>
+	</Name>
+	<Name ID="247">
+		<SourceName>ﺍیﻥﻝﺕ</SourceName>
+		<TargetName ID="1">inlet</TargetName>
+	</Name>
+	<Name ID="248">
+		<SourceName>ﺍیﻭﻝیﻥ</SourceName>
+		<TargetName ID="1">evelyn</TargetName>
+	</Name>
+	<Name ID="249">
+		<SourceName>ﺍﺍﻑ</SourceName>
+		<TargetName ID="1">aefje</TargetName>
+	</Name>
+	<Name ID="250">
+		<SourceName>ﺍﺍﻝﺕﺝ</SourceName>
+		<TargetName ID="1">aeltje</TargetName>
+	</Name>
+	<Name ID="251">
+		<SourceName>ﺍﺏچﺭ</SourceName>
+		<TargetName ID="1">abcher</TargetName>
+	</Name>
+	<Name ID="252">
+		<SourceName>ﺍﺏیﻝ</SourceName>
+		<TargetName ID="1">abel</TargetName>
+	</Name>
+	<Name ID="253">
+		<SourceName>ﺍﺏﺭﺕﺯ</SourceName>
+		<TargetName ID="1">eberts</TargetName>
+	</Name>
+	<Name ID="254">
+		<SourceName>ﺍﺕری</SourceName>
+		<TargetName ID="1">atari</TargetName>
+	</Name>
+	<Name ID="255">
+		<SourceName>ﺍﺕﺭﺯ</SourceName>
+		<TargetName ID="1">etters</TargetName>
+	</Name>
+	<Name ID="256">
+		<SourceName>ﺍﺕﻭﻝ</SourceName>
+		<TargetName ID="1">attewell</TargetName>
+		<TargetName ID="2">atul</TargetName>
+	</Name>
+	<Name ID="257">
+		<SourceName>ﺍﺕﻭﻭﺩ</SourceName>
+		<TargetName ID="1">atwood</TargetName>
+	</Name>
+	<Name ID="258">
+		<SourceName>ﺍﺝیﻝ</SourceName>
+		<TargetName ID="1">argyle</TargetName>
+	</Name>
+	<Name ID="259">
+		<SourceName>ﺍﺝیﻥگﺕﻭﻥ</SourceName>
+		<TargetName ID="1">eggington</TargetName>
+	</Name>
+	<Name ID="260">
+		<SourceName>ﺍﺩریﺍﻥﺕﻩ</SourceName>
+		<TargetName ID="1">adriaantje</TargetName>
+	</Name>
+	<Name ID="261">
+		<SourceName>ﺍﺩریﻥکﻝﻥﺕ</SourceName>
+		<TargetName ID="1">adgeringelant</TargetName>
+	</Name>
+	<Name ID="262">
+		<SourceName>ﺍﺩیﻝرﺩ</SourceName>
+		<TargetName ID="1">ethilrede</TargetName>
+	</Name>
+	<Name ID="263">
+		<SourceName>ﺍﺩﻡیﺱﺕﻭﻥ</SourceName>
+		<TargetName ID="1">edmiston</TargetName>
+	</Name>
+	<Name ID="264">
+		<SourceName>ﺍﺩﻡﻭﻥﺩز</SourceName>
+		<TargetName ID="1">edmonds</TargetName>
+	</Name>
+	<Name ID="265">
+		<SourceName>ﺍﺩﻥﺏرﻭ</SourceName>
+		<TargetName ID="1">edenborough</TargetName>
+	</Name>
+	<Name ID="266">
+		<SourceName>ﺍﺩﻭﺍﺭﺩﺯ</SourceName>
+		<TargetName ID="1">edwards</TargetName>
+	</Name>
+	<Name ID="267">
+		<SourceName>ﺍﺭگﺍﻥ</SourceName>
+		<TargetName ID="1">oregan</TargetName>
+		<TargetName ID="2">organ</TargetName>
+	</Name>
+	<Name ID="268">
+		<SourceName>ﺍﺭﺏﻥ</SourceName>
+		<TargetName ID="1">erben</TargetName>
+	</Name>
+	<Name ID="269">
+		<SourceName>ﺍﺭﺕیﺯ</SourceName>
+		<TargetName ID="1">ortiz</TargetName>
+	</Name>
+	<Name ID="270">
+		<SourceName>ﺍﺭﺱی</SourceName>
+		<TargetName ID="1">arce</TargetName>
+	</Name>
+	<Name ID="271">
+		<SourceName>ﺍﺭﻑﻭﺭﺩ</SourceName>
+		<TargetName ID="1">orford</TargetName>
+	</Name>
+	<Name ID="272">
+		<SourceName>ﺍﺭﻝ</SourceName>
+		<TargetName ID="1">earl</TargetName>
+		<TargetName ID="2">earle</TargetName>
+		<TargetName ID="3">orrell</TargetName>
+	</Name>
+	<Name ID="273">
+		<SourceName>ﺍﺭﻡﻥی</SourceName>
+		<TargetName ID="1">armeni</TargetName>
+	</Name>
+	<Name ID="274">
+		<SourceName>ﺍﺭﻭیﻭﻝﺍ</SourceName>
+		<TargetName ID="1">arviola</TargetName>
+	</Name>
+	<Name ID="275">
+		<SourceName>ﺍﺱپرﺕﻭﺱ</SourceName>
+		<TargetName ID="1">spertus</TargetName>
+	</Name>
+	<Name ID="276">
+		<SourceName>ﺍﺱپیﺭﺯ</SourceName>
+		<TargetName ID="1">spears</TargetName>
+		<TargetName ID="2">spiers</TargetName>
+	</Name>
+	<Name ID="277">
+		<SourceName>ﺍﺱپﺍیﺯ</SourceName>
+		<TargetName ID="1">spies</TargetName>
+	</Name>
+	<Name ID="278">
+		<SourceName>ﺍﺱپﺍﺭﻭ</SourceName>
+		<TargetName ID="1">sparrow</TargetName>
+	</Name>
+	<Name ID="279">
+		<SourceName>ﺍﺱچرﻡرﻭﻥ</SourceName>
+		<TargetName ID="1">schermerhorn</TargetName>
+	</Name>
+	<Name ID="280">
+		<SourceName>ﺍﺱکرﺍﻥﺕﻭﻥ</SourceName>
+		<TargetName ID="1">scranton</TargetName>
+	</Name>
+	<Name ID="281">
+		<SourceName>ﺍﺱکی</SourceName>
+		<TargetName ID="1">skee</TargetName>
+	</Name>
+	<Name ID="282">
+		<SourceName>ﺍﺱکیﻭ</SourceName>
+		<TargetName ID="1">skeeve</TargetName>
+	</Name>
+	<Name ID="283">
+		<SourceName>ﺍﺱکﻝﺕﻥ</SourceName>
+		<TargetName ID="1">skelton</TargetName>
+	</Name>
+	<Name ID="284">
+		<SourceName>ﺍﺱکﻡیﻭﻥﺩﻝﻑ</SourceName>
+		<TargetName ID="1">escmundelf</TargetName>
+	</Name>
+	<Name ID="285">
+		<SourceName>ﺍﺱکﻭﺍیﺭ</SourceName>
+		<TargetName ID="1">squire</TargetName>
+	</Name>
+	<Name ID="286">
+		<SourceName>ﺍﺱکﻭﺍیﺭﻝ</SourceName>
+		<TargetName ID="1">squirrel</TargetName>
+	</Name>
+	<Name ID="287">
+		<SourceName>ﺍﺱکﻭﻑیﻝﺩ</SourceName>
+		<TargetName ID="1">schofield</TargetName>
+	</Name>
+	<Name ID="288">
+		<SourceName>ﺍﺱیﻡ</SourceName>
+		<TargetName ID="1">asim</TargetName>
+	</Name>
+	<Name ID="289">
+		<SourceName>ﺍﺱﺏﺭیﻥک</SourceName>
+		<TargetName ID="1">asbrink</TargetName>
+	</Name>
+	<Name ID="290">
+		<SourceName>ﺍﺱﺕرﻩﻭﺕ</SourceName>
+		<TargetName ID="1">osterhoudt</TargetName>
+	</Name>
+	<Name ID="291">
+		<SourceName>ﺍﺱﺕک</SourceName>
+		<TargetName ID="1">stack</TargetName>
+		<TargetName ID="2">stec</TargetName>
+	</Name>
+	<Name ID="292">
+		<SourceName>ﺍﺱﺕیگﺭﺱ</SourceName>
+		<TargetName ID="1">staggers</TargetName>
+	</Name>
+	<Name ID="293">
+		<SourceName>ﺍﺱﺕیﺭﻥ</SourceName>
+		<TargetName ID="1">stearn</TargetName>
+	</Name>
+	<Name ID="294">
+		<SourceName>ﺍﺱﺕیﻥﺕﺍی</SourceName>
+		<TargetName ID="1">styntie</TargetName>
+	</Name>
+	<Name ID="295">
+		<SourceName>ﺍﺱﺕیﻭﺭﺯ</SourceName>
+		<TargetName ID="1">stavers</TargetName>
+	</Name>
+	<Name ID="296">
+		<SourceName>ﺍﺱﺕﺍیﻝﺯ</SourceName>
+		<TargetName ID="1">styles</TargetName>
+	</Name>
+	<Name ID="297">
+		<SourceName>ﺍﺱﺕﺍﺭچﺭ</SourceName>
+		<TargetName ID="1">starcher</TargetName>
+	</Name>
+	<Name ID="298">
+		<SourceName>ﺍﺱﺕﺍﺭگﺱ</SourceName>
+		<TargetName ID="1">sturges</TargetName>
+	</Name>
+	<Name ID="299">
+		<SourceName>ﺍﺱﺕﺍﻝکﻩ</SourceName>
+		<TargetName ID="1">stolcke</TargetName>
+	</Name>
+	<Name ID="300">
+		<SourceName>ﺍﺱﺕﺏﺍی</SourceName>
+		<TargetName ID="1">ostby</TargetName>
+	</Name>
+	<Name ID="301">
+		<SourceName>ﺍﺱﺕﺩﻝﺭ</SourceName>
+		<TargetName ID="1">stadler</TargetName>
+	</Name>
+	<Name ID="302">
+		<SourceName>ﺍﺱﺕﺭیﺏﻝ</SourceName>
+		<TargetName ID="1">striebel</TargetName>
+	</Name>
+	<Name ID="303">
+		<SourceName>ﺍﺱﺕﺭیﻥگﺭ</SourceName>
+		<TargetName ID="1">stringer</TargetName>
+	</Name>
+	<Name ID="304">
+		<SourceName>ﺍﺱﺕﺭیﻥی</SourceName>
+		<TargetName ID="1">strini</TargetName>
+	</Name>
+	<Name ID="305">
+		<SourceName>ﺍﺱﺕﺭﺍﺏﺭیﺝ</SourceName>
+		<TargetName ID="1">strawbridge</TargetName>
+	</Name>
+	<Name ID="306">
+		<SourceName>ﺍﺱﺕﺭﺍﻡﺭ</SourceName>
+		<TargetName ID="1">strommer</TargetName>
+	</Name>
+	<Name ID="307">
+		<SourceName>ﺍﺱﺕﺭﺍﻭﺏ</SourceName>
+		<TargetName ID="1">straub</TargetName>
+	</Name>
+	<Name ID="308">
+		<SourceName>ﺍﺱﺕﺭﻭﺱﺕﺭﺍپ</SourceName>
+		<TargetName ID="1">stroustrup</TargetName>
+	</Name>
+	<Name ID="309">
+		<SourceName>ﺍﺱﺕﻑﻥﺯ</SourceName>
+		<TargetName ID="1">stephens</TargetName>
+	</Name>
+	<Name ID="310">
+		<SourceName>ﺍﺱﺕﻥﺱﺍ</SourceName>
+		<TargetName ID="1">stansa</TargetName>
+	</Name>
+	<Name ID="311">
+		<SourceName>ﺍﺱﺕﻥﻑﺭﺩ</SourceName>
+		<TargetName ID="1">stanford</TargetName>
+	</Name>
+	<Name ID="312">
+		<SourceName>ﺍﺱﺕﻭﺭگﺍ</SourceName>
+		<TargetName ID="1">storga</TargetName>
+	</Name>
+	<Name ID="313">
+		<SourceName>ﺍﺱﺕﻭﻥﺯ</SourceName>
+		<TargetName ID="1">stevens</TargetName>
+	</Name>
+	<Name ID="314">
+		<SourceName>ﺍﺱﺕﻭﻥﺱﻥ</SourceName>
+		<TargetName ID="1">stevenson</TargetName>
+	</Name>
+	<Name ID="315">
+		<SourceName>ﺍﺱﻝک</SourceName>
+		<TargetName ID="1">slack</TargetName>
+		<TargetName ID="2">slak</TargetName>
+	</Name>
+	<Name ID="316">
+		<SourceName>ﺍﺱﻝﺍﻥکﺍﺭﺩ</SourceName>
+		<TargetName ID="1">slankard</TargetName>
+	</Name>
+	<Name ID="317">
+		<SourceName>ﺍﺱﻝﺵیﻥگ</SourceName>
+		<TargetName ID="1">slashing</TargetName>
+	</Name>
+	<Name ID="318">
+		<SourceName>ﺍﺱﻡﻭﻝیک</SourceName>
+		<TargetName ID="1">smolik</TargetName>
+	</Name>
+	<Name ID="319">
+		<SourceName>ﺍﺱﻡﻭﻝیﻥ</SourceName>
+		<TargetName ID="1">smolin</TargetName>
+	</Name>
+	<Name ID="320">
+		<SourceName>ﺍﺱﻥیﺱﻝ</SourceName>
+		<TargetName ID="1">sneissel</TargetName>
+	</Name>
+	<Name ID="321">
+		<SourceName>ﺍﺱﻥﻭﺩﻥ</SourceName>
+		<TargetName ID="1">snowden</TargetName>
+	</Name>
+	<Name ID="322">
+		<SourceName>ﺍﺱﻭﻝﺕ</SourceName>
+		<TargetName ID="1">stolte</TargetName>
+	</Name>
+	<Name ID="323">
+		<SourceName>ﺍﺵ</SourceName>
+		<TargetName ID="1">ash</TargetName>
+	</Name>
+	<Name ID="324">
+		<SourceName>ﺍﻑزﺍﻝ</SourceName>
+		<TargetName ID="1">afzal</TargetName>
+	</Name>
+	<Name ID="325">
+		<SourceName>ﺍﻑیﻭﻥ</SourceName>
+		<TargetName ID="1">afioun</TargetName>
+	</Name>
+	<Name ID="326">
+		<SourceName>ﺍﻝریﺝ</SourceName>
+		<TargetName ID="1">alridge</TargetName>
+	</Name>
+	<Name ID="327">
+		<SourceName>ﺍﻝکﺱﺍﻥﺩﺭ</SourceName>
+		<TargetName ID="1">alexander</TargetName>
+	</Name>
+	<Name ID="328">
+		<SourceName>ﺍﻝکﺱﺍﻥﺩﺭﻭ</SourceName>
+		<TargetName ID="1">alexandrou</TargetName>
+	</Name>
+	<Name ID="329">
+		<SourceName>ﺍﻝیپﺱﻭیﺩ</SourceName>
+		<TargetName ID="1">ellipsoid</TargetName>
+	</Name>
+	<Name ID="330">
+		<SourceName>ﺍﻝﺍﺱﻭرﺙ</SourceName>
+		<TargetName ID="1">alsworth</TargetName>
+	</Name>
+	<Name ID="331">
+		<SourceName>ﺍﻝﺍﻭی</SourceName>
+		<TargetName ID="1">allaway</TargetName>
+	</Name>
+	<Name ID="332">
+		<SourceName>ﺍﻝﺩﺭیچ</SourceName>
+		<TargetName ID="1">aldrich</TargetName>
+	</Name>
+	<Name ID="333">
+		<SourceName>ﺍﻝﺩﻭرث</SourceName>
+		<TargetName ID="1">aldworth</TargetName>
+	</Name>
+	<Name ID="334">
+		<SourceName>ﺍﻝﺱر</SourceName>
+		<TargetName ID="1">elser</TargetName>
+		<TargetName ID="2">aleser</TargetName>
+	</Name>
+	<Name ID="335">
+		<SourceName>ﺍﻝﺱﺝﻩ</SourceName>
+		<TargetName ID="1">elsje</TargetName>
+	</Name>
+	<Name ID="336">
+		<SourceName>ﺍﻝﺱﻥ</SourceName>
+		<TargetName ID="1">olhsson</TargetName>
+		<TargetName ID="2">olsen</TargetName>
+	</Name>
+	<Name ID="337">
+		<SourceName>ﺍﻝﺱﻭیگ</SourceName>
+		<TargetName ID="1">ellsweig</TargetName>
+	</Name>
+	<Name ID="338">
+		<SourceName>ﺍﻝﻑﺭﺩ</SourceName>
+		<TargetName ID="1">alfred</TargetName>
+	</Name>
+	<Name ID="339">
+		<SourceName>ﺍﻝﻝﺡیﻕیﻩ</SourceName>
+		<TargetName ID="1">alladhiqiyah</TargetName>
+	</Name>
+	<Name ID="340">
+		<SourceName>ﺍﻝﻡﻭﻥﺩ</SourceName>
+		<TargetName ID="1">allmond</TargetName>
+	</Name>
+	<Name ID="341">
+		<SourceName>ﺍﻡرﻥ</SourceName>
+		<TargetName ID="1">amran</TargetName>
+	</Name>
+	<Name ID="342">
+		<SourceName>ﺍﻡپی</SourceName>
+		<TargetName ID="1">empey</TargetName>
+	</Name>
+	<Name ID="343">
+		<SourceName>ﺍﻡیﺭﺍ</SourceName>
+		<TargetName ID="1">amira</TargetName>
+	</Name>
+	<Name ID="344">
+		<SourceName>ﺍﻡﺍ</SourceName>
+		<TargetName ID="1">emma</TargetName>
+		<TargetName ID="2">ama</TargetName>
+	</Name>
+	<Name ID="345">
+		<SourceName>ﺍﻡﺍﻥﺩ</SourceName>
+		<TargetName ID="1">amand</TargetName>
+	</Name>
+	<Name ID="346">
+		<SourceName>ﺍﻡﺭ</SourceName>
+		<TargetName ID="1">emre</TargetName>
+	</Name>
+	<Name ID="347">
+		<SourceName>ﺍﻡﺱﺕﺭ</SourceName>
+		<TargetName ID="1">amster</TargetName>
+	</Name>
+	<Name ID="348">
+		<SourceName>ﺍﻡﻝیﺍ</SourceName>
+		<TargetName ID="1">amelia</TargetName>
+	</Name>
+	<Name ID="349">
+		<SourceName>ﺍﻥگﻝﺕﻩ</SourceName>
+		<TargetName ID="1">engeltje</TargetName>
+	</Name>
+	<Name ID="350">
+		<SourceName>ﺍﻥﺍ</SourceName>
+		<TargetName ID="1">ana</TargetName>
+		<TargetName ID="2">anna</TargetName>
+	</Name>
+	<Name ID="351">
+		<SourceName>ﺍﻥﺍکیﻥ</SourceName>
+		<TargetName ID="1">anakin</TargetName>
+	</Name>
+	<Name ID="352">
+		<SourceName>ﺍﻥﺍﻥی</SourceName>
+		<TargetName ID="1">anani</TargetName>
+	</Name>
+	<Name ID="353">
+		<SourceName>ﺍﻥﺕﺍﻝ</SourceName>
+		<TargetName ID="1">antal</TargetName>
+	</Name>
+	<Name ID="354">
+		<SourceName>ﺍﻥﺕﻭیﺱ</SourceName>
+		<TargetName ID="1">antheunis</TargetName>
+	</Name>
+	<Name ID="355">
+		<SourceName>ﺍﻥﺝیﻝیﻥی</SourceName>
+		<TargetName ID="1">angelini</TargetName>
+	</Name>
+	<Name ID="356">
+		<SourceName>ﺍﻥﺝﻝﺍ</SourceName>
+		<TargetName ID="1">angela</TargetName>
+	</Name>
+	<Name ID="357">
+		<SourceName>ﺍﻥﺩﺍﻡز</SourceName>
+		<TargetName ID="1">adnams</TargetName>
+	</Name>
+	<Name ID="358">
+		<SourceName>ﺍﻥﺩﺱﻭرﺙ</SourceName>
+		<TargetName ID="1">endesworth</TargetName>
+	</Name>
+	<Name ID="359">
+		<SourceName>ﺍﻥﺯﻝﻭﺍﺭ</SourceName>
+		<TargetName ID="1">anzlovar</TargetName>
+	</Name>
+	<Name ID="360">
+		<SourceName>ﺍﻥﺱﻭﻥ</SourceName>
+		<TargetName ID="1">anson</TargetName>
+	</Name>
+	<Name ID="361">
+		<SourceName>ﺍﻥﻝﻭ</SourceName>
+		<TargetName ID="1">anello</TargetName>
+	</Name>
+	<Name ID="362">
+		<SourceName>ﺍﻥﻭﺝیﺕ</SourceName>
+		<TargetName ID="1">anujit</TargetName>
+	</Name>
+	<Name ID="363">
+		<SourceName>ﺍﻭریﻥﺕﺱ</SourceName>
+		<TargetName ID="1">variants</TargetName>
+	</Name>
+	<Name ID="364">
+		<SourceName>ﺍﻭرﺍیﻝ</SourceName>
+		<TargetName ID="1">averill</TargetName>
+	</Name>
+	<Name ID="365">
+		<SourceName>ﺍﻭرﻩرﺕ</SourceName>
+		<TargetName ID="1">everhart</TargetName>
+	</Name>
+	<Name ID="366">
+		<SourceName>ﺍﻭﺍﺱﺕی</SourceName>
+		<TargetName ID="1">awasthi</TargetName>
+	</Name>
+	<Name ID="367">
+		<SourceName>ﺍﻭﺕرچﺕ</SourceName>
+		<TargetName ID="1">utrecht</TargetName>
+	</Name>
+	<Name ID="368">
+		<SourceName>ﺍﻭﺕﺱ</SourceName>
+		<TargetName ID="1">oates</TargetName>
+	</Name>
+	<Name ID="369">
+		<SourceName>ﺍﻭﺕﻝﻭ</SourceName>
+		<TargetName ID="1">otello</TargetName>
+		<TargetName ID="2">ottello</TargetName>
+	</Name>
+	<Name ID="370">
+		<SourceName>ﺍﻭﺩکریک</SourceName>
+		<TargetName ID="1">oudekirk</TargetName>
+	</Name>
+	<Name ID="371">
+		<SourceName>ﺍﻭﺭگﺍﻥ</SourceName>
+		<TargetName ID="1">organ</TargetName>
+	</Name>
+	<Name ID="372">
+		<SourceName>ﺍﻭﺭﺍﻡ</SourceName>
+		<TargetName ID="1">avram</TargetName>
+	</Name>
+	<Name ID="373">
+		<SourceName>ﺍﻭﺭﻡ</SourceName>
+		<TargetName ID="1">orem</TargetName>
+	</Name>
+	<Name ID="374">
+		<SourceName>ﺍﻭﺱﺕر</SourceName>
+		<TargetName ID="1">auster</TargetName>
+	</Name>
+	<Name ID="375">
+		<SourceName>ﺍﻭﻕﺕﻭﻥ</SourceName>
+		<TargetName ID="1">oughton</TargetName>
+	</Name>
+	<Name ID="376">
+		<SourceName>ﺍﻭﻝﺱﻥ</SourceName>
+		<TargetName ID="1">olsen</TargetName>
+		<TargetName ID="2">olson</TargetName>
+	</Name>
+	<Name ID="377">
+		<SourceName>ﺍﻭﻡﺍیﺍ</SourceName>
+		<TargetName ID="1">umayma</TargetName>
+	</Name>
+	<Name ID="378">
+		<SourceName>ﺍﻭﻭﺕ</SourceName>
+		<TargetName ID="1">utt</TargetName>
+	</Name>
+	<Name ID="379">
+		<SourceName>ﺍﻭﻭﻥ</SourceName>
+		<TargetName ID="1">owen</TargetName>
+	</Name>
+	<Name ID="380">
+		<SourceName>ﺏرچ</SourceName>
+		<TargetName ID="1">burch</TargetName>
+	</Name>
+	<Name ID="381">
+		<SourceName>ﺏرکﺍ</SourceName>
+		<TargetName ID="1">barakah</TargetName>
+	</Name>
+	<Name ID="382">
+		<SourceName>ﺏرﺍﺕﻝﺕ</SourceName>
+		<TargetName ID="1">bartlett</TargetName>
+	</Name>
+	<Name ID="383">
+		<SourceName>ﺏرﺕی</SourceName>
+		<TargetName ID="1">baertie</TargetName>
+		<TargetName ID="2">beartie</TargetName>
+	</Name>
+	<Name ID="384">
+		<SourceName>ﺏرﻡر</SourceName>
+		<TargetName ID="1">bremmer</TargetName>
+	</Name>
+	<Name ID="385">
+		<SourceName>ﺏرﻥﺍرﺩ</SourceName>
+		<TargetName ID="1">barnard</TargetName>
+	</Name>
+	<Name ID="386">
+		<SourceName>ﺏرﻥﺕ</SourceName>
+		<TargetName ID="1">barendt</TargetName>
+		<TargetName ID="2">burnett</TargetName>
+	</Name>
+	<Name ID="387">
+		<SourceName>ﺏرﻭﻡﺕ</SourceName>
+		<TargetName ID="1">brummett</TargetName>
+	</Name>
+	<Name ID="388">
+		<SourceName>ﺏیکرﻑﺕ</SourceName>
+		<TargetName ID="1">beecroft</TargetName>
+	</Name>
+	<Name ID="389">
+		<SourceName>ﺏیﺩﺍ</SourceName>
+		<TargetName ID="1">beda</TargetName>
+		<TargetName ID="2">bayda</TargetName>
+	</Name>
+	<Name ID="390">
+		<SourceName>ﺏیﺩﻝ</SourceName>
+		<TargetName ID="1">beedle</TargetName>
+	</Name>
+	<Name ID="391">
+		<SourceName>ﺏیﺯﻭﺍﺱ</SourceName>
+		<TargetName ID="1">biswas</TargetName>
+	</Name>
+	<Name ID="392">
+		<SourceName>ﺏیﻑ</SourceName>
+		<TargetName ID="1">biff</TargetName>
+		<TargetName ID="2">baefje</TargetName>
+	</Name>
+	<Name ID="393">
+		<SourceName>ﺏیﻝکی</SourceName>
+		<TargetName ID="1">bielecki</TargetName>
+	</Name>
+	<Name ID="394">
+		<SourceName>ﺏیﻝﺱﻭﻥ</SourceName>
+		<TargetName ID="1">bilson</TargetName>
+	</Name>
+	<Name ID="395">
+		<SourceName>ﺏیﻥﺍ</SourceName>
+		<TargetName ID="1">binu</TargetName>
+	</Name>
+	<Name ID="396">
+		<SourceName>ﺏیﻥﻩ</SourceName>
+		<TargetName ID="1">beane</TargetName>
+	</Name>
+	<Name ID="397">
+		<SourceName>ﺏﺍرگﺱ</SourceName>
+		<TargetName ID="1">bargus</TargetName>
+	</Name>
+	<Name ID="398">
+		<SourceName>ﺏﺍرگﻭﺱ</SourceName>
+		<TargetName ID="1">bargus</TargetName>
+	</Name>
+	<Name ID="399">
+		<SourceName>ﺏﺍرﺕﻭﻝﻭﻡﻭﺱ</SourceName>
+		<TargetName ID="1">bartholomeus</TargetName>
+	</Name>
+	<Name ID="400">
+		<SourceName>ﺏﺍرﻥﺩﺕ</SourceName>
+		<TargetName ID="1">barendt</TargetName>
+	</Name>
+	<Name ID="401">
+		<SourceName>ﺏﺍپﺕیﺱﺕﺍ</SourceName>
+		<TargetName ID="1">baptista</TargetName>
+	</Name>
+	<Name ID="402">
+		<SourceName>ﺏﺍچﺍﺱ</SourceName>
+		<TargetName ID="1">bachus</TargetName>
+	</Name>
+	<Name ID="403">
+		<SourceName>ﺏﺍکﺍﺱ</SourceName>
+		<TargetName ID="1">backas</TargetName>
+	</Name>
+	<Name ID="404">
+		<SourceName>ﺏﺍکﺱ</SourceName>
+		<TargetName ID="1">box</TargetName>
+	</Name>
+	<Name ID="405">
+		<SourceName>ﺏﺍکﺱﺏﺭگﺭ</SourceName>
+		<TargetName ID="1">boxberger</TargetName>
+	</Name>
+	<Name ID="406">
+		<SourceName>ﺏﺍکﻭﻡ</SourceName>
+		<TargetName ID="1">bakkum</TargetName>
+		<TargetName ID="2">baucom</TargetName>
+	</Name>
+	<Name ID="407">
+		<SourceName>ﺏﺍگﺵﺍﻭ</SourceName>
+		<TargetName ID="1">bagshawe</TargetName>
+	</Name>
+	<Name ID="408">
+		<SourceName>ﺏﺍیرﺕیﻩ</SourceName>
+		<TargetName ID="1">baertie</TargetName>
+	</Name>
+	<Name ID="409">
+		<SourceName>ﺏﺍیپﺭﺕ</SourceName>
+		<TargetName ID="1">bippert</TargetName>
+	</Name>
+	<Name ID="410">
+		<SourceName>ﺏﺍیکرزﺕﺍﻑ</SourceName>
+		<TargetName ID="1">bickerstaffe</TargetName>
+	</Name>
+	<Name ID="411">
+		<SourceName>ﺏﺍیﻝیﻭ</SourceName>
+		<TargetName ID="1">baillieu</TargetName>
+	</Name>
+	<Name ID="412">
+		<SourceName>ﺏﺍیﻝﺍ</SourceName>
+		<TargetName ID="1">bayla</TargetName>
+	</Name>
+	<Name ID="413">
+		<SourceName>ﺏﺍﺏﺍﻩ</SourceName>
+		<TargetName ID="1">babah</TargetName>
+	</Name>
+	<Name ID="414">
+		<SourceName>ﺏﺍﺏﺕ</SourceName>
+		<TargetName ID="1">babette</TargetName>
+	</Name>
+	<Name ID="415">
+		<SourceName>ﺏﺍﺏﻭرﺩﺱرﺍﻥﺕﻥ</SourceName>
+		<TargetName ID="1">babordsranten</TargetName>
+	</Name>
+	<Name ID="416">
+		<SourceName>ﺏﺍﺕی</SourceName>
+		<TargetName ID="1">battey</TargetName>
+	</Name>
+	<Name ID="417">
+		<SourceName>ﺏﺍﺝیک</SourceName>
+		<TargetName ID="1">bajic</TargetName>
+	</Name>
+	<Name ID="418">
+		<SourceName>ﺏﺍﺩ</SourceName>
+		<TargetName ID="1">bud</TargetName>
+		<TargetName ID="2">budd</TargetName>
+	</Name>
+	<Name ID="419">
+		<SourceName>ﺏﺍﺩﻥیک</SourceName>
+		<TargetName ID="1">budnick</TargetName>
+	</Name>
+	<Name ID="420">
+		<SourceName>ﺏﺍﺭث</SourceName>
+		<TargetName ID="1">barth</TargetName>
+	</Name>
+	<Name ID="421">
+		<SourceName>ﺏﺍﺭکﺍی</SourceName>
+		<TargetName ID="1">barkai</TargetName>
+	</Name>
+	<Name ID="422">
+		<SourceName>ﺏﺍﺭکﺭ</SourceName>
+		<TargetName ID="1">barker</TargetName>
+	</Name>
+	<Name ID="423">
+		<SourceName>ﺏﺍﺭیﺍکﺱ</SourceName>
+		<TargetName ID="1">bariaux</TargetName>
+	</Name>
+	<Name ID="424">
+		<SourceName>ﺏﺍﺭﺍﻥﻭﺱکی</SourceName>
+		<TargetName ID="1">baranowski</TargetName>
+	</Name>
+	<Name ID="425">
+		<SourceName>ﺏﺍﺭﺱﻩ</SourceName>
+		<TargetName ID="1">barsse</TargetName>
+	</Name>
+	<Name ID="426">
+		<SourceName>ﺏﺍﺭﻝﻭ</SourceName>
+		<TargetName ID="1">barlow</TargetName>
+	</Name>
+	<Name ID="427">
+		<SourceName>ﺏﺍﺭﻥ</SourceName>
+		<TargetName ID="1">barn</TargetName>
+		<TargetName ID="2">barne</TargetName>
+		<TargetName ID="3">barren</TargetName>
+		<TargetName ID="4">baron</TargetName>
+	</Name>
+	<Name ID="428">
+		<SourceName>ﺏﺍﺱﺏی</SourceName>
+		<TargetName ID="1">busby</TargetName>
+	</Name>
+	<Name ID="429">
+		<SourceName>ﺏﺍﺱﻡ</SourceName>
+		<TargetName ID="1">bassam</TargetName>
+	</Name>
+	<Name ID="430">
+		<SourceName>ﺏﺍﻝچﻭﻥﺍﺱ</SourceName>
+		<TargetName ID="1">balchunas</TargetName>
+	</Name>
+	<Name ID="431">
+		<SourceName>ﺏﺍﻝﺍﻥﺱ</SourceName>
+		<TargetName ID="1">ballance</TargetName>
+	</Name>
+	<Name ID="432">
+		<SourceName>ﺏﺍﻝﻥی</SourceName>
+		<TargetName ID="1">balleny</TargetName>
+	</Name>
+	<Name ID="433">
+		<SourceName>ﺏﺍﻡﺏﺭگﺭ</SourceName>
+		<TargetName ID="1">baumberger</TargetName>
+	</Name>
+	<Name ID="434">
+		<SourceName>ﺏﺍﻥکﺭﺍﻑﺕ</SourceName>
+		<TargetName ID="1">bancroft</TargetName>
+	</Name>
+	<Name ID="435">
+		<SourceName>ﺏﺍﻥﺍ</SourceName>
+		<TargetName ID="1">banna</TargetName>
+	</Name>
+	<Name ID="436">
+		<SourceName>ﺏﺍﻥﺍﺏیﻭ</SourceName>
+		<TargetName ID="1">bonnabeau</TargetName>
+	</Name>
+	<Name ID="437">
+		<SourceName>ﺏﺍﻭر</SourceName>
+		<TargetName ID="1">bauer</TargetName>
+	</Name>
+	<Name ID="438">
+		<SourceName>ﺏﺕﻡﺍ</SourceName>
+		<TargetName ID="1">bottema</TargetName>
+	</Name>
+	<Name ID="439">
+		<SourceName>ﺏﺩیﺭﺍ</SourceName>
+		<TargetName ID="1">bdira</TargetName>
+	</Name>
+	<Name ID="440">
+		<SourceName>ﺏﺭکﻡیﺭ</SourceName>
+		<TargetName ID="1">berkemeier</TargetName>
+	</Name>
+	<Name ID="441">
+		<SourceName>ﺏﺭگﺱ</SourceName>
+		<TargetName ID="1">burgess</TargetName>
+	</Name>
+	<Name ID="442">
+		<SourceName>ﺏﺭیﺏﺭ</SourceName>
+		<TargetName ID="1">briber</TargetName>
+	</Name>
+	<Name ID="443">
+		<SourceName>ﺏﺭیﺝﻡﻥ</SourceName>
+		<TargetName ID="1">bridgman</TargetName>
+	</Name>
+	<Name ID="444">
+		<SourceName>ﺏﺭﺍی</SourceName>
+		<TargetName ID="1">brie</TargetName>
+	</Name>
+	<Name ID="445">
+		<SourceName>ﺏﺭﺍﻥﻥ</SourceName>
+		<TargetName ID="1">brannen</TargetName>
+	</Name>
+	<Name ID="446">
+		<SourceName>ﺏﺭﺩﺵﺍﻭ</SourceName>
+		<TargetName ID="1">bradshaw</TargetName>
+	</Name>
+	<Name ID="447">
+		<SourceName>ﺏﺭﻝیﻥگ</SourceName>
+		<TargetName ID="1">bierling</TargetName>
+		<TargetName ID="2">burling</TargetName>
+	</Name>
+	<Name ID="448">
+		<SourceName>ﺏﺭﻥﺍﺩﻭﺱ</SourceName>
+		<TargetName ID="1">bernadus</TargetName>
+	</Name>
+	<Name ID="449">
+		<SourceName>ﺏﺭﻥﺍﺭﺩ</SourceName>
+		<TargetName ID="1">barnard</TargetName>
+		<TargetName ID="2">bernard</TargetName>
+	</Name>
+	<Name ID="450">
+		<SourceName>ﺏﺭﻥﺭ</SourceName>
+		<TargetName ID="1">brenner</TargetName>
+	</Name>
+	<Name ID="451">
+		<SourceName>ﺏﺭﻭﺩﺍ</SourceName>
+		<TargetName ID="1">broda</TargetName>
+	</Name>
+	<Name ID="452">
+		<SourceName>ﺏﺱیط</SourceName>
+		<TargetName ID="1">basit</TargetName>
+	</Name>
+	<Name ID="453">
+		<SourceName>ﺏﺱﻝ</SourceName>
+		<TargetName ID="1">basle</TargetName>
+	</Name>
+	<Name ID="454">
+		<SourceName>ﺏﺱﻭﺍﻝ</SourceName>
+		<TargetName ID="1">boswall</TargetName>
+	</Name>
+	<Name ID="455">
+		<SourceName>ﺏﻝک</SourceName>
+		<TargetName ID="1">belk</TargetName>
+		<TargetName ID="2">black</TargetName>
+	</Name>
+	<Name ID="456">
+		<SourceName>ﺏﻝگﺍ</SourceName>
+		<TargetName ID="1">balqa</TargetName>
+	</Name>
+	<Name ID="457">
+		<SourceName>ﺏﻝیﻥکﻭ</SourceName>
+		<TargetName ID="1">blencowe</TargetName>
+		<TargetName ID="2">blinco</TargetName>
+	</Name>
+	<Name ID="458">
+		<SourceName>ﺏﻝﺍﺏرگ</SourceName>
+		<TargetName ID="1">blaberg</TargetName>
+	</Name>
+	<Name ID="459">
+		<SourceName>ﺏﻝﺍﻥچﺕ</SourceName>
+		<TargetName ID="1">blanchet</TargetName>
+	</Name>
+	<Name ID="460">
+		<SourceName>ﺏﻥ</SourceName>
+		<TargetName ID="1">ben</TargetName>
+	</Name>
+	<Name ID="461">
+		<SourceName>ﺏﻥیگﻥﻭ</SourceName>
+		<TargetName ID="1">benigno</TargetName>
+	</Name>
+	<Name ID="462">
+		<SourceName>ﺏﻥﺍﻥ</SourceName>
+		<TargetName ID="1">banan</TargetName>
+	</Name>
+	<Name ID="463">
+		<SourceName>ﺏﻥﻩ</SourceName>
+		<TargetName ID="1">bene</TargetName>
+	</Name>
+	<Name ID="464">
+		<SourceName>ﺏﻩﻡ</SourceName>
+		<TargetName ID="1">behm</TargetName>
+	</Name>
+	<Name ID="465">
+		<SourceName>ﺏﻭرچ</SourceName>
+		<TargetName ID="1">burch</TargetName>
+	</Name>
+	<Name ID="466">
+		<SourceName>ﺏﻭکﻝی</SourceName>
+		<TargetName ID="1">buckley</TargetName>
+	</Name>
+	<Name ID="467">
+		<SourceName>ﺏﻭی</SourceName>
+		<TargetName ID="1">bui</TargetName>
+		<TargetName ID="2">bowie</TargetName>
+	</Name>
+	<Name ID="468">
+		<SourceName>ﺏﻭﺕرﻭﺱ</SourceName>
+		<TargetName ID="1">butrus</TargetName>
+	</Name>
+	<Name ID="469">
+		<SourceName>ﺏﻭﺝﻩ</SourceName>
+		<TargetName ID="1">boudje</TargetName>
+	</Name>
+	<Name ID="470">
+		<SourceName>ﺏﻭﺩ</SourceName>
+		<TargetName ID="1">bode</TargetName>
+		<TargetName ID="2">bud</TargetName>
+		<TargetName ID="3">budd</TargetName>
+	</Name>
+	<Name ID="471">
+		<SourceName>ﺏﻭﺩﺍپﺍﺕی</SourceName>
+		<TargetName ID="1">bodapati</TargetName>
+	</Name>
+	<Name ID="472">
+		<SourceName>ﺏﻭﺭﺍپ</SourceName>
+		<TargetName ID="1">burrup</TargetName>
+	</Name>
+	<Name ID="473">
+		<SourceName>ﺏﻭﺭﺍﺩ</SourceName>
+		<TargetName ID="1">borud</TargetName>
+	</Name>
+	<Name ID="474">
+		<SourceName>ﺏﻭﺭﺱیک</SourceName>
+		<TargetName ID="1">borcic</TargetName>
+	</Name>
+	<Name ID="475">
+		<SourceName>ﺏﻭﺱگﺍ</SourceName>
+		<TargetName ID="1">boschga</TargetName>
+	</Name>
+	<Name ID="476">
+		<SourceName>ﺏﻭﺱﻥی</SourceName>
+		<TargetName ID="1">bosnia</TargetName>
+	</Name>
+	<Name ID="477">
+		<SourceName>ﺏﻭﺵﻭیﺱﻥ</SourceName>
+		<TargetName ID="1">boshuysen</TargetName>
+	</Name>
+	<Name ID="478">
+		<SourceName>ﺏﻭﺵﻭﺭ</SourceName>
+		<TargetName ID="1">bushore</TargetName>
+	</Name>
+	<Name ID="479">
+		<SourceName>ﺏﻭﻝﺱﺕﺍﺩ</SourceName>
+		<TargetName ID="1">bolstad</TargetName>
+	</Name>
+	<Name ID="480">
+		<SourceName>ﺏﻭﻝﻭﺱ</SourceName>
+		<TargetName ID="1">bulus</TargetName>
+	</Name>
+	<Name ID="481">
+		<SourceName>ﺕرک</SourceName>
+		<TargetName ID="1">turk</TargetName>
+	</Name>
+	<Name ID="482">
+		<SourceName>ﺕریﻭیﺕژ</SourceName>
+		<TargetName ID="1">truitje</TargetName>
+	</Name>
+	<Name ID="483">
+		<SourceName>ﺕرﺕﺝی</SourceName>
+		<TargetName ID="1">truitje</TargetName>
+		<TargetName ID="2">tryntje</TargetName>
+	</Name>
+	<Name ID="484">
+		<SourceName>ﺕرﻝﺩی</SourceName>
+		<TargetName ID="1">thurlede</TargetName>
+	</Name>
+	<Name ID="485">
+		<SourceName>ﺕرﻭیﺕﺝ</SourceName>
+		<TargetName ID="1">truitje</TargetName>
+	</Name>
+	<Name ID="486">
+		<SourceName>ﺕکﻥﻭﻝﻭﺝیﺯ</SourceName>
+		<TargetName ID="1">technologies</TargetName>
+	</Name>
+	<Name ID="487">
+		<SourceName>ﺕگﻝ</SourceName>
+		<TargetName ID="1">tagle</TargetName>
+	</Name>
+	<Name ID="488">
+		<SourceName>ﺕیرﻝ</SourceName>
+		<TargetName ID="1">tyrrell</TargetName>
+	</Name>
+	<Name ID="489">
+		<SourceName>ﺕیچﺍﻭﺭ</SourceName>
+		<TargetName ID="1">tichauer</TargetName>
+	</Name>
+	<Name ID="490">
+		<SourceName>ﺕییﻭﻭیﺱ</SourceName>
+		<TargetName ID="1">teeuwis</TargetName>
+	</Name>
+	<Name ID="491">
+		<SourceName>ﺕیﺏﻝ</SourceName>
+		<TargetName ID="1">table</TargetName>
+	</Name>
+	<Name ID="492">
+		<SourceName>ﺕیﺭﻥی</SourceName>
+		<TargetName ID="1">tierney</TargetName>
+	</Name>
+	<Name ID="493">
+		<SourceName>ﺕیﻝگﺱ</SourceName>
+		<TargetName ID="1">thielges</TargetName>
+	</Name>
+	<Name ID="494">
+		<SourceName>ﺕیﻡ</SourceName>
+		<TargetName ID="1">tim</TargetName>
+		<TargetName ID="2">tame</TargetName>
+	</Name>
+	<Name ID="495">
+		<SourceName>ﺕیﻥﺱﻝی</SourceName>
+		<TargetName ID="1">tinsley</TargetName>
+	</Name>
+	<Name ID="496">
+		<SourceName>ﺕیﻭ</SourceName>
+		<TargetName ID="1">teeuw</TargetName>
+		<TargetName ID="2">tio</TargetName>
+	</Name>
+	<Name ID="497">
+		<SourceName>ﺕیﻭﻥیﺱ</SourceName>
+		<TargetName ID="1">teunis</TargetName>
+		<TargetName ID="2">theunis</TargetName>
+	</Name>
+	<Name ID="498">
+		<SourceName>ﺕﺍرﻭﺏ</SourceName>
+		<TargetName ID="1">tarub</TargetName>
+	</Name>
+	<Name ID="499">
+		<SourceName>ﺕﺍیﺕﺍﻥﻭ</SourceName>
+		<TargetName ID="1">taitano</TargetName>
+	</Name>
+	<Name ID="500">
+		<SourceName>ﺕﺍیﺭ</SourceName>
+		<TargetName ID="1">tyree</TargetName>
+		<TargetName ID="2">thayer</TargetName>
+	</Name>
+	<Name ID="501">
+		<SourceName>ﺕﺍیﻥﺕﻩ</SourceName>
+		<TargetName ID="1">tientje</TargetName>
+	</Name>
+	<Name ID="502">
+		<SourceName>ﺕﺍﺕﻝ</SourceName>
+		<TargetName ID="1">title</TargetName>
+		<TargetName ID="2">tuttle</TargetName>
+	</Name>
+	<Name ID="503">
+		<SourceName>ﺕﺍﺭﺱﻭﻥ</SourceName>
+		<TargetName ID="1">thorson</TargetName>
+	</Name>
+	<Name ID="504">
+		<SourceName>ﺕﺍﻝﻡﻥ</SourceName>
+		<TargetName ID="1">talman</TargetName>
+	</Name>
+	<Name ID="505">
+		<SourceName>ﺕﺍﻡپﺍﺱ</SourceName>
+		<TargetName ID="1">tampas</TargetName>
+	</Name>
+	<Name ID="506">
+		<SourceName>ﺕﺍﻥکﻥ</SourceName>
+		<TargetName ID="1">tanneken</TargetName>
+	</Name>
+	<Name ID="507">
+		<SourceName>ﺕﺍﻥﻥر</SourceName>
+		<TargetName ID="1">tanner</TargetName>
+	</Name>
+	<Name ID="508">
+		<SourceName>ﺕﺏﻭک</SourceName>
+		<TargetName ID="1">tabuk</TargetName>
+	</Name>
+	<Name ID="509">
+		<SourceName>ﺕﺕﺭﻭیﻥ</SourceName>
+		<TargetName ID="1">tetervin</TargetName>
+	</Name>
+	<Name ID="510">
+		<SourceName>ﺕﺕﺱﻭﺕﻭ</SourceName>
+		<TargetName ID="1">tetsuto</TargetName>
+	</Name>
+	<Name ID="511">
+		<SourceName>ﺕﺭیﺏﻝ</SourceName>
+		<TargetName ID="1">terrible</TargetName>
+		<TargetName ID="2">tribble</TargetName>
+	</Name>
+	<Name ID="512">
+		<SourceName>ﺕﺭﺍﺱﻩ</SourceName>
+		<TargetName ID="1">terrace</TargetName>
+	</Name>
+	<Name ID="513">
+		<SourceName>ﺕﺭﺯﻩ</SourceName>
+		<TargetName ID="1">therese</TargetName>
+	</Name>
+	<Name ID="514">
+		<SourceName>ﺕﺭﺵ</SourceName>
+		<TargetName ID="1">trash</TargetName>
+	</Name>
+	<Name ID="515">
+		<SourceName>ﺕﺱ</SourceName>
+		<TargetName ID="1">tess</TargetName>
+	</Name>
+	<Name ID="516">
+		<SourceName>ﺕﺱﻝﺭ</SourceName>
+		<TargetName ID="1">tesler</TargetName>
+	</Name>
+	<Name ID="517">
+		<SourceName>ﺕﻉﻑیﻝﻩ</SourceName>
+		<TargetName ID="1">tafilah</TargetName>
+	</Name>
+	<Name ID="518">
+		<SourceName>ﺕﻭﺍﺭی</SourceName>
+		<TargetName ID="1">tewari</TargetName>
+	</Name>
+	<Name ID="519">
+		<SourceName>ﺕﻭﺭﺕ</SourceName>
+		<TargetName ID="1">turret</TargetName>
+	</Name>
+	<Name ID="520">
+		<SourceName>ﺝک</SourceName>
+		<TargetName ID="1">jack</TargetName>
+	</Name>
+	<Name ID="521">
+		<SourceName>ﺝکﺏﺱ</SourceName>
+		<TargetName ID="1">jacobs</TargetName>
+	</Name>
+	<Name ID="522">
+		<SourceName>ﺝی</SourceName>
+		<TargetName ID="1">gee</TargetName>
+		<TargetName ID="2">jee</TargetName>
+	</Name>
+	<Name ID="523">
+		<SourceName>ﺝیﺱﻩ</SourceName>
+		<TargetName ID="1">jesse</TargetName>
+	</Name>
+	<Name ID="524">
+		<SourceName>ﺝیﻡ</SourceName>
+		<TargetName ID="1">jim</TargetName>
+	</Name>
+	<Name ID="525">
+		<SourceName>ﺝیﻭﺭﺩﺍﻥﻭ</SourceName>
+		<TargetName ID="1">giordano</TargetName>
+	</Name>
+	<Name ID="526">
+		<SourceName>ﺝﺍکﻭﻡیﻥﺕیﻩ</SourceName>
+		<TargetName ID="1">jacomyntie</TargetName>
+	</Name>
+	<Name ID="527">
+		<SourceName>ﺝﺍﺏﺕیﻩ</SourceName>
+		<TargetName ID="1">joaptie</TargetName>
+	</Name>
+	<Name ID="528">
+		<SourceName>ﺝﺍﺩ</SourceName>
+		<TargetName ID="1">jud</TargetName>
+		<TargetName ID="2">judd</TargetName>
+		<TargetName ID="3">jude</TargetName>
+	</Name>
+	<Name ID="529">
+		<SourceName>ﺝﺍﺱچک</SourceName>
+		<TargetName ID="1">jaschek</TargetName>
+	</Name>
+	<Name ID="530">
+		<SourceName>ﺝﺍﺱﺕیﻩ</SourceName>
+		<TargetName ID="1">justje</TargetName>
+	</Name>
+	<Name ID="531">
+		<SourceName>ﺝﺍﻥگﺕﺍیی</SourceName>
+		<TargetName ID="1">jongtae</TargetName>
+	</Name>
+	<Name ID="532">
+		<SourceName>ﺝﻥ</SourceName>
+		<TargetName ID="1">jen</TargetName>
+	</Name>
+	<Name ID="533">
+		<SourceName>ﺝﻥیﺭﻭ</SourceName>
+		<TargetName ID="1">janairo</TargetName>
+	</Name>
+	<Name ID="534">
+		<SourceName>ﺝﻭﺍپﺕیﻩ</SourceName>
+		<TargetName ID="1">joaptie</TargetName>
+	</Name>
+	<Name ID="535">
+		<SourceName>ﺝﻭﺍﻥ</SourceName>
+		<TargetName ID="1">joan</TargetName>
+		<TargetName ID="2">juan</TargetName>
+	</Name>
+	<Name ID="536">
+		<SourceName>ﺝﻭﺕﺯی</SourceName>
+		<TargetName ID="1">jutzi</TargetName>
+	</Name>
+	<Name ID="537">
+		<SourceName>ﺝﻭﺭی</SourceName>
+		<TargetName ID="1">jory</TargetName>
+	</Name>
+	<Name ID="538">
+		<SourceName>ﺡﺏیﺏﻩ</SourceName>
+		<TargetName ID="1">habiba</TargetName>
+	</Name>
+	<Name ID="539">
+		<SourceName>ﺡﺱﺍکﺍﻩ</SourceName>
+		<TargetName ID="1">hasakah</TargetName>
+	</Name>
+	<Name ID="540">
+		<SourceName>ﺡﻑﺹﺍ</SourceName>
+		<TargetName ID="1">hafsah</TargetName>
+	</Name>
+	<Name ID="541">
+		<SourceName>ﺡﻥی</SourceName>
+		<TargetName ID="1">hani</TargetName>
+	</Name>
+	<Name ID="542">
+		<SourceName>ﺥﻝیﺩﻩ</SourceName>
+		<TargetName ID="1">khalidah</TargetName>
+	</Name>
+	<Name ID="543">
+		<SourceName>ﺩرﺍﺕی</SourceName>
+		<TargetName ID="1">dorathee</TargetName>
+	</Name>
+	<Name ID="544">
+		<SourceName>ﺩرﺕﺏگ</SourceName>
+		<TargetName ID="1">dirtbag</TargetName>
+	</Name>
+	<Name ID="545">
+		<SourceName>ﺩرﻭیﺕ</SourceName>
+		<TargetName ID="1">drewett</TargetName>
+	</Name>
+	<Name ID="546">
+		<SourceName>ﺩیپیﺕرﻭ</SourceName>
+		<TargetName ID="1">dipetro</TargetName>
+	</Name>
+	<Name ID="547">
+		<SourceName>ﺩیپﺍیﻭﻝﻭ</SourceName>
+		<TargetName ID="1">dipaolo</TargetName>
+	</Name>
+	<Name ID="548">
+		<SourceName>ﺩیکﺍر</SourceName>
+		<TargetName ID="1">dhiqar</TargetName>
+	</Name>
+	<Name ID="549">
+		<SourceName>ﺩیکﺱﻭﻥ</SourceName>
+		<TargetName ID="1">dickson</TargetName>
+		<TargetName ID="2">dixon</TargetName>
+		<TargetName ID="3">dixson</TargetName>
+	</Name>
+	<Name ID="550">
+		<SourceName>ﺩیگرﻑ</SourceName>
+		<TargetName ID="1">degraff</TargetName>
+	</Name>
+	<Name ID="551">
+		<SourceName>ﺩیﺍﻡﺩی</SourceName>
+		<TargetName ID="1">diomedea</TargetName>
+	</Name>
+	<Name ID="552">
+		<SourceName>ﺩیﺕﺝی</SourceName>
+		<TargetName ID="1">daatje</TargetName>
+	</Name>
+	<Name ID="553">
+		<SourceName>ﺩیﺕﺯ</SourceName>
+		<TargetName ID="1">deetz</TargetName>
+	</Name>
+	<Name ID="554">
+		<SourceName>ﺩیﺩﺍ</SourceName>
+		<TargetName ID="1">rida</TargetName>
+	</Name>
+	<Name ID="555">
+		<SourceName>ﺩیﺯﻥی</SourceName>
+		<TargetName ID="1">disney</TargetName>
+	</Name>
+	<Name ID="556">
+		<SourceName>ﺩیﻝیﻥگﺭ</SourceName>
+		<TargetName ID="1">dellinger</TargetName>
+	</Name>
+	<Name ID="557">
+		<SourceName>ﺩیﻝﺭ</SourceName>
+		<TargetName ID="1">diller</TargetName>
+	</Name>
+	<Name ID="558">
+		<SourceName>ﺩیﻡﻝر</SourceName>
+		<TargetName ID="1">daimler</TargetName>
+	</Name>
+	<Name ID="559">
+		<SourceName>ﺩیﻭﺍ</SourceName>
+		<TargetName ID="1">dua</TargetName>
+	</Name>
+	<Name ID="560">
+		<SourceName>ﺩیﻭﺍکﺍﺭﻭﻥی</SourceName>
+		<TargetName ID="1">divakaruni</TargetName>
+	</Name>
+	<Name ID="561">
+		<SourceName>ﺩﺍکﺍﺱ</SourceName>
+		<TargetName ID="1">doucas</TargetName>
+	</Name>
+	<Name ID="562">
+		<SourceName>ﺩﺍکﺕرﺱ</SourceName>
+		<TargetName ID="1">doctress</TargetName>
+	</Name>
+	<Name ID="563">
+		<SourceName>ﺩﺍیرﺕ</SourceName>
+		<TargetName ID="1">dievertje</TargetName>
+	</Name>
+	<Name ID="564">
+		<SourceName>ﺩﺍیکﺭﺕ</SourceName>
+		<TargetName ID="1">dickert</TargetName>
+	</Name>
+	<Name ID="565">
+		<SourceName>ﺩﺍیﻡﻥﺕ</SourceName>
+		<TargetName ID="1">dyment</TargetName>
+	</Name>
+	<Name ID="566">
+		<SourceName>ﺩﺍﺏیﻥﺱ</SourceName>
+		<TargetName ID="1">dobbins</TargetName>
+	</Name>
+	<Name ID="567">
+		<SourceName>ﺩﺍﺩﺱ</SourceName>
+		<TargetName ID="1">dodds</TargetName>
+	</Name>
+	<Name ID="568">
+		<SourceName>ﺩﺍﻝیﻥ</SourceName>
+		<TargetName ID="1">dollin</TargetName>
+	</Name>
+	<Name ID="569">
+		<SourceName>ﺩﺍﻝﻑﺭ</SourceName>
+		<TargetName ID="1">dulfer</TargetName>
+	</Name>
+	<Name ID="570">
+		<SourceName>ﺩﺍﻡﻝﺭ</SourceName>
+		<TargetName ID="1">duemler</TargetName>
+	</Name>
+	<Name ID="571">
+		<SourceName>ﺩﺍﻥ</SourceName>
+		<TargetName ID="1">don</TargetName>
+		<TargetName ID="2">dunn</TargetName>
+		<TargetName ID="3">dawn</TargetName>
+		<TargetName ID="4">dan</TargetName>
+		<TargetName ID="5">dohn</TargetName>
+		<TargetName ID="6">donn</TargetName>
+		<TargetName ID="7">dun</TargetName>
+	</Name>
+	<Name ID="572">
+		<SourceName>ﺩﺍﻥیﻝ</SourceName>
+		<TargetName ID="1">daniel</TargetName>
+		<TargetName ID="2">daniell</TargetName>
+		<TargetName ID="3">danielle</TargetName>
+	</Name>
+	<Name ID="573">
+		<SourceName>ﺩﺍﻭکیﻥﺯ</SourceName>
+		<TargetName ID="1">dawkins</TargetName>
+	</Name>
+	<Name ID="574">
+		<SourceName>ﺩﺍﻭﺭیﻥ</SourceName>
+		<TargetName ID="1">daverin</TargetName>
+	</Name>
+	<Name ID="575">
+		<SourceName>ﺩﺍﻭﺱﻭﻥ</SourceName>
+		<TargetName ID="1">dawson</TargetName>
+	</Name>
+	<Name ID="576">
+		<SourceName>ﺩﺍﻭﻥی</SourceName>
+		<TargetName ID="1">downey</TargetName>
+	</Name>
+	<Name ID="577">
+		<SourceName>ﺩﺩﺝﻥ</SourceName>
+		<TargetName ID="1">dudgeon</TargetName>
+	</Name>
+	<Name ID="578">
+		<SourceName>ﺩﺭگﻭﻡیﺭ</SourceName>
+		<TargetName ID="1">dragomir</TargetName>
+	</Name>
+	<Name ID="579">
+		<SourceName>ﺩﺭیخﺍ</SourceName>
+		<TargetName ID="1">drikha</TargetName>
+	</Name>
+	<Name ID="580">
+		<SourceName>ﺩﺭیﺱ</SourceName>
+		<TargetName ID="1">drees</TargetName>
+	</Name>
+	<Name ID="581">
+		<SourceName>ﺩﺭیﻥگ</SourceName>
+		<TargetName ID="1">drying</TargetName>
+	</Name>
+	<Name ID="582">
+		<SourceName>ﺩﺭﺍﻝ</SourceName>
+		<TargetName ID="1">dralle</TargetName>
+	</Name>
+	<Name ID="583">
+		<SourceName>ﺩﺭﺏی</SourceName>
+		<TargetName ID="1">derby</TargetName>
+	</Name>
+	<Name ID="584">
+		<SourceName>ﺩﻡپﺱی</SourceName>
+		<TargetName ID="1">dempsey</TargetName>
+	</Name>
+	<Name ID="585">
+		<SourceName>ﺩﻡﺭﺯ</SourceName>
+		<TargetName ID="1">demers</TargetName>
+	</Name>
+	<Name ID="586">
+		<SourceName>ﺩﻥﺍﻝﺩ</SourceName>
+		<TargetName ID="1">donald</TargetName>
+	</Name>
+	<Name ID="587">
+		<SourceName>ﺩﻥﻡﻥ</SourceName>
+		<TargetName ID="1">denman</TargetName>
+	</Name>
+	<Name ID="588">
+		<SourceName>ﺩﻥﻩﺍﻡ</SourceName>
+		<TargetName ID="1">denham</TargetName>
+	</Name>
+	<Name ID="589">
+		<SourceName>ﺩﻭچﺍﺭﻡ</SourceName>
+		<TargetName ID="1">ducharme</TargetName>
+	</Name>
+	<Name ID="590">
+		<SourceName>ﺩﻭیﺍﻝ</SourceName>
+		<TargetName ID="1">doyal</TargetName>
+	</Name>
+	<Name ID="591">
+		<SourceName>ﺩﻭیﺱ</SourceName>
+		<TargetName ID="1">davies</TargetName>
+	</Name>
+	<Name ID="592">
+		<SourceName>ﺩﻭیﻭیﺭ</SourceName>
+		<TargetName ID="1">duvivier</TargetName>
+	</Name>
+	<Name ID="593">
+		<SourceName>ﺩﻭﺍﻥ</SourceName>
+		<TargetName ID="1">duan</TargetName>
+	</Name>
+	<Name ID="594">
+		<SourceName>ﺩﻭﺏی</SourceName>
+		<TargetName ID="1">dubey</TargetName>
+	</Name>
+	<Name ID="595">
+		<SourceName>ﺩﻭﺭﺭﺍﻥﺱ</SourceName>
+		<TargetName ID="1">durrance</TargetName>
+	</Name>
+	<Name ID="596">
+		<SourceName>ﺩﻭﺭﻭﺍﺭﺩ</SourceName>
+		<TargetName ID="1">dorward</TargetName>
+	</Name>
+	<Name ID="597">
+		<SourceName>ﺩﻭﻡیﻥیکیﻭﺱ</SourceName>
+		<TargetName ID="1">dominicus</TargetName>
+	</Name>
+	<Name ID="598">
+		<SourceName>ﺩﻭﻡﻥ</SourceName>
+		<TargetName ID="1">domen</TargetName>
+	</Name>
+	<Name ID="599">
+		<SourceName>ﺩﻭﻥ</SourceName>
+		<TargetName ID="1">don</TargetName>
+		<TargetName ID="2">dunn</TargetName>
+		<TargetName ID="3">deven</TargetName>
+		<TargetName ID="4">doan</TargetName>
+	</Name>
+	<Name ID="600">
+		<SourceName>ﺩﻭﻥﻩﺍﻡ</SourceName>
+		<TargetName ID="1">dunham</TargetName>
+	</Name>
+	<Name ID="601">
+		<SourceName>ﺭکﺩﺍﻝ</SourceName>
+		<TargetName ID="1">reckdahl</TargetName>
+	</Name>
+	<Name ID="602">
+		<SourceName>ﺭگﺭ</SourceName>
+		<TargetName ID="1">roger</TargetName>
+	</Name>
+	<Name ID="603">
+		<SourceName>ﺭیچﺍﻭ</SourceName>
+		<TargetName ID="1">richau</TargetName>
+	</Name>
+	<Name ID="604">
+		<SourceName>ﺭیکﺱﻭﻥ</SourceName>
+		<TargetName ID="1">rixon</TargetName>
+	</Name>
+	<Name ID="605">
+		<SourceName>ﺭیﺍ</SourceName>
+		<TargetName ID="1">rya</TargetName>
+	</Name>
+	<Name ID="606">
+		<SourceName>ﺭیﺏﺭﻥ</SourceName>
+		<TargetName ID="1">rayburn</TargetName>
+	</Name>
+	<Name ID="607">
+		<SourceName>ﺭیﺕﺍ</SourceName>
+		<TargetName ID="1">rita</TargetName>
+	</Name>
+	<Name ID="608">
+		<SourceName>ﺭیﺕﺯ</SourceName>
+		<TargetName ID="1">reetz</TargetName>
+	</Name>
+	<Name ID="609">
+		<SourceName>ﺭیﺱ</SourceName>
+		<TargetName ID="1">reise</TargetName>
+		<TargetName ID="2">reese</TargetName>
+		<TargetName ID="3">reiss</TargetName>
+		<TargetName ID="4">reyes</TargetName>
+		<TargetName ID="5">ries</TargetName>
+		<TargetName ID="6">riese</TargetName>
+	</Name>
+	<Name ID="610">
+		<SourceName>ﺭیﺱی</SourceName>
+		<TargetName ID="1">reese</TargetName>
+	</Name>
+	<Name ID="611">
+		<SourceName>ﺭیﻥگﻭﻭﺩ</SourceName>
+		<TargetName ID="1">ringwood</TargetName>
+	</Name>
+	<Name ID="612">
+		<SourceName>ﺭیﻥﺍﻝﺩﺱ</SourceName>
+		<TargetName ID="1">reynolds</TargetName>
+	</Name>
+	<Name ID="613">
+		<SourceName>ﺭﺍپﺭ</SourceName>
+		<TargetName ID="1">roper</TargetName>
+	</Name>
+	<Name ID="614">
+		<SourceName>ﺭﺍچﻝ</SourceName>
+		<TargetName ID="1">rachael</TargetName>
+	</Name>
+	<Name ID="615">
+		<SourceName>ﺭﺍگﺱﺩیﻝ</SourceName>
+		<TargetName ID="1">ragsdale</TargetName>
+	</Name>
+	<Name ID="616">
+		<SourceName>ﺭﺍیﺏﻝﺕ</SourceName>
+		<TargetName ID="1">rybolt</TargetName>
+	</Name>
+	<Name ID="617">
+		<SourceName>ﺭﺍﺏﻭیﻝ</SourceName>
+		<TargetName ID="1">raboel</TargetName>
+	</Name>
+	<Name ID="618">
+		<SourceName>ﺭﺍﺕﺭﺍ</SourceName>
+		<TargetName ID="1">rothera</TargetName>
+	</Name>
+	<Name ID="619">
+		<SourceName>ﺭﺍﺕﺭﻑﻭﺭﺩ</SourceName>
+		<TargetName ID="1">rutherford</TargetName>
+	</Name>
+	<Name ID="620">
+		<SourceName>ﺭﺍﺕﺱﺍﺏی</SourceName>
+		<TargetName ID="1">ratsaby</TargetName>
+	</Name>
+	<Name ID="621">
+		<SourceName>ﺭﺍﺝﻭ</SourceName>
+		<TargetName ID="1">raju</TargetName>
+	</Name>
+	<Name ID="622">
+		<SourceName>ﺭﺍﺯﺩﺍﻥ</SourceName>
+		<TargetName ID="1">razdan</TargetName>
+	</Name>
+	<Name ID="623">
+		<SourceName>ﺭﺍﺵکﻩ</SourceName>
+		<TargetName ID="1">raschke</TargetName>
+	</Name>
+	<Name ID="624">
+		<SourceName>ﺭﺍﻑیﻥ</SourceName>
+		<TargetName ID="1">raffin</TargetName>
+	</Name>
+	<Name ID="625">
+		<SourceName>ﺭﺍﻑﺍﻝﺱکی</SourceName>
+		<TargetName ID="1">rafalski</TargetName>
+	</Name>
+	<Name ID="626">
+		<SourceName>ﺭﺍﻡ</SourceName>
+		<TargetName ID="1">ram</TargetName>
+		<TargetName ID="2">ramm</TargetName>
+	</Name>
+	<Name ID="627">
+		<SourceName>ﺭﺍﻡﺭ</SourceName>
+		<TargetName ID="1">roemer</TargetName>
+		<TargetName ID="2">ramer</TargetName>
+	</Name>
+	<Name ID="628">
+		<SourceName>ﺭﺝﺍﺕ</SourceName>
+		<TargetName ID="1">rajat</TargetName>
+	</Name>
+	<Name ID="629">
+		<SourceName>ﺭﺯﻡیﺱﻝ</SourceName>
+		<TargetName ID="1">rossmeissl</TargetName>
+	</Name>
+	<Name ID="630">
+		<SourceName>ﺭﻭگﻑ</SourceName>
+		<TargetName ID="1">rogoff</TargetName>
+	</Name>
+	<Name ID="631">
+		<SourceName>ﺭﻭﺍﻥ</SourceName>
+		<TargetName ID="1">rowan</TargetName>
+	</Name>
+	<Name ID="632">
+		<SourceName>ﺭﻭﺏیﻥ</SourceName>
+		<TargetName ID="1">rubin</TargetName>
+	</Name>
+	<Name ID="633">
+		<SourceName>ﺭﻭﺏﺭﺝ</SourceName>
+		<TargetName ID="1">roberge</TargetName>
+	</Name>
+	<Name ID="634">
+		<SourceName>ﺭﻭﺯﻥﺕﻩﺍﻝ</SourceName>
+		<TargetName ID="1">rosenthal</TargetName>
+	</Name>
+	<Name ID="635">
+		<SourceName>ﺭﻭﺱﺍﻥﺍ</SourceName>
+		<TargetName ID="1">rosana</TargetName>
+	</Name>
+	<Name ID="636">
+		<SourceName>ﺭﻭﺱﻝﺍ</SourceName>
+		<TargetName ID="1">rosella</TargetName>
+	</Name>
+	<Name ID="637">
+		<SourceName>ﺭﻭﺱﻥ</SourceName>
+		<TargetName ID="1">rosen</TargetName>
+	</Name>
+	<Name ID="638">
+		<SourceName>ﺭﻭﻩﻝ</SourceName>
+		<TargetName ID="1">ruholl</TargetName>
+	</Name>
+	<Name ID="639">
+		<SourceName>ﺯﺍخ</SourceName>
+		<TargetName ID="1">zach</TargetName>
+	</Name>
+	<Name ID="640">
+		<SourceName>ﺯﺍیﺕ</SourceName>
+		<TargetName ID="1">zayt</TargetName>
+	</Name>
+	<Name ID="641">
+		<SourceName>ﺱرﺍﻥﻭ</SourceName>
+		<TargetName ID="1">serrano</TargetName>
+	</Name>
+	<Name ID="642">
+		<SourceName>ﺱیگ</SourceName>
+		<TargetName ID="1">sage</TargetName>
+	</Name>
+	<Name ID="643">
+		<SourceName>ﺱیگﺍﻝ</SourceName>
+		<TargetName ID="1">siegal</TargetName>
+	</Name>
+	<Name ID="644">
+		<SourceName>ﺱیگﻝ</SourceName>
+		<TargetName ID="1">siegel</TargetName>
+		<TargetName ID="2">siegl</TargetName>
+	</Name>
+	<Name ID="645">
+		<SourceName>ﺱیﺩﺭ</SourceName>
+		<TargetName ID="1">seder</TargetName>
+	</Name>
+	<Name ID="646">
+		<SourceName>ﺱیﺱیﺭﺍ</SourceName>
+		<TargetName ID="1">sisira</TargetName>
+	</Name>
+	<Name ID="647">
+		<SourceName>ﺱیﺱﺯ</SourceName>
+		<TargetName ID="1">simms</TargetName>
+	</Name>
+	<Name ID="648">
+		<SourceName>ﺱیﻝیﻡﻥ</SourceName>
+		<TargetName ID="1">silliman</TargetName>
+	</Name>
+	<Name ID="649">
+		<SourceName>ﺱیﻝﺍ</SourceName>
+		<TargetName ID="1">sela</TargetName>
+	</Name>
+	<Name ID="650">
+		<SourceName>ﺱیﻝﺯ</SourceName>
+		<TargetName ID="1">seales</TargetName>
+		<TargetName ID="2">seals</TargetName>
+	</Name>
+	<Name ID="651">
+		<SourceName>ﺱیﻡﺱ</SourceName>
+		<TargetName ID="1">simms</TargetName>
+		<TargetName ID="2">sims</TargetName>
+	</Name>
+	<Name ID="652">
+		<SourceName>ﺱیﻡﻭﻥﺱﻥ</SourceName>
+		<TargetName ID="1">siemonsen</TargetName>
+	</Name>
+	<Name ID="653">
+		<SourceName>ﺱیﻥکﻝﺍﺭی</SourceName>
+		<TargetName ID="1">sinclair</TargetName>
+	</Name>
+	<Name ID="654">
+		<SourceName>ﺱیﻭیرﺩیﻥگﻝﺍﻥﺕ</SourceName>
+		<TargetName ID="1">siuuirdingelant</TargetName>
+	</Name>
+	<Name ID="655">
+		<SourceName>ﺱیﻭﻝﺍ</SourceName>
+		<TargetName ID="1">savela</TargetName>
+	</Name>
+	<Name ID="656">
+		<SourceName>ﺱیﻭﻥکﺍ</SourceName>
+		<TargetName ID="1">cionca</TargetName>
+	</Name>
+	<Name ID="657">
+		<SourceName>ﺱﺍرﺝﻩ</SourceName>
+		<TargetName ID="1">saartje</TargetName>
+	</Name>
+	<Name ID="658">
+		<SourceName>ﺱﺍکﺍﺭی</SourceName>
+		<TargetName ID="1">sakari</TargetName>
+	</Name>
+	<Name ID="659">
+		<SourceName>ﺱﺍگﺍیی</SourceName>
+		<TargetName ID="1">sugai</TargetName>
+	</Name>
+	<Name ID="660">
+		<SourceName>ﺱﺍﺏگﻝﺍﺵیﺍﻝ</SourceName>
+		<TargetName ID="1">subglacial</TargetName>
+	</Name>
+	<Name ID="661">
+		<SourceName>ﺱﺍﺏﻝﺕ</SourceName>
+		<TargetName ID="1">sublette</TargetName>
+	</Name>
+	<Name ID="662">
+		<SourceName>ﺱﺍﺕﺝ</SourceName>
+		<TargetName ID="1">celetje</TargetName>
+	</Name>
+	<Name ID="663">
+		<SourceName>ﺱﺍﺕﻥ</SourceName>
+		<TargetName ID="1">sutton</TargetName>
+	</Name>
+	<Name ID="664">
+		<SourceName>ﺱﺍﺭﺩﻭ</SourceName>
+		<TargetName ID="1">sardo</TargetName>
+	</Name>
+	<Name ID="665">
+		<SourceName>ﺱﺍﻑﺕﻭﺭ</SourceName>
+		<TargetName ID="1">software</TargetName>
+	</Name>
+	<Name ID="666">
+		<SourceName>ﺱﺍﻝﺯﻥﺏﺭگ</SourceName>
+		<TargetName ID="1">salzenberg</TargetName>
+	</Name>
+	<Name ID="667">
+		<SourceName>ﺱﺍﻝﻡﻭﻥﺩ</SourceName>
+		<TargetName ID="1">salmond</TargetName>
+	</Name>
+	<Name ID="668">
+		<SourceName>ﺱﺍﻡیﺕ</SourceName>
+		<TargetName ID="1">sumit</TargetName>
+		<TargetName ID="2">summit</TargetName>
+	</Name>
+	<Name ID="669">
+		<SourceName>ﺱﺍﻥﺍﻥﺩﻭ</SourceName>
+		<TargetName ID="1">sunando</TargetName>
+	</Name>
+	<Name ID="670">
+		<SourceName>ﺱﺍﻥﺕرﺕﺝ</SourceName>
+		<TargetName ID="1">sannertje</TargetName>
+	</Name>
+	<Name ID="671">
+		<SourceName>ﺱﺍﻥﺕﺍﻥﺍ</SourceName>
+		<TargetName ID="1">santana</TargetName>
+		<TargetName ID="2">santanna</TargetName>
+	</Name>
+	<Name ID="672">
+		<SourceName>ﺱﺍﻥﺩﺍﺭ</SourceName>
+		<TargetName ID="1">sundar</TargetName>
+	</Name>
+	<Name ID="673">
+		<SourceName>ﺱﺍﻭﺩی</SourceName>
+		<TargetName ID="1">sawdey</TargetName>
+	</Name>
+	<Name ID="674">
+		<SourceName>ﺱﺕﺭﺍﺕﻭﻥ</SourceName>
+		<TargetName ID="1">straton</TargetName>
+	</Name>
+	<Name ID="675">
+		<SourceName>ﺱﺩﺍﻩ</SourceName>
+		<TargetName ID="1">sadah</TargetName>
+	</Name>
+	<Name ID="676">
+		<SourceName>ﺱﺩﻭﺍﻝ</SourceName>
+		<TargetName ID="1">sedvall</TargetName>
+	</Name>
+	<Name ID="677">
+		<SourceName>ﺱﺭپﻥﺕ</SourceName>
+		<TargetName ID="1">serpent</TargetName>
+	</Name>
+	<Name ID="678">
+		<SourceName>ﺱﻝﻭﺍ</SourceName>
+		<TargetName ID="1">salwa</TargetName>
+	</Name>
+	<Name ID="679">
+		<SourceName>ﺱﻡیﺕﻝی</SourceName>
+		<TargetName ID="1">smitley</TargetName>
+	</Name>
+	<Name ID="680">
+		<SourceName>ﺱﻡﺱچ</SourceName>
+		<TargetName ID="1">simicich</TargetName>
+	</Name>
+	<Name ID="681">
+		<SourceName>ﺱﻥک</SourceName>
+		<TargetName ID="1">sanneke</TargetName>
+	</Name>
+	<Name ID="682">
+		<SourceName>ﺱﻥﺩی</SourceName>
+		<TargetName ID="1">sandy</TargetName>
+		<TargetName ID="2">sandie</TargetName>
+	</Name>
+	<Name ID="683">
+		<SourceName>ﺱﻥﺩﺭﺱ</SourceName>
+		<TargetName ID="1">sanders</TargetName>
+	</Name>
+	<Name ID="684">
+		<SourceName>ﺱﻥﻑﺕﻝیﺏﻥ</SourceName>
+		<TargetName ID="1">senftleben</TargetName>
+	</Name>
+	<Name ID="685">
+		<SourceName>ﺱﻭکک</SourceName>
+		<TargetName ID="1">soucek</TargetName>
+	</Name>
+	<Name ID="686">
+		<SourceName>ﺱﻭﺯﺍﻝیﺱ</SourceName>
+		<TargetName ID="1">susalis</TargetName>
+	</Name>
+	<Name ID="687">
+		<SourceName>ﺱﻭﺯﺍﻥﺍ</SourceName>
+		<TargetName ID="1">susanna</TargetName>
+	</Name>
+	<Name ID="688">
+		<SourceName>ﺱﻭﻝیﺱ</SourceName>
+		<TargetName ID="1">solis</TargetName>
+	</Name>
+	<Name ID="689">
+		<SourceName>ﺱﻭﻥﺱﻥ</SourceName>
+		<TargetName ID="1">swensen</TargetName>
+	</Name>
+	<Name ID="690">
+		<SourceName>ﺱﻭﻩﻭﻝﺕ</SourceName>
+		<TargetName ID="1">soholt</TargetName>
+	</Name>
+	<Name ID="691">
+		<SourceName>ﺵیکﺍﺭ</SourceName>
+		<TargetName ID="1">shiyekar</TargetName>
+	</Name>
+	<Name ID="692">
+		<SourceName>ﺵﺍپﺭﻭ</SourceName>
+		<TargetName ID="1">shapero</TargetName>
+	</Name>
+	<Name ID="693">
+		<SourceName>ﺵﺍگﺭﻭ</SourceName>
+		<TargetName ID="1">shugrue</TargetName>
+	</Name>
+	<Name ID="694">
+		<SourceName>ﺵﺍﺭﻝ</SourceName>
+		<TargetName ID="1">sharl</TargetName>
+	</Name>
+	<Name ID="695">
+		<SourceName>ﺵﺍﻡﺍﺱ</SourceName>
+		<TargetName ID="1">shamas</TargetName>
+	</Name>
+	<Name ID="696">
+		<SourceName>ﺵﻑ</SourceName>
+		<TargetName ID="1">shef</TargetName>
+	</Name>
+	<Name ID="697">
+		<SourceName>ﺵﻥﺍﻥ</SourceName>
+		<TargetName ID="1">shenan</TargetName>
+	</Name>
+	<Name ID="698">
+		<SourceName>ﺵﻭﺱﺕک</SourceName>
+		<TargetName ID="1">shostek</TargetName>
+	</Name>
+	<Name ID="699">
+		<SourceName>ﺵﻭﻥﺍر</SourceName>
+		<TargetName ID="1">shunnar</TargetName>
+	</Name>
+	<Name ID="700">
+		<SourceName>ﻉﺍﻝیﺍ</SourceName>
+		<TargetName ID="1">aaliyah</TargetName>
+	</Name>
+	<Name ID="701">
+		<SourceName>ﻉﺯیﺯ</SourceName>
+		<TargetName ID="1">aziz</TargetName>
+	</Name>
+	<Name ID="702">
+		<SourceName>ﻉﺵرﺕ</SourceName>
+		<TargetName ID="1">israt</TargetName>
+	</Name>
+	<Name ID="703">
+		<SourceName>ﻉﻝﺍﺩیﻥ</SourceName>
+		<TargetName ID="1">alaaldin</TargetName>
+	</Name>
+	<Name ID="704">
+		<SourceName>ﻍرﺏیﺍﻩ</SourceName>
+		<TargetName ID="1">gharbiyah</TargetName>
+	</Name>
+	<Name ID="705">
+		<SourceName>ﻑرگﺍ</SourceName>
+		<TargetName ID="1">frega</TargetName>
+	</Name>
+	<Name ID="706">
+		<SourceName>ﻑریﺩ</SourceName>
+		<TargetName ID="1">farid</TargetName>
+	</Name>
+	<Name ID="707">
+		<SourceName>ﻑرﺍﻥکﻥﺏرگر</SourceName>
+		<TargetName ID="1">frankenberger</TargetName>
+	</Name>
+	<Name ID="708">
+		<SourceName>ﻑرﺍﻥﺱیﺕﺝﻩ</SourceName>
+		<TargetName ID="1">francytje</TargetName>
+	</Name>
+	<Name ID="709">
+		<SourceName>ﻑرﺍﻥﺱیﺕﻩ</SourceName>
+		<TargetName ID="1">francytje</TargetName>
+	</Name>
+	<Name ID="710">
+		<SourceName>ﻑرﺝ</SourceName>
+		<TargetName ID="1">farag</TargetName>
+	</Name>
+	<Name ID="711">
+		<SourceName>ﻑرﻭﺍﻥیﻩ</SourceName>
+		<TargetName ID="1">farwaniyah</TargetName>
+	</Name>
+	<Name ID="712">
+		<SourceName>ﻑیپﺱ</SourceName>
+		<TargetName ID="1">phipps</TargetName>
+	</Name>
+	<Name ID="713">
+		<SourceName>ﻑیﺍﺏﺍﻥ</SourceName>
+		<TargetName ID="1">fiabane</TargetName>
+	</Name>
+	<Name ID="714">
+		<SourceName>ﻑیﺱ</SourceName>
+		<TargetName ID="1">face</TargetName>
+	</Name>
+	<Name ID="715">
+		<SourceName>ﻑیﻝﺯک</SourceName>
+		<TargetName ID="1">filzek</TargetName>
+	</Name>
+	<Name ID="716">
+		<SourceName>ﻑﺍزی</SourceName>
+		<TargetName ID="1">fawzi</TargetName>
+	</Name>
+	<Name ID="717">
+		<SourceName>ﻑﺍیﻝﺱ</SourceName>
+		<TargetName ID="1">fils</TargetName>
+	</Name>
+	<Name ID="718">
+		<SourceName>ﻑﺍﺏﺭﻭ</SourceName>
+		<TargetName ID="1">fabro</TargetName>
+	</Name>
+	<Name ID="719">
+		<SourceName>ﻑﺍﺭیﻭﺭ</SourceName>
+		<TargetName ID="1">farrior</TargetName>
+	</Name>
+	<Name ID="720">
+		<SourceName>ﻑﺍﺭﻭگیﺍ</SourceName>
+		<TargetName ID="1">farrugia</TargetName>
+	</Name>
+	<Name ID="721">
+		<SourceName>ﻑﺍﻝﺕﻝﺱ</SourceName>
+		<TargetName ID="1">faultless</TargetName>
+	</Name>
+	<Name ID="722">
+		<SourceName>ﻑﺍﻥگﻭﺱ</SourceName>
+		<TargetName ID="1">fungus</TargetName>
+	</Name>
+	<Name ID="723">
+		<SourceName>ﻑﺥیر</SourceName>
+		<TargetName ID="1">fakhri</TargetName>
+	</Name>
+	<Name ID="724">
+		<SourceName>ﻑﺭیﺩﻝ</SourceName>
+		<TargetName ID="1">friedl</TargetName>
+	</Name>
+	<Name ID="725">
+		<SourceName>ﻑﺭیﺯ</SourceName>
+		<TargetName ID="1">freese</TargetName>
+	</Name>
+	<Name ID="726">
+		<SourceName>ﻑﺭیﺯﺭ</SourceName>
+		<TargetName ID="1">fraser</TargetName>
+		<TargetName ID="2">frazer</TargetName>
+	</Name>
+	<Name ID="727">
+		<SourceName>ﻑﺭﺍﻡ</SourceName>
+		<TargetName ID="1">frahm</TargetName>
+	</Name>
+	<Name ID="728">
+		<SourceName>ﻑﺭﺍﻡﺱﻭﻥ</SourceName>
+		<TargetName ID="1">framson</TargetName>
+	</Name>
+	<Name ID="729">
+		<SourceName>ﻑﺭﺩی</SourceName>
+		<TargetName ID="1">freddie</TargetName>
+		<TargetName ID="2">freddy</TargetName>
+	</Name>
+	<Name ID="730">
+		<SourceName>ﻑﺭﻭﻡیﻥ</SourceName>
+		<TargetName ID="1">fromhein</TargetName>
+	</Name>
+	<Name ID="731">
+		<SourceName>ﻑﺽیﺍ</SourceName>
+		<TargetName ID="1">fawziyya</TargetName>
+	</Name>
+	<Name ID="732">
+		<SourceName>ﻑﻝیگﻝ</SourceName>
+		<TargetName ID="1">fliegel</TargetName>
+	</Name>
+	<Name ID="733">
+		<SourceName>ﻑﻝیﻡیﻥگ</SourceName>
+		<TargetName ID="1">fleming</TargetName>
+	</Name>
+	<Name ID="734">
+		<SourceName>ﻑﻝﻭرﺝ</SourceName>
+		<TargetName ID="1">floortje</TargetName>
+	</Name>
+	<Name ID="735">
+		<SourceName>ﻑﻝﻭﺭی</SourceName>
+		<TargetName ID="1">fuloria</TargetName>
+	</Name>
+	<Name ID="736">
+		<SourceName>ﻑﻩیﻡﻩ</SourceName>
+		<TargetName ID="1">fahima</TargetName>
+	</Name>
+	<Name ID="737">
+		<SourceName>ﻑﻭﺝیﻭکﺍ</SourceName>
+		<TargetName ID="1">fujioka</TargetName>
+	</Name>
+	<Name ID="738">
+		<SourceName>ﻑﻭﺩ</SourceName>
+		<TargetName ID="1">fude</TargetName>
+	</Name>
+	<Name ID="739">
+		<SourceName>ﻑﻭﺭی</SourceName>
+		<TargetName ID="1">furey</TargetName>
+	</Name>
+	<Name ID="740">
+		<SourceName>ﻑﻭﺭﺩ</SourceName>
+		<TargetName ID="1">forde</TargetName>
+	</Name>
+	<Name ID="741">
+		<SourceName>ﻑﻭﺭﺱﺍیﺕ</SourceName>
+		<TargetName ID="1">forsyth</TargetName>
+		<TargetName ID="2">forsythe</TargetName>
+	</Name>
+	<Name ID="742">
+		<SourceName>ﻑﻭﺭﻝﺍﻥگ</SourceName>
+		<TargetName ID="1">furlong</TargetName>
+	</Name>
+	<Name ID="743">
+		<SourceName>ﻑﻭﺱﺏری</SourceName>
+		<TargetName ID="1">fosbury</TargetName>
+	</Name>
+	<Name ID="744">
+		<SourceName>ﻑﻭﻝک</SourceName>
+		<TargetName ID="1">foulk</TargetName>
+	</Name>
+	<Name ID="745">
+		<SourceName>ﻑﻭﻝﻡﻥ</SourceName>
+		<TargetName ID="1">fullman</TargetName>
+	</Name>
+	<Name ID="746">
+		<SourceName>ﻕﺍیﺩ</SourceName>
+		<TargetName ID="1">ghayth</TargetName>
+	</Name>
+	<Name ID="747">
+		<SourceName>ﻕﻡیﻝ</SourceName>
+		<TargetName ID="1">gamil</TargetName>
+	</Name>
+	<Name ID="748">
+		<SourceName>ﻕﻥﺕﻭﻥ</SourceName>
+		<TargetName ID="1">ginton</TargetName>
+	</Name>
+	<Name ID="749">
+		<SourceName>ﻝیزﺏﺕی</SourceName>
+		<TargetName ID="1">lysbethje</TargetName>
+	</Name>
+	<Name ID="750">
+		<SourceName>ﻝیپﺱکﻭﻡﺏ</SourceName>
+		<TargetName ID="1">lipscombe</TargetName>
+	</Name>
+	<Name ID="751">
+		<SourceName>ﻝیچﻑیﻝﺩ</SourceName>
+		<TargetName ID="1">litchfield</TargetName>
+	</Name>
+	<Name ID="752">
+		<SourceName>ﻝییﻭﻥگ</SourceName>
+		<TargetName ID="1">leung</TargetName>
+	</Name>
+	<Name ID="753">
+		<SourceName>ﻝیﺍﻥﺯ</SourceName>
+		<TargetName ID="1">lianez</TargetName>
+	</Name>
+	<Name ID="754">
+		<SourceName>ﻝیﺏﻝﺱﻭﺩ</SourceName>
+		<TargetName ID="1">libansud</TargetName>
+	</Name>
+	<Name ID="755">
+		<SourceName>ﻝیﺏﻭیﺕﺯ</SourceName>
+		<TargetName ID="1">leibowitz</TargetName>
+	</Name>
+	<Name ID="756">
+		<SourceName>ﻝیﺕﻡﻥ</SourceName>
+		<TargetName ID="1">littmann</TargetName>
+	</Name>
+	<Name ID="757">
+		<SourceName>ﻝیﺕﻭﻥ</SourceName>
+		<TargetName ID="1">leighton</TargetName>
+		<TargetName ID="2">leyton</TargetName>
+	</Name>
+	<Name ID="758">
+		<SourceName>ﻝیﺯﺍ</SourceName>
+		<TargetName ID="1">liza</TargetName>
+		<TargetName ID="2">lisa</TargetName>
+		<TargetName ID="3">lissa</TargetName>
+	</Name>
+	<Name ID="759">
+		<SourceName>ﻝیﺱﻭﻥ</SourceName>
+		<TargetName ID="1">lison</TargetName>
+		<TargetName ID="2">lisson</TargetName>
+	</Name>
+	<Name ID="760">
+		<SourceName>ﻝیﻡ</SourceName>
+		<TargetName ID="1">lim</TargetName>
+	</Name>
+	<Name ID="761">
+		<SourceName>ﻝیﻥک</SourceName>
+		<TargetName ID="1">link</TargetName>
+	</Name>
+	<Name ID="762">
+		<SourceName>ﻝیﻥﺩﻭﻥ</SourceName>
+		<TargetName ID="1">lyndon</TargetName>
+	</Name>
+	<Name ID="763">
+		<SourceName>ﻝﺍیﺍﻥ</SourceName>
+		<TargetName ID="1">lian</TargetName>
+	</Name>
+	<Name ID="764">
+		<SourceName>ﻝﺍیﺭﺩ</SourceName>
+		<TargetName ID="1">laird</TargetName>
+	</Name>
+	<Name ID="765">
+		<SourceName>ﻝﺍیﻡﺏ</SourceName>
+		<TargetName ID="1">limb</TargetName>
+	</Name>
+	<Name ID="766">
+		<SourceName>ﻝﺍیﻭﺕﻡﻥ</SourceName>
+		<TargetName ID="1">lautmann</TargetName>
+	</Name>
+	<Name ID="767">
+		<SourceName>ﻝﺍﺝ</SourceName>
+		<TargetName ID="1">lodge</TargetName>
+	</Name>
+	<Name ID="768">
+		<SourceName>ﻝﺍﺩیﺱیﻥﺍ</SourceName>
+		<TargetName ID="1">laudicina</TargetName>
+	</Name>
+	<Name ID="769">
+		<SourceName>ﻝﺍﺩﻭیگ</SourceName>
+		<TargetName ID="1">ladwig</TargetName>
+	</Name>
+	<Name ID="770">
+		<SourceName>ﻝﺍﺭی</SourceName>
+		<TargetName ID="1">larry</TargetName>
+	</Name>
+	<Name ID="771">
+		<SourceName>ﻝﺍﺭیﻭیﺭ</SourceName>
+		<TargetName ID="1">lariviere</TargetName>
+	</Name>
+	<Name ID="772">
+		<SourceName>ﻝﺍﺱ</SourceName>
+		<TargetName ID="1">laas</TargetName>
+		<TargetName ID="2">las</TargetName>
+		<TargetName ID="3">loss</TargetName>
+	</Name>
+	<Name ID="773">
+		<SourceName>ﻝﺍﺱکی</SourceName>
+		<TargetName ID="1">lusky</TargetName>
+	</Name>
+	<Name ID="774">
+		<SourceName>ﻝﺍﺱﺕﺭی</SourceName>
+		<TargetName ID="1">lustri</TargetName>
+	</Name>
+	<Name ID="775">
+		<SourceName>ﻝﺍﻑ</SourceName>
+		<TargetName ID="1">laff</TargetName>
+	</Name>
+	<Name ID="776">
+		<SourceName>ﻝﺍﻝ</SourceName>
+		<TargetName ID="1">lal</TargetName>
+	</Name>
+	<Name ID="777">
+		<SourceName>ﻝﺍﻡیکیﻥ</SourceName>
+		<TargetName ID="1">lamykin</TargetName>
+	</Name>
+	<Name ID="778">
+		<SourceName>ﻝﺍﻡﺏرچﺕ</SourceName>
+		<TargetName ID="1">lambrecht</TargetName>
+	</Name>
+	<Name ID="779">
+		<SourceName>ﻝﺍﻡﺏﻝی</SourceName>
+		<TargetName ID="1">lumbley</TargetName>
+	</Name>
+	<Name ID="780">
+		<SourceName>ﻝﺍﻥگ</SourceName>
+		<TargetName ID="1">lang</TargetName>
+		<TargetName ID="2">lange</TargetName>
+		<TargetName ID="3">long</TargetName>
+		<TargetName ID="4">lung</TargetName>
+	</Name>
+	<Name ID="781">
+		<SourceName>ﻝﺍﻥﺭ</SourceName>
+		<TargetName ID="1">lanner</TargetName>
+		<TargetName ID="2">lauener</TargetName>
+	</Name>
+	<Name ID="782">
+		<SourceName>ﻝﺍﻩیﺝ</SourceName>
+		<TargetName ID="1">lahij</TargetName>
+	</Name>
+	<Name ID="783">
+		<SourceName>ﻝﺍﻭ</SourceName>
+		<TargetName ID="1">lau</TargetName>
+		<TargetName ID="2">law</TargetName>
+	</Name>
+	<Name ID="784">
+		<SourceName>ﻝﺍﻭر</SourceName>
+		<TargetName ID="1">lover</TargetName>
+	</Name>
+	<Name ID="785">
+		<SourceName>ﻝﺩﻥی</SourceName>
+		<TargetName ID="1">ledney</TargetName>
+	</Name>
+	<Name ID="786">
+		<SourceName>ﻝﺱک</SourceName>
+		<TargetName ID="1">laske</TargetName>
+	</Name>
+	<Name ID="787">
+		<SourceName>ﻝﺵﺕ</SourceName>
+		<TargetName ID="1">lesht</TargetName>
+	</Name>
+	<Name ID="788">
+		<SourceName>ﻝﻑﻝﺭ</SourceName>
+		<TargetName ID="1">leffler</TargetName>
+	</Name>
+	<Name ID="789">
+		<SourceName>ﻝﻡﺏرﻥ</SourceName>
+		<TargetName ID="1">lamborn</TargetName>
+		<TargetName ID="2">lambourne</TargetName>
+	</Name>
+	<Name ID="790">
+		<SourceName>ﻝﻥﺩﺍﻭﺭ</SourceName>
+		<TargetName ID="1">landauer</TargetName>
+	</Name>
+	<Name ID="791">
+		<SourceName>ﻝﻩﺍﻥ</SourceName>
+		<TargetName ID="1">lehan</TargetName>
+	</Name>
+	<Name ID="792">
+		<SourceName>ﻝﻭرﺕﺍ</SourceName>
+		<TargetName ID="1">loretta</TargetName>
+	</Name>
+	<Name ID="793">
+		<SourceName>ﻝﻭپﺭﺱﺕی</SourceName>
+		<TargetName ID="1">lopresti</TargetName>
+	</Name>
+	<Name ID="794">
+		<SourceName>ﻝﻭپﺯ</SourceName>
+		<TargetName ID="1">lopez</TargetName>
+	</Name>
+	<Name ID="795">
+		<SourceName>ﻝﻭکﻩﺍﺭﺕ</SourceName>
+		<TargetName ID="1">lockhart</TargetName>
+	</Name>
+	<Name ID="796">
+		<SourceName>ﻝﻭﺕﺭ</SourceName>
+		<TargetName ID="1">luther</TargetName>
+	</Name>
+	<Name ID="797">
+		<SourceName>ﻝﻭﺭﻥﺕﺯﻥ</SourceName>
+		<TargetName ID="1">lorentzen</TargetName>
+	</Name>
+	<Name ID="798">
+		<SourceName>ﻝﻭﺱﺕﺭ</SourceName>
+		<TargetName ID="1">luster</TargetName>
+	</Name>
+	<Name ID="799">
+		<SourceName>ﻡککﺍﻥ</SourceName>
+		<TargetName ID="1">mccann</TargetName>
+	</Name>
+	<Name ID="800">
+		<SourceName>ﻡککﻝیﻥ</SourceName>
+		<TargetName ID="1">mcclain</TargetName>
+	</Name>
+	<Name ID="801">
+		<SourceName>ﻡکیﻥﺯ</SourceName>
+		<TargetName ID="1">macinnes</TargetName>
+	</Name>
+	<Name ID="802">
+		<SourceName>ﻡکﺍ</SourceName>
+		<TargetName ID="1">mecca</TargetName>
+	</Name>
+	<Name ID="803">
+		<SourceName>ﻡکﺩﺭﻡﻭﺕ</SourceName>
+		<TargetName ID="1">mcdermott</TargetName>
+	</Name>
+	<Name ID="804">
+		<SourceName>ﻡکﺱﻭﻝ</SourceName>
+		<TargetName ID="1">maxwell</TargetName>
+	</Name>
+	<Name ID="805">
+		<SourceName>ﻡکﻥ</SourceName>
+		<TargetName ID="1">macken</TargetName>
+	</Name>
+	<Name ID="806">
+		<SourceName>ﻡگیﺱی</SourceName>
+		<TargetName ID="1">megyesi</TargetName>
+	</Name>
+	<Name ID="807">
+		<SourceName>ﻡگﺩﺍیﻥﺕﺝ</SourceName>
+		<TargetName ID="1">magdaleentje</TargetName>
+	</Name>
+	<Name ID="808">
+		<SourceName>ﻡگﻥﻩ</SourceName>
+		<TargetName ID="1">magne</TargetName>
+	</Name>
+	<Name ID="809">
+		<SourceName>ﻡیکﺍییﻝز</SourceName>
+		<TargetName ID="1">michaelis</TargetName>
+	</Name>
+	<Name ID="810">
+		<SourceName>ﻡیکﺱ</SourceName>
+		<TargetName ID="1">meeks</TargetName>
+		<TargetName ID="2">mikus</TargetName>
+		<TargetName ID="3">mix</TargetName>
+	</Name>
+	<Name ID="811">
+		<SourceName>ﻡیگﻭیﻝ</SourceName>
+		<TargetName ID="1">miguel</TargetName>
+	</Name>
+	<Name ID="812">
+		<SourceName>ﻡیﺕﻥیک</SourceName>
+		<TargetName ID="1">mitnick</TargetName>
+	</Name>
+	<Name ID="813">
+		<SourceName>ﻡیﺩﻝﺏﺭﻭ</SourceName>
+		<TargetName ID="1">middlebro</TargetName>
+	</Name>
+	<Name ID="814">
+		<SourceName>ﻡیﻝی</SourceName>
+		<TargetName ID="1">mili</TargetName>
+		<TargetName ID="2">milley</TargetName>
+		<TargetName ID="3">milli</TargetName>
+		<TargetName ID="4">millie</TargetName>
+	</Name>
+	<Name ID="815">
+		<SourceName>ﻡیﻝﺍﺩ</SourceName>
+		<TargetName ID="1">milad</TargetName>
+	</Name>
+	<Name ID="816">
+		<SourceName>ﻡیﻝﺕ</SourceName>
+		<TargetName ID="1">millett</TargetName>
+		<TargetName ID="2">milt</TargetName>
+	</Name>
+	<Name ID="817">
+		<SourceName>ﻡیﻥﺍﻡﻭ</SourceName>
+		<TargetName ID="1">minamo</TargetName>
+	</Name>
+	<Name ID="818">
+		<SourceName>ﻡﺍریﺱﻩ</SourceName>
+		<TargetName ID="1">maryse</TargetName>
+	</Name>
+	<Name ID="819">
+		<SourceName>ﻡﺍپﻝﺯ</SourceName>
+		<TargetName ID="1">maples</TargetName>
+	</Name>
+	<Name ID="820">
+		<SourceName>ﻡﺍکیﻥﻭﻥ</SourceName>
+		<TargetName ID="1">mackinnon</TargetName>
+	</Name>
+	<Name ID="821">
+		<SourceName>ﻡﺍکﺯیﻡﻡ</SourceName>
+		<TargetName ID="1">maximum</TargetName>
+	</Name>
+	<Name ID="822">
+		<SourceName>ﻡﺍکﺱی</SourceName>
+		<TargetName ID="1">maxi</TargetName>
+	</Name>
+	<Name ID="823">
+		<SourceName>ﻡﺍکﻭ</SourceName>
+		<TargetName ID="1">macko</TargetName>
+	</Name>
+	<Name ID="824">
+		<SourceName>ﻡﺍگﺭﻭﺩﺭ</SourceName>
+		<TargetName ID="1">magruder</TargetName>
+	</Name>
+	<Name ID="825">
+		<SourceName>ﻡﺍیکﻭک</SourceName>
+		<TargetName ID="1">maycock</TargetName>
+	</Name>
+	<Name ID="826">
+		<SourceName>ﻡﺍیﺕی</SourceName>
+		<TargetName ID="1">mighty</TargetName>
+	</Name>
+	<Name ID="827">
+		<SourceName>ﻡﺍﺏی</SourceName>
+		<TargetName ID="1">mawby</TargetName>
+	</Name>
+	<Name ID="828">
+		<SourceName>ﻡﺍﺏﺍی</SourceName>
+		<TargetName ID="1">mawby</TargetName>
+	</Name>
+	<Name ID="829">
+		<SourceName>ﻡﺍﺕیﺱ</SourceName>
+		<TargetName ID="1">matthys</TargetName>
+		<TargetName ID="2">matheis</TargetName>
+		<TargetName ID="3">mattis</TargetName>
+	</Name>
+	<Name ID="830">
+		<SourceName>ﻡﺍﺕﻝیﻥگ</SourceName>
+		<TargetName ID="1">matlinge</TargetName>
+	</Name>
+	<Name ID="831">
+		<SourceName>ﻡﺍﺩﺝ</SourceName>
+		<TargetName ID="1">madej</TargetName>
+	</Name>
+	<Name ID="832">
+		<SourceName>ﻡﺍﺭچیﻥﺩﻭ</SourceName>
+		<TargetName ID="1">marchiondo</TargetName>
+	</Name>
+	<Name ID="833">
+		<SourceName>ﻡﺍﺭکییﻭﺱ</SourceName>
+		<TargetName ID="1">marcus</TargetName>
+	</Name>
+	<Name ID="834">
+		<SourceName>ﻡﺍﺭکﻭﻡ</SourceName>
+		<TargetName ID="1">marcum</TargetName>
+	</Name>
+	<Name ID="835">
+		<SourceName>ﻡﺍﺭﺏﻝ</SourceName>
+		<TargetName ID="1">marble</TargetName>
+	</Name>
+	<Name ID="836">
+		<SourceName>ﻡﺍﺭﺕﻥ</SourceName>
+		<TargetName ID="1">marten</TargetName>
+	</Name>
+	<Name ID="837">
+		<SourceName>ﻡﺍﺭﺩﺭ</SourceName>
+		<TargetName ID="1">marder</TargetName>
+	</Name>
+	<Name ID="838">
+		<SourceName>ﻡﺍﺭﻭیﻥ</SourceName>
+		<TargetName ID="1">marvin</TargetName>
+		<TargetName ID="2">marwin</TargetName>
+	</Name>
+	<Name ID="839">
+		<SourceName>ﻡﺍﺱک</SourceName>
+		<TargetName ID="1">masek</TargetName>
+	</Name>
+	<Name ID="840">
+		<SourceName>ﻡﺍﺱﺍﺵی</SourceName>
+		<TargetName ID="1">masashi</TargetName>
+	</Name>
+	<Name ID="841">
+		<SourceName>ﻡﺍﻝﻭی</SourceName>
+		<TargetName ID="1">malloy</TargetName>
+	</Name>
+	<Name ID="842">
+		<SourceName>ﻡﺍﻥﺕﻭﻥ</SourceName>
+		<TargetName ID="1">monton</TargetName>
+	</Name>
+	<Name ID="843">
+		<SourceName>ﻡﺍﻥﺭﻭ</SourceName>
+		<TargetName ID="1">munro</TargetName>
+	</Name>
+	<Name ID="844">
+		<SourceName>ﻡﺍﻥﻝیگ</SourceName>
+		<TargetName ID="1">manlig</TargetName>
+	</Name>
+	<Name ID="845">
+		<SourceName>ﻡﺍﻩﺍﺩیﻭﺍﻩ</SourceName>
+		<TargetName ID="1">mahadevah</TargetName>
+	</Name>
+	<Name ID="846">
+		<SourceName>ﻡﺍﻩﻭﻝﺕ</SourceName>
+		<TargetName ID="1">mahault</TargetName>
+	</Name>
+	<Name ID="847">
+		<SourceName>ﻡﺕیﻥ</SourceName>
+		<TargetName ID="1">mateen</TargetName>
+		<TargetName ID="2">matin</TargetName>
+	</Name>
+	<Name ID="848">
+		<SourceName>ﻡﺕیﻭﺱ</SourceName>
+		<TargetName ID="1">mathews</TargetName>
+		<TargetName ID="2">matthews</TargetName>
+		<TargetName ID="3">matyas</TargetName>
+	</Name>
+	<Name ID="849">
+		<SourceName>ﻡﺕﺯیﻥگ</SourceName>
+		<TargetName ID="1">metzing</TargetName>
+	</Name>
+	<Name ID="850">
+		<SourceName>ﻡﺕﺯﻝﺭ</SourceName>
+		<TargetName ID="1">metzler</TargetName>
+	</Name>
+	<Name ID="851">
+		<SourceName>ﻡﺭﺱﺭ</SourceName>
+		<TargetName ID="1">mercer</TargetName>
+	</Name>
+	<Name ID="852">
+		<SourceName>ﻡﺱیﻑ</SourceName>
+		<TargetName ID="1">massif</TargetName>
+	</Name>
+	<Name ID="853">
+		<SourceName>ﻡﻝیﻥیی</SourceName>
+		<TargetName ID="1">malinee</TargetName>
+	</Name>
+	<Name ID="854">
+		<SourceName>ﻡﻝﺕﻥ</SourceName>
+		<TargetName ID="1">melton</TargetName>
+	</Name>
+	<Name ID="855">
+		<SourceName>ﻡﻥیچ</SourceName>
+		<TargetName ID="1">manich</TargetName>
+	</Name>
+	<Name ID="856">
+		<SourceName>ﻡﻥیکﺱ</SourceName>
+		<TargetName ID="1">mannix</TargetName>
+	</Name>
+	<Name ID="857">
+		<SourceName>ﻡﻥﺕ</SourceName>
+		<TargetName ID="1">menth</TargetName>
+	</Name>
+	<Name ID="858">
+		<SourceName>ﻡﻥﺩﺭ</SourceName>
+		<TargetName ID="1">mandar</TargetName>
+	</Name>
+	<Name ID="859">
+		<SourceName>ﻡﻥﺩﻝ</SourceName>
+		<TargetName ID="1">mandl</TargetName>
+		<TargetName ID="2">mandle</TargetName>
+		<TargetName ID="3">mendell</TargetName>
+	</Name>
+	<Name ID="860">
+		<SourceName>ﻡﻥﺯﺱ</SourceName>
+		<TargetName ID="1">menezes</TargetName>
+	</Name>
+	<Name ID="861">
+		<SourceName>ﻡﻭرﺏی</SourceName>
+		<TargetName ID="1">moreby</TargetName>
+	</Name>
+	<Name ID="862">
+		<SourceName>ﻡﻭیﺭ</SourceName>
+		<TargetName ID="1">muir</TargetName>
+	</Name>
+	<Name ID="863">
+		<SourceName>ﻡﻭیﻥﺯ</SourceName>
+		<TargetName ID="1">moynes</TargetName>
+	</Name>
+	<Name ID="864">
+		<SourceName>ﻡﻭﺭیﻝ</SourceName>
+		<TargetName ID="1">morrill</TargetName>
+	</Name>
+	<Name ID="865">
+		<SourceName>ﻡﻭﺭﺍ</SourceName>
+		<TargetName ID="1">mura</TargetName>
+	</Name>
+	<Name ID="866">
+		<SourceName>ﻡﻭﺭﺍﻭﺍﻥ</SourceName>
+		<TargetName ID="1">moravan</TargetName>
+	</Name>
+	<Name ID="867">
+		<SourceName>ﻡﻭﺭﺱﺕﺍﺩ</SourceName>
+		<TargetName ID="1">maurstad</TargetName>
+	</Name>
+	<Name ID="868">
+		<SourceName>ﻡﻭﺭﻝ</SourceName>
+		<TargetName ID="1">morel</TargetName>
+		<TargetName ID="2">morrell</TargetName>
+		<TargetName ID="3">murrell</TargetName>
+	</Name>
+	<Name ID="869">
+		<SourceName>ﻡﻭﺭﻝیﺝ</SourceName>
+		<TargetName ID="1">morlidge</TargetName>
+	</Name>
+	<Name ID="870">
+		<SourceName>ﻡﻭﺯیﺍر</SourceName>
+		<TargetName ID="1">moziar</TargetName>
+	</Name>
+	<Name ID="871">
+		<SourceName>ﻡﻭﺱیﻭﻥ</SourceName>
+		<TargetName ID="1">muysson</TargetName>
+	</Name>
+	<Name ID="872">
+		<SourceName>ﻡﻭﺵیﺭ</SourceName>
+		<TargetName ID="1">moshier</TargetName>
+	</Name>
+	<Name ID="873">
+		<SourceName>ﻡﻭﻝﻭی</SourceName>
+		<TargetName ID="1">molloy</TargetName>
+	</Name>
+	<Name ID="874">
+		<SourceName>ﻥرﻭﻥ</SourceName>
+		<TargetName ID="1">neron</TargetName>
+	</Name>
+	<Name ID="875">
+		<SourceName>ﻥپﺭ</SourceName>
+		<TargetName ID="1">knepper</TargetName>
+	</Name>
+	<Name ID="876">
+		<SourceName>ﻥکﻝﺱ</SourceName>
+		<TargetName ID="1">niklas</TargetName>
+	</Name>
+	<Name ID="877">
+		<SourceName>ﻥکﻭ</SourceName>
+		<TargetName ID="1">nicko</TargetName>
+		<TargetName ID="2">nico</TargetName>
+	</Name>
+	<Name ID="878">
+		<SourceName>ﻥکﻭﻝﺱ</SourceName>
+		<TargetName ID="1">nickolas</TargetName>
+	</Name>
+	<Name ID="879">
+		<SourceName>ﻥیک</SourceName>
+		<TargetName ID="1">naik</TargetName>
+		<TargetName ID="2">nik</TargetName>
+		<TargetName ID="3">nic</TargetName>
+		<TargetName ID="4">nick</TargetName>
+		<TargetName ID="5">niek</TargetName>
+	</Name>
+	<Name ID="880">
+		<SourceName>ﻥیکﻝ</SourceName>
+		<TargetName ID="1">nickel</TargetName>
+		<TargetName ID="2">nickell</TargetName>
+		<TargetName ID="3">nicol</TargetName>
+		<TargetName ID="4">nicole</TargetName>
+	</Name>
+	<Name ID="881">
+		<SourceName>ﻥیکﻝﺍﺱ</SourceName>
+		<TargetName ID="1">nicklas</TargetName>
+		<TargetName ID="2">nickolas</TargetName>
+		<TargetName ID="3">nicholas</TargetName>
+		<TargetName ID="4">nicolaes</TargetName>
+		<TargetName ID="5">nicolaus</TargetName>
+		<TargetName ID="6">niekolaas</TargetName>
+	</Name>
+	<Name ID="882">
+		<SourceName>ﻥیکﻝﺯ</SourceName>
+		<TargetName ID="1">nicholls</TargetName>
+		<TargetName ID="2">nichols</TargetName>
+	</Name>
+	<Name ID="883">
+		<SourceName>ﻥیکﻭﻝﺍﺱ</SourceName>
+		<TargetName ID="1">nicholas</TargetName>
+		<TargetName ID="2">nicolaes</TargetName>
+		<TargetName ID="3">nicolas</TargetName>
+		<TargetName ID="4">niekolaas</TargetName>
+	</Name>
+	<Name ID="884">
+		<SourceName>ﻥیگ</SourceName>
+		<TargetName ID="1">nigg</TargetName>
+	</Name>
+	<Name ID="885">
+		<SourceName>ﻥیگﻝی</SourceName>
+		<TargetName ID="1">niggli</TargetName>
+	</Name>
+	<Name ID="886">
+		<SourceName>ﻥیﻡﺍﻥ</SourceName>
+		<TargetName ID="1">nyman</TargetName>
+	</Name>
+	<Name ID="887">
+		<SourceName>ﻥیﻩﺍﻝﺍﻥی</SourceName>
+		<TargetName ID="1">nihalani</TargetName>
+	</Name>
+	<Name ID="888">
+		<SourceName>ﻥﺍپﻥ</SourceName>
+		<TargetName ID="1">knappen</TargetName>
+	</Name>
+	<Name ID="889">
+		<SourceName>ﻥﺍک</SourceName>
+		<TargetName ID="1">knoke</TargetName>
+	</Name>
+	<Name ID="890">
+		<SourceName>ﻥﺍکﺍگﺍکی</SourceName>
+		<TargetName ID="1">nakagaki</TargetName>
+	</Name>
+	<Name ID="891">
+		<SourceName>ﻥﺍﺩﻭﻝﻥی</SourceName>
+		<TargetName ID="1">nadolny</TargetName>
+	</Name>
+	<Name ID="892">
+		<SourceName>ﻥﺏﺍﺕی</SourceName>
+		<TargetName ID="1">nabatiye</TargetName>
+	</Name>
+	<Name ID="893">
+		<SourceName>ﻥﺏﺍﺕیﻩ</SourceName>
+		<TargetName ID="1">nabatiye</TargetName>
+	</Name>
+	<Name ID="894">
+		<SourceName>ﻥﺕﺍکﺭ</SourceName>
+		<TargetName ID="1">nethacker</TargetName>
+	</Name>
+	<Name ID="895">
+		<SourceName>ﻥﺱیرﺍ</SourceName>
+		<TargetName ID="1">nasira</TargetName>
+	</Name>
+	<Name ID="896">
+		<SourceName>ﻥﻑیﺩ</SourceName>
+		<TargetName ID="1">naphade</TargetName>
+	</Name>
+	<Name ID="897">
+		<SourceName>ﻥﻑﺝﺍﻥ</SourceName>
+		<TargetName ID="1">neefjan</TargetName>
+	</Name>
+	<Name ID="898">
+		<SourceName>ﻥﻝﺍﻥگﻥ</SourceName>
+		<TargetName ID="1">knelangen</TargetName>
+	</Name>
+	<Name ID="899">
+		<SourceName>ﻥﻝﺕ</SourceName>
+		<TargetName ID="1">neeltje</TargetName>
+	</Name>
+	<Name ID="900">
+		<SourceName>ﻥﻝﺱ</SourceName>
+		<TargetName ID="1">nils</TargetName>
+	</Name>
+	<Name ID="901">
+		<SourceName>ﻥﻭرﺕﻭﻥ</SourceName>
+		<TargetName ID="1">norton</TargetName>
+	</Name>
+	<Name ID="902">
+		<SourceName>ﻥﻭﺭکﺍﺕ</SourceName>
+		<TargetName ID="1">norcott</TargetName>
+	</Name>
+	<Name ID="903">
+		<SourceName>ﻥﻭﺭﺩﻥﺱﺕﻭﺭﻡ</SourceName>
+		<TargetName ID="1">nordenstrom</TargetName>
+	</Name>
+	<Name ID="904">
+		<SourceName>ﻥﻭﺯ</SourceName>
+		<TargetName ID="1">nose</TargetName>
+	</Name>
+	<Name ID="905">
+		<SourceName>ﻩرﺩﺍﺱﻑیﻝﺩ</SourceName>
+		<TargetName ID="1">herdsfield</TargetName>
+	</Name>
+	<Name ID="906">
+		<SourceName>ﻩرﻡﻥﻭﺱ</SourceName>
+		<TargetName ID="1">harmanus</TargetName>
+	</Name>
+	<Name ID="907">
+		<SourceName>ﻩکﺵﻭ</SourceName>
+		<TargetName ID="1">hackshaw</TargetName>
+	</Name>
+	<Name ID="908">
+		<SourceName>ﻩیگﺍﺭﺕی</SourceName>
+		<TargetName ID="1">hegarty</TargetName>
+	</Name>
+	<Name ID="909">
+		<SourceName>ﻩیﺏﻭرﻥ</SourceName>
+		<TargetName ID="1">hebborn</TargetName>
+	</Name>
+	<Name ID="910">
+		<SourceName>ﻩیﺭﺍی</SourceName>
+		<TargetName ID="1">hirai</TargetName>
+	</Name>
+	<Name ID="911">
+		<SourceName>ﻩیﻝﺩﺏرﻥﺩیﺱﻝﻥﺕ</SourceName>
+		<TargetName ID="1">hildebrandislant</TargetName>
+	</Name>
+	<Name ID="912">
+		<SourceName>ﻩیﻥی</SourceName>
+		<TargetName ID="1">heaney</TargetName>
+		<TargetName ID="2">heini</TargetName>
+	</Name>
+	<Name ID="913">
+		<SourceName>ﻩیﻭکیﻥﺯ</SourceName>
+		<TargetName ID="1">hawkins</TargetName>
+	</Name>
+	<Name ID="914">
+		<SourceName>ﻩﺍپکرﺍﻑﺕ</SourceName>
+		<TargetName ID="1">hopcraft</TargetName>
+	</Name>
+	<Name ID="915">
+		<SourceName>ﻩﺍکﺵﺍ</SourceName>
+		<TargetName ID="1">hackshaw</TargetName>
+	</Name>
+	<Name ID="916">
+		<SourceName>ﻩﺍکﺵﺍﻭ</SourceName>
+		<TargetName ID="1">hackshaw</TargetName>
+	</Name>
+	<Name ID="917">
+		<SourceName>ﻩﺍکﻥیﺱ</SourceName>
+		<TargetName ID="1">hawkins</TargetName>
+	</Name>
+	<Name ID="918">
+		<SourceName>ﻩﺍگیﻥ</SourceName>
+		<TargetName ID="1">hagin</TargetName>
+	</Name>
+	<Name ID="919">
+		<SourceName>ﻩﺍگﺩﺍﻝ</SourceName>
+		<TargetName ID="1">hugdahl</TargetName>
+	</Name>
+	<Name ID="920">
+		<SourceName>ﻩﺍیﺩﺏرﺍیﻥﺩیﺱﻝﻥﺩ</SourceName>
+		<TargetName ID="1">hildebrandislant</TargetName>
+	</Name>
+	<Name ID="921">
+		<SourceName>ﻩﺍیﺩﺏرﻥﺩیﺱﻝﻥﺕ</SourceName>
+		<TargetName ID="1">hildebrandislant</TargetName>
+	</Name>
+	<Name ID="922">
+		<SourceName>ﻩﺍیﺩﻡﻥ</SourceName>
+		<TargetName ID="1">heidmann</TargetName>
+	</Name>
+	<Name ID="923">
+		<SourceName>ﻩﺍیﻝر</SourceName>
+		<TargetName ID="1">hyler</TargetName>
+	</Name>
+	<Name ID="924">
+		<SourceName>ﻩﺍﺏﺭﺕ</SourceName>
+		<TargetName ID="1">habert</TargetName>
+	</Name>
+	<Name ID="925">
+		<SourceName>ﻩﺍﺕﻡیکﺭ</SourceName>
+		<TargetName ID="1">hatmaker</TargetName>
+	</Name>
+	<Name ID="926">
+		<SourceName>ﻩﺍﺭﺍﺕﺯ</SourceName>
+		<TargetName ID="1">haratz</TargetName>
+	</Name>
+	<Name ID="927">
+		<SourceName>ﻩﺍﺭﺏﺭ</SourceName>
+		<TargetName ID="1">harber</TargetName>
+		<TargetName ID="2">harbor</TargetName>
+		<TargetName ID="3">harbour</TargetName>
+	</Name>
+	<Name ID="928">
+		<SourceName>ﻩﺍﺭﺩﻥ</SourceName>
+		<TargetName ID="1">harden</TargetName>
+	</Name>
+	<Name ID="929">
+		<SourceName>ﻩﺍﺭﻭﺍی</SourceName>
+		<TargetName ID="1">harvie</TargetName>
+	</Name>
+	<Name ID="930">
+		<SourceName>ﻩﺍﺭﻭﺍﺕ</SourceName>
+		<TargetName ID="1">horvath</TargetName>
+	</Name>
+	<Name ID="931">
+		<SourceName>ﻩﺍﺭﻭﻩیﺱﺍ</SourceName>
+		<TargetName ID="1">haruhisa</TargetName>
+	</Name>
+	<Name ID="932">
+		<SourceName>ﻩﺍﺱکیﻥﺯ</SourceName>
+		<TargetName ID="1">hoskins</TargetName>
+	</Name>
+	<Name ID="933">
+		<SourceName>ﻩﺍﺱﺕیﻥگﺯ</SourceName>
+		<TargetName ID="1">hastings</TargetName>
+	</Name>
+	<Name ID="934">
+		<SourceName>ﻩﺍﺱﻭﺍر</SourceName>
+		<TargetName ID="1">husvar</TargetName>
+	</Name>
+	<Name ID="935">
+		<SourceName>ﻩﺍﻝﺍﺕ</SourceName>
+		<TargetName ID="1">halat</TargetName>
+	</Name>
+	<Name ID="936">
+		<SourceName>ﻩﺍﻡیﻝ</SourceName>
+		<TargetName ID="1">hammill</TargetName>
+		<TargetName ID="2">hamill</TargetName>
+	</Name>
+	<Name ID="937">
+		<SourceName>ﻩﺍﻡﻡﺍﻥز</SourceName>
+		<TargetName ID="1">hammans</TargetName>
+	</Name>
+	<Name ID="938">
+		<SourceName>ﻩﺭﺏﺭﺕ</SourceName>
+		<TargetName ID="1">herbert</TargetName>
+	</Name>
+	<Name ID="939">
+		<SourceName>ﻩﺭﺕﻭک</SourceName>
+		<TargetName ID="1">hertweck</TargetName>
+	</Name>
+	<Name ID="940">
+		<SourceName>ﻩﺭﻡﺯ</SourceName>
+		<TargetName ID="1">hermes</TargetName>
+	</Name>
+	<Name ID="941">
+		<SourceName>ﻩﺯﺍﺭﺩ</SourceName>
+		<TargetName ID="1">hazzard</TargetName>
+	</Name>
+	<Name ID="942">
+		<SourceName>ﻩﺯﻝﺕﻭﻥ</SourceName>
+		<TargetName ID="1">hazelton</TargetName>
+	</Name>
+	<Name ID="943">
+		<SourceName>ﻩﺱﻡﺍﻥﺱ</SourceName>
+		<TargetName ID="1">hesemans</TargetName>
+	</Name>
+	<Name ID="944">
+		<SourceName>ﻩﻝکﺍﻥﺕ</SourceName>
+		<TargetName ID="1">hellekant</TargetName>
+	</Name>
+	<Name ID="945">
+		<SourceName>ﻩﻝیﺍﺭ</SourceName>
+		<TargetName ID="1">helyar</TargetName>
+	</Name>
+	<Name ID="946">
+		<SourceName>ﻩﻝﺏیﻥگ</SourceName>
+		<TargetName ID="1">helbing</TargetName>
+	</Name>
+	<Name ID="947">
+		<SourceName>ﻩﻝﺕﻝﺍﻥﺩﻥﺱیﺱ</SourceName>
+		<TargetName ID="1">holtlandensis</TargetName>
+	</Name>
+	<Name ID="948">
+		<SourceName>ﻩﻡیﻝﺕﻭﻥ</SourceName>
+		<TargetName ID="1">hamilton</TargetName>
+	</Name>
+	<Name ID="949">
+		<SourceName>ﻩﻡﻝ</SourceName>
+		<TargetName ID="1">hammel</TargetName>
+	</Name>
+	<Name ID="950">
+		<SourceName>ﻩﻥ</SourceName>
+		<TargetName ID="1">han</TargetName>
+		<TargetName ID="2">hon</TargetName>
+	</Name>
+	<Name ID="951">
+		<SourceName>ﻩﻥﺍ</SourceName>
+		<TargetName ID="1">hanaa</TargetName>
+	</Name>
+	<Name ID="952">
+		<SourceName>ﻩﻥﺩریچی</SourceName>
+		<TargetName ID="1">hendrickje</TargetName>
+	</Name>
+	<Name ID="953">
+		<SourceName>ﻩﻥﺩرﺍیک</SourceName>
+		<TargetName ID="1">hendrikje</TargetName>
+	</Name>
+	<Name ID="954">
+		<SourceName>ﻩﻥﺩﺭیکﺱ</SourceName>
+		<TargetName ID="1">hendricks</TargetName>
+		<TargetName ID="2">hendriks</TargetName>
+	</Name>
+	<Name ID="955">
+		<SourceName>ﻩﻥﺩﻝی</SourceName>
+		<TargetName ID="1">handley</TargetName>
+	</Name>
+	<Name ID="956">
+		<SourceName>ﻩﻥﺱﻭﻥ</SourceName>
+		<TargetName ID="1">henson</TargetName>
+	</Name>
+	<Name ID="957">
+		<SourceName>ﻩﻭیﺝﻥ</SourceName>
+		<TargetName ID="1">huigen</TargetName>
+	</Name>
+	<Name ID="958">
+		<SourceName>ﻩﻭﺕﻥ</SourceName>
+		<TargetName ID="1">hooten</TargetName>
+		<TargetName ID="2">hutton</TargetName>
+	</Name>
+	<Name ID="959">
+		<SourceName>ﻩﻭﺭﻝی</SourceName>
+		<TargetName ID="1">hurley</TargetName>
+	</Name>
+	<Name ID="960">
+		<SourceName>ﻩﻭﻡ</SourceName>
+		<TargetName ID="1">hume</TargetName>
+		<TargetName ID="2">humm</TargetName>
+	</Name>
+	<Name ID="961">
+		<SourceName>ﻩﻭﻭﺍﺭﺩ</SourceName>
+		<TargetName ID="1">howard</TargetName>
+	</Name>
+	<Name ID="962">
+		<SourceName>ﻭرﺩر</SourceName>
+		<TargetName ID="1">werther</TargetName>
+	</Name>
+	<Name ID="963">
+		<SourceName>ﻭیچﻭﺭﺍ</SourceName>
+		<TargetName ID="1">wichura</TargetName>
+	</Name>
+	<Name ID="964">
+		<SourceName>ﻭیگﻭ</SourceName>
+		<TargetName ID="1">vigo</TargetName>
+	</Name>
+	<Name ID="965">
+		<SourceName>ﻭیﺕکﻭﺱ</SourceName>
+		<TargetName ID="1">vaitkus</TargetName>
+	</Name>
+	<Name ID="966">
+		<SourceName>ﻭیﺕﺍﻝ</SourceName>
+		<TargetName ID="1">vitale</TargetName>
+	</Name>
+	<Name ID="967">
+		<SourceName>ﻭیﺝﺩﺍﻥ</SourceName>
+		<TargetName ID="1">wijdan</TargetName>
+	</Name>
+	<Name ID="968">
+		<SourceName>ﻭیﺩﺍر</SourceName>
+		<TargetName ID="1">vidar</TargetName>
+	</Name>
+	<Name ID="969">
+		<SourceName>ﻭیﺭیﺍﻥﺍ</SourceName>
+		<TargetName ID="1">wiryana</TargetName>
+	</Name>
+	<Name ID="970">
+		<SourceName>ﻭیﺭﺕﺍﻥﻥ</SourceName>
+		<TargetName ID="1">virtanen</TargetName>
+	</Name>
+	<Name ID="971">
+		<SourceName>ﻭیﻝﺏر</SourceName>
+		<TargetName ID="1">wilbur</TargetName>
+	</Name>
+	<Name ID="972">
+		<SourceName>ﻭیﻝﺏﺭ</SourceName>
+		<TargetName ID="1">wilber</TargetName>
+	</Name>
+	<Name ID="973">
+		<SourceName>ﻭیﻝﻝﻡﻭﺱ</SourceName>
+		<TargetName ID="1">wilhelmus</TargetName>
+	</Name>
+	<Name ID="974">
+		<SourceName>ﻭیﻝﻩﻝﻡیﻥﺍ</SourceName>
+		<TargetName ID="1">wilhelmina</TargetName>
+	</Name>
+	<Name ID="975">
+		<SourceName>ﻭیﻝﻩﻝﻡﻭﺱ</SourceName>
+		<TargetName ID="1">wilhelmus</TargetName>
+	</Name>
+	<Name ID="976">
+		<SourceName>ﻭیﻥکﻭ</SourceName>
+		<TargetName ID="1">vinko</TargetName>
+	</Name>
+	<Name ID="977">
+		<SourceName>ﻭیﻭیک</SourceName>
+		<TargetName ID="1">vivek</TargetName>
+	</Name>
+	<Name ID="978">
+		<SourceName>ﻭﺍرﺏرﻭگ</SourceName>
+		<TargetName ID="1">warborough</TargetName>
+	</Name>
+	<Name ID="979">
+		<SourceName>ﻭﺍچﺱ</SourceName>
+		<TargetName ID="1">wachs</TargetName>
+	</Name>
+	<Name ID="980">
+		<SourceName>ﻭﺍگﻥﺭ</SourceName>
+		<TargetName ID="1">vagner</TargetName>
+		<TargetName ID="2">wagner</TargetName>
+	</Name>
+	<Name ID="981">
+		<SourceName>ﻭﺍﺕﻝﺯ</SourceName>
+		<TargetName ID="1">wattles</TargetName>
+	</Name>
+	<Name ID="982">
+		<SourceName>ﻭﺍﺭﺩی</SourceName>
+		<TargetName ID="1">vardi</TargetName>
+	</Name>
+	<Name ID="983">
+		<SourceName>ﻭﺍﺱیط</SourceName>
+		<TargetName ID="1">wasit</TargetName>
+	</Name>
+	<Name ID="984">
+		<SourceName>ﻭﺍﻝﺩﻡﺍﻥ</SourceName>
+		<TargetName ID="1">waldmann</TargetName>
+	</Name>
+	<Name ID="985">
+		<SourceName>ﻭﺍﻝﻑﻭﺭﺩ</SourceName>
+		<TargetName ID="1">walford</TargetName>
+	</Name>
+	<Name ID="986">
+		<SourceName>ﻭﺍﻝﻭیﻥ</SourceName>
+		<TargetName ID="1">wallewein</TargetName>
+	</Name>
+	<Name ID="987">
+		<SourceName>ﻭﺍﻥﺍﻥﺕﻭرپ</SourceName>
+		<TargetName ID="1">vanantwerp</TargetName>
+	</Name>
+	<Name ID="988">
+		<SourceName>ﻭﺍﻥﺩرﺯ</SourceName>
+		<TargetName ID="1">wanders</TargetName>
+	</Name>
+	<Name ID="989">
+		<SourceName>ﻭﺍﻭﺩری</SourceName>
+		<TargetName ID="1">vawdry</TargetName>
+	</Name>
+	<Name ID="990">
+		<SourceName>ﻭﺩیﻝ</SourceName>
+		<TargetName ID="1">woodill</TargetName>
+	</Name>
+	<Name ID="991">
+		<SourceName>ﻭﺱیط</SourceName>
+		<TargetName ID="1">wasit</TargetName>
+	</Name>
+	<Name ID="992">
+		<SourceName>ﻭﺱﺕ</SourceName>
+		<TargetName ID="1">vest</TargetName>
+		<TargetName ID="2">west</TargetName>
+		<TargetName ID="3">weste</TargetName>
+	</Name>
+	<Name ID="993">
+		<SourceName>ﻭﻝچ</SourceName>
+		<TargetName ID="1">welch</TargetName>
+	</Name>
+	<Name ID="994">
+		<SourceName>ﻭﻝﺭ</SourceName>
+		<TargetName ID="1">willour</TargetName>
+	</Name>
+	<Name ID="995">
+		<SourceName>ﻭﻝﻥﺕﺍ</SourceName>
+		<TargetName ID="1">walenta</TargetName>
+	</Name>
+	<Name ID="996">
+		<SourceName>ﻭﻥیچﻥ</SourceName>
+		<TargetName ID="1">vanvechten</TargetName>
+	</Name>
+	<Name ID="997">
+		<SourceName>ﻭﻥﺝﻝﺩﺭ</SourceName>
+		<TargetName ID="1">vangelder</TargetName>
+	</Name>
+	<Name ID="998">
+		<SourceName>ﻭﻥﺩﺯﻝ</SourceName>
+		<TargetName ID="1">wendzel</TargetName>
+	</Name>
+	<Name ID="999">
+		<SourceName>ﻭﻥﺵﻭﻥﻩﺍﻭﻥ</SourceName>
+		<TargetName ID="1">vanschoonhoven</TargetName>
+	</Name>
+	<Name ID="1000">
+		<SourceName>ﻭﻭﺩ</SourceName>
+		<TargetName ID="1">wood</TargetName>
+	</Name>
+</TransliterationCorpus>

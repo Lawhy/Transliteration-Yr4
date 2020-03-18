@@ -1,0 +1,45 @@
+﻿
+1. 672039 names in People Dict
+
+2. Source names preprocessing:
+    (a) Select names originated from 'Ӣ': 58456 lines;
+    (b) Names containing non-alphabetical characters: 352 lines
+         (i) keep names like A'Court, Le Gresley (everything else right except for spaces or ')
+               161 lines containing '
+         (ii) remove the rest: 51 lines 
+    Finally, 58405 names after src preprocessing.
+    Lowered-cased, removing duplicates -> 58276 => 46620:5828:5828
+
+3. Target names preprocessing:
+    (a) 1187 lines contain non-chinese characters, 41 special, 431 疑似 (...;...) colon 模式, 715 纯bracket.
+    (b) out of 431, 429 are (男名;女名)
+    (c) 58832 = 58405 + 429 - 2 names are kept eventually. (2 were Bishop and Lord)
+    (d) remove all duplicates 58784 (48 duplicates)
+    (e) 58320 English names with one answer, 459 with two, 5 with three
+    (f) find that 4 out of 5 in 3_answers are 2-answers indeed, move all 5 to 3_answers after deleting a suspicious one (Donnet 唐内特)
+    (g) 15 names were wrongly categoried as 2-ans, so append another 15, in total 58335 in 1-ans and 449 in 2-ans.
+
+4. Indicator
+    (a) average MED between 2 answers is 1.1826280623608019
+    (b) most of the MED=1 src-tgt pairs are of same length except for two exceptions: 
+           (i)Bedoyere 贝杜瓦耶尔 贝杜瓦耶
+           (ii) Dearie 迪尔里 迪里
+           Decision: drop them!
+    (c) additional check !!! if MED <= 2, we can use the indicators!
+    (d) 55 pairs 
+
+
+5. Pinyin
+	(a) 445 distinct Chinese characters
+	(b) For the top 70 frequent characters, check whether or not the pinyin is wrong. 
+		(i) '勒': lei1 -> le4.
+                (ii) '塞': sai1 -> sai4
+                (iii) '什': shen2 -> shi2
+                (iv) '耶': ye2 -> ye1
+		(v) '曾': ceng2 -> zeng1
+		(vi) '佛': fu2 -> fo2
+		(vii) '兴': xing4 -> xing1
+		(viii) '藏': cang2 -> zang4
+		(ix) '柏': bai3 -> bo2
+		(x) '肖': xiao4 -> xiao1
+	errs = ['勒', '塞', '什', '耶', '曾', '佛', '兴', '藏', '柏', 肖]

@@ -1,0 +1,4075 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TransliterationCorpus CorpusFormat="UTF-8" CorpusID="B-ThEn" CorpusSize="1000" CorpusType="Development" NameSource="Western" SourceLang="Thai" TargetLang="English">
+	<Name ID="1">
+		<SourceName>กราฟิกอาร์ต</SourceName>
+		<TargetName ID="1">graphic arts</TargetName>
+	</Name>
+	<Name ID="2">
+		<SourceName>กริตเติ้น</SourceName>
+		<TargetName ID="1">gritten</TargetName>
+	</Name>
+	<Name ID="3">
+		<SourceName>กริ๊บ</SourceName>
+		<TargetName ID="1">grebe</TargetName>
+	</Name>
+	<Name ID="4">
+		<SourceName>กรีนการ์ด</SourceName>
+		<TargetName ID="1">green card</TargetName>
+	</Name>
+	<Name ID="5">
+		<SourceName>กรีนสตัฟฟ์</SourceName>
+		<TargetName ID="1">greenstuff</TargetName>
+	</Name>
+	<Name ID="6">
+		<SourceName>กรีนสโตน</SourceName>
+		<TargetName ID="1">greenstone</TargetName>
+	</Name>
+	<Name ID="7">
+		<SourceName>กวม</SourceName>
+		<TargetName ID="1">guam</TargetName>
+	</Name>
+	<Name ID="8">
+		<SourceName>กอลันตี้</SourceName>
+		<TargetName ID="1">galante</TargetName>
+	</Name>
+	<Name ID="9">
+		<SourceName>กอสเดิ้น</SourceName>
+		<TargetName ID="1">gosden</TargetName>
+	</Name>
+	<Name ID="10">
+		<SourceName>กัตเมินน์</SourceName>
+		<TargetName ID="1">gutmann</TargetName>
+	</Name>
+	<Name ID="11">
+		<SourceName>กัมโบ</SourceName>
+		<TargetName ID="1">gumbo</TargetName>
+	</Name>
+	<Name ID="12">
+		<SourceName>การ์เนต</SourceName>
+		<TargetName ID="1">garnet</TargetName>
+	</Name>
+	<Name ID="13">
+		<SourceName>การ์เบอร์</SourceName>
+		<TargetName ID="1">garber</TargetName>
+	</Name>
+	<Name ID="14">
+		<SourceName>การ์เมนต์</SourceName>
+		<TargetName ID="1">garment</TargetName>
+	</Name>
+	<Name ID="15">
+		<SourceName>กิฟฟอร์ด</SourceName>
+		<TargetName ID="1">gifford</TargetName>
+	</Name>
+	<Name ID="16">
+		<SourceName>กิมมิก</SourceName>
+		<TargetName ID="1">gimmick</TargetName>
+	</Name>
+	<Name ID="17">
+		<SourceName>กิลฟิเลิ้น</SourceName>
+		<TargetName ID="1">gilfillan</TargetName>
+	</Name>
+	<Name ID="18">
+		<SourceName>กิลเลิด</SourceName>
+		<TargetName ID="1">gielgud</TargetName>
+	</Name>
+	<Name ID="19">
+		<SourceName>กิลเลิต</SourceName>
+		<TargetName ID="1">gillot</TargetName>
+	</Name>
+	<Name ID="20">
+		<SourceName>กิลโซไนต์</SourceName>
+		<TargetName ID="1">gilsonite</TargetName>
+	</Name>
+	<Name ID="21">
+		<SourceName>กีเวิ่น</SourceName>
+		<TargetName ID="1">givan</TargetName>
+	</Name>
+	<Name ID="22">
+		<SourceName>กูลด์</SourceName>
+		<TargetName ID="1">goold</TargetName>
+		<TargetName ID="2">gould</TargetName>
+	</Name>
+	<Name ID="23">
+		<SourceName>กูแวต</SourceName>
+		<TargetName ID="1">cuvette</TargetName>
+	</Name>
+	<Name ID="24">
+		<SourceName>ครอน</SourceName>
+		<TargetName ID="1">kron</TargetName>
+	</Name>
+	<Name ID="25">
+		<SourceName>ครัสเตเชียน</SourceName>
+		<TargetName ID="1">crustaceans</TargetName>
+	</Name>
+	<Name ID="26">
+		<SourceName>คริสตินา</SourceName>
+		<TargetName ID="1">christina</TargetName>
+	</Name>
+	<Name ID="27">
+		<SourceName>คลอยน์</SourceName>
+		<TargetName ID="1">cloyne</TargetName>
+	</Name>
+	<Name ID="28">
+		<SourceName>คลอเดิล</SourceName>
+		<TargetName ID="1">claudel</TargetName>
+	</Name>
+	<Name ID="29">
+		<SourceName>คลังก์</SourceName>
+		<TargetName ID="1">klunk</TargetName>
+	</Name>
+	<Name ID="30">
+		<SourceName>คลินช์</SourceName>
+		<TargetName ID="1">clinch</TargetName>
+	</Name>
+	<Name ID="31">
+		<SourceName>คลินตัน, บิลล์</SourceName>
+		<TargetName ID="1">clinton, bill</TargetName>
+	</Name>
+	<Name ID="32">
+		<SourceName>คลีเวอร์</SourceName>
+		<TargetName ID="1">cleaver</TargetName>
+	</Name>
+	<Name ID="33">
+		<SourceName>ควอร์ไทล์</SourceName>
+		<TargetName ID="1">quartile</TargetName>
+	</Name>
+	<Name ID="34">
+		<SourceName>คอนซอมเม</SourceName>
+		<TargetName ID="1">consomme</TargetName>
+	</Name>
+	<Name ID="35">
+		<SourceName>คอนซัลติง</SourceName>
+		<TargetName ID="1">consulting</TargetName>
+	</Name>
+	<Name ID="36">
+		<SourceName>คอนนี</SourceName>
+		<TargetName ID="1">connie</TargetName>
+	</Name>
+	<Name ID="37">
+		<SourceName>คอบเบตต์</SourceName>
+		<TargetName ID="1">cobbett</TargetName>
+	</Name>
+	<Name ID="38">
+		<SourceName>คอมโพเนนต์</SourceName>
+		<TargetName ID="1">component</TargetName>
+	</Name>
+	<Name ID="39">
+		<SourceName>คอรอยด์</SourceName>
+		<TargetName ID="1">choroid</TargetName>
+	</Name>
+	<Name ID="40">
+		<SourceName>คอลี่</SourceName>
+		<TargetName ID="1">callie</TargetName>
+	</Name>
+	<Name ID="41">
+		<SourceName>คอลเกต, วิลเลียม</SourceName>
+		<TargetName ID="1">colgate, william</TargetName>
+	</Name>
+	<Name ID="42">
+		<SourceName>คอลเมิ่น</SourceName>
+		<TargetName ID="1">kallman</TargetName>
+	</Name>
+	<Name ID="43">
+		<SourceName>คัตทานี่</SourceName>
+		<TargetName ID="1">cattani</TargetName>
+	</Name>
+	<Name ID="44">
+		<SourceName>คัทเบิร์ตสัน</SourceName>
+		<TargetName ID="1">cuthbertson</TargetName>
+	</Name>
+	<Name ID="45">
+		<SourceName>คันสเลอร์</SourceName>
+		<TargetName ID="1">kunstler</TargetName>
+	</Name>
+	<Name ID="46">
+		<SourceName>คัสตาร์ด</SourceName>
+		<TargetName ID="1">custard</TargetName>
+	</Name>
+	<Name ID="47">
+		<SourceName>คัสทอมเมอร์</SourceName>
+		<TargetName ID="1">customer</TargetName>
+	</Name>
+	<Name ID="48">
+		<SourceName>คัสโตร</SourceName>
+		<TargetName ID="1">castro</TargetName>
+	</Name>
+	<Name ID="49">
+		<SourceName>คามาโช่</SourceName>
+		<TargetName ID="1">camacho</TargetName>
+	</Name>
+	<Name ID="50">
+		<SourceName>คาร์, วิกกี</SourceName>
+		<TargetName ID="1">carr, vikki</TargetName>
+	</Name>
+	<Name ID="51">
+		<SourceName>คาร์นิวัล</SourceName>
+		<TargetName ID="1">carnival</TargetName>
+	</Name>
+	<Name ID="52">
+		<SourceName>คาร์บอเนไทต์</SourceName>
+		<TargetName ID="1">carbonatite</TargetName>
+	</Name>
+	<Name ID="53">
+		<SourceName>คาร์ลีย์</SourceName>
+		<TargetName ID="1">carley</TargetName>
+	</Name>
+	<Name ID="54">
+		<SourceName>คาร์เพนเตอร์</SourceName>
+		<TargetName ID="1">carpenter</TargetName>
+	</Name>
+	<Name ID="55">
+		<SourceName>คาลิเช</SourceName>
+		<TargetName ID="1">caliche</TargetName>
+	</Name>
+	<Name ID="56">
+		<SourceName>คาเมิล</SourceName>
+		<TargetName ID="1">camil</TargetName>
+	</Name>
+	<Name ID="57">
+		<SourceName>คิง, บี.บี.</SourceName>
+		<TargetName ID="1">king, b.b.</TargetName>
+	</Name>
+	<Name ID="58">
+		<SourceName>คิตส์มิลเลอร์</SourceName>
+		<TargetName ID="1">kitzmiller</TargetName>
+	</Name>
+	<Name ID="59">
+		<SourceName>คิมป์เติ้น</SourceName>
+		<TargetName ID="1">kimpton</TargetName>
+	</Name>
+	<Name ID="60">
+		<SourceName>คิเอ็ก</SourceName>
+		<TargetName ID="1">kiek</TargetName>
+	</Name>
+	<Name ID="61">
+		<SourceName>คียส์</SourceName>
+		<TargetName ID="1">keys</TargetName>
+	</Name>
+	<Name ID="62">
+		<SourceName>คีโมโทรฟิก</SourceName>
+		<TargetName ID="1">chemotrophic</TargetName>
+	</Name>
+	<Name ID="63">
+		<SourceName>คูราเซา</SourceName>
+		<TargetName ID="1">curacao</TargetName>
+	</Name>
+	<Name ID="64">
+		<SourceName>คูเกอเลอร์</SourceName>
+		<TargetName ID="1">kugler</TargetName>
+	</Name>
+	<Name ID="65">
+		<SourceName>คูเรียม</SourceName>
+		<TargetName ID="1">curium</TargetName>
+	</Name>
+	<Name ID="66">
+		<SourceName>ค็อกเคน</SourceName>
+		<TargetName ID="1">cockayne</TargetName>
+	</Name>
+	<Name ID="67">
+		<SourceName>จอยน์</SourceName>
+		<TargetName ID="1">join</TargetName>
+	</Name>
+	<Name ID="68">
+		<SourceName>จอร์จินสัน</SourceName>
+		<TargetName ID="1">jorgenson</TargetName>
+	</Name>
+	<Name ID="69">
+		<SourceName>จอห์น ไมเคิล</SourceName>
+		<TargetName ID="1">john michael</TargetName>
+	</Name>
+	<Name ID="70">
+		<SourceName>จัตแลนด์</SourceName>
+		<TargetName ID="1">jutland</TargetName>
+	</Name>
+	<Name ID="71">
+		<SourceName>จัมป์บอล</SourceName>
+		<TargetName ID="1">jump ball</TargetName>
+	</Name>
+	<Name ID="72">
+		<SourceName>จาร์เทสต์</SourceName>
+		<TargetName ID="1">jar test</TargetName>
+	</Name>
+	<Name ID="73">
+		<SourceName>จาเมนา</SourceName>
+		<TargetName ID="1">djamena</TargetName>
+	</Name>
+	<Name ID="74">
+		<SourceName>จาโคบัส</SourceName>
+		<TargetName ID="1">jacobus</TargetName>
+	</Name>
+	<Name ID="75">
+		<SourceName>จีทูจี</SourceName>
+		<TargetName ID="1">g to g</TargetName>
+	</Name>
+	<Name ID="76">
+		<SourceName>จีนเน็ตต์</SourceName>
+		<TargetName ID="1">jeanette</TargetName>
+	</Name>
+	<Name ID="77">
+		<SourceName>จุร์แดน</SourceName>
+		<TargetName ID="1">jourdan</TargetName>
+	</Name>
+	<Name ID="78">
+		<SourceName>จูนเอิน</SourceName>
+		<TargetName ID="1">juhan</TargetName>
+	</Name>
+	<Name ID="79">
+		<SourceName>จูบิลี</SourceName>
+		<TargetName ID="1">jubilee</TargetName>
+	</Name>
+	<Name ID="80">
+		<SourceName>จูเนอร์</SourceName>
+		<TargetName ID="1">junor</TargetName>
+	</Name>
+	<Name ID="81">
+		<SourceName>จู๊บ</SourceName>
+		<TargetName ID="1">jube</TargetName>
+	</Name>
+	<Name ID="82">
+		<SourceName>ชนิตสเลอร์</SourceName>
+		<TargetName ID="1">schnitzler</TargetName>
+	</Name>
+	<Name ID="83">
+		<SourceName>ชอมสกี, โนม</SourceName>
+		<TargetName ID="1">chomsky, noam</TargetName>
+	</Name>
+	<Name ID="84">
+		<SourceName>ชอมสเกียน</SourceName>
+		<TargetName ID="1">chomskyan</TargetName>
+	</Name>
+	<Name ID="85">
+		<SourceName>ชอลเทอิส</SourceName>
+		<TargetName ID="1">schultheiss</TargetName>
+	</Name>
+	<Name ID="86">
+		<SourceName>ชานด์เลอร์</SourceName>
+		<TargetName ID="1">chandler</TargetName>
+	</Name>
+	<Name ID="87">
+		<SourceName>ชาบัส</SourceName>
+		<TargetName ID="1">shabazz</TargetName>
+	</Name>
+	<Name ID="88">
+		<SourceName>ชามัวส์</SourceName>
+		<TargetName ID="1">chamois</TargetName>
+	</Name>
+	<Name ID="89">
+		<SourceName>ชาเบิก</SourceName>
+		<TargetName ID="1">chubbuck</TargetName>
+	</Name>
+	<Name ID="90">
+		<SourceName>ชิป</SourceName>
+		<TargetName ID="1">chip</TargetName>
+		<TargetName ID="2">shipp</TargetName>
+	</Name>
+	<Name ID="91">
+		<SourceName>ชิมแปนซี</SourceName>
+		<TargetName ID="1">chimpanzee</TargetName>
+	</Name>
+	<Name ID="92">
+		<SourceName>ชิเดิล</SourceName>
+		<TargetName ID="1">cheadle</TargetName>
+	</Name>
+	<Name ID="93">
+		<SourceName>ชีตส์</SourceName>
+		<TargetName ID="1">sheets</TargetName>
+	</Name>
+	<Name ID="94">
+		<SourceName>ชีอาโน</SourceName>
+		<TargetName ID="1">ciano</TargetName>
+	</Name>
+	<Name ID="95">
+		<SourceName>ชูห์</SourceName>
+		<TargetName ID="1">schuh</TargetName>
+	</Name>
+	<Name ID="96">
+		<SourceName>ชู้ต</SourceName>
+		<TargetName ID="1">chute</TargetName>
+	</Name>
+	<Name ID="97">
+		<SourceName>ซองเบิร์ด</SourceName>
+		<TargetName ID="1">songbird</TargetName>
+	</Name>
+	<Name ID="98">
+		<SourceName>ซอดดี</SourceName>
+		<TargetName ID="1">soddy</TargetName>
+	</Name>
+	<Name ID="99">
+		<SourceName>ซอนด์ส</SourceName>
+		<TargetName ID="1">sondes</TargetName>
+	</Name>
+	<Name ID="100">
+		<SourceName>ซอม</SourceName>
+		<TargetName ID="1">somme</TargetName>
+	</Name>
+	<Name ID="101">
+		<SourceName>ซอยา</SourceName>
+		<TargetName ID="1">soya</TargetName>
+	</Name>
+	<Name ID="102">
+		<SourceName>ซอลเตอร์</SourceName>
+		<TargetName ID="1">salter</TargetName>
+	</Name>
+	<Name ID="103">
+		<SourceName>ซอลเติ้น</SourceName>
+		<TargetName ID="1">salton</TargetName>
+	</Name>
+	<Name ID="104">
+		<SourceName>ซอเนีย</SourceName>
+		<TargetName ID="1">sonia</TargetName>
+	</Name>
+	<Name ID="105">
+		<SourceName>ซอเมอร์วิลล์</SourceName>
+		<TargetName ID="1">somerville</TargetName>
+	</Name>
+	<Name ID="106">
+		<SourceName>ซัตตัน</SourceName>
+		<TargetName ID="1">sutton</TargetName>
+	</Name>
+	<Name ID="107">
+		<SourceName>ซันซีโอ, ราฟาเอล</SourceName>
+		<TargetName ID="1">sanzio, raphael</TargetName>
+	</Name>
+	<Name ID="108">
+		<SourceName>ซัมมิต</SourceName>
+		<TargetName ID="1">summit</TargetName>
+	</Name>
+	<Name ID="109">
+		<SourceName>ซัมเมอร์ลิน</SourceName>
+		<TargetName ID="1">summerlin</TargetName>
+	</Name>
+	<Name ID="110">
+		<SourceName>ซัมเมอร์เฟิร์ด</SourceName>
+		<TargetName ID="1">summerford</TargetName>
+	</Name>
+	<Name ID="111">
+		<SourceName>ซาจิตทาเรียส</SourceName>
+		<TargetName ID="1">sagittarius</TargetName>
+	</Name>
+	<Name ID="112">
+		<SourceName>ซานมารีโน</SourceName>
+		<TargetName ID="1">san marino</TargetName>
+	</Name>
+	<Name ID="113">
+		<SourceName>ซามูน</SourceName>
+		<TargetName ID="1">samun</TargetName>
+		<TargetName ID="2">samoon</TargetName>
+	</Name>
+	<Name ID="114">
+		<SourceName>ซาร์เจิ้นต์</SourceName>
+		<TargetName ID="1">sargeant</TargetName>
+	</Name>
+	<Name ID="115">
+		<SourceName>ซาร์เบนส์</SourceName>
+		<TargetName ID="1">sarbanes</TargetName>
+	</Name>
+	<Name ID="116">
+		<SourceName>ซาลา</SourceName>
+		<TargetName ID="1">zala</TargetName>
+	</Name>
+	<Name ID="117">
+		<SourceName>ซาอุดิอาระเบีย</SourceName>
+		<TargetName ID="1">saudi arabia</TargetName>
+	</Name>
+	<Name ID="118">
+		<SourceName>ซิกมันด์</SourceName>
+		<TargetName ID="1">sigmund</TargetName>
+	</Name>
+	<Name ID="119">
+		<SourceName>ซิบลีอิส</SourceName>
+		<TargetName ID="1">sibelius</TargetName>
+	</Name>
+	<Name ID="120">
+		<SourceName>ซิฟ</SourceName>
+		<TargetName ID="1">sief</TargetName>
+	</Name>
+	<Name ID="121">
+		<SourceName>ซิมเมอร์</SourceName>
+		<TargetName ID="1">zimmer</TargetName>
+	</Name>
+	<Name ID="122">
+		<SourceName>ซิรอกโค</SourceName>
+		<TargetName ID="1">sirocco</TargetName>
+	</Name>
+	<Name ID="123">
+		<SourceName>ซิลก์สกรีน</SourceName>
+		<TargetName ID="1">silkscreen</TargetName>
+		<TargetName ID="2">silk screen</TargetName>
+	</Name>
+	<Name ID="124">
+		<SourceName>ซิลเบอร์เมิน</SourceName>
+		<TargetName ID="1">silberman</TargetName>
+	</Name>
+	<Name ID="125">
+		<SourceName>ซิลแวน่า</SourceName>
+		<TargetName ID="1">sylvana</TargetName>
+	</Name>
+	<Name ID="126">
+		<SourceName>ซีจีเอ</SourceName>
+		<TargetName ID="1">cga</TargetName>
+	</Name>
+	<Name ID="127">
+		<SourceName>ซีนอน</SourceName>
+		<TargetName ID="1">xenon</TargetName>
+	</Name>
+	<Name ID="128">
+		<SourceName>ซีมีเอิน</SourceName>
+		<TargetName ID="1">symeon</TargetName>
+	</Name>
+	<Name ID="129">
+		<SourceName>ซีริ่ง</SourceName>
+		<TargetName ID="1">searing</TargetName>
+	</Name>
+	<Name ID="130">
+		<SourceName>ซีอีเอ็มเอส</SourceName>
+		<TargetName ID="1">cems</TargetName>
+	</Name>
+	<Name ID="131">
+		<SourceName>ซีเรียส</SourceName>
+		<TargetName ID="1">serious</TargetName>
+	</Name>
+	<Name ID="132">
+		<SourceName>ซีเลตทัซ</SourceName>
+		<TargetName ID="1">sea lettuce</TargetName>
+	</Name>
+	<Name ID="133">
+		<SourceName>ซีเอไอ</SourceName>
+		<TargetName ID="1">cai</TargetName>
+	</Name>
+	<Name ID="134">
+		<SourceName>ซูเคอร์</SourceName>
+		<TargetName ID="1">suker</TargetName>
+	</Name>
+	<Name ID="135">
+		<SourceName>ซูเบอร์</SourceName>
+		<TargetName ID="1">zuber</TargetName>
+	</Name>
+	<Name ID="136">
+		<SourceName>ดร็อปสโกน</SourceName>
+		<TargetName ID="1">drop scone</TargetName>
+	</Name>
+	<Name ID="137">
+		<SourceName>ดอยซี่</SourceName>
+		<TargetName ID="1">doisy</TargetName>
+	</Name>
+	<Name ID="138">
+		<SourceName>ดอเทอร์ส</SourceName>
+		<TargetName ID="1">daughters</TargetName>
+	</Name>
+	<Name ID="139">
+		<SourceName>ดอเนอร์</SourceName>
+		<TargetName ID="1">doner</TargetName>
+	</Name>
+	<Name ID="140">
+		<SourceName>ดันเนิลล์</SourceName>
+		<TargetName ID="1">donell</TargetName>
+	</Name>
+	<Name ID="141">
+		<SourceName>ดับเบิลยูทีโอ</SourceName>
+		<TargetName ID="1">wto</TargetName>
+	</Name>
+	<Name ID="142">
+		<SourceName>ดัมมี</SourceName>
+		<TargetName ID="1">dummy</TargetName>
+	</Name>
+	<Name ID="143">
+		<SourceName>ดัลเลิส</SourceName>
+		<TargetName ID="1">dulles</TargetName>
+	</Name>
+	<Name ID="144">
+		<SourceName>ดัสโก</SourceName>
+		<TargetName ID="1">dusko</TargetName>
+	</Name>
+	<Name ID="145">
+		<SourceName>ดาร์ช</SourceName>
+		<TargetName ID="1">darch</TargetName>
+	</Name>
+	<Name ID="146">
+		<SourceName>ดาร์นเติ้น</SourceName>
+		<TargetName ID="1">darnton</TargetName>
+	</Name>
+	<Name ID="147">
+		<SourceName>ดาร์วิน</SourceName>
+		<TargetName ID="1">darwin</TargetName>
+	</Name>
+	<Name ID="148">
+		<SourceName>ดาเอสซาลาม</SourceName>
+		<TargetName ID="1">dar es salaam</TargetName>
+	</Name>
+	<Name ID="149">
+		<SourceName>ดิกคาร์ด</SourceName>
+		<TargetName ID="1">deckard</TargetName>
+	</Name>
+	<Name ID="150">
+		<SourceName>ดิตส์</SourceName>
+		<TargetName ID="1">deitz</TargetName>
+		<TargetName ID="2">dietz</TargetName>
+	</Name>
+	<Name ID="151">
+		<SourceName>ดิตโก, สตีฟ</SourceName>
+		<TargetName ID="1">ditko, steve</TargetName>
+	</Name>
+	<Name ID="152">
+		<SourceName>ดิสก์</SourceName>
+		<TargetName ID="1">disc</TargetName>
+		<TargetName ID="2">disk</TargetName>
+	</Name>
+	<Name ID="153">
+		<SourceName>ดีวีดีรอม</SourceName>
+		<TargetName ID="1">dvd-rom</TargetName>
+	</Name>
+	<Name ID="154">
+		<SourceName>ดีเอสที</SourceName>
+		<TargetName ID="1">dst</TargetName>
+	</Name>
+	<Name ID="155">
+		<SourceName>ดี้ด</SourceName>
+		<TargetName ID="1">deed</TargetName>
+	</Name>
+	<Name ID="156">
+		<SourceName>ดูลิตเทิล</SourceName>
+		<TargetName ID="1">doolittle</TargetName>
+	</Name>
+	<Name ID="157">
+		<SourceName>ดูวอเตอร์</SourceName>
+		<TargetName ID="1">dewater</TargetName>
+	</Name>
+	<Name ID="158">
+		<SourceName>ทอกซอยด์</SourceName>
+		<TargetName ID="1">toxoid</TargetName>
+	</Name>
+	<Name ID="159">
+		<SourceName>ทอตเทล</SourceName>
+		<TargetName ID="1">tottel</TargetName>
+	</Name>
+	<Name ID="160">
+		<SourceName>ทอมมี</SourceName>
+		<TargetName ID="1">tommy</TargetName>
+	</Name>
+	<Name ID="161">
+		<SourceName>ทอร์</SourceName>
+		<TargetName ID="1">thore</TargetName>
+	</Name>
+	<Name ID="162">
+		<SourceName>ทอร์น</SourceName>
+		<TargetName ID="1">thorne</TargetName>
+	</Name>
+	<Name ID="163">
+		<SourceName>ทอร์นนิ่ง</SourceName>
+		<TargetName ID="1">thorning</TargetName>
+	</Name>
+	<Name ID="164">
+		<SourceName>ทอเริลด์</SourceName>
+		<TargetName ID="1">thorold</TargetName>
+	</Name>
+	<Name ID="165">
+		<SourceName>ทัมไดรฟ์</SourceName>
+		<TargetName ID="1">thumb drive</TargetName>
+	</Name>
+	<Name ID="166">
+		<SourceName>ทัวร์นาเมนต์</SourceName>
+		<TargetName ID="1">tournament</TargetName>
+	</Name>
+	<Name ID="167">
+		<SourceName>ทาทัม</SourceName>
+		<TargetName ID="1">tatum</TargetName>
+	</Name>
+	<Name ID="168">
+		<SourceName>ทิกเคอล่า</SourceName>
+		<TargetName ID="1">tikkala</TargetName>
+	</Name>
+	<Name ID="169">
+		<SourceName>ท็อบ</SourceName>
+		<TargetName ID="1">taube</TargetName>
+	</Name>
+	<Name ID="170">
+		<SourceName>นอร์</SourceName>
+		<TargetName ID="1">knorr</TargetName>
+		<TargetName ID="2">norr</TargetName>
+	</Name>
+	<Name ID="171">
+		<SourceName>นอร์รี่</SourceName>
+		<TargetName ID="1">norrie</TargetName>
+	</Name>
+	<Name ID="172">
+		<SourceName>นอร์เวสเตอร์</SourceName>
+		<TargetName ID="1">nor' wester</TargetName>
+	</Name>
+	<Name ID="173">
+		<SourceName>นอร์เวิล</SourceName>
+		<TargetName ID="1">norval</TargetName>
+		<TargetName ID="2">norvell</TargetName>
+	</Name>
+	<Name ID="174">
+		<SourceName>นอเติ้น</SourceName>
+		<TargetName ID="1">naughton</TargetName>
+	</Name>
+	<Name ID="175">
+		<SourceName>นัตตี</SourceName>
+		<TargetName ID="1">nutty</TargetName>
+	</Name>
+	<Name ID="176">
+		<SourceName>นาร์ดี้</SourceName>
+		<TargetName ID="1">nardi</TargetName>
+	</Name>
+	<Name ID="177">
+		<SourceName>นิวคลีออน</SourceName>
+		<TargetName ID="1">nucleon</TargetName>
+	</Name>
+	<Name ID="178">
+		<SourceName>นิวเดลี</SourceName>
+		<TargetName ID="1">new delhi</TargetName>
+	</Name>
+	<Name ID="179">
+		<SourceName>นิวเมติก</SourceName>
+		<TargetName ID="1">pneumatic</TargetName>
+	</Name>
+	<Name ID="180">
+		<SourceName>นิวแมน, พอล</SourceName>
+		<TargetName ID="1">newman, paul</TargetName>
+	</Name>
+	<Name ID="181">
+		<SourceName>นิเคิล</SourceName>
+		<TargetName ID="1">nicholl</TargetName>
+	</Name>
+	<Name ID="182">
+		<SourceName>นีเชอ, ฟรีดริช</SourceName>
+		<TargetName ID="1">nietzsche, friedrich</TargetName>
+	</Name>
+	<Name ID="183">
+		<SourceName>นูวิน</SourceName>
+		<TargetName ID="1">nuveen</TargetName>
+	</Name>
+	<Name ID="184">
+		<SourceName>นูออล</SourceName>
+		<TargetName ID="1">newall</TargetName>
+	</Name>
+	<Name ID="185">
+		<SourceName>บรอเคิส</SourceName>
+		<TargetName ID="1">brocas</TargetName>
+	</Name>
+	<Name ID="186">
+		<SourceName>บรันดิจ</SourceName>
+		<TargetName ID="1">brundage</TargetName>
+	</Name>
+	<Name ID="187">
+		<SourceName>บรันสวิกสตู</SourceName>
+		<TargetName ID="1">brunswick stew</TargetName>
+	</Name>
+	<Name ID="188">
+		<SourceName>บรันเนอร์</SourceName>
+		<TargetName ID="1">brunner</TargetName>
+	</Name>
+	<Name ID="189">
+		<SourceName>บราวน์, เจมส์</SourceName>
+		<TargetName ID="1">brown, james</TargetName>
+	</Name>
+	<Name ID="190">
+		<SourceName>บราเอเทิ่น</SourceName>
+		<TargetName ID="1">braaten</TargetName>
+	</Name>
+	<Name ID="191">
+		<SourceName>บริดจิต</SourceName>
+		<TargetName ID="1">bridgit</TargetName>
+	</Name>
+	<Name ID="192">
+		<SourceName>บรีด</SourceName>
+		<TargetName ID="1">breed</TargetName>
+		<TargetName ID="2">breede</TargetName>
+	</Name>
+	<Name ID="193">
+		<SourceName>บรูมฟิลด์</SourceName>
+		<TargetName ID="1">broomfield</TargetName>
+	</Name>
+	<Name ID="194">
+		<SourceName>บรูล</SourceName>
+		<TargetName ID="1">breuil</TargetName>
+	</Name>
+	<Name ID="195">
+		<SourceName>บร็อกเดิ้น</SourceName>
+		<TargetName ID="1">brogden</TargetName>
+	</Name>
+	<Name ID="196">
+		<SourceName>บลาส</SourceName>
+		<TargetName ID="1">blas</TargetName>
+	</Name>
+	<Name ID="197">
+		<SourceName>บลี</SourceName>
+		<TargetName ID="1">blee</TargetName>
+	</Name>
+	<Name ID="198">
+		<SourceName>บอน</SourceName>
+		<TargetName ID="1">bon</TargetName>
+		<TargetName ID="2">bawn</TargetName>
+	</Name>
+	<Name ID="199">
+		<SourceName>บอลเดอร์</SourceName>
+		<TargetName ID="1">balder</TargetName>
+	</Name>
+	<Name ID="200">
+		<SourceName>บอลเมิ่น</SourceName>
+		<TargetName ID="1">bollman</TargetName>
+	</Name>
+	<Name ID="201">
+		<SourceName>บักเนอร์</SourceName>
+		<TargetName ID="1">buckner</TargetName>
+		<TargetName ID="2">bochner</TargetName>
+	</Name>
+	<Name ID="202">
+		<SourceName>บังกลาเทศ</SourceName>
+		<TargetName ID="1">bangladesh</TargetName>
+	</Name>
+	<Name ID="203">
+		<SourceName>บัดเจต</SourceName>
+		<TargetName ID="1">budget</TargetName>
+	</Name>
+	<Name ID="204">
+		<SourceName>บาบาร์</SourceName>
+		<TargetName ID="1">babar</TargetName>
+	</Name>
+	<Name ID="205">
+		<SourceName>บายส์แบลลอต</SourceName>
+		<TargetName ID="1">buys ballot</TargetName>
+	</Name>
+	<Name ID="206">
+		<SourceName>บารอนเนต</SourceName>
+		<TargetName ID="1">baronet</TargetName>
+	</Name>
+	<Name ID="207">
+		<SourceName>บาร์เดนโฟ</SourceName>
+		<TargetName ID="1">bardenpho</TargetName>
+	</Name>
+	<Name ID="208">
+		<SourceName>บาร์เบียรี่</SourceName>
+		<TargetName ID="1">barbieri</TargetName>
+	</Name>
+	<Name ID="209">
+		<SourceName>บาร์แรงกา</SourceName>
+		<TargetName ID="1">barranca</TargetName>
+	</Name>
+	<Name ID="210">
+		<SourceName>บาร์โลว์</SourceName>
+		<TargetName ID="1">barlow</TargetName>
+	</Name>
+	<Name ID="211">
+		<SourceName>บิกลีย์</SourceName>
+		<TargetName ID="1">bickley</TargetName>
+	</Name>
+	<Name ID="212">
+		<SourceName>บิกเคอร์สแตฟ</SourceName>
+		<TargetName ID="1">bickerstaff</TargetName>
+	</Name>
+	<Name ID="213">
+		<SourceName>บิล</SourceName>
+		<TargetName ID="1">bill</TargetName>
+		<TargetName ID="2">beall</TargetName>
+	</Name>
+	<Name ID="214">
+		<SourceName>บีดาร์ด</SourceName>
+		<TargetName ID="1">bedard</TargetName>
+	</Name>
+	<Name ID="215">
+		<SourceName>บีออนดี้</SourceName>
+		<TargetName ID="1">biondi</TargetName>
+	</Name>
+	<Name ID="216">
+		<SourceName>บูลล์</SourceName>
+		<TargetName ID="1">bull</TargetName>
+	</Name>
+	<Name ID="217">
+		<SourceName>บูสเก็ต</SourceName>
+		<TargetName ID="1">bousquet</TargetName>
+	</Name>
+	<Name ID="218">
+		<SourceName>ปาเลสไตน์</SourceName>
+		<TargetName ID="1">palestine</TargetName>
+	</Name>
+	<Name ID="219">
+		<SourceName>ปิวนา</SourceName>
+		<TargetName ID="1">puna</TargetName>
+	</Name>
+	<Name ID="220">
+		<SourceName>พรอดักต์</SourceName>
+		<TargetName ID="1">product</TargetName>
+	</Name>
+	<Name ID="221">
+		<SourceName>พริดี้</SourceName>
+		<TargetName ID="1">pridie</TargetName>
+	</Name>
+	<Name ID="222">
+		<SourceName>พริเชิร์ด</SourceName>
+		<TargetName ID="1">prichard</TargetName>
+	</Name>
+	<Name ID="223">
+		<SourceName>พรีตอรีอิส</SourceName>
+		<TargetName ID="1">praetorius</TargetName>
+	</Name>
+	<Name ID="224">
+		<SourceName>พรูน</SourceName>
+		<TargetName ID="1">prune</TargetName>
+	</Name>
+	<Name ID="225">
+		<SourceName>พลิมซอลล์</SourceName>
+		<TargetName ID="1">plimsoll</TargetName>
+	</Name>
+	<Name ID="226">
+		<SourceName>พอลพต</SourceName>
+		<TargetName ID="1">pol pot</TargetName>
+	</Name>
+	<Name ID="227">
+		<SourceName>พอลลี</SourceName>
+		<TargetName ID="1">polly</TargetName>
+	</Name>
+	<Name ID="228">
+		<SourceName>พอลเลิร์ด</SourceName>
+		<TargetName ID="1">pollard</TargetName>
+	</Name>
+	<Name ID="229">
+		<SourceName>พอส</SourceName>
+		<TargetName ID="1">paus</TargetName>
+		<TargetName ID="2">poss</TargetName>
+	</Name>
+	<Name ID="230">
+		<SourceName>พันเติ้น</SourceName>
+		<TargetName ID="1">ponton</TargetName>
+	</Name>
+	<Name ID="231">
+		<SourceName>พับบลิก</SourceName>
+		<TargetName ID="1">public</TargetName>
+	</Name>
+	<Name ID="232">
+		<SourceName>พัมมิซ</SourceName>
+		<TargetName ID="1">pumice</TargetName>
+	</Name>
+	<Name ID="233">
+		<SourceName>พาราไทรอยด์</SourceName>
+		<TargetName ID="1">parathyroid</TargetName>
+	</Name>
+	<Name ID="234">
+		<SourceName>พาร์ดส</SourceName>
+		<TargetName ID="1">pardes</TargetName>
+	</Name>
+	<Name ID="235">
+		<SourceName>พาร์ตไทม์</SourceName>
+		<TargetName ID="1">part-time</TargetName>
+	</Name>
+	<Name ID="236">
+		<SourceName>พาร์ลิน</SourceName>
+		<TargetName ID="1">parlin</TargetName>
+	</Name>
+	<Name ID="237">
+		<SourceName>พาวัน</SourceName>
+		<TargetName ID="1">pawan</TargetName>
+	</Name>
+	<Name ID="238">
+		<SourceName>พาวเอิร์สคอร์ต</SourceName>
+		<TargetName ID="1">powerscourt</TargetName>
+	</Name>
+	<Name ID="239">
+		<SourceName>พิกเคินส์</SourceName>
+		<TargetName ID="1">pickens</TargetName>
+	</Name>
+	<Name ID="240">
+		<SourceName>พิกเคเรล</SourceName>
+		<TargetName ID="1">pickerel</TargetName>
+	</Name>
+	<Name ID="241">
+		<SourceName>พิต</SourceName>
+		<TargetName ID="1">peet</TargetName>
+	</Name>
+	<Name ID="242">
+		<SourceName>พิตส์เบิร์ก</SourceName>
+		<TargetName ID="1">pittsburgh</TargetName>
+	</Name>
+	<Name ID="243">
+		<SourceName>พิลเชอร์</SourceName>
+		<TargetName ID="1">pilcher</TargetName>
+	</Name>
+	<Name ID="244">
+		<SourceName>พีชีย์</SourceName>
+		<TargetName ID="1">peachey</TargetName>
+	</Name>
+	<Name ID="245">
+		<SourceName>พีตส์</SourceName>
+		<TargetName ID="1">petes</TargetName>
+	</Name>
+	<Name ID="246">
+		<SourceName>พีอีทีพี</SourceName>
+		<TargetName ID="1">petp</TargetName>
+	</Name>
+	<Name ID="247">
+		<SourceName>พีเอฟเอ</SourceName>
+		<TargetName ID="1">pfa</TargetName>
+	</Name>
+	<Name ID="248">
+		<SourceName>พีเอ็นเอส</SourceName>
+		<TargetName ID="1">pns</TargetName>
+	</Name>
+	<Name ID="249">
+		<SourceName>ฟรังก์</SourceName>
+		<TargetName ID="1">franc</TargetName>
+		<TargetName ID="2">franck</TargetName>
+	</Name>
+	<Name ID="250">
+		<SourceName>ฟรีแมนเทิล</SourceName>
+		<TargetName ID="1">freemantle</TargetName>
+	</Name>
+	<Name ID="251">
+		<SourceName>ฟลอร์</SourceName>
+		<TargetName ID="1">floor</TargetName>
+	</Name>
+	<Name ID="252">
+		<SourceName>ฟลิก</SourceName>
+		<TargetName ID="1">fleig</TargetName>
+		<TargetName ID="2">flick</TargetName>
+	</Name>
+	<Name ID="253">
+		<SourceName>ฟลีตวูด</SourceName>
+		<TargetName ID="1">fleetwood</TargetName>
+	</Name>
+	<Name ID="254">
+		<SourceName>ฟอนต์เลอรอย</SourceName>
+		<TargetName ID="1">fauntleroy</TargetName>
+	</Name>
+	<Name ID="255">
+		<SourceName>ฟอร์</SourceName>
+		<TargetName ID="1">forr</TargetName>
+	</Name>
+	<Name ID="256">
+		<SourceName>ฟอร์ชอว์</SourceName>
+		<TargetName ID="1">forshaw</TargetName>
+	</Name>
+	<Name ID="257">
+		<SourceName>ฟอร์ชูน</SourceName>
+		<TargetName ID="1">fortune</TargetName>
+	</Name>
+	<Name ID="258">
+		<SourceName>ฟอร์ท</SourceName>
+		<TargetName ID="1">forth</TargetName>
+	</Name>
+	<Name ID="259">
+		<SourceName>ฟอลโลว์</SourceName>
+		<TargetName ID="1">follow</TargetName>
+	</Name>
+	<Name ID="260">
+		<SourceName>ฟาวน์เทิ่น</SourceName>
+		<TargetName ID="1">fountain</TargetName>
+	</Name>
+	<Name ID="261">
+		<SourceName>ฟิงก์ส</SourceName>
+		<TargetName ID="1">finks</TargetName>
+	</Name>
+	<Name ID="262">
+		<SourceName>ฟิจิ</SourceName>
+		<TargetName ID="1">fiji</TargetName>
+	</Name>
+	<Name ID="263">
+		<SourceName>ฟิชไบน์</SourceName>
+		<TargetName ID="1">fishbein</TargetName>
+	</Name>
+	<Name ID="264">
+		<SourceName>ฟิตซ์ซิมเมินส์</SourceName>
+		<TargetName ID="1">fitzsimmons</TargetName>
+	</Name>
+	<Name ID="265">
+		<SourceName>ฟิตส์ฮิว</SourceName>
+		<TargetName ID="1">fitzhugh</TargetName>
+	</Name>
+	<Name ID="266">
+		<SourceName>ฟินเนอแรน</SourceName>
+		<TargetName ID="1">finneran</TargetName>
+	</Name>
+	<Name ID="267">
+		<SourceName>ฟิลาเมนต์</SourceName>
+		<TargetName ID="1">filament</TargetName>
+	</Name>
+	<Name ID="268">
+		<SourceName>ฟิลิน</SourceName>
+		<TargetName ID="1">filene</TargetName>
+	</Name>
+	<Name ID="269">
+		<SourceName>ฟิวเชอร์</SourceName>
+		<TargetName ID="1">future</TargetName>
+	</Name>
+	<Name ID="270">
+		<SourceName>ฟิสต์</SourceName>
+		<TargetName ID="1">fist</TargetName>
+	</Name>
+	<Name ID="271">
+		<SourceName>ฟิสเตอร์</SourceName>
+		<TargetName ID="1">pfister</TargetName>
+	</Name>
+	<Name ID="272">
+		<SourceName>ฟิเชิล</SourceName>
+		<TargetName ID="1">fischel</TargetName>
+	</Name>
+	<Name ID="273">
+		<SourceName>ฟิโรส</SourceName>
+		<TargetName ID="1">firoz</TargetName>
+	</Name>
+	<Name ID="274">
+		<SourceName>ฟีลลิง</SourceName>
+		<TargetName ID="1">feeling</TargetName>
+	</Name>
+	<Name ID="275">
+		<SourceName>ฟูลมูนปาร์ตี้</SourceName>
+		<TargetName ID="1">fullmoon party</TargetName>
+	</Name>
+	<Name ID="276">
+		<SourceName>มอยเลิ่น</SourceName>
+		<TargetName ID="1">moylan</TargetName>
+	</Name>
+	<Name ID="277">
+		<SourceName>มอยเอิร์ส</SourceName>
+		<TargetName ID="1">moyers</TargetName>
+	</Name>
+	<Name ID="278">
+		<SourceName>มอริน</SourceName>
+		<TargetName ID="1">morin</TargetName>
+	</Name>
+	<Name ID="279">
+		<SourceName>มอรีเออร์</SourceName>
+		<TargetName ID="1">morier</TargetName>
+	</Name>
+	<Name ID="280">
+		<SourceName>มอร์กานา</SourceName>
+		<TargetName ID="1">morgana</TargetName>
+	</Name>
+	<Name ID="281">
+		<SourceName>มังกีนี่</SourceName>
+		<TargetName ID="1">mangini</TargetName>
+	</Name>
+	<Name ID="282">
+		<SourceName>มังโก้</SourceName>
+		<TargetName ID="1">mungo</TargetName>
+	</Name>
+	<Name ID="283">
+		<SourceName>มันซีนี, เฮนรี</SourceName>
+		<TargetName ID="1">mancini, henry</TargetName>
+	</Name>
+	<Name ID="284">
+		<SourceName>มันสัน</SourceName>
+		<TargetName ID="1">munson</TargetName>
+	</Name>
+	<Name ID="285">
+		<SourceName>มันเฟิร์ด</SourceName>
+		<TargetName ID="1">munford</TargetName>
+	</Name>
+	<Name ID="286">
+		<SourceName>มัมเฟิร์ด</SourceName>
+		<TargetName ID="1">mumford</TargetName>
+	</Name>
+	<Name ID="287">
+		<SourceName>มัลคัม</SourceName>
+		<TargetName ID="1">malcolm</TargetName>
+	</Name>
+	<Name ID="288">
+		<SourceName>มัลลี</SourceName>
+		<TargetName ID="1">mallee</TargetName>
+	</Name>
+	<Name ID="289">
+		<SourceName>มารี</SourceName>
+		<TargetName ID="1">marie</TargetName>
+	</Name>
+	<Name ID="290">
+		<SourceName>มาร์คิ้น</SourceName>
+		<TargetName ID="1">markin</TargetName>
+	</Name>
+	<Name ID="291">
+		<SourceName>มาร์ติน, ดอน</SourceName>
+		<TargetName ID="1">martin, don</TargetName>
+	</Name>
+	<Name ID="292">
+		<SourceName>มาร์เมอร์</SourceName>
+		<TargetName ID="1">marmer</TargetName>
+		<TargetName ID="2">marmor</TargetName>
+		<TargetName ID="3">marmur</TargetName>
+	</Name>
+	<Name ID="293">
+		<SourceName>มาโรนี่</SourceName>
+		<TargetName ID="1">maroni</TargetName>
+	</Name>
+	<Name ID="294">
+		<SourceName>มิชคิ้น</SourceName>
+		<TargetName ID="1">mishkin</TargetName>
+	</Name>
+	<Name ID="295">
+		<SourceName>มิทรี</SourceName>
+		<TargetName ID="1">mitre</TargetName>
+	</Name>
+	<Name ID="296">
+		<SourceName>มินดาเนา</SourceName>
+		<TargetName ID="1">mindanao</TargetName>
+	</Name>
+	<Name ID="297">
+		<SourceName>มิลลิกรัม</SourceName>
+		<TargetName ID="1">milligram</TargetName>
+		<TargetName ID="2">milligramme</TargetName>
+	</Name>
+	<Name ID="298">
+		<SourceName>มิลลิเคิ้น</SourceName>
+		<TargetName ID="1">milliken</TargetName>
+	</Name>
+	<Name ID="299">
+		<SourceName>มิลลิเมตร</SourceName>
+		<TargetName ID="1">millimeter</TargetName>
+		<TargetName ID="2">millimetre</TargetName>
+	</Name>
+	<Name ID="300">
+		<SourceName>มิล์นส</SourceName>
+		<TargetName ID="1">milnes</TargetName>
+	</Name>
+	<Name ID="301">
+		<SourceName>มิวร์เฮด</SourceName>
+		<TargetName ID="1">muirhead</TargetName>
+	</Name>
+	<Name ID="302">
+		<SourceName>มิวสิกวิดีโอ</SourceName>
+		<TargetName ID="1">music video</TargetName>
+	</Name>
+	<Name ID="303">
+		<SourceName>มิสซิสซิปเปียน</SourceName>
+		<TargetName ID="1">mississippian</TargetName>
+	</Name>
+	<Name ID="304">
+		<SourceName>มิโนส</SourceName>
+		<TargetName ID="1">minos</TargetName>
+	</Name>
+	<Name ID="305">
+		<SourceName>มี</SourceName>
+		<TargetName ID="1">me</TargetName>
+		<TargetName ID="2">mee</TargetName>
+		<TargetName ID="3">mea</TargetName>
+	</Name>
+	<Name ID="306">
+		<SourceName>มีตโลฟ</SourceName>
+		<TargetName ID="1">meat loaf</TargetName>
+	</Name>
+	<Name ID="307">
+		<SourceName>มีส์</SourceName>
+		<TargetName ID="1">mees</TargetName>
+	</Name>
+	<Name ID="308">
+		<SourceName>มีโซ</SourceName>
+		<TargetName ID="1">meso</TargetName>
+	</Name>
+	<Name ID="309">
+		<SourceName>ม็อตเตอร์</SourceName>
+		<TargetName ID="1">motter</TargetName>
+	</Name>
+	<Name ID="310">
+		<SourceName>ยิว</SourceName>
+		<TargetName ID="1">jew</TargetName>
+	</Name>
+	<Name ID="311">
+		<SourceName>ยูนิเวิร์ส</SourceName>
+		<TargetName ID="1">universe</TargetName>
+	</Name>
+	<Name ID="312">
+		<SourceName>ยูสตั้น</SourceName>
+		<TargetName ID="1">euston</TargetName>
+	</Name>
+	<Name ID="313">
+		<SourceName>ยูเรนัส</SourceName>
+		<TargetName ID="1">uranus</TargetName>
+	</Name>
+	<Name ID="314">
+		<SourceName>ยูเอิ้น</SourceName>
+		<TargetName ID="1">ewen</TargetName>
+	</Name>
+	<Name ID="315">
+		<SourceName>รอดเจอร์</SourceName>
+		<TargetName ID="1">rodger</TargetName>
+	</Name>
+	<Name ID="316">
+		<SourceName>รอดเดิ่ม</SourceName>
+		<TargetName ID="1">rodham</TargetName>
+	</Name>
+	<Name ID="317">
+		<SourceName>รอยัล</SourceName>
+		<TargetName ID="1">royal</TargetName>
+	</Name>
+	<Name ID="318">
+		<SourceName>รอสซี</SourceName>
+		<TargetName ID="1">rossi</TargetName>
+	</Name>
+	<Name ID="319">
+		<SourceName>รับเบรอ</SourceName>
+		<TargetName ID="1">rubbra</TargetName>
+	</Name>
+	<Name ID="320">
+		<SourceName>รัมเมิล</SourceName>
+		<TargetName ID="1">rummel</TargetName>
+	</Name>
+	<Name ID="321">
+		<SourceName>รัสก์</SourceName>
+		<TargetName ID="1">rusk</TargetName>
+	</Name>
+	<Name ID="322">
+		<SourceName>รัสเซลล์, บิลล์</SourceName>
+		<TargetName ID="1">russell, bill</TargetName>
+	</Name>
+	<Name ID="323">
+		<SourceName>ริกค่า</SourceName>
+		<TargetName ID="1">ricca</TargetName>
+	</Name>
+	<Name ID="324">
+		<SourceName>ริกบี้</SourceName>
+		<TargetName ID="1">rigby</TargetName>
+	</Name>
+	<Name ID="325">
+		<SourceName>ริงโทน</SourceName>
+		<TargetName ID="1">ring tone</TargetName>
+	</Name>
+	<Name ID="326">
+		<SourceName>ริงไซด์</SourceName>
+		<TargetName ID="1">ringside</TargetName>
+	</Name>
+	<Name ID="327">
+		<SourceName>ริชแมน</SourceName>
+		<TargetName ID="1">richman</TargetName>
+	</Name>
+	<Name ID="328">
+		<SourceName>ริปส์</SourceName>
+		<TargetName ID="1">rips</TargetName>
+	</Name>
+	<Name ID="329">
+		<SourceName>ริ๊ก</SourceName>
+		<TargetName ID="1">rigg</TargetName>
+	</Name>
+	<Name ID="330">
+		<SourceName>รีฟิล</SourceName>
+		<TargetName ID="1">refill</TargetName>
+	</Name>
+	<Name ID="331">
+		<SourceName>รีเซปชัน</SourceName>
+		<TargetName ID="1">reception</TargetName>
+	</Name>
+	<Name ID="332">
+		<SourceName>รุมบา</SourceName>
+		<TargetName ID="1">rumba</TargetName>
+	</Name>
+	<Name ID="333">
+		<SourceName>รูกีลีย์</SourceName>
+		<TargetName ID="1">rugeley</TargetName>
+	</Name>
+	<Name ID="334">
+		<SourceName>รูซีเลิต</SourceName>
+		<TargetName ID="1">rousselot</TargetName>
+	</Name>
+	<Name ID="335">
+		<SourceName>รูเดอร์</SourceName>
+		<TargetName ID="1">ruder</TargetName>
+	</Name>
+	<Name ID="336">
+		<SourceName>รูเล็ตต์</SourceName>
+		<TargetName ID="1">roulette</TargetName>
+	</Name>
+	<Name ID="337">
+		<SourceName>รูโซ, อองรี</SourceName>
+		<TargetName ID="1">rouseau, henri</TargetName>
+	</Name>
+	<Name ID="338">
+		<SourceName>ร็อกคีย์</SourceName>
+		<TargetName ID="1">rockey</TargetName>
+	</Name>
+	<Name ID="339">
+		<SourceName>ร็อกฟอร์ด</SourceName>
+		<TargetName ID="1">rockford</TargetName>
+	</Name>
+	<Name ID="340">
+		<SourceName>ร็อกส์เบอโร</SourceName>
+		<TargetName ID="1">roxborough</TargetName>
+	</Name>
+	<Name ID="341">
+		<SourceName>ร็อตเทอร์</SourceName>
+		<TargetName ID="1">rotter</TargetName>
+	</Name>
+	<Name ID="342">
+		<SourceName>ลอม</SourceName>
+		<TargetName ID="1">lom</TargetName>
+	</Name>
+	<Name ID="343">
+		<SourceName>ลอริน</SourceName>
+		<TargetName ID="1">lorin</TargetName>
+		<TargetName ID="2">lorine</TargetName>
+	</Name>
+	<Name ID="344">
+		<SourceName>ลอร์ด</SourceName>
+		<TargetName ID="1">lord</TargetName>
+	</Name>
+	<Name ID="345">
+		<SourceName>ลอว์</SourceName>
+		<TargetName ID="1">law</TargetName>
+	</Name>
+	<Name ID="346">
+		<SourceName>ลอว์รี</SourceName>
+		<TargetName ID="1">lawrie</TargetName>
+	</Name>
+	<Name ID="347">
+		<SourceName>ลอว์วิล</SourceName>
+		<TargetName ID="1">lawwill</TargetName>
+	</Name>
+	<Name ID="348">
+		<SourceName>ลอว์เรนเซียม</SourceName>
+		<TargetName ID="1">lawrencium</TargetName>
+	</Name>
+	<Name ID="349">
+		<SourceName>ลอเรนซ์</SourceName>
+		<TargetName ID="1">laurence</TargetName>
+	</Name>
+	<Name ID="350">
+		<SourceName>ลักคิ่ง</SourceName>
+		<TargetName ID="1">lucking</TargetName>
+	</Name>
+	<Name ID="351">
+		<SourceName>ลันดี้</SourceName>
+		<TargetName ID="1">lundy</TargetName>
+	</Name>
+	<Name ID="352">
+		<SourceName>ลับเบิร์ส</SourceName>
+		<TargetName ID="1">lubbers</TargetName>
+	</Name>
+	<Name ID="353">
+		<SourceName>ลาสโส</SourceName>
+		<TargetName ID="1">laszlo</TargetName>
+	</Name>
+	<Name ID="354">
+		<SourceName>ลาเกอร์</SourceName>
+		<TargetName ID="1">lagier</TargetName>
+	</Name>
+	<Name ID="355">
+		<SourceName>ลาแมสเตอร์</SourceName>
+		<TargetName ID="1">lamaster</TargetName>
+	</Name>
+	<Name ID="356">
+		<SourceName>ลิงเกิล</SourceName>
+		<TargetName ID="1">lingle</TargetName>
+	</Name>
+	<Name ID="357">
+		<SourceName>ลิจิโอเนลโลซิส</SourceName>
+		<TargetName ID="1">legionellosis</TargetName>
+	</Name>
+	<Name ID="358">
+		<SourceName>ลิชตี้</SourceName>
+		<TargetName ID="1">lichty</TargetName>
+	</Name>
+	<Name ID="359">
+		<SourceName>ลิชเทนสไตน์, รอย</SourceName>
+		<TargetName ID="1">lichtenstein, roy</TargetName>
+	</Name>
+	<Name ID="360">
+		<SourceName>ลิชเมิน</SourceName>
+		<TargetName ID="1">leachman</TargetName>
+	</Name>
+	<Name ID="361">
+		<SourceName>ลิตเติลฟิลด์</SourceName>
+		<TargetName ID="1">littlefield</TargetName>
+	</Name>
+	<Name ID="362">
+		<SourceName>ลินลี่</SourceName>
+		<TargetName ID="1">lynley</TargetName>
+	</Name>
+	<Name ID="363">
+		<SourceName>ลินเดาเออร์</SourceName>
+		<TargetName ID="1">lindauer</TargetName>
+	</Name>
+	<Name ID="364">
+		<SourceName>ลิวเบิลยานา</SourceName>
+		<TargetName ID="1">liubljana</TargetName>
+	</Name>
+	<Name ID="365">
+		<SourceName>ลิสเซอร์</SourceName>
+		<TargetName ID="1">lisser</TargetName>
+	</Name>
+	<Name ID="366">
+		<SourceName>ลิเวีย</SourceName>
+		<TargetName ID="1">livia</TargetName>
+	</Name>
+	<Name ID="367">
+		<SourceName>ลีฟบีต</SourceName>
+		<TargetName ID="1">leaf beet</TargetName>
+	</Name>
+	<Name ID="368">
+		<SourceName>ลูคิน</SourceName>
+		<TargetName ID="1">lukin</TargetName>
+	</Name>
+	<Name ID="369">
+		<SourceName>ลูน่า</SourceName>
+		<TargetName ID="1">luna</TargetName>
+	</Name>
+	<Name ID="370">
+		<SourceName>ลูมีแยร์, ลุย</SourceName>
+		<TargetName ID="1">lumiere, louis</TargetName>
+	</Name>
+	<Name ID="371">
+		<SourceName>ลูโคซีน</SourceName>
+		<TargetName ID="1">lecoxene</TargetName>
+	</Name>
+	<Name ID="372">
+		<SourceName>วอตซ์</SourceName>
+		<TargetName ID="1">watch</TargetName>
+	</Name>
+	<Name ID="373">
+		<SourceName>วอฟเฟิล</SourceName>
+		<TargetName ID="1">waffle</TargetName>
+	</Name>
+	<Name ID="374">
+		<SourceName>วอลทารี่</SourceName>
+		<TargetName ID="1">waltari</TargetName>
+	</Name>
+	<Name ID="375">
+		<SourceName>วอลเดริ่น</SourceName>
+		<TargetName ID="1">waldron</TargetName>
+	</Name>
+	<Name ID="376">
+		<SourceName>วอลเลซ, ดิวิตต์</SourceName>
+		<TargetName ID="1">wallace, dewitt</TargetName>
+	</Name>
+	<Name ID="377">
+		<SourceName>วอลเลิ่นด์</SourceName>
+		<TargetName ID="1">volland</TargetName>
+	</Name>
+	<Name ID="378">
+		<SourceName>วอเตอร์เกต</SourceName>
+		<TargetName ID="1">watergate</TargetName>
+	</Name>
+	<Name ID="379">
+		<SourceName>วอเริ่น</SourceName>
+		<TargetName ID="1">voran</TargetName>
+	</Name>
+	<Name ID="380">
+		<SourceName>วอเอเอิร์ส</SourceName>
+		<TargetName ID="1">waers</TargetName>
+	</Name>
+	<Name ID="381">
+		<SourceName>วัตต์</SourceName>
+		<TargetName ID="1">watt</TargetName>
+	</Name>
+	<Name ID="382">
+		<SourceName>วัตเติร์ส</SourceName>
+		<TargetName ID="1">watters</TargetName>
+	</Name>
+	<Name ID="383">
+		<SourceName>วัตเทินเบิร์ก</SourceName>
+		<TargetName ID="1">wattenberg</TargetName>
+	</Name>
+	<Name ID="384">
+		<SourceName>วัลเมอร์</SourceName>
+		<TargetName ID="1">vollmer</TargetName>
+	</Name>
+	<Name ID="385">
+		<SourceName>วาร์ก</SourceName>
+		<TargetName ID="1">varg</TargetName>
+	</Name>
+	<Name ID="386">
+		<SourceName>วิกเตอร์ โลเวนเฟล</SourceName>
+		<TargetName ID="1">victor lovenfel</TargetName>
+	</Name>
+	<Name ID="387">
+		<SourceName>วิกโลว์</SourceName>
+		<TargetName ID="1">wicklow</TargetName>
+	</Name>
+	<Name ID="388">
+		<SourceName>วิงกิต</SourceName>
+		<TargetName ID="1">winget</TargetName>
+	</Name>
+	<Name ID="389">
+		<SourceName>วิงฟิลด์</SourceName>
+		<TargetName ID="1">wingfield</TargetName>
+	</Name>
+	<Name ID="390">
+		<SourceName>วิตแมน</SourceName>
+		<TargetName ID="1">whitman</TargetName>
+	</Name>
+	<Name ID="391">
+		<SourceName>วินด์เซอร์</SourceName>
+		<TargetName ID="1">windsor</TargetName>
+	</Name>
+	<Name ID="392">
+		<SourceName>วินเซนต์</SourceName>
+		<TargetName ID="1">vincent</TargetName>
+	</Name>
+	<Name ID="393">
+		<SourceName>วิลคินสัน</SourceName>
+		<TargetName ID="1">wilkinson</TargetName>
+	</Name>
+	<Name ID="394">
+		<SourceName>วิลนา</SourceName>
+		<TargetName ID="1">vilna</TargetName>
+	</Name>
+	<Name ID="395">
+		<SourceName>วิลลาร์เรียล</SourceName>
+		<TargetName ID="1">villarreal</TargetName>
+	</Name>
+	<Name ID="396">
+		<SourceName>วิลลิต</SourceName>
+		<TargetName ID="1">willett</TargetName>
+		<TargetName ID="2">willet</TargetName>
+	</Name>
+	<Name ID="397">
+		<SourceName>วิลลิบรอร์ด</SourceName>
+		<TargetName ID="1">willibrord</TargetName>
+	</Name>
+	<Name ID="398">
+		<SourceName>วิเคิล</SourceName>
+		<TargetName ID="1">wickel</TargetName>
+	</Name>
+	<Name ID="399">
+		<SourceName>วีคารส์</SourceName>
+		<TargetName ID="1">vicars</TargetName>
+	</Name>
+	<Name ID="400">
+		<SourceName>วีอิก</SourceName>
+		<TargetName ID="1">wiig</TargetName>
+	</Name>
+	<Name ID="401">
+		<SourceName>วุลเกอร์</SourceName>
+		<TargetName ID="1">woolgar</TargetName>
+	</Name>
+	<Name ID="402">
+		<SourceName>วูสลีย์</SourceName>
+		<TargetName ID="1">woosley</TargetName>
+	</Name>
+	<Name ID="403">
+		<SourceName>สกีน</SourceName>
+		<TargetName ID="1">skene</TargetName>
+	</Name>
+	<Name ID="404">
+		<SourceName>สกีม</SourceName>
+		<TargetName ID="1">scheme</TargetName>
+	</Name>
+	<Name ID="405">
+		<SourceName>สกีมา</SourceName>
+		<TargetName ID="1">schema</TargetName>
+	</Name>
+	<Name ID="406">
+		<SourceName>สคริปเชอร์</SourceName>
+		<TargetName ID="1">scripture</TargetName>
+	</Name>
+	<Name ID="407">
+		<SourceName>สควัดเดริ่น</SourceName>
+		<TargetName ID="1">squadron</TargetName>
+	</Name>
+	<Name ID="408">
+		<SourceName>สควิด</SourceName>
+		<TargetName ID="1">squid</TargetName>
+	</Name>
+	<Name ID="409">
+		<SourceName>สตริงควอร์เทต</SourceName>
+		<TargetName ID="1">string quartet</TargetName>
+	</Name>
+	<Name ID="410">
+		<SourceName>สตรินด์เบิร์ก</SourceName>
+		<TargetName ID="1">strindberg</TargetName>
+	</Name>
+	<Name ID="411">
+		<SourceName>สตอมส์</SourceName>
+		<TargetName ID="1">storms</TargetName>
+	</Name>
+	<Name ID="412">
+		<SourceName>สตอร์รี่</SourceName>
+		<TargetName ID="1">storrie</TargetName>
+	</Name>
+	<Name ID="413">
+		<SourceName>สตอเวลล์</SourceName>
+		<TargetName ID="1">stowell</TargetName>
+	</Name>
+	<Name ID="414">
+		<SourceName>สติ๊ด</SourceName>
+		<TargetName ID="1">steed</TargetName>
+	</Name>
+	<Name ID="415">
+		<SourceName>สนุกเกอร์</SourceName>
+		<TargetName ID="1">snooker</TargetName>
+	</Name>
+	<Name ID="416">
+		<SourceName>สปริงฟิลด์</SourceName>
+		<TargetName ID="1">springfield</TargetName>
+	</Name>
+	<Name ID="417">
+		<SourceName>สมอลไทต์</SourceName>
+		<TargetName ID="1">smaltite</TargetName>
+	</Name>
+	<Name ID="418">
+		<SourceName>สลิม</SourceName>
+		<TargetName ID="1">slim</TargetName>
+	</Name>
+	<Name ID="419">
+		<SourceName>สลุต</SourceName>
+		<TargetName ID="1">salute</TargetName>
+	</Name>
+	<Name ID="420">
+		<SourceName>สวิตช์</SourceName>
+		<TargetName ID="1">switches</TargetName>
+		<TargetName ID="2">switch</TargetName>
+	</Name>
+	<Name ID="421">
+		<SourceName>สเกล</SourceName>
+		<TargetName ID="1">scale</TargetName>
+		<TargetName ID="2">schell</TargetName>
+	</Name>
+	<Name ID="422">
+		<SourceName>สเตย์เติน</SourceName>
+		<TargetName ID="1">stayton</TargetName>
+	</Name>
+	<Name ID="423">
+		<SourceName>สเตราส์, ริชาร์ด</SourceName>
+		<TargetName ID="1">strauss, richard</TargetName>
+	</Name>
+	<Name ID="424">
+		<SourceName>สเตเดียม</SourceName>
+		<TargetName ID="1">stadium</TargetName>
+	</Name>
+	<Name ID="425">
+		<SourceName>สเตเทิ้น</SourceName>
+		<TargetName ID="1">stetten</TargetName>
+	</Name>
+	<Name ID="426">
+		<SourceName>สเต็ดเมิ่น</SourceName>
+		<TargetName ID="1">steadman</TargetName>
+	</Name>
+	<Name ID="427">
+		<SourceName>สเนลสัน</SourceName>
+		<TargetName ID="1">snelson</TargetName>
+	</Name>
+	<Name ID="428">
+		<SourceName>สเปต</SourceName>
+		<TargetName ID="1">speight</TargetName>
+	</Name>
+	<Name ID="429">
+		<SourceName>สเปียส์</SourceName>
+		<TargetName ID="1">spears</TargetName>
+	</Name>
+	<Name ID="430">
+		<SourceName>สแกนดริต</SourceName>
+		<TargetName ID="1">scandrett</TargetName>
+	</Name>
+	<Name ID="431">
+		<SourceName>สแกลลอป</SourceName>
+		<TargetName ID="1">scallop</TargetName>
+	</Name>
+	<Name ID="432">
+		<SourceName>สแตนจ์</SourceName>
+		<TargetName ID="1">stange</TargetName>
+	</Name>
+	<Name ID="433">
+		<SourceName>สแตมเซิล</SourceName>
+		<TargetName ID="1">stansell</TargetName>
+	</Name>
+	<Name ID="434">
+		<SourceName>สแน็ปเปอร์</SourceName>
+		<TargetName ID="1">snapper</TargetName>
+	</Name>
+	<Name ID="435">
+		<SourceName>สโตกเกอร์, บราม</SourceName>
+		<TargetName ID="1">stoker, bram</TargetName>
+	</Name>
+	<Name ID="436">
+		<SourceName>สโตลิปิน</SourceName>
+		<TargetName ID="1">stolypin</TargetName>
+	</Name>
+	<Name ID="437">
+		<SourceName>สไตน์</SourceName>
+		<TargetName ID="1">stein</TargetName>
+	</Name>
+	<Name ID="438">
+		<SourceName>สไตน์ฮาร์ต</SourceName>
+		<TargetName ID="1">steinhart</TargetName>
+	</Name>
+	<Name ID="439">
+		<SourceName>สไตเคอร์</SourceName>
+		<TargetName ID="1">streicher</TargetName>
+	</Name>
+	<Name ID="440">
+		<SourceName>สไตเวอเซิ่นต์</SourceName>
+		<TargetName ID="1">stuyvesant</TargetName>
+	</Name>
+	<Name ID="441">
+		<SourceName>สไตเออร์</SourceName>
+		<TargetName ID="1">stier</TargetName>
+	</Name>
+	<Name ID="442">
+		<SourceName>อลิเซีย</SourceName>
+		<TargetName ID="1">alicia</TargetName>
+	</Name>
+	<Name ID="443">
+		<SourceName>ออกซิก</SourceName>
+		<TargetName ID="1">oxic</TargetName>
+	</Name>
+	<Name ID="444">
+		<SourceName>ออกซ์ตัน</SourceName>
+		<TargetName ID="1">oxton</TargetName>
+	</Name>
+	<Name ID="445">
+		<SourceName>ออกัสตัน</SourceName>
+		<TargetName ID="1">augustan</TargetName>
+	</Name>
+	<Name ID="446">
+		<SourceName>ออกัสเซนบอร์ก</SourceName>
+		<TargetName ID="1">augustenborg</TargetName>
+	</Name>
+	<Name ID="447">
+		<SourceName>ออซาร์</SourceName>
+		<TargetName ID="1">osar</TargetName>
+	</Name>
+	<Name ID="448">
+		<SourceName>ออฟบีต</SourceName>
+		<TargetName ID="1">offbeat</TargetName>
+	</Name>
+	<Name ID="449">
+		<SourceName>ออสตราล</SourceName>
+		<TargetName ID="1">austral</TargetName>
+	</Name>
+	<Name ID="450">
+		<SourceName>ออสเทิร์น</SourceName>
+		<TargetName ID="1">austern</TargetName>
+	</Name>
+	<Name ID="451">
+		<SourceName>ออสโตรว์</SourceName>
+		<TargetName ID="1">ostrow</TargetName>
+	</Name>
+	<Name ID="452">
+		<SourceName>ออเคิลลี่</SourceName>
+		<TargetName ID="1">okelly</TargetName>
+	</Name>
+	<Name ID="453">
+		<SourceName>ออเดอโนเวิ้น</SourceName>
+		<TargetName ID="1">odonovan</TargetName>
+	</Name>
+	<Name ID="454">
+		<SourceName>ออโต</SourceName>
+		<TargetName ID="1">auto</TargetName>
+	</Name>
+	<Name ID="455">
+		<SourceName>ออไรเอิ้น</SourceName>
+		<TargetName ID="1">oryan</TargetName>
+	</Name>
+	<Name ID="456">
+		<SourceName>อะนาล็อก</SourceName>
+		<TargetName ID="1">analogue</TargetName>
+	</Name>
+	<Name ID="457">
+		<SourceName>อะลอนโซ</SourceName>
+		<TargetName ID="1">alonso</TargetName>
+	</Name>
+	<Name ID="458">
+		<SourceName>อะโครโพลิส</SourceName>
+		<TargetName ID="1">acropolis</TargetName>
+	</Name>
+	<Name ID="459">
+		<SourceName>อังก์แทด</SourceName>
+		<TargetName ID="1">unctad</TargetName>
+	</Name>
+	<Name ID="460">
+		<SourceName>อันเดรย์</SourceName>
+		<TargetName ID="1">andrey</TargetName>
+	</Name>
+	<Name ID="461">
+		<SourceName>อับดัล</SourceName>
+		<TargetName ID="1">abdal</TargetName>
+	</Name>
+	<Name ID="462">
+		<SourceName>อับลาคอฟ</SourceName>
+		<TargetName ID="1">ablakov</TargetName>
+	</Name>
+	<Name ID="463">
+		<SourceName>อัปเชิร์ช</SourceName>
+		<TargetName ID="1">upchurch</TargetName>
+	</Name>
+	<Name ID="464">
+		<SourceName>อัฟริกัน</SourceName>
+		<TargetName ID="1">african</TargetName>
+	</Name>
+	<Name ID="465">
+		<SourceName>อัลกอล</SourceName>
+		<TargetName ID="1">algol</TargetName>
+	</Name>
+	<Name ID="466">
+		<SourceName>อัลซาซ</SourceName>
+		<TargetName ID="1">alsace</TargetName>
+	</Name>
+	<Name ID="467">
+		<SourceName>อัลตราไวโอเลต</SourceName>
+		<TargetName ID="1">ultraviolet</TargetName>
+	</Name>
+	<Name ID="468">
+		<SourceName>อัลบูมินอยด์</SourceName>
+		<TargetName ID="1">albuminoid</TargetName>
+	</Name>
+	<Name ID="469">
+		<SourceName>อัลมีร่า</SourceName>
+		<TargetName ID="1">almira</TargetName>
+	</Name>
+	<Name ID="470">
+		<SourceName>อัลเมน</SourceName>
+		<TargetName ID="1">almen</TargetName>
+	</Name>
+	<Name ID="471">
+		<SourceName>อัลแบร์ตีนี, เดเมตรีโอ</SourceName>
+		<TargetName ID="1">albertini, demetrio</TargetName>
+	</Name>
+	<Name ID="472">
+		<SourceName>อากรีฮัน</SourceName>
+		<TargetName ID="1">agrihan</TargetName>
+	</Name>
+	<Name ID="473">
+		<SourceName>อาริ่ง</SourceName>
+		<TargetName ID="1">aring</TargetName>
+	</Name>
+	<Name ID="474">
+		<SourceName>อาร์พีจี</SourceName>
+		<TargetName ID="1">rpg</TargetName>
+	</Name>
+	<Name ID="475">
+		<SourceName>อาร์มิสเทต</SourceName>
+		<TargetName ID="1">armistead</TargetName>
+	</Name>
+	<Name ID="476">
+		<SourceName>อาร์มีนี่</SourceName>
+		<TargetName ID="1">armine</TargetName>
+	</Name>
+	<Name ID="477">
+		<SourceName>อาร์มึส</SourceName>
+		<TargetName ID="1">armes</TargetName>
+	</Name>
+	<Name ID="478">
+		<SourceName>อาร์ลิงตัน</SourceName>
+		<TargetName ID="1">arlington</TargetName>
+	</Name>
+	<Name ID="479">
+		<SourceName>อาร์โนด์</SourceName>
+		<TargetName ID="1">arnaud</TargetName>
+	</Name>
+	<Name ID="480">
+		<SourceName>อิควินอกซ์</SourceName>
+		<TargetName ID="1">equinoc</TargetName>
+	</Name>
+	<Name ID="481">
+		<SourceName>อิงก์ฟิช</SourceName>
+		<TargetName ID="1">inkfish</TargetName>
+	</Name>
+	<Name ID="482">
+		<SourceName>อินคา</SourceName>
+		<TargetName ID="1">inca</TargetName>
+	</Name>
+	<Name ID="483">
+		<SourceName>อินซอล</SourceName>
+		<TargetName ID="1">insall</TargetName>
+	</Name>
+	<Name ID="484">
+		<SourceName>อินูอิต</SourceName>
+		<TargetName ID="1">inuit</TargetName>
+	</Name>
+	<Name ID="485">
+		<SourceName>อิมิลี</SourceName>
+		<TargetName ID="1">emily</TargetName>
+	</Name>
+	<Name ID="486">
+		<SourceName>อิออนิก</SourceName>
+		<TargetName ID="1">ionic</TargetName>
+	</Name>
+	<Name ID="487">
+		<SourceName>อีจีเอ</SourceName>
+		<TargetName ID="1">ega</TargetName>
+	</Name>
+	<Name ID="488">
+		<SourceName>อีลอร์</SourceName>
+		<TargetName ID="1">e-law</TargetName>
+	</Name>
+	<Name ID="489">
+		<SourceName>อีแวนส์</SourceName>
+		<TargetName ID="1">evans</TargetName>
+	</Name>
+	<Name ID="490">
+		<SourceName>อแมนด้า</SourceName>
+		<TargetName ID="1">amanda</TargetName>
+	</Name>
+	<Name ID="491">
+		<SourceName>อ็อปพินไฮม์</SourceName>
+		<TargetName ID="1">oppenheim</TargetName>
+	</Name>
+	<Name ID="492">
+		<SourceName>ฮอคี่</SourceName>
+		<TargetName ID="1">haughey</TargetName>
+	</Name>
+	<Name ID="493">
+		<SourceName>ฮอฟฟ์เมิน</SourceName>
+		<TargetName ID="1">hoffman</TargetName>
+		<TargetName ID="2">hoffmann</TargetName>
+	</Name>
+	<Name ID="494">
+		<SourceName>ฮอยซิงเติ้น</SourceName>
+		<TargetName ID="1">hoisington</TargetName>
+	</Name>
+	<Name ID="495">
+		<SourceName>ฮอร์นิ่ง</SourceName>
+		<TargetName ID="1">horning</TargetName>
+	</Name>
+	<Name ID="496">
+		<SourceName>ฮอลลิ่นส์</SourceName>
+		<TargetName ID="1">hollins</TargetName>
+	</Name>
+	<Name ID="497">
+		<SourceName>ฮอลแลมเชียร์</SourceName>
+		<TargetName ID="1">hallamshire</TargetName>
+	</Name>
+	<Name ID="498">
+		<SourceName>ฮอเรเชิส</SourceName>
+		<TargetName ID="1">horatius</TargetName>
+	</Name>
+	<Name ID="499">
+		<SourceName>ฮักกินส์</SourceName>
+		<TargetName ID="1">huggins</TargetName>
+	</Name>
+	<Name ID="500">
+		<SourceName>ฮักส์</SourceName>
+		<TargetName ID="1">hucks</TargetName>
+	</Name>
+	<Name ID="501">
+		<SourceName>ฮังเคอเลอร์</SourceName>
+		<TargetName ID="1">hunkeler</TargetName>
+	</Name>
+	<Name ID="502">
+		<SourceName>ฮานน์</SourceName>
+		<TargetName ID="1">hann</TargetName>
+	</Name>
+	<Name ID="503">
+		<SourceName>ฮาร์ตคี้</SourceName>
+		<TargetName ID="1">hartke</TargetName>
+	</Name>
+	<Name ID="504">
+		<SourceName>ฮาร์บีสัน</SourceName>
+		<TargetName ID="1">harbeson</TargetName>
+	</Name>
+	<Name ID="505">
+		<SourceName>ฮาวกินส์</SourceName>
+		<TargetName ID="1">howkins</TargetName>
+	</Name>
+	<Name ID="506">
+		<SourceName>ฮาววาร์ต</SourceName>
+		<TargetName ID="1">howarth</TargetName>
+	</Name>
+	<Name ID="507">
+		<SourceName>ฮาวส์</SourceName>
+		<TargetName ID="1">howes</TargetName>
+	</Name>
+	<Name ID="508">
+		<SourceName>ฮิกเซิ่น</SourceName>
+		<TargetName ID="1">hixon</TargetName>
+	</Name>
+	<Name ID="509">
+		<SourceName>ฮิลฟ์</SourceName>
+		<TargetName ID="1">hilf</TargetName>
+	</Name>
+	<Name ID="510">
+		<SourceName>ฮิลส์</SourceName>
+		<TargetName ID="1">hilles</TargetName>
+	</Name>
+	<Name ID="511">
+		<SourceName>ฮิวอืช</SourceName>
+		<TargetName ID="1">huish</TargetName>
+	</Name>
+	<Name ID="512">
+		<SourceName>ฮีด</SourceName>
+		<TargetName ID="1">heede</TargetName>
+	</Name>
+	<Name ID="513">
+		<SourceName>ฮีริ่ง</SourceName>
+		<TargetName ID="1">heering</TargetName>
+	</Name>
+	<Name ID="514">
+		<SourceName>ฮีลลีเออร์</SourceName>
+		<TargetName ID="1">hillier</TargetName>
+	</Name>
+	<Name ID="515">
+		<SourceName>ฮูลีย์</SourceName>
+		<TargetName ID="1">hooley</TargetName>
+		<TargetName ID="2">houley</TargetName>
+	</Name>
+	<Name ID="516">
+		<SourceName>ฮูเบอร์เมิ่น</SourceName>
+		<TargetName ID="1">huberman</TargetName>
+	</Name>
+	<Name ID="517">
+		<SourceName>เกย์ลอร์ด</SourceName>
+		<TargetName ID="1">gaylord</TargetName>
+	</Name>
+	<Name ID="518">
+		<SourceName>เกรอน็อบล์</SourceName>
+		<TargetName ID="1">grenoble</TargetName>
+	</Name>
+	<Name ID="519">
+		<SourceName>เกลนีส</SourceName>
+		<TargetName ID="1">glenys</TargetName>
+	</Name>
+	<Name ID="520">
+		<SourceName>เกลอชิน</SourceName>
+		<TargetName ID="1">glasheen</TargetName>
+	</Name>
+	<Name ID="521">
+		<SourceName>เกลเมิน</SourceName>
+		<TargetName ID="1">gelman</TargetName>
+	</Name>
+	<Name ID="522">
+		<SourceName>เกสต์เฮาส์</SourceName>
+		<TargetName ID="1">guest house</TargetName>
+	</Name>
+	<Name ID="523">
+		<SourceName>เกอร์ชเลอร์</SourceName>
+		<TargetName ID="1">gerschler</TargetName>
+	</Name>
+	<Name ID="524">
+		<SourceName>เกเริ่ม</SourceName>
+		<TargetName ID="1">gerome</TargetName>
+	</Name>
+	<Name ID="525">
+		<SourceName>เก็ปฮาร์ต</SourceName>
+		<TargetName ID="1">gephardt</TargetName>
+	</Name>
+	<Name ID="526">
+		<SourceName>เคน</SourceName>
+		<TargetName ID="1">cain</TargetName>
+		<TargetName ID="2">cane</TargetName>
+		<TargetName ID="3">ken</TargetName>
+		<TargetName ID="4">kain</TargetName>
+	</Name>
+	<Name ID="527">
+		<SourceName>เคนเติ้น</SourceName>
+		<TargetName ID="1">kenton</TargetName>
+	</Name>
+	<Name ID="528">
+		<SourceName>เคปเปลอร์</SourceName>
+		<TargetName ID="1">keppler</TargetName>
+	</Name>
+	<Name ID="529">
+		<SourceName>เครเมอร์</SourceName>
+		<TargetName ID="1">kraemer</TargetName>
+		<TargetName ID="2">kramer</TargetName>
+	</Name>
+	<Name ID="530">
+		<SourceName>เคลเลอเวย์</SourceName>
+		<TargetName ID="1">kellaway</TargetName>
+	</Name>
+	<Name ID="531">
+		<SourceName>เคส</SourceName>
+		<TargetName ID="1">cayce</TargetName>
+		<TargetName ID="2">kase</TargetName>
+	</Name>
+	<Name ID="532">
+		<SourceName>เคสัน</SourceName>
+		<TargetName ID="1">keson</TargetName>
+	</Name>
+	<Name ID="533">
+		<SourceName>เคสเซอเลอร์</SourceName>
+		<TargetName ID="1">kesler</TargetName>
+	</Name>
+	<Name ID="534">
+		<SourceName>เคสเตอร์</SourceName>
+		<TargetName ID="1">kester</TargetName>
+	</Name>
+	<Name ID="535">
+		<SourceName>เคอร์เติ้น</SourceName>
+		<TargetName ID="1">kirton</TargetName>
+	</Name>
+	<Name ID="536">
+		<SourceName>เคิสเซลล่า</SourceName>
+		<TargetName ID="1">casella</TargetName>
+	</Name>
+	<Name ID="537">
+		<SourceName>เคเดิลสตัน</SourceName>
+		<TargetName ID="1">kedleston</TargetName>
+	</Name>
+	<Name ID="538">
+		<SourceName>เคเอ็ม</SourceName>
+		<TargetName ID="1">km</TargetName>
+	</Name>
+	<Name ID="539">
+		<SourceName>เคโฮ</SourceName>
+		<TargetName ID="1">kehoe</TargetName>
+	</Name>
+	<Name ID="540">
+		<SourceName>เค็ตช์</SourceName>
+		<TargetName ID="1">ketch</TargetName>
+	</Name>
+	<Name ID="541">
+		<SourceName>เจซีแอล</SourceName>
+		<TargetName ID="1">jcl</TargetName>
+	</Name>
+	<Name ID="542">
+		<SourceName>เจรี่</SourceName>
+		<TargetName ID="1">gery</TargetName>
+	</Name>
+	<Name ID="543">
+		<SourceName>เจสซิกา</SourceName>
+		<TargetName ID="1">jessica</TargetName>
+	</Name>
+	<Name ID="544">
+		<SourceName>เจโทร</SourceName>
+		<TargetName ID="1">jethro</TargetName>
+	</Name>
+	<Name ID="545">
+		<SourceName>เชคอฟ, แอนตัน</SourceName>
+		<TargetName ID="1">chekhov, anton</TargetName>
+	</Name>
+	<Name ID="546">
+		<SourceName>เชงเคอร์</SourceName>
+		<TargetName ID="1">shenker</TargetName>
+	</Name>
+	<Name ID="547">
+		<SourceName>เชด</SourceName>
+		<TargetName ID="1">schade</TargetName>
+		<TargetName ID="2">shade</TargetName>
+		<TargetName ID="3">shedd</TargetName>
+	</Name>
+	<Name ID="548">
+		<SourceName>เชฟส์</SourceName>
+		<TargetName ID="1">chaves</TargetName>
+	</Name>
+	<Name ID="549">
+		<SourceName>เชลลีนี, เบนเวนูโต</SourceName>
+		<TargetName ID="1">cellini, benvenuto</TargetName>
+	</Name>
+	<Name ID="550">
+		<SourceName>เชลลีย์, แมรี วอลล์สโตนคราฟต์</SourceName>
+		<TargetName ID="1">shelley, mary wollstonecraft</TargetName>
+	</Name>
+	<Name ID="551">
+		<SourceName>เชลเฟิร์ด</SourceName>
+		<TargetName ID="1">shelford</TargetName>
+	</Name>
+	<Name ID="552">
+		<SourceName>เชวา</SourceName>
+		<TargetName ID="1">ceva</TargetName>
+	</Name>
+	<Name ID="553">
+		<SourceName>เซนโทรโซม</SourceName>
+		<TargetName ID="1">centrosome</TargetName>
+	</Name>
+	<Name ID="554">
+		<SourceName>เซลลูไลต์</SourceName>
+		<TargetName ID="1">cellulite</TargetName>
+	</Name>
+	<Name ID="555">
+		<SourceName>เซวิน</SourceName>
+		<TargetName ID="1">zevin</TargetName>
+	</Name>
+	<Name ID="556">
+		<SourceName>เซอร์เพนทิไนต์</SourceName>
+		<TargetName ID="1">serpentinite</TargetName>
+	</Name>
+	<Name ID="557">
+		<SourceName>เซอร์เฟิส</SourceName>
+		<TargetName ID="1">surface</TargetName>
+	</Name>
+	<Name ID="558">
+		<SourceName>เซิบโลตสกี้</SourceName>
+		<TargetName ID="1">zablocki</TargetName>
+	</Name>
+	<Name ID="559">
+		<SourceName>เซเกอร์</SourceName>
+		<TargetName ID="1">sager</TargetName>
+		<TargetName ID="2">saeger</TargetName>
+	</Name>
+	<Name ID="560">
+		<SourceName>เดคอร์</SourceName>
+		<TargetName ID="1">decore</TargetName>
+		<TargetName ID="2">decor</TargetName>
+	</Name>
+	<Name ID="561">
+		<SourceName>เดทิฟ</SourceName>
+		<TargetName ID="1">dative</TargetName>
+	</Name>
+	<Name ID="562">
+		<SourceName>เดฟส์</SourceName>
+		<TargetName ID="1">daves</TargetName>
+	</Name>
+	<Name ID="563">
+		<SourceName>เดมป์สเตอร์</SourceName>
+		<TargetName ID="1">dempster</TargetName>
+	</Name>
+	<Name ID="564">
+		<SourceName>เดมเลอร์, กอทท์ลีบ</SourceName>
+		<TargetName ID="1">daimler, gottlieb</TargetName>
+	</Name>
+	<Name ID="565">
+		<SourceName>เดรกสเลอร์</SourceName>
+		<TargetName ID="1">drexler</TargetName>
+	</Name>
+	<Name ID="566">
+		<SourceName>เดลีโอ้</SourceName>
+		<TargetName ID="1">deleo</TargetName>
+	</Name>
+	<Name ID="567">
+		<SourceName>เดลเริล</SourceName>
+		<TargetName ID="1">delreal</TargetName>
+	</Name>
+	<Name ID="568">
+		<SourceName>เดวี</SourceName>
+		<TargetName ID="1">davy</TargetName>
+	</Name>
+	<Name ID="569">
+		<SourceName>เดวีย์</SourceName>
+		<TargetName ID="1">davey</TargetName>
+	</Name>
+	<Name ID="570">
+		<SourceName>เดวี่</SourceName>
+		<TargetName ID="1">davie</TargetName>
+	</Name>
+	<Name ID="571">
+		<SourceName>เดอ</SourceName>
+		<TargetName ID="1">de</TargetName>
+	</Name>
+	<Name ID="572">
+		<SourceName>เดอร์เรลล์</SourceName>
+		<TargetName ID="1">durrell</TargetName>
+	</Name>
+	<Name ID="573">
+		<SourceName>เดาเดิล</SourceName>
+		<TargetName ID="1">dowdall</TargetName>
+		<TargetName ID="2">dowdle</TargetName>
+	</Name>
+	<Name ID="574">
+		<SourceName>เดเวเรล</SourceName>
+		<TargetName ID="1">deverell</TargetName>
+	</Name>
+	<Name ID="575">
+		<SourceName>เด็กก์</SourceName>
+		<TargetName ID="1">degg</TargetName>
+	</Name>
+	<Name ID="576">
+		<SourceName>เติร์ก</SourceName>
+		<TargetName ID="1">turks</TargetName>
+	</Name>
+	<Name ID="577">
+		<SourceName>เทนนิล</SourceName>
+		<TargetName ID="1">tennille</TargetName>
+		<TargetName ID="2">tenniel</TargetName>
+	</Name>
+	<Name ID="578">
+		<SourceName>เทนีสัน</SourceName>
+		<TargetName ID="1">tenison</TargetName>
+	</Name>
+	<Name ID="579">
+		<SourceName>เทนเดอร์ลอยน์</SourceName>
+		<TargetName ID="1">tenderloin</TargetName>
+	</Name>
+	<Name ID="580">
+		<SourceName>เทป</SourceName>
+		<TargetName ID="1">tape</TargetName>
+	</Name>
+	<Name ID="581">
+		<SourceName>เทรดดิง</SourceName>
+		<TargetName ID="1">trading</TargetName>
+	</Name>
+	<Name ID="582">
+		<SourceName>เทสตี</SourceName>
+		<TargetName ID="1">tasty</TargetName>
+	</Name>
+	<Name ID="583">
+		<SourceName>เนกี่</SourceName>
+		<TargetName ID="1">nagy</TargetName>
+	</Name>
+	<Name ID="584">
+		<SourceName>เนป</SourceName>
+		<TargetName ID="1">knape</TargetName>
+		<TargetName ID="2">nep</TargetName>
+	</Name>
+	<Name ID="585">
+		<SourceName>เนฟ</SourceName>
+		<TargetName ID="1">nave</TargetName>
+		<TargetName ID="2">nef</TargetName>
+	</Name>
+	<Name ID="586">
+		<SourceName>เนมเมอร์</SourceName>
+		<TargetName ID="1">nehmer</TargetName>
+	</Name>
+	<Name ID="587">
+		<SourceName>เนวิลล์</SourceName>
+		<TargetName ID="1">neville</TargetName>
+	</Name>
+	<Name ID="588">
+		<SourceName>เนอยาโค่</SourceName>
+		<TargetName ID="1">nejako</TargetName>
+	</Name>
+	<Name ID="589">
+		<SourceName>เนเลิ่น</SourceName>
+		<TargetName ID="1">nellen</TargetName>
+	</Name>
+	<Name ID="590">
+		<SourceName>เบซิงสโตก</SourceName>
+		<TargetName ID="1">basingstoke</TargetName>
+	</Name>
+	<Name ID="591">
+		<SourceName>เบนซิน</SourceName>
+		<TargetName ID="1">benzine</TargetName>
+		<TargetName ID="2">benzene</TargetName>
+	</Name>
+	<Name ID="592">
+		<SourceName>เบนต์</SourceName>
+		<TargetName ID="1">bent</TargetName>
+	</Name>
+	<Name ID="593">
+		<SourceName>เบนต์ลีย์</SourceName>
+		<TargetName ID="1">bentley</TargetName>
+	</Name>
+	<Name ID="594">
+		<SourceName>เบนสัน</SourceName>
+		<TargetName ID="1">benson</TargetName>
+	</Name>
+	<Name ID="595">
+		<SourceName>เบนิออฟฟ์</SourceName>
+		<TargetName ID="1">benioff</TargetName>
+	</Name>
+	<Name ID="596">
+		<SourceName>เบบีดอลล์</SourceName>
+		<TargetName ID="1">baby-doll</TargetName>
+	</Name>
+	<Name ID="597">
+		<SourceName>เบรวอร์ต</SourceName>
+		<TargetName ID="1">brevoort</TargetName>
+	</Name>
+	<Name ID="598">
+		<SourceName>เบรเนิร์ด</SourceName>
+		<TargetName ID="1">brainerd</TargetName>
+	</Name>
+	<Name ID="599">
+		<SourceName>เบล</SourceName>
+		<TargetName ID="1">bail</TargetName>
+		<TargetName ID="2">bale</TargetName>
+		<TargetName ID="3">bayle</TargetName>
+		<TargetName ID="4">baill</TargetName>
+	</Name>
+	<Name ID="600">
+		<SourceName>เบลดอน</SourceName>
+		<TargetName ID="1">bladon</TargetName>
+	</Name>
+	<Name ID="601">
+		<SourceName>เบลน</SourceName>
+		<TargetName ID="1">blain</TargetName>
+		<TargetName ID="2">blane</TargetName>
+	</Name>
+	<Name ID="602">
+		<SourceName>เบลลี่</SourceName>
+		<TargetName ID="1">belli</TargetName>
+	</Name>
+	<Name ID="603">
+		<SourceName>เบลวินส์</SourceName>
+		<TargetName ID="1">blevins</TargetName>
+	</Name>
+	<Name ID="604">
+		<SourceName>เบลารุส</SourceName>
+		<TargetName ID="1">belarus</TargetName>
+	</Name>
+	<Name ID="605">
+		<SourceName>เบลีย์</SourceName>
+		<TargetName ID="1">bailey</TargetName>
+	</Name>
+	<Name ID="606">
+		<SourceName>เบอนัวต์</SourceName>
+		<TargetName ID="1">benoit</TargetName>
+	</Name>
+	<Name ID="607">
+		<SourceName>เบอร์ควิสต์</SourceName>
+		<TargetName ID="1">berquist</TargetName>
+	</Name>
+	<Name ID="608">
+		<SourceName>เบอร์ชาร์ด</SourceName>
+		<TargetName ID="1">burchard</TargetName>
+	</Name>
+	<Name ID="609">
+		<SourceName>เบอร์ดี้</SourceName>
+		<TargetName ID="1">berde</TargetName>
+	</Name>
+	<Name ID="610">
+		<SourceName>เบอร์ติส</SourceName>
+		<TargetName ID="1">burtis</TargetName>
+	</Name>
+	<Name ID="611">
+		<SourceName>เบอร์เนตต์</SourceName>
+		<TargetName ID="1">burnett</TargetName>
+	</Name>
+	<Name ID="612">
+		<SourceName>เบอร์เนิต</SourceName>
+		<TargetName ID="1">bernat</TargetName>
+	</Name>
+	<Name ID="613">
+		<SourceName>เบะนิซุริเอะ</SourceName>
+		<TargetName ID="1">benizuri-e</TargetName>
+	</Name>
+	<Name ID="614">
+		<SourceName>เบิร์กโฮลเดอร์</SourceName>
+		<TargetName ID="1">burkholder</TargetName>
+	</Name>
+	<Name ID="615">
+		<SourceName>เบิร์ส</SourceName>
+		<TargetName ID="1">burse</TargetName>
+	</Name>
+	<Name ID="616">
+		<SourceName>เบียทริกส์</SourceName>
+		<TargetName ID="1">beatrix</TargetName>
+	</Name>
+	<Name ID="617">
+		<SourceName>เบียร์</SourceName>
+		<TargetName ID="1">baehr</TargetName>
+		<TargetName ID="2">beare</TargetName>
+		<TargetName ID="3">bier</TargetName>
+		<TargetName ID="4">beer</TargetName>
+	</Name>
+	<Name ID="618">
+		<SourceName>เบียร์เดิ้น</SourceName>
+		<TargetName ID="1">bearden</TargetName>
+	</Name>
+	<Name ID="619">
+		<SourceName>เบโทเฟน, ลุดวิก ฟาน</SourceName>
+		<TargetName ID="1">beethoven, ludwig van</TargetName>
+	</Name>
+	<Name ID="620">
+		<SourceName>เบ็กเติ้น</SourceName>
+		<TargetName ID="1">becton</TargetName>
+	</Name>
+	<Name ID="621">
+		<SourceName>เบ็ตส์</SourceName>
+		<TargetName ID="1">betts</TargetName>
+	</Name>
+	<Name ID="622">
+		<SourceName>เพทริโล</SourceName>
+		<TargetName ID="1">petrillo</TargetName>
+	</Name>
+	<Name ID="623">
+		<SourceName>เพนซิลเวเนียน</SourceName>
+		<TargetName ID="1">pennsylvanian</TargetName>
+	</Name>
+	<Name ID="624">
+		<SourceName>เพนต์แลนไดต์</SourceName>
+		<TargetName ID="1">pentlandite</TargetName>
+	</Name>
+	<Name ID="625">
+		<SourceName>เพนรี่</SourceName>
+		<TargetName ID="1">penry</TargetName>
+	</Name>
+	<Name ID="626">
+		<SourceName>เพรนเดอร์กาสต์, มอริซ บราซิล</SourceName>
+		<TargetName ID="1">prendergast, maurice brazil</TargetName>
+	</Name>
+	<Name ID="627">
+		<SourceName>เพรส</SourceName>
+		<TargetName ID="1">prase</TargetName>
+		<TargetName ID="2">press</TargetName>
+	</Name>
+	<Name ID="628">
+		<SourceName>เพราตี้</SourceName>
+		<TargetName ID="1">prouty</TargetName>
+	</Name>
+	<Name ID="629">
+		<SourceName>เพลต์</SourceName>
+		<TargetName ID="1">pelt</TargetName>
+	</Name>
+	<Name ID="630">
+		<SourceName>เพลเทโร่</SourceName>
+		<TargetName ID="1">platero</TargetName>
+	</Name>
+	<Name ID="631">
+		<SourceName>เพลเฟิร์ด</SourceName>
+		<TargetName ID="1">playford</TargetName>
+	</Name>
+	<Name ID="632">
+		<SourceName>เพอร์วีแอนซ์</SourceName>
+		<TargetName ID="1">perveance</TargetName>
+	</Name>
+	<Name ID="633">
+		<SourceName>เฟดเดอร์</SourceName>
+		<TargetName ID="1">feder</TargetName>
+	</Name>
+	<Name ID="634">
+		<SourceName>เฟตติ่ง</SourceName>
+		<TargetName ID="1">fetting</TargetName>
+	</Name>
+	<Name ID="635">
+		<SourceName>เฟนิสซี่</SourceName>
+		<TargetName ID="1">fennessy</TargetName>
+	</Name>
+	<Name ID="636">
+		<SourceName>เฟรดริกส์</SourceName>
+		<TargetName ID="1">fredericks</TargetName>
+	</Name>
+	<Name ID="637">
+		<SourceName>เฟริงเคิล</SourceName>
+		<TargetName ID="1">fraenkel</TargetName>
+	</Name>
+	<Name ID="638">
+		<SourceName>เฟอร์ริก</SourceName>
+		<TargetName ID="1">ferric</TargetName>
+	</Name>
+	<Name ID="639">
+		<SourceName>เฟาล์กส</SourceName>
+		<TargetName ID="1">foulkes</TargetName>
+		<TargetName ID="2">fowlkes</TargetName>
+	</Name>
+	<Name ID="640">
+		<SourceName>เมกเกอร์</SourceName>
+		<TargetName ID="1">maker</TargetName>
+	</Name>
+	<Name ID="641">
+		<SourceName>เมดิเตอร์เรเนียน</SourceName>
+		<TargetName ID="1">mediterranean</TargetName>
+	</Name>
+	<Name ID="642">
+		<SourceName>เมทริกซ์</SourceName>
+		<TargetName ID="1">matrix</TargetName>
+	</Name>
+	<Name ID="643">
+		<SourceName>เมนต์ส</SourceName>
+		<TargetName ID="1">mentz</TargetName>
+	</Name>
+	<Name ID="644">
+		<SourceName>เมนเฟรมคอมพิวเตอร์</SourceName>
+		<TargetName ID="1">mainframe computer</TargetName>
+	</Name>
+	<Name ID="645">
+		<SourceName>เมนโดซ่า</SourceName>
+		<TargetName ID="1">mendoza</TargetName>
+	</Name>
+	<Name ID="646">
+		<SourceName>เมร์ดดิน</SourceName>
+		<TargetName ID="1">myrddin</TargetName>
+	</Name>
+	<Name ID="647">
+		<SourceName>เมลเลิส</SourceName>
+		<TargetName ID="1">melas</TargetName>
+	</Name>
+	<Name ID="648">
+		<SourceName>เมอครีดี</SourceName>
+		<TargetName ID="1">mccready</TargetName>
+	</Name>
+	<Name ID="649">
+		<SourceName>เมอราว่า</SourceName>
+		<TargetName ID="1">morava</TargetName>
+	</Name>
+	<Name ID="650">
+		<SourceName>เมอรีน</SourceName>
+		<TargetName ID="1">marine</TargetName>
+	</Name>
+	<Name ID="651">
+		<SourceName>เมอร์โด้</SourceName>
+		<TargetName ID="1">murdo</TargetName>
+	</Name>
+	<Name ID="652">
+		<SourceName>เมอเซอร์</SourceName>
+		<TargetName ID="1">macer</TargetName>
+	</Name>
+	<Name ID="653">
+		<SourceName>เมอเฮนีย์</SourceName>
+		<TargetName ID="1">mahaney</TargetName>
+	</Name>
+	<Name ID="654">
+		<SourceName>เมอแคลลิสเตอร์</SourceName>
+		<TargetName ID="1">mccallister</TargetName>
+	</Name>
+	<Name ID="655">
+		<SourceName>เมิกครอรี่</SourceName>
+		<TargetName ID="1">mccrory</TargetName>
+	</Name>
+	<Name ID="656">
+		<SourceName>เมิกฟี่</SourceName>
+		<TargetName ID="1">mcphee</TargetName>
+	</Name>
+	<Name ID="657">
+		<SourceName>เมิกแมเนิส</SourceName>
+		<TargetName ID="1">mcmanus</TargetName>
+	</Name>
+	<Name ID="658">
+		<SourceName>เมิ่กคองคี่</SourceName>
+		<TargetName ID="1">mcconkey</TargetName>
+	</Name>
+	<Name ID="659">
+		<SourceName>เมิ่กคัลเลิ่น</SourceName>
+		<TargetName ID="1">mccullen</TargetName>
+	</Name>
+	<Name ID="660">
+		<SourceName>เมิ่กคัสเคอร์</SourceName>
+		<TargetName ID="1">mccusker</TargetName>
+	</Name>
+	<Name ID="661">
+		<SourceName>เมิ่กคินเนิ่น</SourceName>
+		<TargetName ID="1">mackinnon</TargetName>
+	</Name>
+	<Name ID="662">
+		<SourceName>เมิ่กมอโร่</SourceName>
+		<TargetName ID="1">mcmorrow</TargetName>
+	</Name>
+	<Name ID="663">
+		<SourceName>เมิ่กมัลเลิ่น</SourceName>
+		<TargetName ID="1">mcmullan</TargetName>
+		<TargetName ID="2">mcmullin</TargetName>
+	</Name>
+	<Name ID="664">
+		<SourceName>เมิ่กแกรท</SourceName>
+		<TargetName ID="1">magrath</TargetName>
+	</Name>
+	<Name ID="665">
+		<SourceName>เมเปิลไซรัป</SourceName>
+		<TargetName ID="1">maple syrup</TargetName>
+	</Name>
+	<Name ID="666">
+		<SourceName>เม็กส์เบอโร่</SourceName>
+		<TargetName ID="1">mexborough</TargetName>
+	</Name>
+	<Name ID="667">
+		<SourceName>เยียส์ลีย์</SourceName>
+		<TargetName ID="1">yearsley</TargetName>
+	</Name>
+	<Name ID="668">
+		<SourceName>เรดเฟิร์ด</SourceName>
+		<TargetName ID="1">redford</TargetName>
+	</Name>
+	<Name ID="669">
+		<SourceName>เรดเฮด</SourceName>
+		<TargetName ID="1">redhead</TargetName>
+	</Name>
+	<Name ID="670">
+		<SourceName>เรต</SourceName>
+		<TargetName ID="1">rait</TargetName>
+		<TargetName ID="2">rate</TargetName>
+	</Name>
+	<Name ID="671">
+		<SourceName>เรนีย์</SourceName>
+		<TargetName ID="1">raney</TargetName>
+	</Name>
+	<Name ID="672">
+		<SourceName>เรอเซล</SourceName>
+		<TargetName ID="1">rozelle</TargetName>
+	</Name>
+	<Name ID="673">
+		<SourceName>เรเวินสวู๊ด</SourceName>
+		<TargetName ID="1">ravenswood</TargetName>
+	</Name>
+	<Name ID="674">
+		<SourceName>เรแกน</SourceName>
+		<TargetName ID="1">reagan</TargetName>
+	</Name>
+	<Name ID="675">
+		<SourceName>เลซี่</SourceName>
+		<TargetName ID="1">lacy</TargetName>
+	</Name>
+	<Name ID="676">
+		<SourceName>เลดลอว์</SourceName>
+		<TargetName ID="1">laidlaw</TargetName>
+	</Name>
+	<Name ID="677">
+		<SourceName>เลต์</SourceName>
+		<TargetName ID="1">lait</TargetName>
+	</Name>
+	<Name ID="678">
+		<SourceName>เลนตีนี</SourceName>
+		<TargetName ID="1">lentini</TargetName>
+	</Name>
+	<Name ID="679">
+		<SourceName>เลอดู</SourceName>
+		<TargetName ID="1">ladoo</TargetName>
+	</Name>
+	<Name ID="680">
+		<SourceName>เลอเเคลร์</SourceName>
+		<TargetName ID="1">leclaire</TargetName>
+	</Name>
+	<Name ID="681">
+		<SourceName>เลาเทนเบิร์ก</SourceName>
+		<TargetName ID="1">lautenberg</TargetName>
+	</Name>
+	<Name ID="682">
+		<SourceName>เลาเอิล</SourceName>
+		<TargetName ID="1">lawall</TargetName>
+	</Name>
+	<Name ID="683">
+		<SourceName>เลิกไมล่า</SourceName>
+		<TargetName ID="1">ludmila</TargetName>
+	</Name>
+	<Name ID="684">
+		<SourceName>เลเดอร์เบิร์ก</SourceName>
+		<TargetName ID="1">lederberg</TargetName>
+	</Name>
+	<Name ID="685">
+		<SourceName>เล็กฮอร์น</SourceName>
+		<TargetName ID="1">leghorn</TargetName>
+	</Name>
+	<Name ID="686">
+		<SourceName>เวดเดอร์เบิร์น</SourceName>
+		<TargetName ID="1">wedderburn</TargetName>
+	</Name>
+	<Name ID="687">
+		<SourceName>เวดเลอร์</SourceName>
+		<TargetName ID="1">wedler</TargetName>
+	</Name>
+	<Name ID="688">
+		<SourceName>เวนเตอร์</SourceName>
+		<TargetName ID="1">venter</TargetName>
+	</Name>
+	<Name ID="689">
+		<SourceName>เวลบีลัฟด์</SourceName>
+		<TargetName ID="1">wellbeloved</TargetName>
+	</Name>
+	<Name ID="690">
+		<SourceName>เวอราครูส</SourceName>
+		<TargetName ID="1">veracruz</TargetName>
+	</Name>
+	<Name ID="691">
+		<SourceName>เวอร์จิน</SourceName>
+		<TargetName ID="1">virgin</TargetName>
+	</Name>
+	<Name ID="692">
+		<SourceName>เวอร์ตู</SourceName>
+		<TargetName ID="1">vertu</TargetName>
+	</Name>
+	<Name ID="693">
+		<SourceName>เวอร์เมิลด์</SourceName>
+		<TargetName ID="1">wormald</TargetName>
+	</Name>
+	<Name ID="694">
+		<SourceName>เวิร์ตส์</SourceName>
+		<TargetName ID="1">wirtz</TargetName>
+	</Name>
+	<Name ID="695">
+		<SourceName>เวเบอร์</SourceName>
+		<TargetName ID="1">weber</TargetName>
+	</Name>
+	<Name ID="696">
+		<SourceName>เวเบอร์, คาร์ล มารีอา ฟอน</SourceName>
+		<TargetName ID="1">weber, carl maria von</TargetName>
+	</Name>
+	<Name ID="697">
+		<SourceName>เวโดว่า</SourceName>
+		<TargetName ID="1">vedova</TargetName>
+	</Name>
+	<Name ID="698">
+		<SourceName>เองกิลฮาร์ต</SourceName>
+		<TargetName ID="1">engelhardt</TargetName>
+	</Name>
+	<Name ID="699">
+		<SourceName>เอจีพี</SourceName>
+		<TargetName ID="1">a.g.p.</TargetName>
+	</Name>
+	<Name ID="700">
+		<SourceName>เอดรีแอน่า</SourceName>
+		<TargetName ID="1">adriana</TargetName>
+	</Name>
+	<Name ID="701">
+		<SourceName>เอดิงเงอร์</SourceName>
+		<TargetName ID="1">edinger</TargetName>
+	</Name>
+	<Name ID="702">
+		<SourceName>เอดึส</SourceName>
+		<TargetName ID="1">ades</TargetName>
+	</Name>
+	<Name ID="703">
+		<SourceName>เอดเวิร์ด</SourceName>
+		<TargetName ID="1">edward</TargetName>
+	</Name>
+	<Name ID="704">
+		<SourceName>เอทีอี</SourceName>
+		<TargetName ID="1">ate</TargetName>
+	</Name>
+	<Name ID="705">
+		<SourceName>เอบินีเซอร์</SourceName>
+		<TargetName ID="1">ebenezer</TargetName>
+	</Name>
+	<Name ID="706">
+		<SourceName>เอปสไตน์, เซอร์เจคอบ</SourceName>
+		<TargetName ID="1">epstein, sir jacob</TargetName>
+	</Name>
+	<Name ID="707">
+		<SourceName>เอพริลฟูล</SourceName>
+		<TargetName ID="1">april fool</TargetName>
+	</Name>
+	<Name ID="708">
+		<SourceName>เอริกา</SourceName>
+		<TargetName ID="1">erica</TargetName>
+	</Name>
+	<Name ID="709">
+		<SourceName>เอริ่ง</SourceName>
+		<TargetName ID="1">eyring</TargetName>
+	</Name>
+	<Name ID="710">
+		<SourceName>เอลส์เนอร์</SourceName>
+		<TargetName ID="1">elsner</TargetName>
+	</Name>
+	<Name ID="711">
+		<SourceName>เอลีน</SourceName>
+		<TargetName ID="1">aileen</TargetName>
+	</Name>
+	<Name ID="712">
+		<SourceName>เอส</SourceName>
+		<TargetName ID="1">es</TargetName>
+	</Name>
+	<Name ID="713">
+		<SourceName>เอสตี้</SourceName>
+		<TargetName ID="1">estey</TargetName>
+	</Name>
+	<Name ID="714">
+		<SourceName>เอสพีอาร์อาร์</SourceName>
+		<TargetName ID="1">sprr</TargetName>
+	</Name>
+	<Name ID="715">
+		<SourceName>เอสอาร์บี</SourceName>
+		<TargetName ID="1">srb</TargetName>
+	</Name>
+	<Name ID="716">
+		<SourceName>เอสเทอร์เจียน</SourceName>
+		<TargetName ID="1">esturgeon</TargetName>
+	</Name>
+	<Name ID="717">
+		<SourceName>เออคีลีย์</SourceName>
+		<TargetName ID="1">akeley</TargetName>
+	</Name>
+	<Name ID="718">
+		<SourceName>เออร์นัลด์</SourceName>
+		<TargetName ID="1">ernald</TargetName>
+	</Name>
+	<Name ID="719">
+		<SourceName>เออเรียร์</SourceName>
+		<TargetName ID="1">orear</TargetName>
+	</Name>
+	<Name ID="720">
+		<SourceName>เออเลิร์ส</SourceName>
+		<TargetName ID="1">alers</TargetName>
+	</Name>
+	<Name ID="721">
+		<SourceName>เอิร์ดลีย์</SourceName>
+		<TargetName ID="1">eardley</TargetName>
+	</Name>
+	<Name ID="722">
+		<SourceName>เอิร์ล</SourceName>
+		<TargetName ID="1">earle</TargetName>
+		<TargetName ID="2">earl</TargetName>
+	</Name>
+	<Name ID="723">
+		<SourceName>เอเดิลเมิน</SourceName>
+		<TargetName ID="1">edelman</TargetName>
+	</Name>
+	<Name ID="724">
+		<SourceName>เอเมอร์สัน</SourceName>
+		<TargetName ID="1">emerson</TargetName>
+	</Name>
+	<Name ID="725">
+		<SourceName>เอเรียล</SourceName>
+		<TargetName ID="1">ariel</TargetName>
+	</Name>
+	<Name ID="726">
+		<SourceName>เอ็กเกิร์ต</SourceName>
+		<TargetName ID="1">eggert</TargetName>
+	</Name>
+	<Name ID="727">
+		<SourceName>เอ็บบีเซิ่น</SourceName>
+		<TargetName ID="1">ebbesen</TargetName>
+	</Name>
+	<Name ID="728">
+		<SourceName>เอ็มมิต</SourceName>
+		<TargetName ID="1">emmett</TargetName>
+	</Name>
+	<Name ID="729">
+		<SourceName>เอ๊กลิสต้อน</SourceName>
+		<TargetName ID="1">egleston</TargetName>
+	</Name>
+	<Name ID="730">
+		<SourceName>เฮซิก</SourceName>
+		<TargetName ID="1">herzig</TargetName>
+	</Name>
+	<Name ID="731">
+		<SourceName>เฮดดิง</SourceName>
+		<TargetName ID="1">heading</TargetName>
+	</Name>
+	<Name ID="732">
+		<SourceName>เฮดสเปซ</SourceName>
+		<TargetName ID="1">headspace</TargetName>
+	</Name>
+	<Name ID="733">
+		<SourceName>เฮนเติ้น</SourceName>
+		<TargetName ID="1">henton</TargetName>
+	</Name>
+	<Name ID="734">
+		<SourceName>เฮฟวี</SourceName>
+		<TargetName ID="1">heavy</TargetName>
+	</Name>
+	<Name ID="735">
+		<SourceName>เฮมล็อก</SourceName>
+		<TargetName ID="1">hemlock</TargetName>
+	</Name>
+	<Name ID="736">
+		<SourceName>เฮย์เดิ่น</SourceName>
+		<TargetName ID="1">hayden</TargetName>
+	</Name>
+	<Name ID="737">
+		<SourceName>เฮลวิก</SourceName>
+		<TargetName ID="1">helwig</TargetName>
+	</Name>
+	<Name ID="738">
+		<SourceName>เฮลสัน</SourceName>
+		<TargetName ID="1">helson</TargetName>
+	</Name>
+	<Name ID="739">
+		<SourceName>เฮอร์เบิร์ต, จอร์จ</SourceName>
+		<TargetName ID="1">herbert, george</TargetName>
+	</Name>
+	<Name ID="740">
+		<SourceName>เฮาเซอร์</SourceName>
+		<TargetName ID="1">houser</TargetName>
+	</Name>
+	<Name ID="741">
+		<SourceName>เฮิร์ด</SourceName>
+		<TargetName ID="1">herd</TargetName>
+		<TargetName ID="2">hird</TargetName>
+	</Name>
+	<Name ID="742">
+		<SourceName>เฮิร์นเดิ้น</SourceName>
+		<TargetName ID="1">herndon</TargetName>
+	</Name>
+	<Name ID="743">
+		<SourceName>เฮเซิลไทน์</SourceName>
+		<TargetName ID="1">hazeltine</TargetName>
+	</Name>
+	<Name ID="744">
+		<SourceName>เฮเทอร์</SourceName>
+		<TargetName ID="1">heather</TargetName>
+	</Name>
+	<Name ID="745">
+		<SourceName>เฮ็นน์</SourceName>
+		<TargetName ID="1">henne</TargetName>
+	</Name>
+	<Name ID="746">
+		<SourceName>เฮ็บเดิ่น</SourceName>
+		<TargetName ID="1">hebden</TargetName>
+	</Name>
+	<Name ID="747">
+		<SourceName>แกรฟวัล</SourceName>
+		<TargetName ID="1">gravel</TargetName>
+	</Name>
+	<Name ID="748">
+		<SourceName>แกร์</SourceName>
+		<TargetName ID="1">gaer</TargetName>
+		<TargetName ID="2">garr</TargetName>
+		<TargetName ID="3">gair</TargetName>
+	</Name>
+	<Name ID="749">
+		<SourceName>แกลดเดิ้น</SourceName>
+		<TargetName ID="1">gladden</TargetName>
+	</Name>
+	<Name ID="750">
+		<SourceName>แกส</SourceName>
+		<TargetName ID="1">gass</TargetName>
+	</Name>
+	<Name ID="751">
+		<SourceName>แกสกิล</SourceName>
+		<TargetName ID="1">gaskill</TargetName>
+	</Name>
+	<Name ID="752">
+		<SourceName>แกสสัน</SourceName>
+		<TargetName ID="1">gasson</TargetName>
+	</Name>
+	<Name ID="753">
+		<SourceName>แกสเกลล์</SourceName>
+		<TargetName ID="1">gaskell</TargetName>
+	</Name>
+	<Name ID="754">
+		<SourceName>แกเริต</SourceName>
+		<TargetName ID="1">garet</TargetName>
+	</Name>
+	<Name ID="755">
+		<SourceName>แก็นต์</SourceName>
+		<TargetName ID="1">gant</TargetName>
+	</Name>
+	<Name ID="756">
+		<SourceName>แก็ป</SourceName>
+		<TargetName ID="1">gapp</TargetName>
+	</Name>
+	<Name ID="757">
+		<SourceName>แก๊สโครมาโตกราฟ</SourceName>
+		<TargetName ID="1">gas chromatograph</TargetName>
+	</Name>
+	<Name ID="758">
+		<SourceName>แคชมอร์</SourceName>
+		<TargetName ID="1">cashmore</TargetName>
+	</Name>
+	<Name ID="759">
+		<SourceName>แคดวอเลอเดอร์</SourceName>
+		<TargetName ID="1">cadwalader</TargetName>
+	</Name>
+	<Name ID="760">
+		<SourceName>แคดเมิน</SourceName>
+		<TargetName ID="1">cadman</TargetName>
+	</Name>
+	<Name ID="761">
+		<SourceName>แคตชัป</SourceName>
+		<TargetName ID="1">catchup</TargetName>
+	</Name>
+	<Name ID="762">
+		<SourceName>แคนเทอร์</SourceName>
+		<TargetName ID="1">canter</TargetName>
+	</Name>
+	<Name ID="763">
+		<SourceName>แคปพูชิโน</SourceName>
+		<TargetName ID="1">cappuccino</TargetName>
+	</Name>
+	<Name ID="764">
+		<SourceName>แคฟตัน</SourceName>
+		<TargetName ID="1">caftan</TargetName>
+	</Name>
+	<Name ID="765">
+		<SourceName>แคมปัส</SourceName>
+		<TargetName ID="1">campus</TargetName>
+	</Name>
+	<Name ID="766">
+		<SourceName>แครวิตส์</SourceName>
+		<TargetName ID="1">kravitz</TargetName>
+	</Name>
+	<Name ID="767">
+		<SourceName>แคลฮูน</SourceName>
+		<TargetName ID="1">calhoun</TargetName>
+	</Name>
+	<Name ID="768">
+		<SourceName>แคลีโอ</SourceName>
+		<TargetName ID="1">calio</TargetName>
+	</Name>
+	<Name ID="769">
+		<SourceName>แคสเดิ่น</SourceName>
+		<TargetName ID="1">kasdan</TargetName>
+	</Name>
+	<Name ID="770">
+		<SourceName>แคสโต</SourceName>
+		<TargetName ID="1">casto</TargetName>
+	</Name>
+	<Name ID="771">
+		<SourceName>แคเนอดี้</SourceName>
+		<TargetName ID="1">kanady</TargetName>
+	</Name>
+	<Name ID="772">
+		<SourceName>แคเมรอน</SourceName>
+		<TargetName ID="1">cameron</TargetName>
+	</Name>
+	<Name ID="773">
+		<SourceName>แค็สก์</SourceName>
+		<TargetName ID="1">kask</TargetName>
+	</Name>
+	<Name ID="774">
+		<SourceName>แจต</SourceName>
+		<TargetName ID="1">jagt</TargetName>
+	</Name>
+	<Name ID="775">
+		<SourceName>แจน</SourceName>
+		<TargetName ID="1">jahn</TargetName>
+		<TargetName ID="2">jan</TargetName>
+	</Name>
+	<Name ID="776">
+		<SourceName>แจนต์เซิ่น</SourceName>
+		<TargetName ID="1">jantzen</TargetName>
+	</Name>
+	<Name ID="777">
+		<SourceName>แชงก์ส</SourceName>
+		<TargetName ID="1">shanks</TargetName>
+	</Name>
+	<Name ID="778">
+		<SourceName>แชดบุร์น</SourceName>
+		<TargetName ID="1">chadbourn</TargetName>
+	</Name>
+	<Name ID="779">
+		<SourceName>แชร์แวร์</SourceName>
+		<TargetName ID="1">shareware</TargetName>
+	</Name>
+	<Name ID="780">
+		<SourceName>แชลกลี่</SourceName>
+		<TargetName ID="1">chalkley</TargetName>
+	</Name>
+	<Name ID="781">
+		<SourceName>แซงกีย์</SourceName>
+		<TargetName ID="1">sankey</TargetName>
+	</Name>
+	<Name ID="782">
+		<SourceName>แซต</SourceName>
+		<TargetName ID="1">sat</TargetName>
+	</Name>
+	<Name ID="783">
+		<SourceName>แซตส์</SourceName>
+		<TargetName ID="1">satz</TargetName>
+	</Name>
+	<Name ID="784">
+		<SourceName>แซนดิสัน</SourceName>
+		<TargetName ID="1">sandison</TargetName>
+	</Name>
+	<Name ID="785">
+		<SourceName>แซนดิ้น</SourceName>
+		<TargetName ID="1">sandin</TargetName>
+	</Name>
+	<Name ID="786">
+		<SourceName>แซมส์</SourceName>
+		<TargetName ID="1">sams</TargetName>
+	</Name>
+	<Name ID="787">
+		<SourceName>แซสเซอร์</SourceName>
+		<TargetName ID="1">sasser</TargetName>
+	</Name>
+	<Name ID="788">
+		<SourceName>แซเริ่ม</SourceName>
+		<TargetName ID="1">sarum</TargetName>
+	</Name>
+	<Name ID="789">
+		<SourceName>แดซซลิง</SourceName>
+		<TargetName ID="1">dazzling</TargetName>
+	</Name>
+	<Name ID="790">
+		<SourceName>แดนเติ้น</SourceName>
+		<TargetName ID="1">danton</TargetName>
+	</Name>
+	<Name ID="791">
+		<SourceName>แดรค์ม</SourceName>
+		<TargetName ID="1">drachm</TargetName>
+	</Name>
+	<Name ID="792">
+		<SourceName>แดวี่</SourceName>
+		<TargetName ID="1">davee</TargetName>
+	</Name>
+	<Name ID="793">
+		<SourceName>แดเวินทรี่</SourceName>
+		<TargetName ID="1">daventry</TargetName>
+	</Name>
+	<Name ID="794">
+		<SourceName>แด๊ด</SourceName>
+		<TargetName ID="1">dad</TargetName>
+		<TargetName ID="2">dade</TargetName>
+	</Name>
+	<Name ID="795">
+		<SourceName>แทรกต์</SourceName>
+		<TargetName ID="1">tract</TargetName>
+	</Name>
+	<Name ID="796">
+		<SourceName>แทลูล่า</SourceName>
+		<TargetName ID="1">tallulah</TargetName>
+	</Name>
+	<Name ID="797">
+		<SourceName>แท็กการ์ต</SourceName>
+		<TargetName ID="1">tagart</TargetName>
+	</Name>
+	<Name ID="798">
+		<SourceName>แนนด์</SourceName>
+		<TargetName ID="1">nand</TargetName>
+	</Name>
+	<Name ID="799">
+		<SourceName>แบช</SourceName>
+		<TargetName ID="1">basch</TargetName>
+		<TargetName ID="2">bache</TargetName>
+	</Name>
+	<Name ID="800">
+		<SourceName>แบดเอิ้ม</SourceName>
+		<TargetName ID="1">badham</TargetName>
+	</Name>
+	<Name ID="801">
+		<SourceName>แบนด์วิดท์</SourceName>
+		<TargetName ID="1">bandwidth</TargetName>
+	</Name>
+	<Name ID="802">
+		<SourceName>แบรนดิ้น</SourceName>
+		<TargetName ID="1">brandin</TargetName>
+	</Name>
+	<Name ID="803">
+		<SourceName>แบรนด์นิว</SourceName>
+		<TargetName ID="1">brand new</TargetName>
+	</Name>
+	<Name ID="804">
+		<SourceName>แบรมสติดต์</SourceName>
+		<TargetName ID="1">bramstedt</TargetName>
+	</Name>
+	<Name ID="805">
+		<SourceName>แบรเชอร์</SourceName>
+		<TargetName ID="1">brasher</TargetName>
+	</Name>
+	<Name ID="806">
+		<SourceName>แบร์เรนส์</SourceName>
+		<TargetName ID="1">barrens</TargetName>
+	</Name>
+	<Name ID="807">
+		<SourceName>แบลนช์</SourceName>
+		<TargetName ID="1">blanch</TargetName>
+		<TargetName ID="2">blanche</TargetName>
+	</Name>
+	<Name ID="808">
+		<SourceName>แบล็กเบิร์ด</SourceName>
+		<TargetName ID="1">blackbird</TargetName>
+	</Name>
+	<Name ID="809">
+		<SourceName>แบสโซ</SourceName>
+		<TargetName ID="1">basso</TargetName>
+	</Name>
+	<Name ID="810">
+		<SourceName>แบ็กกราวนด์</SourceName>
+		<TargetName ID="1">background</TargetName>
+	</Name>
+	<Name ID="811">
+		<SourceName>แบ็กแฮนด์</SourceName>
+		<TargetName ID="1">backhand</TargetName>
+	</Name>
+	<Name ID="812">
+		<SourceName>แพนทาลูน</SourceName>
+		<TargetName ID="1">pantaloon</TargetName>
+	</Name>
+	<Name ID="813">
+		<SourceName>แพนน่า</SourceName>
+		<TargetName ID="1">panna</TargetName>
+	</Name>
+	<Name ID="814">
+		<SourceName>แพร์เริต</SourceName>
+		<TargetName ID="1">parrott</TargetName>
+	</Name>
+	<Name ID="815">
+		<SourceName>แพลนัส</SourceName>
+		<TargetName ID="1">planus</TargetName>
+	</Name>
+	<Name ID="816">
+		<SourceName>แพลิ่ง</SourceName>
+		<TargetName ID="1">paling</TargetName>
+	</Name>
+	<Name ID="817">
+		<SourceName>แฟร์เคลา</SourceName>
+		<TargetName ID="1">fairclough</TargetName>
+	</Name>
+	<Name ID="818">
+		<SourceName>แมกคัลเลอร์</SourceName>
+		<TargetName ID="1">mcculler</TargetName>
+	</Name>
+	<Name ID="819">
+		<SourceName>แมกนาคาร์ตา</SourceName>
+		<TargetName ID="1">magna carta</TargetName>
+	</Name>
+	<Name ID="820">
+		<SourceName>แมกมา</SourceName>
+		<TargetName ID="1">magma</TargetName>
+	</Name>
+	<Name ID="821">
+		<SourceName>แมทีเรียล</SourceName>
+		<TargetName ID="1">material</TargetName>
+	</Name>
+	<Name ID="822">
+		<SourceName>แมนเซิล</SourceName>
+		<TargetName ID="1">mansell</TargetName>
+	</Name>
+	<Name ID="823">
+		<SourceName>แมรีแอน</SourceName>
+		<TargetName ID="1">maryanne</TargetName>
+	</Name>
+	<Name ID="824">
+		<SourceName>แมร์รีเนอร์</SourceName>
+		<TargetName ID="1">marriner</TargetName>
+	</Name>
+	<Name ID="825">
+		<SourceName>แมล์มควิสต์</SourceName>
+		<TargetName ID="1">malmquist</TargetName>
+	</Name>
+	<Name ID="826">
+		<SourceName>แมสเกิล</SourceName>
+		<TargetName ID="1">maskell</TargetName>
+	</Name>
+	<Name ID="827">
+		<SourceName>แมเกอร์</SourceName>
+		<TargetName ID="1">mager</TargetName>
+	</Name>
+	<Name ID="828">
+		<SourceName>แมเร่ส์</SourceName>
+		<TargetName ID="1">marais</TargetName>
+	</Name>
+	<Name ID="829">
+		<SourceName>แม็กคอร์มิก</SourceName>
+		<TargetName ID="1">maccormick</TargetName>
+	</Name>
+	<Name ID="830">
+		<SourceName>แม็กส์ฟิลด์</SourceName>
+		<TargetName ID="1">maxfield</TargetName>
+	</Name>
+	<Name ID="831">
+		<SourceName>แม็ดลิน</SourceName>
+		<TargetName ID="1">madelyn</TargetName>
+	</Name>
+	<Name ID="832">
+		<SourceName>แม็ตสัน</SourceName>
+		<TargetName ID="1">mattson</TargetName>
+	</Name>
+	<Name ID="833">
+		<SourceName>แรซซีส์</SourceName>
+		<TargetName ID="1">razzies</TargetName>
+	</Name>
+	<Name ID="834">
+		<SourceName>แรดิ้น</SourceName>
+		<TargetName ID="1">radin</TargetName>
+	</Name>
+	<Name ID="835">
+		<SourceName>แรนดี</SourceName>
+		<TargetName ID="1">randy</TargetName>
+	</Name>
+	<Name ID="836">
+		<SourceName>แรนเดลล์</SourceName>
+		<TargetName ID="1">randell</TargetName>
+	</Name>
+	<Name ID="837">
+		<SourceName>แรสคิ้น</SourceName>
+		<TargetName ID="1">raskin</TargetName>
+	</Name>
+	<Name ID="838">
+		<SourceName>แรห์น</SourceName>
+		<TargetName ID="1">rahn</TargetName>
+	</Name>
+	<Name ID="839">
+		<SourceName>แร็กลิน</SourceName>
+		<TargetName ID="1">rachlin</TargetName>
+	</Name>
+	<Name ID="840">
+		<SourceName>แร็ด</SourceName>
+		<TargetName ID="1">rad</TargetName>
+	</Name>
+	<Name ID="841">
+		<SourceName>แลงเกนเบิร์ก</SourceName>
+		<TargetName ID="1">langenberg</TargetName>
+	</Name>
+	<Name ID="842">
+		<SourceName>แลงเติ้น</SourceName>
+		<TargetName ID="1">langton</TargetName>
+	</Name>
+	<Name ID="843">
+		<SourceName>แลตเวีย</SourceName>
+		<TargetName ID="1">latvia</TargetName>
+	</Name>
+	<Name ID="844">
+		<SourceName>แลนติ้ง</SourceName>
+		<TargetName ID="1">lanting</TargetName>
+	</Name>
+	<Name ID="845">
+		<SourceName>แลสโค</SourceName>
+		<TargetName ID="1">lasko</TargetName>
+	</Name>
+	<Name ID="846">
+		<SourceName>แลเฟิ่ม</SourceName>
+		<TargetName ID="1">lapham</TargetName>
+	</Name>
+	<Name ID="847">
+		<SourceName>แวต</SourceName>
+		<TargetName ID="1">vat</TargetName>
+	</Name>
+	<Name ID="848">
+		<SourceName>แวนวิชเติ้น</SourceName>
+		<TargetName ID="1">vanvechten</TargetName>
+	</Name>
+	<Name ID="849">
+		<SourceName>แวนเคลิฟ</SourceName>
+		<TargetName ID="1">vancleave</TargetName>
+	</Name>
+	<Name ID="850">
+		<SourceName>แวร์</SourceName>
+		<TargetName ID="1">weare</TargetName>
+	</Name>
+	<Name ID="851">
+		<SourceName>แอกรีโคล่า</SourceName>
+		<TargetName ID="1">agricola</TargetName>
+	</Name>
+	<Name ID="852">
+		<SourceName>แอควารีเจีย</SourceName>
+		<TargetName ID="1">aqua regia</TargetName>
+	</Name>
+	<Name ID="853">
+		<SourceName>แองเกล</SourceName>
+		<TargetName ID="1">angel</TargetName>
+	</Name>
+	<Name ID="854">
+		<SourceName>แอชิสัน</SourceName>
+		<TargetName ID="1">acheson</TargetName>
+	</Name>
+	<Name ID="855">
+		<SourceName>แอดอลฟี่</SourceName>
+		<TargetName ID="1">adolphe</TargetName>
+	</Name>
+	<Name ID="856">
+		<SourceName>แอตแลนทีส</SourceName>
+		<TargetName ID="1">atlantes</TargetName>
+	</Name>
+	<Name ID="857">
+		<SourceName>แอนติปารอส</SourceName>
+		<TargetName ID="1">antiparos</TargetName>
+	</Name>
+	<Name ID="858">
+		<SourceName>แอนติโหนด</SourceName>
+		<TargetName ID="1">antinode</TargetName>
+	</Name>
+	<Name ID="859">
+		<SourceName>แอนทราซีน</SourceName>
+		<TargetName ID="1">anthracene</TargetName>
+	</Name>
+	<Name ID="860">
+		<SourceName>แอนเจลิก้า</SourceName>
+		<TargetName ID="1">angelica</TargetName>
+	</Name>
+	<Name ID="861">
+		<SourceName>แอนเดรีย</SourceName>
+		<TargetName ID="1">andrea</TargetName>
+	</Name>
+	<Name ID="862">
+		<SourceName>แอนเดอร์</SourceName>
+		<TargetName ID="1">ander</TargetName>
+	</Name>
+	<Name ID="863">
+		<SourceName>แอนโฮล์ต</SourceName>
+		<TargetName ID="1">anholt</TargetName>
+	</Name>
+	<Name ID="864">
+		<SourceName>แอบาโก</SourceName>
+		<TargetName ID="1">abaco</TargetName>
+	</Name>
+	<Name ID="865">
+		<SourceName>แอพริคอต</SourceName>
+		<TargetName ID="1">apricot</TargetName>
+	</Name>
+	<Name ID="866">
+		<SourceName>แอมฟินิวแรน</SourceName>
+		<TargetName ID="1">amphineuran</TargetName>
+	</Name>
+	<Name ID="867">
+		<SourceName>แอมฟีโดรมิก</SourceName>
+		<TargetName ID="1">amphidromic</TargetName>
+	</Name>
+	<Name ID="868">
+		<SourceName>แอลดีแอล</SourceName>
+		<TargetName ID="1">ldl</TargetName>
+	</Name>
+	<Name ID="869">
+		<SourceName>แอลวิน</SourceName>
+		<TargetName ID="1">alwyn</TargetName>
+		<TargetName ID="2">alvin</TargetName>
+	</Name>
+	<Name ID="870">
+		<SourceName>แอลเลินบี้</SourceName>
+		<TargetName ID="1">allenby</TargetName>
+	</Name>
+	<Name ID="871">
+		<SourceName>แอลเวอเรส</SourceName>
+		<TargetName ID="1">alvarez</TargetName>
+	</Name>
+	<Name ID="872">
+		<SourceName>แอลเอ็นจี</SourceName>
+		<TargetName ID="1">lng</TargetName>
+	</Name>
+	<Name ID="873">
+		<SourceName>แอลไคน์</SourceName>
+		<TargetName ID="1">alkyne</TargetName>
+	</Name>
+	<Name ID="874">
+		<SourceName>แอลไลส์</SourceName>
+		<TargetName ID="1">allies</TargetName>
+	</Name>
+	<Name ID="875">
+		<SourceName>แอเบอร์เนที่</SourceName>
+		<TargetName ID="1">abernethy</TargetName>
+	</Name>
+	<Name ID="876">
+		<SourceName>แอเมอรูโซ่</SourceName>
+		<TargetName ID="1">amoruso</TargetName>
+	</Name>
+	<Name ID="877">
+		<SourceName>แอเริ่น</SourceName>
+		<TargetName ID="1">aron</TargetName>
+	</Name>
+	<Name ID="878">
+		<SourceName>แอแนโรบิก</SourceName>
+		<TargetName ID="1">anaerobic</TargetName>
+	</Name>
+	<Name ID="879">
+		<SourceName>แอโรแพลน</SourceName>
+		<TargetName ID="1">aeroplane</TargetName>
+	</Name>
+	<Name ID="880">
+		<SourceName>แอ็บท์</SourceName>
+		<TargetName ID="1">abt</TargetName>
+	</Name>
+	<Name ID="881">
+		<SourceName>แอ็ปเกอร์</SourceName>
+		<TargetName ID="1">apgar</TargetName>
+	</Name>
+	<Name ID="882">
+		<SourceName>แอ็ปเปิ้ลยาร์ด</SourceName>
+		<TargetName ID="1">appleyard</TargetName>
+	</Name>
+	<Name ID="883">
+		<SourceName>แฮง</SourceName>
+		<TargetName ID="1">hang</TargetName>
+	</Name>
+	<Name ID="884">
+		<SourceName>แฮงก์โอเวอร์</SourceName>
+		<TargetName ID="1">hangover</TargetName>
+	</Name>
+	<Name ID="885">
+		<SourceName>แฮดเซิล</SourceName>
+		<TargetName ID="1">hadsel</TargetName>
+		<TargetName ID="2">hadsell</TargetName>
+	</Name>
+	<Name ID="886">
+		<SourceName>แฮรัลด์</SourceName>
+		<TargetName ID="1">herold</TargetName>
+	</Name>
+	<Name ID="887">
+		<SourceName>แฮร์โรว์อิ่ง</SourceName>
+		<TargetName ID="1">harrowing</TargetName>
+	</Name>
+	<Name ID="888">
+		<SourceName>แฮลเติ้น</SourceName>
+		<TargetName ID="1">halton</TargetName>
+	</Name>
+	<Name ID="889">
+		<SourceName>แฮลเปอร์</SourceName>
+		<TargetName ID="1">halper</TargetName>
+	</Name>
+	<Name ID="890">
+		<SourceName>แฮสเลิต</SourceName>
+		<TargetName ID="1">haslet</TargetName>
+	</Name>
+	<Name ID="891">
+		<SourceName>แฮเนาเออร์</SourceName>
+		<TargetName ID="1">hanauer</TargetName>
+	</Name>
+	<Name ID="892">
+		<SourceName>โกรส์</SourceName>
+		<TargetName ID="1">grose</TargetName>
+	</Name>
+	<Name ID="893">
+		<SourceName>โกลด์ริง</SourceName>
+		<TargetName ID="1">goldring</TargetName>
+	</Name>
+	<Name ID="894">
+		<SourceName>โคมาเร็ก</SourceName>
+		<TargetName ID="1">komarek</TargetName>
+	</Name>
+	<Name ID="895">
+		<SourceName>โคมินฟอร์ม</SourceName>
+		<TargetName ID="1">cominform</TargetName>
+	</Name>
+	<Name ID="896">
+		<SourceName>โครมันยอง</SourceName>
+		<TargetName ID="1">cro-magnon</TargetName>
+	</Name>
+	<Name ID="897">
+		<SourceName>โคลวิส</SourceName>
+		<TargetName ID="1">clovis</TargetName>
+	</Name>
+	<Name ID="898">
+		<SourceName>โคลแมน, เกลนน์</SourceName>
+		<TargetName ID="1">coleman, glenn</TargetName>
+	</Name>
+	<Name ID="899">
+		<SourceName>โคเปนเฮเกน</SourceName>
+		<TargetName ID="1">copenhagen</TargetName>
+	</Name>
+	<Name ID="900">
+		<SourceName>โคเอฟฟิเชียนต์</SourceName>
+		<TargetName ID="1">coefficient</TargetName>
+	</Name>
+	<Name ID="901">
+		<SourceName>โคเอลโอ้</SourceName>
+		<TargetName ID="1">coelho</TargetName>
+	</Name>
+	<Name ID="902">
+		<SourceName>โคโลนี</SourceName>
+		<TargetName ID="1">colony</TargetName>
+	</Name>
+	<Name ID="903">
+		<SourceName>โคไฟร์</SourceName>
+		<TargetName ID="1">co-fire</TargetName>
+	</Name>
+	<Name ID="904">
+		<SourceName>โชนเบอร์เกอร์</SourceName>
+		<TargetName ID="1">schoenberger</TargetName>
+	</Name>
+	<Name ID="905">
+		<SourceName>โช้กอัป</SourceName>
+		<TargetName ID="1">choke up</TargetName>
+	</Name>
+	<Name ID="906">
+		<SourceName>โซลาร์</SourceName>
+		<TargetName ID="1">solar</TargetName>
+	</Name>
+	<Name ID="907">
+		<SourceName>โซอี</SourceName>
+		<TargetName ID="1">zoe</TargetName>
+	</Name>
+	<Name ID="908">
+		<SourceName>โซเดียมไบคาร์บอเนต</SourceName>
+		<TargetName ID="1">sodium bicarbonate</TargetName>
+	</Name>
+	<Name ID="909">
+		<SourceName>โดมีเย, ออนอเร</SourceName>
+		<TargetName ID="1">daumier, honore</TargetName>
+	</Name>
+	<Name ID="910">
+		<SourceName>โดเติ้น</SourceName>
+		<TargetName ID="1">doten</TargetName>
+	</Name>
+	<Name ID="911">
+		<SourceName>โดเนิต</SourceName>
+		<TargetName ID="1">donat</TargetName>
+	</Name>
+	<Name ID="912">
+		<SourceName>โตปิกา</SourceName>
+		<TargetName ID="1">topeka</TargetName>
+	</Name>
+	<Name ID="913">
+		<SourceName>โตมาส</SourceName>
+		<TargetName ID="1">tomas</TargetName>
+	</Name>
+	<Name ID="914">
+		<SourceName>โทม่า</SourceName>
+		<TargetName ID="1">thoma</TargetName>
+	</Name>
+	<Name ID="915">
+		<SourceName>โนลด์</SourceName>
+		<TargetName ID="1">nold</TargetName>
+		<TargetName ID="2">nolde</TargetName>
+	</Name>
+	<Name ID="916">
+		<SourceName>โนวาเรซี่</SourceName>
+		<TargetName ID="1">novarese</TargetName>
+	</Name>
+	<Name ID="917">
+		<SourceName>โนว์เลส</SourceName>
+		<TargetName ID="1">knowles</TargetName>
+	</Name>
+	<Name ID="918">
+		<SourceName>โนโมแกรม</SourceName>
+		<TargetName ID="1">nomogram</TargetName>
+	</Name>
+	<Name ID="919">
+		<SourceName>โบนสติล</SourceName>
+		<TargetName ID="1">bonesteel</TargetName>
+	</Name>
+	<Name ID="920">
+		<SourceName>โบบิ้น</SourceName>
+		<TargetName ID="1">beaubien</TargetName>
+	</Name>
+	<Name ID="921">
+		<SourceName>โบลด์</SourceName>
+		<TargetName ID="1">bold</TargetName>
+	</Name>
+	<Name ID="922">
+		<SourceName>โบเลอร์</SourceName>
+		<TargetName ID="1">boler</TargetName>
+	</Name>
+	<Name ID="923">
+		<SourceName>โบแอส</SourceName>
+		<TargetName ID="1">boaz</TargetName>
+	</Name>
+	<Name ID="924">
+		<SourceName>โปรตอน</SourceName>
+		<TargetName ID="1">proton</TargetName>
+	</Name>
+	<Name ID="925">
+		<SourceName>โพรเฟส</SourceName>
+		<TargetName ID="1">prophase</TargetName>
+	</Name>
+	<Name ID="926">
+		<SourceName>โพล</SourceName>
+		<TargetName ID="1">pohl</TargetName>
+	</Name>
+	<Name ID="927">
+		<SourceName>โพลารอยด์</SourceName>
+		<TargetName ID="1">polaroid</TargetName>
+	</Name>
+	<Name ID="928">
+		<SourceName>โพลีคาร์บอเนต</SourceName>
+		<TargetName ID="1">polycarbonate</TargetName>
+	</Name>
+	<Name ID="929">
+		<SourceName>โฟร์อาย</SourceName>
+		<TargetName ID="1">four-eye</TargetName>
+	</Name>
+	<Name ID="930">
+		<SourceName>โฟโตอิเล็กทริก</SourceName>
+		<TargetName ID="1">photoelectric</TargetName>
+	</Name>
+	<Name ID="931">
+		<SourceName>โมนคาด้า</SourceName>
+		<TargetName ID="1">moncada</TargetName>
+	</Name>
+	<Name ID="932">
+		<SourceName>โมน่า</SourceName>
+		<TargetName ID="1">mona</TargetName>
+	</Name>
+	<Name ID="933">
+		<SourceName>โมปาซอง, กี เดอ</SourceName>
+		<TargetName ID="1">maupassant, guy de</TargetName>
+	</Name>
+	<Name ID="934">
+		<SourceName>โมราเวีย, อัลแบร์โต</SourceName>
+		<TargetName ID="1">moravia, alberto</TargetName>
+	</Name>
+	<Name ID="935">
+		<SourceName>โมลเลอร์</SourceName>
+		<TargetName ID="1">moller</TargetName>
+	</Name>
+	<Name ID="936">
+		<SourceName>โรตา</SourceName>
+		<TargetName ID="1">rota</TargetName>
+	</Name>
+	<Name ID="937">
+		<SourceName>โรลแบ็ก</SourceName>
+		<TargetName ID="1">roll back</TargetName>
+	</Name>
+	<Name ID="938">
+		<SourceName>โรว์แลนสัน</SourceName>
+		<TargetName ID="1">rowlandson</TargetName>
+	</Name>
+	<Name ID="939">
+		<SourceName>โลวินส์</SourceName>
+		<TargetName ID="1">lovins</TargetName>
+	</Name>
+	<Name ID="940">
+		<SourceName>โลว์, เซอร์เดวิด อะเล็กซานเดอร์ ซีซิล</SourceName>
+		<TargetName ID="1">low, sir david alexander cecil</TargetName>
+	</Name>
+	<Name ID="941">
+		<SourceName>โลเคอร์</SourceName>
+		<TargetName ID="1">loker</TargetName>
+	</Name>
+	<Name ID="942">
+		<SourceName>โลเวนสไตน์</SourceName>
+		<TargetName ID="1">lowenstein</TargetName>
+	</Name>
+	<Name ID="943">
+		<SourceName>โวลด์</SourceName>
+		<TargetName ID="1">vold</TargetName>
+	</Name>
+	<Name ID="944">
+		<SourceName>โวลเตอร์</SourceName>
+		<TargetName ID="1">wolter</TargetName>
+	</Name>
+	<Name ID="945">
+		<SourceName>โอนีย์</SourceName>
+		<TargetName ID="1">olney</TargetName>
+	</Name>
+	<Name ID="946">
+		<SourceName>โอมาร่า</SourceName>
+		<TargetName ID="1">omara</TargetName>
+	</Name>
+	<Name ID="947">
+		<SourceName>โอลด์โรส</SourceName>
+		<TargetName ID="1">old rose</TargetName>
+	</Name>
+	<Name ID="948">
+		<SourceName>โอฮาร่า</SourceName>
+		<TargetName ID="1">ohara</TargetName>
+	</Name>
+	<Name ID="949">
+		<SourceName>โอเชียเนีย</SourceName>
+		<TargetName ID="1">oceania</TargetName>
+	</Name>
+	<Name ID="950">
+		<SourceName>โอเบรียน</SourceName>
+		<TargetName ID="1">o'brien</TargetName>
+	</Name>
+	<Name ID="951">
+		<SourceName>โอเมกา</SourceName>
+		<TargetName ID="1">omega</TargetName>
+	</Name>
+	<Name ID="952">
+		<SourceName>โอเมอร์</SourceName>
+		<TargetName ID="1">omer</TargetName>
+	</Name>
+	<Name ID="953">
+		<SourceName>โฮป</SourceName>
+		<TargetName ID="1">hope</TargetName>
+	</Name>
+	<Name ID="954">
+		<SourceName>โฮล</SourceName>
+		<TargetName ID="1">hole</TargetName>
+	</Name>
+	<Name ID="955">
+		<SourceName>โฮลต์</SourceName>
+		<TargetName ID="1">hoult</TargetName>
+		<TargetName ID="2">holt</TargetName>
+	</Name>
+	<Name ID="956">
+		<SourceName>โฮเลิ้น</SourceName>
+		<TargetName ID="1">hohlen</TargetName>
+	</Name>
+	<Name ID="957">
+		<SourceName>โฮโลคาสต์</SourceName>
+		<TargetName ID="1">holokarst</TargetName>
+	</Name>
+	<Name ID="958">
+		<SourceName>ไคลง์คนิกต์</SourceName>
+		<TargetName ID="1">kleinknecht</TargetName>
+	</Name>
+	<Name ID="959">
+		<SourceName>ไคลีย์</SourceName>
+		<TargetName ID="1">kiley</TargetName>
+	</Name>
+	<Name ID="960">
+		<SourceName>ไคส์</SourceName>
+		<TargetName ID="1">kies</TargetName>
+		<TargetName ID="2">kyes</TargetName>
+	</Name>
+	<Name ID="961">
+		<SourceName>ไชฟ์</SourceName>
+		<TargetName ID="1">shive</TargetName>
+	</Name>
+	<Name ID="962">
+		<SourceName>ไชรเวอร์</SourceName>
+		<TargetName ID="1">shriver</TargetName>
+	</Name>
+	<Name ID="963">
+		<SourceName>ไชล์</SourceName>
+		<TargetName ID="1">sheil</TargetName>
+	</Name>
+	<Name ID="964">
+		<SourceName>ไซปัน</SourceName>
+		<TargetName ID="1">saipan</TargetName>
+	</Name>
+	<Name ID="965">
+		<SourceName>ไดก์ส</SourceName>
+		<TargetName ID="1">dykes</TargetName>
+	</Name>
+	<Name ID="966">
+		<SourceName>ไดอะล็อก</SourceName>
+		<TargetName ID="1">dialogue</TargetName>
+	</Name>
+	<Name ID="967">
+		<SourceName>ไดอะแกรม</SourceName>
+		<TargetName ID="1">diagram</TargetName>
+	</Name>
+	<Name ID="968">
+		<SourceName>ไดโพล</SourceName>
+		<TargetName ID="1">dipole</TargetName>
+	</Name>
+	<Name ID="969">
+		<SourceName>ไทรเซกทริกซ์</SourceName>
+		<TargetName ID="1">trisectrix</TargetName>
+	</Name>
+	<Name ID="970">
+		<SourceName>ไทเทิล</SourceName>
+		<TargetName ID="1">title</TargetName>
+	</Name>
+	<Name ID="971">
+		<SourceName>ไนอาช</SourceName>
+		<TargetName ID="1">niosh</TargetName>
+	</Name>
+	<Name ID="972">
+		<SourceName>ไบการ์ต</SourceName>
+		<TargetName ID="1">bigart</TargetName>
+	</Name>
+	<Name ID="973">
+		<SourceName>ไบบอร์</SourceName>
+		<TargetName ID="1">bibor</TargetName>
+	</Name>
+	<Name ID="974">
+		<SourceName>ไบรเติ้ง</SourceName>
+		<TargetName ID="1">breitung</TargetName>
+	</Name>
+	<Name ID="975">
+		<SourceName>ไบเอิร์ส</SourceName>
+		<TargetName ID="1">byars</TargetName>
+	</Name>
+	<Name ID="976">
+		<SourceName>ไพรเมต</SourceName>
+		<TargetName ID="1">primate</TargetName>
+	</Name>
+	<Name ID="977">
+		<SourceName>ไพเพอร์</SourceName>
+		<TargetName ID="1">piper</TargetName>
+	</Name>
+	<Name ID="978">
+		<SourceName>ไฟแนนซ์</SourceName>
+		<TargetName ID="1">finance</TargetName>
+	</Name>
+	<Name ID="979">
+		<SourceName>ไรซิก</SourceName>
+		<TargetName ID="1">reisig</TargetName>
+		<TargetName ID="2">reissig</TargetName>
+	</Name>
+	<Name ID="980">
+		<SourceName>ไรต์</SourceName>
+		<TargetName ID="1">write</TargetName>
+	</Name>
+	<Name ID="981">
+		<SourceName>ไรลี่</SourceName>
+		<TargetName ID="1">reily</TargetName>
+	</Name>
+	<Name ID="982">
+		<SourceName>ไวซินเบิร์น</SourceName>
+		<TargetName ID="1">weissenborn</TargetName>
+	</Name>
+	<Name ID="983">
+		<SourceName>ไวต์</SourceName>
+		<TargetName ID="1">whyte</TargetName>
+		<TargetName ID="2">white</TargetName>
+	</Name>
+	<Name ID="984">
+		<SourceName>ไวต์ไซด์</SourceName>
+		<TargetName ID="1">whiteside</TargetName>
+	</Name>
+	<Name ID="985">
+		<SourceName>ไวน์เบิร์ก</SourceName>
+		<TargetName ID="1">weinberg</TargetName>
+	</Name>
+	<Name ID="986">
+		<SourceName>ไวส์เมิน</SourceName>
+		<TargetName ID="1">wiseman</TargetName>
+	</Name>
+	<Name ID="987">
+		<SourceName>ไวเมิร์ส</SourceName>
+		<TargetName ID="1">weimers</TargetName>
+	</Name>
+	<Name ID="988">
+		<SourceName>ไอคินส์</SourceName>
+		<TargetName ID="1">aikins</TargetName>
+	</Name>
+	<Name ID="989">
+		<SourceName>ไอน์สไตเนียม</SourceName>
+		<TargetName ID="1">einsteinium</TargetName>
+		<TargetName ID="2">eisteinium</TargetName>
+	</Name>
+	<Name ID="990">
+		<SourceName>ไอออนอฟอร์</SourceName>
+		<TargetName ID="1">ionophore</TargetName>
+	</Name>
+	<Name ID="991">
+		<SourceName>ไอเอสเอฟ</SourceName>
+		<TargetName ID="1">isf</TargetName>
+	</Name>
+	<Name ID="992">
+		<SourceName>ไอแซก</SourceName>
+		<TargetName ID="1">isaac</TargetName>
+		<TargetName ID="2">izaak</TargetName>
+	</Name>
+	<Name ID="993">
+		<SourceName>ไอโซโกนิก</SourceName>
+		<TargetName ID="1">isogonic</TargetName>
+	</Name>
+	<Name ID="994">
+		<SourceName>ไอโวน</SourceName>
+		<TargetName ID="1">ivone</TargetName>
+	</Name>
+	<Name ID="995">
+		<SourceName>ไฮ</SourceName>
+		<TargetName ID="1">heye</TargetName>
+		<TargetName ID="2">high</TargetName>
+		<TargetName ID="3">hi</TargetName>
+	</Name>
+	<Name ID="996">
+		<SourceName>ไฮน์, ไฮน์ริช</SourceName>
+		<TargetName ID="1">heine, heinrich</TargetName>
+	</Name>
+	<Name ID="997">
+		<SourceName>ไฮน์ไลน์</SourceName>
+		<TargetName ID="1">heinlein</TargetName>
+	</Name>
+	<Name ID="998">
+		<SourceName>ไฮล์</SourceName>
+		<TargetName ID="1">heil</TargetName>
+		<TargetName ID="2">hile</TargetName>
+	</Name>
+	<Name ID="999">
+		<SourceName>ไฮโดรกราฟ</SourceName>
+		<TargetName ID="1">hydrograph</TargetName>
+	</Name>
+	<Name ID="1000">
+		<SourceName>ไฮโดรเจนอิออน</SourceName>
+		<TargetName ID="1">hydrogen ion</TargetName>
+	</Name>
+</TransliterationCorpus>

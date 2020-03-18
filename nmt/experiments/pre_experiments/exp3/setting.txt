@@ -1,0 +1,19 @@
+Setting:
+ Seq2Seq(
+  (encoder): Encoder(
+    (embedding): Embedding(33, 200)
+    (rnn): GRU(200, 500, num_layers=2, dropout=0.2, bidirectional=True)
+    (fc): Linear(in_features=1000, out_features=500, bias=True)
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+  (decoder): Decoder(
+    (attention): Attention(
+      (attn): Linear(in_features=1500, out_features=500, bias=True)
+      (v): Linear(in_features=500, out_features=1, bias=False)
+    )
+    (embedding): Embedding(534, 200)
+    (rnn): GRU(1700, 500, num_layers=2, dropout=0.2)
+    (fc_out): Linear(in_features=1700, out_features=534, bias=True)
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+)

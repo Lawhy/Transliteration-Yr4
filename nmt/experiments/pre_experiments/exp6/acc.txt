@@ -1,0 +1,3 @@
+Valid Accuracy: 0.6764132553606238
+Test Accuracy: 0.711
+Test Loss: 0.6278126545250415
