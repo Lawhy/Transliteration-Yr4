@@ -1,0 +1,6 @@
+Valid Accuracy: 0.6237816764132553
+Test Accuracy: 0.69
+Test Accuracy (Multi): 0.698
+Test Loss: 0.624977032840252
+ACC-ACT: 0.709
+Replaced: 19/293

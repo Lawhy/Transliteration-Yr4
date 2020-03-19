@@ -1,0 +1,7 @@
+Valid Accuracy: 0.6588693957115009
+Test Accuracy: 0.704
+Test Accuracy (Multi): 0.713
+Test Loss: 0.5871147528290749
+Pinyin Test Accuracy: N/A
+ACC-ACT: 0.723
+Replaced: 19/276
