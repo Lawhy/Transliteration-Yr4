@@ -1,0 +1,4 @@
+[OpenNMT]
+Test ACC: 0.7
+Test ACC-ACT: 0.717
+Replaced: 17/281

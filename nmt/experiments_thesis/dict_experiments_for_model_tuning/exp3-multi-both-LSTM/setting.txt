@@ -1,5 +1,5 @@
 Params #: 19728323
-Multi-task ratio on main task: 0.75
+# multi-task 0.8 0.2
 Seq2Seq(
   (encoder): Encoder(
     (embedding): Sequential(

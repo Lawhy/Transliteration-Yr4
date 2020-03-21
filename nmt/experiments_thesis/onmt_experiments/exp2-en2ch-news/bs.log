@@ -1,0 +1,996 @@
+[2020-03-20 02:56:51,853 INFO]  * src vocab size = 31
+[2020-03-20 02:56:51,853 INFO]  * tgt vocab size = 631
+[2020-03-20 02:56:51,853 INFO] Building model...
+[2020-03-20 02:56:56,402 INFO] NMTModel(
+  (encoder): RNNEncoder(
+    (embeddings): Embeddings(
+      (make_embedding): Sequential(
+        (emb_luts): Elementwise(
+          (0): Embedding(31, 256, padding_idx=1)
+        )
+      )
+    )
+    (rnn): GRU(256, 256, num_layers=2, dropout=0.2, bidirectional=True)
+  )
+  (decoder): InputFeedRNNDecoder(
+    (embeddings): Embeddings(
+      (make_embedding): Sequential(
+        (emb_luts): Elementwise(
+          (0): Embedding(631, 256, padding_idx=1)
+        )
+      )
+    )
+    (dropout): Dropout(p=0.2, inplace=False)
+    (rnn): StackedGRU(
+      (dropout): Dropout(p=0.2, inplace=False)
+      (layers): ModuleList(
+        (0): GRUCell(768, 512)
+        (1): GRUCell(512, 512)
+      )
+    )
+    (attn): GlobalAttention(
+      (linear_context): Linear(in_features=512, out_features=512, bias=False)
+      (linear_query): Linear(in_features=512, out_features=512, bias=True)
+      (v): Linear(in_features=512, out_features=1, bias=False)
+      (linear_out): Linear(in_features=1024, out_features=512, bias=True)
+    )
+  )
+  (generator): Sequential(
+    (0): Linear(in_features=512, out_features=631, bias=True)
+    (1): Cast()
+    (2): LogSoftmax()
+  )
+)
+[2020-03-20 02:56:56,403 INFO] encoder: 1980160
+[2020-03-20 02:56:56,403 INFO] decoder: 5080439
+[2020-03-20 02:56:56,403 INFO] * number of parameters: 7060599
+[2020-03-20 02:56:57,119 INFO] Starting training on GPU: [0]
+[2020-03-20 02:56:57,119 INFO] Start training loop and validate every 500 steps...
+[2020-03-20 02:56:57,119 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 02:56:58,120 INFO] number of examples: 81252
+[2020-03-20 02:57:00,853 INFO] Step 50/30000; acc:  22.45; ppl: 102.49; xent: 4.63; lr: 0.00300; 6268/3788 tok/s;      4 sec
+[2020-03-20 02:57:02,804 INFO] Step 100/30000; acc:  35.71; ppl: 18.91; xent: 2.94; lr: 0.00300; 10708/6604 tok/s;      6 sec
+[2020-03-20 02:57:04,741 INFO] Step 150/30000; acc:  43.80; ppl: 12.53; xent: 2.53; lr: 0.00300; 11191/6778 tok/s;      8 sec
+[2020-03-20 02:57:06,709 INFO] Step 200/30000; acc:  53.87; ppl:  7.07; xent: 1.96; lr: 0.00300; 11147/7112 tok/s;     10 sec
+[2020-03-20 02:57:08,713 INFO] Step 250/30000; acc:  60.11; ppl:  6.21; xent: 1.83; lr: 0.00300; 12015/7204 tok/s;     12 sec
+[2020-03-20 02:57:10,597 INFO] Step 300/30000; acc:  65.62; ppl:  4.38; xent: 1.48; lr: 0.00300; 11870/7388 tok/s;     13 sec
+[2020-03-20 02:57:12,450 INFO] Step 350/30000; acc:  71.19; ppl:  3.61; xent: 1.28; lr: 0.00300; 12440/7372 tok/s;     15 sec
+[2020-03-20 02:57:14,471 INFO] Step 400/30000; acc:  72.93; ppl:  3.42; xent: 1.23; lr: 0.00300; 11590/6797 tok/s;     17 sec
+[2020-03-20 02:57:16,420 INFO] Step 450/30000; acc:  75.84; ppl:  2.84; xent: 1.04; lr: 0.00300; 11719/7109 tok/s;     19 sec
+[2020-03-20 02:57:18,287 INFO] Step 500/30000; acc:  78.72; ppl:  2.41; xent: 0.88; lr: 0.00300; 10777/6848 tok/s;     21 sec
+[2020-03-20 02:57:18,288 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 02:57:18,295 INFO] number of examples: 513
+[2020-03-20 02:57:18,545 INFO] Validation perplexity: 2.5749
+[2020-03-20 02:57:18,546 INFO] Validation accuracy: 79.459
+[2020-03-20 02:57:18,553 INFO] Saving checkpoint bs_step_500.pt
+[2020-03-20 02:57:21,334 INFO] Step 550/30000; acc:  79.42; ppl:  2.39; xent: 0.87; lr: 0.00300; 7311/4538 tok/s;     24 sec
+[2020-03-20 02:57:23,163 INFO] Step 600/30000; acc:  81.64; ppl:  2.13; xent: 0.76; lr: 0.00300; 11377/7226 tok/s;     26 sec
+[2020-03-20 02:57:25,017 INFO] Step 650/30000; acc:  81.42; ppl:  2.23; xent: 0.80; lr: 0.00300; 11778/7391 tok/s;     28 sec
+[2020-03-20 02:57:26,831 INFO] Step 700/30000; acc:  80.28; ppl:  2.27; xent: 0.82; lr: 0.00300; 12065/7068 tok/s;     30 sec
+[2020-03-20 02:57:28,613 INFO] Step 750/30000; acc:  82.75; ppl:  2.04; xent: 0.71; lr: 0.00300; 11861/7327 tok/s;     31 sec
+[2020-03-20 02:57:30,407 INFO] Step 800/30000; acc:  81.53; ppl:  2.16; xent: 0.77; lr: 0.00300; 11229/7033 tok/s;     33 sec
+[2020-03-20 02:57:32,416 INFO] Step 850/30000; acc:  83.12; ppl:  2.04; xent: 0.71; lr: 0.00300; 10245/6481 tok/s;     35 sec
+[2020-03-20 02:57:34,319 INFO] Step 900/30000; acc:  83.17; ppl:  2.02; xent: 0.70; lr: 0.00300; 10908/6839 tok/s;     37 sec
+[2020-03-20 02:57:36,171 INFO] Step 950/30000; acc:  84.94; ppl:  1.84; xent: 0.61; lr: 0.00300; 11192/6843 tok/s;     39 sec
+[2020-03-20 02:57:38,022 INFO] Step 1000/30000; acc:  83.65; ppl:  1.97; xent: 0.68; lr: 0.00270; 12002/7135 tok/s;     41 sec
+[2020-03-20 02:57:38,023 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 02:57:38,032 INFO] number of examples: 513
+[2020-03-20 02:57:38,273 INFO] Validation perplexity: 2.15601
+[2020-03-20 02:57:38,273 INFO] Validation accuracy: 81.7515
+[2020-03-20 02:57:38,278 INFO] Saving checkpoint bs_step_1000.pt
+[2020-03-20 02:57:41,087 INFO] Step 1050/30000; acc:  83.13; ppl:  1.98; xent: 0.68; lr: 0.00270; 7190/4320 tok/s;     44 sec
+[2020-03-20 02:57:42,947 INFO] Step 1100/30000; acc:  84.16; ppl:  1.87; xent: 0.63; lr: 0.00270; 11500/7024 tok/s;     46 sec
+[2020-03-20 02:57:44,836 INFO] Step 1150/30000; acc:  83.37; ppl:  2.05; xent: 0.72; lr: 0.00270; 12272/7325 tok/s;     48 sec
+[2020-03-20 02:57:46,749 INFO] Step 1200/30000; acc:  85.30; ppl:  1.83; xent: 0.61; lr: 0.00270; 12082/7229 tok/s;     50 sec
+[2020-03-20 02:57:48,765 INFO] Step 1250/30000; acc:  84.41; ppl:  1.89; xent: 0.64; lr: 0.00270; 11219/6914 tok/s;     52 sec
+[2020-03-20 02:57:49,562 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 02:57:51,162 INFO] number of examples: 81252
+[2020-03-20 02:57:53,034 INFO] Step 1300/30000; acc:  84.54; ppl:  2.05; xent: 0.72; lr: 0.00270; 5422/3312 tok/s;     56 sec
+[2020-03-20 02:57:54,960 INFO] Step 1350/30000; acc:  86.12; ppl:  1.75; xent: 0.56; lr: 0.00270; 11302/6952 tok/s;     58 sec
+[2020-03-20 02:57:56,847 INFO] Step 1400/30000; acc:  85.20; ppl:  1.76; xent: 0.57; lr: 0.00270; 11233/6626 tok/s;     60 sec
+[2020-03-20 02:57:58,895 INFO] Step 1450/30000; acc:  85.02; ppl:  1.84; xent: 0.61; lr: 0.00270; 11098/6992 tok/s;     62 sec
+[2020-03-20 02:58:01,018 INFO] Step 1500/30000; acc:  86.00; ppl:  1.73; xent: 0.55; lr: 0.00270; 10710/6700 tok/s;     64 sec
+[2020-03-20 02:58:01,019 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 02:58:01,032 INFO] number of examples: 513
+[2020-03-20 02:58:01,362 INFO] Validation perplexity: 1.90591
+[2020-03-20 02:58:01,362 INFO] Validation accuracy: 84.5942
+[2020-03-20 02:58:01,373 INFO] Saving checkpoint bs_step_1500.pt
+[2020-03-20 02:58:04,406 INFO] Step 1550/30000; acc:  85.12; ppl:  1.83; xent: 0.60; lr: 0.00270; 6904/4181 tok/s;     67 sec
+[2020-03-20 02:58:06,352 INFO] Step 1600/30000; acc:  86.37; ppl:  1.71; xent: 0.53; lr: 0.00270; 11548/7166 tok/s;     69 sec
+[2020-03-20 02:58:08,144 INFO] Step 1650/30000; acc:  85.61; ppl:  1.75; xent: 0.56; lr: 0.00270; 12578/7387 tok/s;     71 sec
+[2020-03-20 02:58:10,306 INFO] Step 1700/30000; acc:  83.45; ppl:  2.10; xent: 0.74; lr: 0.00270; 11120/6443 tok/s;     73 sec
+[2020-03-20 02:58:12,354 INFO] Step 1750/30000; acc:  85.67; ppl:  1.75; xent: 0.56; lr: 0.00270; 10129/6357 tok/s;     75 sec
+[2020-03-20 02:58:14,348 INFO] Step 1800/30000; acc:  86.57; ppl:  1.67; xent: 0.51; lr: 0.00270; 10921/6762 tok/s;     77 sec
+[2020-03-20 02:58:16,190 INFO] Step 1850/30000; acc:  87.22; ppl:  1.64; xent: 0.50; lr: 0.00270; 11473/7385 tok/s;     79 sec
+[2020-03-20 02:58:18,029 INFO] Step 1900/30000; acc:  87.52; ppl:  1.62; xent: 0.48; lr: 0.00270; 11484/7174 tok/s;     81 sec
+[2020-03-20 02:58:19,995 INFO] Step 1950/30000; acc:  86.61; ppl:  1.70; xent: 0.53; lr: 0.00270; 11405/6903 tok/s;     83 sec
+[2020-03-20 02:58:21,941 INFO] Step 2000/30000; acc:  86.57; ppl:  1.67; xent: 0.51; lr: 0.00243; 10749/6472 tok/s;     85 sec
+[2020-03-20 02:58:21,942 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 02:58:21,962 INFO] number of examples: 513
+[2020-03-20 02:58:22,208 INFO] Validation perplexity: 1.90956
+[2020-03-20 02:58:22,208 INFO] Validation accuracy: 85.4654
+[2020-03-20 02:58:22,215 INFO] Saving checkpoint bs_step_2000.pt
+[2020-03-20 02:58:25,091 INFO] Step 2050/30000; acc:  87.50; ppl:  1.62; xent: 0.49; lr: 0.00243; 6545/4173 tok/s;     88 sec
+[2020-03-20 02:58:26,910 INFO] Step 2100/30000; acc:  86.55; ppl:  1.70; xent: 0.53; lr: 0.00243; 11287/6972 tok/s;     90 sec
+[2020-03-20 02:58:28,670 INFO] Step 2150/30000; acc:  87.03; ppl:  1.64; xent: 0.50; lr: 0.00243; 11556/7197 tok/s;     92 sec
+[2020-03-20 02:58:30,769 INFO] Step 2200/30000; acc:  88.02; ppl:  1.56; xent: 0.45; lr: 0.00243; 10038/6300 tok/s;     94 sec
+[2020-03-20 02:58:32,569 INFO] Step 2250/30000; acc:  88.55; ppl:  1.55; xent: 0.44; lr: 0.00243; 12026/7145 tok/s;     95 sec
+[2020-03-20 02:58:34,560 INFO] Step 2300/30000; acc:  87.99; ppl:  1.58; xent: 0.46; lr: 0.00243; 11098/6764 tok/s;     97 sec
+[2020-03-20 02:58:36,549 INFO] Step 2350/30000; acc:  87.13; ppl:  1.62; xent: 0.48; lr: 0.00243; 10852/6463 tok/s;     99 sec
+[2020-03-20 02:58:38,472 INFO] Step 2400/30000; acc:  87.03; ppl:  1.67; xent: 0.51; lr: 0.00243; 11487/7067 tok/s;    101 sec
+[2020-03-20 02:58:40,276 INFO] Step 2450/30000; acc:  87.63; ppl:  1.62; xent: 0.48; lr: 0.00243; 12990/7661 tok/s;    103 sec
+[2020-03-20 02:58:42,118 INFO] Step 2500/30000; acc:  87.66; ppl:  1.61; xent: 0.48; lr: 0.00243; 12443/7647 tok/s;    105 sec
+[2020-03-20 02:58:42,120 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 02:58:42,125 INFO] number of examples: 513
+[2020-03-20 02:58:42,341 INFO] Validation perplexity: 1.80528
+[2020-03-20 02:58:42,341 INFO] Validation accuracy: 86.0156
+[2020-03-20 02:58:42,345 INFO] Saving checkpoint bs_step_2500.pt
+[2020-03-20 02:58:44,710 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 02:58:45,877 INFO] number of examples: 81252
+[2020-03-20 02:58:46,911 INFO] Step 2550/30000; acc:  87.93; ppl:  1.60; xent: 0.47; lr: 0.00243; 4702/2866 tok/s;    110 sec
+[2020-03-20 02:58:48,985 INFO] Step 2600/30000; acc:  86.99; ppl:  1.73; xent: 0.55; lr: 0.00243; 11007/6666 tok/s;    112 sec
+[2020-03-20 02:58:50,941 INFO] Step 2650/30000; acc:  87.52; ppl:  1.58; xent: 0.46; lr: 0.00243; 10902/6590 tok/s;    114 sec
+[2020-03-20 02:58:53,016 INFO] Step 2700/30000; acc:  87.80; ppl:  1.61; xent: 0.47; lr: 0.00243; 10571/6535 tok/s;    116 sec
+[2020-03-20 02:58:55,016 INFO] Step 2750/30000; acc:  88.57; ppl:  1.53; xent: 0.42; lr: 0.00243; 11035/7032 tok/s;    118 sec
+[2020-03-20 02:58:57,049 INFO] Step 2800/30000; acc:  88.45; ppl:  1.55; xent: 0.44; lr: 0.00243; 11577/7007 tok/s;    120 sec
+[2020-03-20 02:58:59,075 INFO] Step 2850/30000; acc:  87.89; ppl:  1.61; xent: 0.48; lr: 0.00243; 11601/7073 tok/s;    122 sec
+[2020-03-20 02:59:00,883 INFO] Step 2900/30000; acc:  87.97; ppl:  1.57; xent: 0.45; lr: 0.00243; 12292/7288 tok/s;    124 sec
+[2020-03-20 02:59:02,862 INFO] Step 2950/30000; acc:  86.52; ppl:  1.76; xent: 0.56; lr: 0.00243; 12206/6966 tok/s;    126 sec
+[2020-03-20 02:59:04,858 INFO] Step 3000/30000; acc:  88.33; ppl:  1.57; xent: 0.45; lr: 0.00219; 10880/6851 tok/s;    128 sec
+[2020-03-20 02:59:04,860 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 02:59:04,873 INFO] number of examples: 513
+[2020-03-20 02:59:05,125 INFO] Validation perplexity: 1.79098
+[2020-03-20 02:59:05,125 INFO] Validation accuracy: 86.8867
+[2020-03-20 02:59:05,129 INFO] Saving checkpoint bs_step_3000.pt
+[2020-03-20 02:59:07,899 INFO] Step 3050/30000; acc:  89.34; ppl:  1.50; xent: 0.40; lr: 0.00219; 6823/4286 tok/s;    131 sec
+[2020-03-20 02:59:09,956 INFO] Step 3100/30000; acc:  90.00; ppl:  1.45; xent: 0.37; lr: 0.00219; 10805/6757 tok/s;    133 sec
+[2020-03-20 02:59:11,879 INFO] Step 3150/30000; acc:  89.90; ppl:  1.45; xent: 0.37; lr: 0.00219; 10685/6743 tok/s;    135 sec
+[2020-03-20 02:59:13,738 INFO] Step 3200/30000; acc:  89.12; ppl:  1.51; xent: 0.41; lr: 0.00219; 11614/7231 tok/s;    137 sec
+[2020-03-20 02:59:15,647 INFO] Step 3250/30000; acc:  88.71; ppl:  1.52; xent: 0.42; lr: 0.00219; 11490/6745 tok/s;    139 sec
+[2020-03-20 02:59:17,490 INFO] Step 3300/30000; acc:  89.64; ppl:  1.45; xent: 0.37; lr: 0.00219; 11642/7328 tok/s;    140 sec
+[2020-03-20 02:59:19,259 INFO] Step 3350/30000; acc:  88.48; ppl:  1.52; xent: 0.42; lr: 0.00219; 11208/6952 tok/s;    142 sec
+[2020-03-20 02:59:21,146 INFO] Step 3400/30000; acc:  89.32; ppl:  1.49; xent: 0.40; lr: 0.00219; 10944/7004 tok/s;    144 sec
+[2020-03-20 02:59:22,994 INFO] Step 3450/30000; acc:  89.44; ppl:  1.47; xent: 0.39; lr: 0.00219; 10989/6834 tok/s;    146 sec
+[2020-03-20 02:59:24,831 INFO] Step 3500/30000; acc:  90.20; ppl:  1.43; xent: 0.36; lr: 0.00219; 11715/7060 tok/s;    148 sec
+[2020-03-20 02:59:24,832 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 02:59:24,838 INFO] number of examples: 513
+[2020-03-20 02:59:25,086 INFO] Validation perplexity: 1.79371
+[2020-03-20 02:59:25,086 INFO] Validation accuracy: 86.5658
+[2020-03-20 02:59:25,093 INFO] Saving checkpoint bs_step_3500.pt
+[2020-03-20 02:59:27,815 INFO] Step 3550/30000; acc:  90.02; ppl:  1.43; xent: 0.36; lr: 0.00219; 7466/4533 tok/s;    151 sec
+[2020-03-20 02:59:29,586 INFO] Step 3600/30000; acc:  89.73; ppl:  1.47; xent: 0.38; lr: 0.00219; 12157/7298 tok/s;    152 sec
+[2020-03-20 02:59:31,453 INFO] Step 3650/30000; acc:  89.50; ppl:  1.48; xent: 0.39; lr: 0.00219; 11696/7073 tok/s;    154 sec
+[2020-03-20 02:59:33,292 INFO] Step 3700/30000; acc:  89.24; ppl:  1.50; xent: 0.40; lr: 0.00219; 12748/7519 tok/s;    156 sec
+[2020-03-20 02:59:35,299 INFO] Step 3750/30000; acc:  90.00; ppl:  1.45; xent: 0.37; lr: 0.00219; 11150/6837 tok/s;    158 sec
+[2020-03-20 02:59:37,236 INFO] Step 3800/30000; acc:  89.70; ppl:  1.46; xent: 0.38; lr: 0.00219; 11776/7196 tok/s;    160 sec
+[2020-03-20 02:59:37,706 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 02:59:39,387 INFO] number of examples: 81252
+[2020-03-20 02:59:41,480 INFO] Step 3850/30000; acc:  88.92; ppl:  1.57; xent: 0.45; lr: 0.00219; 5530/3370 tok/s;    164 sec
+[2020-03-20 02:59:43,344 INFO] Step 3900/30000; acc:  90.13; ppl:  1.43; xent: 0.36; lr: 0.00219; 11615/7065 tok/s;    166 sec
+[2020-03-20 02:59:45,066 INFO] Step 3950/30000; acc:  89.03; ppl:  1.50; xent: 0.40; lr: 0.00219; 12510/7510 tok/s;    168 sec
+[2020-03-20 02:59:46,888 INFO] Step 4000/30000; acc:  90.10; ppl:  1.44; xent: 0.37; lr: 0.00197; 12184/7731 tok/s;    170 sec
+[2020-03-20 02:59:46,889 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 02:59:46,913 INFO] number of examples: 513
+[2020-03-20 02:59:47,131 INFO] Validation perplexity: 1.81243
+[2020-03-20 02:59:47,131 INFO] Validation accuracy: 86.795
+[2020-03-20 02:59:47,135 INFO] Saving checkpoint bs_step_4000.pt
+[2020-03-20 02:59:50,069 INFO] Step 4050/30000; acc:  90.73; ppl:  1.41; xent: 0.35; lr: 0.00197; 7186/4490 tok/s;    173 sec
+[2020-03-20 02:59:51,981 INFO] Step 4100/30000; acc:  89.56; ppl:  1.47; xent: 0.38; lr: 0.00197; 12069/7275 tok/s;    175 sec
+[2020-03-20 02:59:53,994 INFO] Step 4150/30000; acc:  90.71; ppl:  1.41; xent: 0.34; lr: 0.00197; 11514/6928 tok/s;    177 sec
+[2020-03-20 02:59:55,984 INFO] Step 4200/30000; acc:  89.06; ppl:  1.59; xent: 0.46; lr: 0.00197; 11604/6782 tok/s;    179 sec
+[2020-03-20 02:59:57,967 INFO] Step 4250/30000; acc:  90.31; ppl:  1.44; xent: 0.37; lr: 0.00197; 11713/6957 tok/s;    181 sec
+[2020-03-20 02:59:59,867 INFO] Step 4300/30000; acc:  90.26; ppl:  1.42; xent: 0.35; lr: 0.00197; 10860/6825 tok/s;    183 sec
+[2020-03-20 03:00:01,699 INFO] Step 4350/30000; acc:  91.59; ppl:  1.35; xent: 0.30; lr: 0.00197; 11742/7392 tok/s;    185 sec
+[2020-03-20 03:00:03,636 INFO] Step 4400/30000; acc:  91.41; ppl:  1.38; xent: 0.32; lr: 0.00197; 10809/6889 tok/s;    187 sec
+[2020-03-20 03:00:05,490 INFO] Step 4450/30000; acc:  90.95; ppl:  1.37; xent: 0.31; lr: 0.00197; 11607/7247 tok/s;    188 sec
+[2020-03-20 03:00:07,391 INFO] Step 4500/30000; acc:  90.68; ppl:  1.42; xent: 0.35; lr: 0.00197; 11612/7041 tok/s;    190 sec
+[2020-03-20 03:00:07,392 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:00:07,400 INFO] number of examples: 513
+[2020-03-20 03:00:07,596 INFO] Validation perplexity: 1.88774
+[2020-03-20 03:00:07,597 INFO] Validation accuracy: 86.1531
+[2020-03-20 03:00:07,600 INFO] Saving checkpoint bs_step_4500.pt
+[2020-03-20 03:00:10,330 INFO] Step 4550/30000; acc:  90.85; ppl:  1.39; xent: 0.33; lr: 0.00197; 7275/4346 tok/s;    193 sec
+[2020-03-20 03:00:12,067 INFO] Step 4600/30000; acc:  90.86; ppl:  1.41; xent: 0.34; lr: 0.00197; 11537/7346 tok/s;    195 sec
+[2020-03-20 03:00:13,875 INFO] Step 4650/30000; acc:  90.73; ppl:  1.38; xent: 0.32; lr: 0.00197; 11553/7207 tok/s;    197 sec
+[2020-03-20 03:00:15,713 INFO] Step 4700/30000; acc:  91.09; ppl:  1.38; xent: 0.32; lr: 0.00197; 11116/7016 tok/s;    199 sec
+[2020-03-20 03:00:17,561 INFO] Step 4750/30000; acc:  91.74; ppl:  1.34; xent: 0.29; lr: 0.00197; 11509/7054 tok/s;    200 sec
+[2020-03-20 03:00:19,329 INFO] Step 4800/30000; acc:  91.65; ppl:  1.35; xent: 0.30; lr: 0.00197; 12242/7382 tok/s;    202 sec
+[2020-03-20 03:00:21,251 INFO] Step 4850/30000; acc:  91.99; ppl:  1.33; xent: 0.29; lr: 0.00197; 11722/6945 tok/s;    204 sec
+[2020-03-20 03:00:23,128 INFO] Step 4900/30000; acc:  91.30; ppl:  1.36; xent: 0.31; lr: 0.00197; 10995/6809 tok/s;    206 sec
+[2020-03-20 03:00:25,021 INFO] Step 4950/30000; acc:  91.16; ppl:  1.40; xent: 0.34; lr: 0.00197; 12557/7456 tok/s;    208 sec
+[2020-03-20 03:00:26,955 INFO] Step 5000/30000; acc:  91.28; ppl:  1.36; xent: 0.31; lr: 0.00177; 11851/7018 tok/s;    210 sec
+[2020-03-20 03:00:26,956 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:00:26,973 INFO] number of examples: 513
+[2020-03-20 03:00:27,213 INFO] Validation perplexity: 1.81887
+[2020-03-20 03:00:27,214 INFO] Validation accuracy: 87.2994
+[2020-03-20 03:00:27,220 INFO] Saving checkpoint bs_step_5000.pt
+[2020-03-20 03:00:30,054 INFO] Step 5050/30000; acc:  91.74; ppl:  1.34; xent: 0.29; lr: 0.00177; 7189/4504 tok/s;    213 sec
+[2020-03-20 03:00:31,163 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:00:32,345 INFO] number of examples: 81252
+[2020-03-20 03:00:33,830 INFO] Step 5100/30000; acc:  90.72; ppl:  1.50; xent: 0.40; lr: 0.00177; 6080/3703 tok/s;    217 sec
+[2020-03-20 03:00:35,758 INFO] Step 5150/30000; acc:  91.86; ppl:  1.33; xent: 0.28; lr: 0.00177; 11402/6957 tok/s;    219 sec
+[2020-03-20 03:00:37,607 INFO] Step 5200/30000; acc:  91.65; ppl:  1.33; xent: 0.29; lr: 0.00177; 11670/6985 tok/s;    220 sec
+[2020-03-20 03:00:39,546 INFO] Step 5250/30000; acc:  91.53; ppl:  1.36; xent: 0.31; lr: 0.00177; 11645/7160 tok/s;    222 sec
+[2020-03-20 03:00:41,513 INFO] Step 5300/30000; acc:  92.47; ppl:  1.31; xent: 0.27; lr: 0.00177; 11115/7080 tok/s;    224 sec
+[2020-03-20 03:00:43,485 INFO] Step 5350/30000; acc:  92.05; ppl:  1.33; xent: 0.29; lr: 0.00177; 11832/7233 tok/s;    226 sec
+[2020-03-20 03:00:45,400 INFO] Step 5400/30000; acc:  91.85; ppl:  1.34; xent: 0.29; lr: 0.00177; 12078/7353 tok/s;    228 sec
+[2020-03-20 03:00:47,278 INFO] Step 5450/30000; acc:  92.51; ppl:  1.31; xent: 0.27; lr: 0.00177; 12202/7148 tok/s;    230 sec
+[2020-03-20 03:00:49,058 INFO] Step 5500/30000; acc:  90.77; ppl:  1.49; xent: 0.40; lr: 0.00177; 13389/7744 tok/s;    232 sec
+[2020-03-20 03:00:49,059 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:00:49,062 INFO] number of examples: 513
+[2020-03-20 03:00:49,258 INFO] Validation perplexity: 1.85305
+[2020-03-20 03:00:49,258 INFO] Validation accuracy: 87.3911
+[2020-03-20 03:00:49,265 INFO] Saving checkpoint bs_step_5500.pt
+[2020-03-20 03:00:52,065 INFO] Step 5550/30000; acc:  91.77; ppl:  1.34; xent: 0.29; lr: 0.00177; 7052/4505 tok/s;    235 sec
+[2020-03-20 03:00:53,912 INFO] Step 5600/30000; acc:  92.31; ppl:  1.30; xent: 0.26; lr: 0.00177; 11721/7162 tok/s;    237 sec
+[2020-03-20 03:00:55,844 INFO] Step 5650/30000; acc:  93.04; ppl:  1.26; xent: 0.23; lr: 0.00177; 11132/7143 tok/s;    239 sec
+[2020-03-20 03:00:57,695 INFO] Step 5700/30000; acc:  92.80; ppl:  1.29; xent: 0.25; lr: 0.00177; 11140/7057 tok/s;    241 sec
+[2020-03-20 03:00:59,659 INFO] Step 5750/30000; acc:  92.08; ppl:  1.33; xent: 0.29; lr: 0.00177; 11543/6972 tok/s;    243 sec
+[2020-03-20 03:01:01,466 INFO] Step 5800/30000; acc:  92.01; ppl:  1.32; xent: 0.28; lr: 0.00177; 11830/6938 tok/s;    244 sec
+[2020-03-20 03:01:03,343 INFO] Step 5850/30000; acc:  93.18; ppl:  1.28; xent: 0.24; lr: 0.00177; 10920/7006 tok/s;    246 sec
+[2020-03-20 03:01:05,211 INFO] Step 5900/30000; acc:  91.85; ppl:  1.33; xent: 0.28; lr: 0.00177; 10857/6655 tok/s;    248 sec
+[2020-03-20 03:01:07,081 INFO] Step 5950/30000; acc:  92.81; ppl:  1.28; xent: 0.25; lr: 0.00177; 11148/7013 tok/s;    250 sec
+[2020-03-20 03:01:09,054 INFO] Step 6000/30000; acc:  92.92; ppl:  1.27; xent: 0.24; lr: 0.00159; 10222/6482 tok/s;    252 sec
+[2020-03-20 03:01:09,056 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:01:09,072 INFO] number of examples: 513
+[2020-03-20 03:01:09,302 INFO] Validation perplexity: 1.93848
+[2020-03-20 03:01:09,302 INFO] Validation accuracy: 87.2994
+[2020-03-20 03:01:09,306 INFO] Saving checkpoint bs_step_6000.pt
+[2020-03-20 03:01:12,031 INFO] Step 6050/30000; acc:  93.64; ppl:  1.24; xent: 0.22; lr: 0.00159; 7529/4421 tok/s;    255 sec
+[2020-03-20 03:01:13,978 INFO] Step 6100/30000; acc:  93.82; ppl:  1.24; xent: 0.21; lr: 0.00159; 10927/6810 tok/s;    257 sec
+[2020-03-20 03:01:15,874 INFO] Step 6150/30000; acc:  93.13; ppl:  1.27; xent: 0.24; lr: 0.00159; 11455/6917 tok/s;    259 sec
+[2020-03-20 03:01:17,772 INFO] Step 6200/30000; acc:  93.10; ppl:  1.27; xent: 0.24; lr: 0.00159; 11436/7058 tok/s;    261 sec
+[2020-03-20 03:01:19,678 INFO] Step 6250/30000; acc:  93.48; ppl:  1.26; xent: 0.23; lr: 0.00159; 12532/7186 tok/s;    263 sec
+[2020-03-20 03:01:21,552 INFO] Step 6300/30000; acc:  93.51; ppl:  1.25; xent: 0.22; lr: 0.00159; 12273/7555 tok/s;    264 sec
+[2020-03-20 03:01:23,464 INFO] Step 6350/30000; acc:  92.99; ppl:  1.29; xent: 0.25; lr: 0.00159; 11787/7184 tok/s;    266 sec
+[2020-03-20 03:01:23,476 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:01:25,007 INFO] number of examples: 81252
+[2020-03-20 03:01:27,681 INFO] Step 6400/30000; acc:  92.92; ppl:  1.33; xent: 0.29; lr: 0.00159; 5554/3357 tok/s;    271 sec
+[2020-03-20 03:01:29,596 INFO] Step 6450/30000; acc:  93.60; ppl:  1.24; xent: 0.21; lr: 0.00159; 10899/6722 tok/s;    272 sec
+[2020-03-20 03:01:31,520 INFO] Step 6500/30000; acc:  93.07; ppl:  1.27; xent: 0.24; lr: 0.00159; 11269/6825 tok/s;    274 sec
+[2020-03-20 03:01:31,522 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:01:31,536 INFO] number of examples: 513
+[2020-03-20 03:01:31,758 INFO] Validation perplexity: 1.94009
+[2020-03-20 03:01:31,758 INFO] Validation accuracy: 87.437
+[2020-03-20 03:01:31,762 INFO] Saving checkpoint bs_step_6500.pt
+[2020-03-20 03:01:34,564 INFO] Step 6550/30000; acc:  94.05; ppl:  1.23; xent: 0.20; lr: 0.00159; 7205/4597 tok/s;    277 sec
+[2020-03-20 03:01:36,505 INFO] Step 6600/30000; acc:  93.98; ppl:  1.24; xent: 0.21; lr: 0.00159; 12420/7447 tok/s;    279 sec
+[2020-03-20 03:01:38,420 INFO] Step 6650/30000; acc:  93.09; ppl:  1.29; xent: 0.25; lr: 0.00159; 11684/7272 tok/s;    281 sec
+[2020-03-20 03:01:40,235 INFO] Step 6700/30000; acc:  94.13; ppl:  1.22; xent: 0.20; lr: 0.00159; 12698/7525 tok/s;    283 sec
+[2020-03-20 03:01:41,559 INFO] Step 6750/30000; acc:  92.03; ppl:  1.44; xent: 0.36; lr: 0.00159; 17689/10375 tok/s;    284 sec
+[2020-03-20 03:01:42,890 INFO] Step 6800/30000; acc:  93.23; ppl:  1.27; xent: 0.24; lr: 0.00159; 17163/10412 tok/s;    286 sec
+[2020-03-20 03:01:44,442 INFO] Step 6850/30000; acc:  93.76; ppl:  1.24; xent: 0.22; lr: 0.00159; 12955/8232 tok/s;    287 sec
+[2020-03-20 03:01:45,671 INFO] Step 6900/30000; acc:  94.42; ppl:  1.21; xent: 0.19; lr: 0.00159; 18139/11259 tok/s;    289 sec
+[2020-03-20 03:01:46,952 INFO] Step 6950/30000; acc:  94.46; ppl:  1.21; xent: 0.19; lr: 0.00159; 16253/10323 tok/s;    290 sec
+[2020-03-20 03:01:48,131 INFO] Step 7000/30000; acc:  94.16; ppl:  1.23; xent: 0.21; lr: 0.00143; 18512/11617 tok/s;    291 sec
+[2020-03-20 03:01:48,132 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:01:48,142 INFO] number of examples: 513
+[2020-03-20 03:01:48,296 INFO] Validation perplexity: 1.9692
+[2020-03-20 03:01:48,296 INFO] Validation accuracy: 87.5287
+[2020-03-20 03:01:48,299 INFO] Saving checkpoint bs_step_7000.pt
+[2020-03-20 03:01:50,466 INFO] Step 7050/30000; acc:  93.36; ppl:  1.27; xent: 0.24; lr: 0.00143; 9371/5489 tok/s;    293 sec
+[2020-03-20 03:01:51,734 INFO] Step 7100/30000; acc:  94.11; ppl:  1.22; xent: 0.20; lr: 0.00143; 16673/10299 tok/s;    295 sec
+[2020-03-20 03:01:53,020 INFO] Step 7150/30000; acc:  93.49; ppl:  1.24; xent: 0.22; lr: 0.00143; 15680/9821 tok/s;    296 sec
+[2020-03-20 03:01:54,303 INFO] Step 7200/30000; acc:  94.37; ppl:  1.21; xent: 0.19; lr: 0.00143; 16055/10157 tok/s;    297 sec
+[2020-03-20 03:01:55,506 INFO] Step 7250/30000; acc:  94.40; ppl:  1.20; xent: 0.19; lr: 0.00143; 17258/10820 tok/s;    298 sec
+[2020-03-20 03:01:56,739 INFO] Step 7300/30000; acc:  94.72; ppl:  1.20; xent: 0.18; lr: 0.00143; 16784/10262 tok/s;    300 sec
+[2020-03-20 03:01:57,992 INFO] Step 7350/30000; acc:  94.81; ppl:  1.18; xent: 0.16; lr: 0.00143; 17742/10547 tok/s;    301 sec
+[2020-03-20 03:01:59,232 INFO] Step 7400/30000; acc:  94.77; ppl:  1.20; xent: 0.18; lr: 0.00143; 17777/10682 tok/s;    302 sec
+[2020-03-20 03:02:00,471 INFO] Step 7450/30000; acc:  94.44; ppl:  1.21; xent: 0.19; lr: 0.00143; 17279/10553 tok/s;    303 sec
+[2020-03-20 03:02:01,694 INFO] Step 7500/30000; acc:  94.33; ppl:  1.23; xent: 0.21; lr: 0.00143; 18956/11316 tok/s;    305 sec
+[2020-03-20 03:02:01,695 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:02:01,698 INFO] number of examples: 513
+[2020-03-20 03:02:01,882 INFO] Validation perplexity: 1.98482
+[2020-03-20 03:02:01,882 INFO] Validation accuracy: 86.8867
+[2020-03-20 03:02:01,886 INFO] Saving checkpoint bs_step_7500.pt
+[2020-03-20 03:02:04,075 INFO] Step 7550/30000; acc:  94.68; ppl:  1.20; xent: 0.18; lr: 0.00143; 9707/5808 tok/s;    307 sec
+[2020-03-20 03:02:05,345 INFO] Step 7600/30000; acc:  94.55; ppl:  1.21; xent: 0.19; lr: 0.00143; 17802/10971 tok/s;    308 sec
+[2020-03-20 03:02:05,845 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:02:07,264 INFO] number of examples: 81252
+[2020-03-20 03:02:08,527 INFO] Step 7650/30000; acc:  93.99; ppl:  1.27; xent: 0.24; lr: 0.00143; 7275/4444 tok/s;    311 sec
+[2020-03-20 03:02:09,766 INFO] Step 7700/30000; acc:  95.49; ppl:  1.16; xent: 0.15; lr: 0.00143; 17583/10816 tok/s;    313 sec
+[2020-03-20 03:02:11,063 INFO] Step 7750/30000; acc:  94.86; ppl:  1.18; xent: 0.17; lr: 0.00143; 16362/9652 tok/s;    314 sec
+[2020-03-20 03:02:12,215 INFO] Step 7800/30000; acc:  94.79; ppl:  1.20; xent: 0.19; lr: 0.00143; 19755/12446 tok/s;    315 sec
+[2020-03-20 03:02:13,255 INFO] Step 7850/30000; acc:  95.13; ppl:  1.19; xent: 0.17; lr: 0.00143; 21861/13676 tok/s;    316 sec
+[2020-03-20 03:02:14,480 INFO] Step 7900/30000; acc:  94.73; ppl:  1.21; xent: 0.19; lr: 0.00143; 19099/11565 tok/s;    317 sec
+[2020-03-20 03:02:15,807 INFO] Step 7950/30000; acc:  94.98; ppl:  1.19; xent: 0.17; lr: 0.00143; 16953/10520 tok/s;    319 sec
+[2020-03-20 03:02:17,079 INFO] Step 8000/30000; acc:  94.75; ppl:  1.19; xent: 0.18; lr: 0.00129; 17711/10402 tok/s;    320 sec
+[2020-03-20 03:02:17,082 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:02:17,095 INFO] number of examples: 513
+[2020-03-20 03:02:17,309 INFO] Validation perplexity: 1.95399
+[2020-03-20 03:02:17,309 INFO] Validation accuracy: 88.033
+[2020-03-20 03:02:17,313 INFO] Saving checkpoint bs_step_8000.pt
+[2020-03-20 03:02:20,200 INFO] Step 8050/30000; acc:  93.65; ppl:  1.31; xent: 0.27; lr: 0.00129; 7706/4465 tok/s;    323 sec
+[2020-03-20 03:02:21,446 INFO] Step 8100/30000; acc:  95.31; ppl:  1.19; xent: 0.17; lr: 0.00129; 16649/10450 tok/s;    324 sec
+[2020-03-20 03:02:22,630 INFO] Step 8150/30000; acc:  95.58; ppl:  1.16; xent: 0.15; lr: 0.00129; 18385/11384 tok/s;    326 sec
+[2020-03-20 03:02:23,844 INFO] Step 8200/30000; acc:  95.53; ppl:  1.16; xent: 0.15; lr: 0.00129; 17417/11211 tok/s;    327 sec
+[2020-03-20 03:02:25,050 INFO] Step 8250/30000; acc:  95.51; ppl:  1.16; xent: 0.15; lr: 0.00129; 17522/10946 tok/s;    328 sec
+[2020-03-20 03:02:26,221 INFO] Step 8300/30000; acc:  94.98; ppl:  1.20; xent: 0.18; lr: 0.00129; 19138/11583 tok/s;    329 sec
+[2020-03-20 03:02:27,313 INFO] Step 8350/30000; acc:  95.50; ppl:  1.17; xent: 0.16; lr: 0.00129; 19163/11539 tok/s;    330 sec
+[2020-03-20 03:02:28,465 INFO] Step 8400/30000; acc:  95.66; ppl:  1.15; xent: 0.14; lr: 0.00129; 17894/11409 tok/s;    331 sec
+[2020-03-20 03:02:29,805 INFO] Step 8450/30000; acc:  95.20; ppl:  1.17; xent: 0.16; lr: 0.00129; 15329/9469 tok/s;    333 sec
+[2020-03-20 03:02:31,600 INFO] Step 8500/30000; acc:  95.75; ppl:  1.15; xent: 0.14; lr: 0.00129; 11328/7055 tok/s;    334 sec
+[2020-03-20 03:02:31,601 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:02:31,606 INFO] number of examples: 513
+[2020-03-20 03:02:31,904 INFO] Validation perplexity: 2.01521
+[2020-03-20 03:02:31,905 INFO] Validation accuracy: 88.033
+[2020-03-20 03:02:31,911 INFO] Saving checkpoint bs_step_8500.pt
+[2020-03-20 03:02:34,681 INFO] Step 8550/30000; acc:  95.68; ppl:  1.15; xent: 0.14; lr: 0.00129; 6837/4291 tok/s;    338 sec
+[2020-03-20 03:02:36,643 INFO] Step 8600/30000; acc:  96.14; ppl:  1.14; xent: 0.13; lr: 0.00129; 11034/6556 tok/s;    340 sec
+[2020-03-20 03:02:38,446 INFO] Step 8650/30000; acc:  95.82; ppl:  1.14; xent: 0.13; lr: 0.00129; 12276/7482 tok/s;    341 sec
+[2020-03-20 03:02:40,424 INFO] Step 8700/30000; acc:  95.67; ppl:  1.16; xent: 0.15; lr: 0.00129; 10912/6499 tok/s;    343 sec
+[2020-03-20 03:02:42,439 INFO] Step 8750/30000; acc:  95.64; ppl:  1.17; xent: 0.16; lr: 0.00129; 10962/6744 tok/s;    345 sec
+[2020-03-20 03:02:44,366 INFO] Step 8800/30000; acc:  96.22; ppl:  1.14; xent: 0.13; lr: 0.00129; 12165/7175 tok/s;    347 sec
+[2020-03-20 03:02:46,383 INFO] Step 8850/30000; acc:  95.69; ppl:  1.17; xent: 0.15; lr: 0.00129; 11368/6986 tok/s;    349 sec
+[2020-03-20 03:02:47,892 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:02:49,499 INFO] number of examples: 81252
+[2020-03-20 03:02:50,551 INFO] Step 8900/30000; acc:  95.59; ppl:  1.16; xent: 0.15; lr: 0.00129; 5407/3295 tok/s;    353 sec
+[2020-03-20 03:02:52,498 INFO] Step 8950/30000; acc:  95.02; ppl:  1.21; xent: 0.19; lr: 0.00129; 11727/7102 tok/s;    355 sec
+[2020-03-20 03:02:54,491 INFO] Step 9000/30000; acc:  95.88; ppl:  1.15; xent: 0.14; lr: 0.00116; 10694/6465 tok/s;    357 sec
+[2020-03-20 03:02:54,493 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:02:54,507 INFO] number of examples: 513
+[2020-03-20 03:02:54,826 INFO] Validation perplexity: 1.99639
+[2020-03-20 03:02:54,826 INFO] Validation accuracy: 87.9413
+[2020-03-20 03:02:54,833 INFO] Saving checkpoint bs_step_9000.pt
+[2020-03-20 03:02:57,735 INFO] Step 9050/30000; acc:  95.91; ppl:  1.16; xent: 0.15; lr: 0.00116; 6762/4181 tok/s;    361 sec
+[2020-03-20 03:02:59,617 INFO] Step 9100/30000; acc:  96.16; ppl:  1.14; xent: 0.13; lr: 0.00116; 11723/7471 tok/s;    362 sec
+[2020-03-20 03:03:01,704 INFO] Step 9150/30000; acc:  96.33; ppl:  1.13; xent: 0.12; lr: 0.00116; 11228/6796 tok/s;    365 sec
+[2020-03-20 03:03:03,722 INFO] Step 9200/30000; acc:  95.30; ppl:  1.18; xent: 0.17; lr: 0.00116; 11655/7106 tok/s;    367 sec
+[2020-03-20 03:03:05,500 INFO] Step 9250/30000; acc:  96.21; ppl:  1.14; xent: 0.13; lr: 0.00116; 12499/7410 tok/s;    368 sec
+[2020-03-20 03:03:07,508 INFO] Step 9300/30000; acc:  94.57; ppl:  1.29; xent: 0.26; lr: 0.00116; 12074/6891 tok/s;    370 sec
+[2020-03-20 03:03:09,389 INFO] Step 9350/30000; acc:  95.76; ppl:  1.16; xent: 0.15; lr: 0.00116; 11544/7269 tok/s;    372 sec
+[2020-03-20 03:03:11,228 INFO] Step 9400/30000; acc:  96.24; ppl:  1.14; xent: 0.13; lr: 0.00116; 11283/7088 tok/s;    374 sec
+[2020-03-20 03:03:13,155 INFO] Step 9450/30000; acc:  96.58; ppl:  1.12; xent: 0.11; lr: 0.00116; 11533/7212 tok/s;    376 sec
+[2020-03-20 03:03:14,998 INFO] Step 9500/30000; acc:  96.63; ppl:  1.12; xent: 0.11; lr: 0.00116; 11151/7037 tok/s;    378 sec
+[2020-03-20 03:03:14,999 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:03:15,003 INFO] number of examples: 513
+[2020-03-20 03:03:15,251 INFO] Validation perplexity: 2.01163
+[2020-03-20 03:03:15,251 INFO] Validation accuracy: 88.2623
+[2020-03-20 03:03:15,258 INFO] Saving checkpoint bs_step_9500.pt
+[2020-03-20 03:03:18,105 INFO] Step 9550/30000; acc:  96.08; ppl:  1.14; xent: 0.13; lr: 0.00116; 6943/4323 tok/s;    381 sec
+[2020-03-20 03:03:19,886 INFO] Step 9600/30000; acc:  95.45; ppl:  1.17; xent: 0.16; lr: 0.00116; 12318/7231 tok/s;    383 sec
+[2020-03-20 03:03:21,860 INFO] Step 9650/30000; acc:  96.78; ppl:  1.12; xent: 0.11; lr: 0.00116; 10866/6839 tok/s;    385 sec
+[2020-03-20 03:03:23,792 INFO] Step 9700/30000; acc:  96.05; ppl:  1.15; xent: 0.14; lr: 0.00116; 10262/6365 tok/s;    387 sec
+[2020-03-20 03:03:25,716 INFO] Step 9750/30000; acc:  96.25; ppl:  1.13; xent: 0.12; lr: 0.00116; 10735/6870 tok/s;    389 sec
+[2020-03-20 03:03:27,650 INFO] Step 9800/30000; acc:  96.15; ppl:  1.13; xent: 0.13; lr: 0.00116; 10493/6525 tok/s;    391 sec
+[2020-03-20 03:03:29,423 INFO] Step 9850/30000; acc:  96.81; ppl:  1.12; xent: 0.11; lr: 0.00116; 12139/7315 tok/s;    392 sec
+[2020-03-20 03:03:31,279 INFO] Step 9900/30000; acc:  96.93; ppl:  1.11; xent: 0.10; lr: 0.00116; 12007/7290 tok/s;    394 sec
+[2020-03-20 03:03:33,077 INFO] Step 9950/30000; acc:  96.49; ppl:  1.14; xent: 0.13; lr: 0.00116; 11972/7187 tok/s;    396 sec
+[2020-03-20 03:03:34,873 INFO] Step 10000/30000; acc:  96.45; ppl:  1.14; xent: 0.13; lr: 0.00105; 12162/7355 tok/s;    398 sec
+[2020-03-20 03:03:34,875 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:03:34,881 INFO] number of examples: 513
+[2020-03-20 03:03:35,081 INFO] Validation perplexity: 2.13682
+[2020-03-20 03:03:35,082 INFO] Validation accuracy: 88.354
+[2020-03-20 03:03:35,085 INFO] Saving checkpoint bs_step_10000.pt
+[2020-03-20 03:03:37,842 INFO] Step 10050/30000; acc:  96.74; ppl:  1.12; xent: 0.12; lr: 0.00105; 7891/4654 tok/s;    401 sec
+[2020-03-20 03:03:39,789 INFO] Step 10100/30000; acc:  96.64; ppl:  1.12; xent: 0.11; lr: 0.00105; 11481/7040 tok/s;    403 sec
+[2020-03-20 03:03:41,645 INFO] Step 10150/30000; acc:  96.78; ppl:  1.12; xent: 0.11; lr: 0.00105; 12282/7505 tok/s;    405 sec
+[2020-03-20 03:03:41,917 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:03:43,364 INFO] number of examples: 81252
+[2020-03-20 03:03:45,642 INFO] Step 10200/30000; acc:  95.94; ppl:  1.18; xent: 0.17; lr: 0.00105; 5871/3579 tok/s;    409 sec
+[2020-03-20 03:03:47,599 INFO] Step 10250/30000; acc:  96.97; ppl:  1.11; xent: 0.10; lr: 0.00105; 11055/6724 tok/s;    410 sec
+[2020-03-20 03:03:49,493 INFO] Step 10300/30000; acc:  96.31; ppl:  1.14; xent: 0.13; lr: 0.00105; 11379/6831 tok/s;    412 sec
+[2020-03-20 03:03:51,385 INFO] Step 10350/30000; acc:  96.95; ppl:  1.11; xent: 0.10; lr: 0.00105; 11732/7445 tok/s;    414 sec
+[2020-03-20 03:03:53,319 INFO] Step 10400/30000; acc:  97.13; ppl:  1.10; xent: 0.10; lr: 0.00105; 11815/7383 tok/s;    416 sec
+[2020-03-20 03:03:55,235 INFO] Step 10450/30000; acc:  96.83; ppl:  1.13; xent: 0.12; lr: 0.00105; 12045/7261 tok/s;    418 sec
+[2020-03-20 03:03:57,137 INFO] Step 10500/30000; acc:  96.83; ppl:  1.12; xent: 0.11; lr: 0.00105; 12184/7331 tok/s;    420 sec
+[2020-03-20 03:03:57,139 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:03:57,146 INFO] number of examples: 513
+[2020-03-20 03:03:57,399 INFO] Validation perplexity: 2.113
+[2020-03-20 03:03:57,399 INFO] Validation accuracy: 88.354
+[2020-03-20 03:03:57,406 INFO] Saving checkpoint bs_step_10500.pt
+[2020-03-20 03:04:00,336 INFO] Step 10550/30000; acc:  95.22; ppl:  1.22; xent: 0.20; lr: 0.00105; 7221/4221 tok/s;    423 sec
+[2020-03-20 03:04:02,438 INFO] Step 10600/30000; acc:  96.94; ppl:  1.11; xent: 0.11; lr: 0.00105; 11045/6560 tok/s;    425 sec
+[2020-03-20 03:04:04,407 INFO] Step 10650/30000; acc:  96.95; ppl:  1.12; xent: 0.11; lr: 0.00105; 10472/6581 tok/s;    427 sec
+[2020-03-20 03:04:06,198 INFO] Step 10700/30000; acc:  97.30; ppl:  1.09; xent: 0.09; lr: 0.00105; 12017/7566 tok/s;    429 sec
+[2020-03-20 03:04:08,095 INFO] Step 10750/30000; acc:  97.34; ppl:  1.10; xent: 0.10; lr: 0.00105; 11033/7032 tok/s;    431 sec
+[2020-03-20 03:04:09,983 INFO] Step 10800/30000; acc:  97.11; ppl:  1.10; xent: 0.09; lr: 0.00105; 11366/7096 tok/s;    433 sec
+[2020-03-20 03:04:11,707 INFO] Step 10850/30000; acc:  96.68; ppl:  1.14; xent: 0.13; lr: 0.00105; 12813/7769 tok/s;    435 sec
+[2020-03-20 03:04:13,261 INFO] Step 10900/30000; acc:  96.84; ppl:  1.11; xent: 0.10; lr: 0.00105; 13761/8221 tok/s;    436 sec
+[2020-03-20 03:04:14,924 INFO] Step 10950/30000; acc:  96.60; ppl:  1.12; xent: 0.11; lr: 0.00105; 12050/7672 tok/s;    438 sec
+[2020-03-20 03:04:16,616 INFO] Step 11000/30000; acc:  97.07; ppl:  1.11; xent: 0.10; lr: 0.00094; 12350/7704 tok/s;    439 sec
+[2020-03-20 03:04:16,617 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:04:16,624 INFO] number of examples: 513
+[2020-03-20 03:04:16,827 INFO] Validation perplexity: 2.15002
+[2020-03-20 03:04:16,827 INFO] Validation accuracy: 87.6204
+[2020-03-20 03:04:16,834 INFO] Saving checkpoint bs_step_11000.pt
+[2020-03-20 03:04:19,599 INFO] Step 11050/30000; acc:  97.31; ppl:  1.10; xent: 0.10; lr: 0.00094; 6846/4321 tok/s;    442 sec
+[2020-03-20 03:04:21,402 INFO] Step 11100/30000; acc:  97.50; ppl:  1.09; xent: 0.09; lr: 0.00094; 11807/7236 tok/s;    444 sec
+[2020-03-20 03:04:23,272 INFO] Step 11150/30000; acc:  97.58; ppl:  1.09; xent: 0.08; lr: 0.00094; 11575/6980 tok/s;    446 sec
+[2020-03-20 03:04:25,148 INFO] Step 11200/30000; acc:  97.35; ppl:  1.09; xent: 0.09; lr: 0.00094; 12016/7119 tok/s;    448 sec
+[2020-03-20 03:04:27,113 INFO] Step 11250/30000; acc:  97.18; ppl:  1.11; xent: 0.10; lr: 0.00094; 10502/6504 tok/s;    450 sec
+[2020-03-20 03:04:29,238 INFO] Step 11300/30000; acc:  97.38; ppl:  1.09; xent: 0.09; lr: 0.00094; 11118/6601 tok/s;    452 sec
+[2020-03-20 03:04:31,175 INFO] Step 11350/30000; acc:  97.52; ppl:  1.10; xent: 0.10; lr: 0.00094; 11830/7005 tok/s;    454 sec
+[2020-03-20 03:04:33,296 INFO] Step 11400/30000; acc:  97.17; ppl:  1.10; xent: 0.10; lr: 0.00094; 10529/6596 tok/s;    456 sec
+[2020-03-20 03:04:34,500 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:04:36,159 INFO] number of examples: 81252
+[2020-03-20 03:04:37,567 INFO] Step 11450/30000; acc:  96.54; ppl:  1.14; xent: 0.13; lr: 0.00094; 5374/3273 tok/s;    460 sec
+[2020-03-20 03:04:39,367 INFO] Step 11500/30000; acc:  97.65; ppl:  1.08; xent: 0.08; lr: 0.00094; 12206/7447 tok/s;    462 sec
+[2020-03-20 03:04:39,368 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:04:39,375 INFO] number of examples: 513
+[2020-03-20 03:04:39,603 INFO] Validation perplexity: 2.11029
+[2020-03-20 03:04:39,603 INFO] Validation accuracy: 89.0876
+[2020-03-20 03:04:39,607 INFO] Saving checkpoint bs_step_11500.pt
+[2020-03-20 03:04:42,166 INFO] Step 11550/30000; acc:  97.41; ppl:  1.09; xent: 0.08; lr: 0.00094; 7683/4598 tok/s;    465 sec
+[2020-03-20 03:04:44,144 INFO] Step 11600/30000; acc:  97.24; ppl:  1.11; xent: 0.10; lr: 0.00094; 11419/7021 tok/s;    467 sec
+[2020-03-20 03:04:46,004 INFO] Step 11650/30000; acc:  97.57; ppl:  1.09; xent: 0.09; lr: 0.00094; 11754/7487 tok/s;    469 sec
+[2020-03-20 03:04:48,104 INFO] Step 11700/30000; acc:  97.50; ppl:  1.09; xent: 0.09; lr: 0.00094; 11096/6783 tok/s;    471 sec
+[2020-03-20 03:04:50,025 INFO] Step 11750/30000; acc:  97.12; ppl:  1.11; xent: 0.10; lr: 0.00094; 12045/7332 tok/s;    473 sec
+[2020-03-20 03:04:51,877 INFO] Step 11800/30000; acc:  97.60; ppl:  1.09; xent: 0.09; lr: 0.00094; 12377/7251 tok/s;    475 sec
+[2020-03-20 03:04:53,892 INFO] Step 11850/30000; acc:  96.00; ppl:  1.18; xent: 0.17; lr: 0.00094; 11828/6841 tok/s;    477 sec
+[2020-03-20 03:04:55,686 INFO] Step 11900/30000; acc:  97.44; ppl:  1.10; xent: 0.09; lr: 0.00094; 11819/7551 tok/s;    479 sec
+[2020-03-20 03:04:57,565 INFO] Step 11950/30000; acc:  97.65; ppl:  1.08; xent: 0.08; lr: 0.00094; 11521/7040 tok/s;    480 sec
+[2020-03-20 03:04:59,514 INFO] Step 12000/30000; acc:  97.81; ppl:  1.08; xent: 0.08; lr: 0.00085; 11042/7085 tok/s;    482 sec
+[2020-03-20 03:04:59,515 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:04:59,523 INFO] number of examples: 513
+[2020-03-20 03:04:59,788 INFO] Validation perplexity: 2.22513
+[2020-03-20 03:04:59,788 INFO] Validation accuracy: 88.4915
+[2020-03-20 03:04:59,803 INFO] Saving checkpoint bs_step_12000.pt
+[2020-03-20 03:05:04,442 INFO] Step 12050/30000; acc:  97.60; ppl:  1.08; xent: 0.07; lr: 0.00085; 4183/2650 tok/s;    487 sec
+[2020-03-20 03:05:05,892 INFO] Step 12100/30000; acc:  97.41; ppl:  1.09; xent: 0.09; lr: 0.00085; 15646/9451 tok/s;    489 sec
+[2020-03-20 03:05:07,666 INFO] Step 12150/30000; acc:  97.26; ppl:  1.11; xent: 0.10; lr: 0.00085; 12044/7064 tok/s;    491 sec
+[2020-03-20 03:05:09,479 INFO] Step 12200/30000; acc:  97.59; ppl:  1.08; xent: 0.08; lr: 0.00085; 11300/7250 tok/s;    492 sec
+[2020-03-20 03:05:11,302 INFO] Step 12250/30000; acc:  97.44; ppl:  1.10; xent: 0.09; lr: 0.00085; 11120/6816 tok/s;    494 sec
+[2020-03-20 03:05:13,119 INFO] Step 12300/30000; acc:  97.93; ppl:  1.07; xent: 0.07; lr: 0.00085; 11478/7221 tok/s;    496 sec
+[2020-03-20 03:05:14,864 INFO] Step 12350/30000; acc:  97.72; ppl:  1.08; xent: 0.08; lr: 0.00085; 11553/7326 tok/s;    498 sec
+[2020-03-20 03:05:16,799 INFO] Step 12400/30000; acc:  98.02; ppl:  1.07; xent: 0.07; lr: 0.00085; 11589/6804 tok/s;    500 sec
+[2020-03-20 03:05:18,727 INFO] Step 12450/30000; acc:  98.07; ppl:  1.07; xent: 0.07; lr: 0.00085; 10994/6852 tok/s;    502 sec
+[2020-03-20 03:05:20,583 INFO] Step 12500/30000; acc:  97.57; ppl:  1.09; xent: 0.09; lr: 0.00085; 11698/7064 tok/s;    503 sec
+[2020-03-20 03:05:20,584 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:05:20,588 INFO] number of examples: 513
+[2020-03-20 03:05:20,851 INFO] Validation perplexity: 2.17639
+[2020-03-20 03:05:20,851 INFO] Validation accuracy: 88.2164
+[2020-03-20 03:05:20,858 INFO] Saving checkpoint bs_step_12500.pt
+[2020-03-20 03:05:23,551 INFO] Step 12550/30000; acc:  97.71; ppl:  1.09; xent: 0.08; lr: 0.00085; 7313/4513 tok/s;    506 sec
+[2020-03-20 03:05:25,605 INFO] Step 12600/30000; acc:  97.79; ppl:  1.08; xent: 0.07; lr: 0.00085; 11627/6666 tok/s;    508 sec
+[2020-03-20 03:05:27,587 INFO] Step 12650/30000; acc:  97.67; ppl:  1.08; xent: 0.08; lr: 0.00085; 11596/7138 tok/s;    510 sec
+[2020-03-20 03:05:29,556 INFO] Step 12700/30000; acc:  97.82; ppl:  1.08; xent: 0.08; lr: 0.00085; 11447/6977 tok/s;    512 sec
+[2020-03-20 03:05:29,561 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:05:30,988 INFO] number of examples: 81252
+[2020-03-20 03:05:33,570 INFO] Step 12750/30000; acc:  97.24; ppl:  1.11; xent: 0.11; lr: 0.00085; 5831/3525 tok/s;    516 sec
+[2020-03-20 03:05:35,592 INFO] Step 12800/30000; acc:  97.94; ppl:  1.07; xent: 0.07; lr: 0.00085; 10333/6373 tok/s;    518 sec
+[2020-03-20 03:05:37,514 INFO] Step 12850/30000; acc:  97.53; ppl:  1.09; xent: 0.09; lr: 0.00085; 11282/6833 tok/s;    520 sec
+[2020-03-20 03:05:39,562 INFO] Step 12900/30000; acc:  98.06; ppl:  1.07; xent: 0.07; lr: 0.00085; 10713/6835 tok/s;    522 sec
+[2020-03-20 03:05:41,492 INFO] Step 12950/30000; acc:  98.07; ppl:  1.07; xent: 0.07; lr: 0.00085; 12474/7480 tok/s;    524 sec
+[2020-03-20 03:05:43,366 INFO] Step 13000/30000; acc:  97.76; ppl:  1.08; xent: 0.08; lr: 0.00076; 11933/7427 tok/s;    526 sec
+[2020-03-20 03:05:43,367 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:05:43,371 INFO] number of examples: 513
+[2020-03-20 03:05:43,609 INFO] Validation perplexity: 2.09323
+[2020-03-20 03:05:43,609 INFO] Validation accuracy: 89.1793
+[2020-03-20 03:05:43,616 INFO] Saving checkpoint bs_step_13000.pt
+[2020-03-20 03:05:46,392 INFO] Step 13050/30000; acc:  97.83; ppl:  1.08; xent: 0.08; lr: 0.00076; 7617/4513 tok/s;    529 sec
+[2020-03-20 03:05:48,312 INFO] Step 13100/30000; acc:  96.77; ppl:  1.15; xent: 0.14; lr: 0.00076; 12194/7152 tok/s;    531 sec
+[2020-03-20 03:05:50,198 INFO] Step 13150/30000; acc:  97.80; ppl:  1.09; xent: 0.08; lr: 0.00076; 12112/7347 tok/s;    533 sec
+[2020-03-20 03:05:51,925 INFO] Step 13200/30000; acc:  97.95; ppl:  1.08; xent: 0.07; lr: 0.00076; 11642/7398 tok/s;    535 sec
+[2020-03-20 03:05:53,832 INFO] Step 13250/30000; acc:  98.31; ppl:  1.07; xent: 0.06; lr: 0.00076; 11682/7251 tok/s;    537 sec
+[2020-03-20 03:05:55,659 INFO] Step 13300/30000; acc:  98.23; ppl:  1.06; xent: 0.06; lr: 0.00076; 11394/7237 tok/s;    539 sec
+[2020-03-20 03:05:57,458 INFO] Step 13350/30000; acc:  98.05; ppl:  1.07; xent: 0.07; lr: 0.00076; 12174/7639 tok/s;    540 sec
+[2020-03-20 03:05:59,449 INFO] Step 13400/30000; acc:  97.63; ppl:  1.09; xent: 0.09; lr: 0.00076; 10988/6437 tok/s;    542 sec
+[2020-03-20 03:06:01,298 INFO] Step 13450/30000; acc:  97.95; ppl:  1.08; xent: 0.07; lr: 0.00076; 11427/7058 tok/s;    544 sec
+[2020-03-20 03:06:03,198 INFO] Step 13500/30000; acc:  97.77; ppl:  1.08; xent: 0.08; lr: 0.00076; 10602/6641 tok/s;    546 sec
+[2020-03-20 03:06:03,199 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:06:03,203 INFO] number of examples: 513
+[2020-03-20 03:06:03,477 INFO] Validation perplexity: 2.18236
+[2020-03-20 03:06:03,477 INFO] Validation accuracy: 88.7666
+[2020-03-20 03:06:03,486 INFO] Saving checkpoint bs_step_13500.pt
+[2020-03-20 03:06:06,140 INFO] Step 13550/30000; acc:  98.15; ppl:  1.07; xent: 0.07; lr: 0.00076; 6996/4426 tok/s;    549 sec
+[2020-03-20 03:06:07,993 INFO] Step 13600/30000; acc:  98.06; ppl:  1.07; xent: 0.07; lr: 0.00076; 11200/7022 tok/s;    551 sec
+[2020-03-20 03:06:09,774 INFO] Step 13650/30000; acc:  98.16; ppl:  1.07; xent: 0.06; lr: 0.00076; 11612/7100 tok/s;    553 sec
+[2020-03-20 03:06:11,545 INFO] Step 13700/30000; acc:  98.39; ppl:  1.05; xent: 0.05; lr: 0.00076; 12547/7459 tok/s;    554 sec
+[2020-03-20 03:06:13,303 INFO] Step 13750/30000; acc:  98.02; ppl:  1.07; xent: 0.07; lr: 0.00076; 12539/7534 tok/s;    556 sec
+[2020-03-20 03:06:14,942 INFO] Step 13800/30000; acc:  98.04; ppl:  1.07; xent: 0.07; lr: 0.00076; 13047/7969 tok/s;    558 sec
+[2020-03-20 03:06:16,708 INFO] Step 13850/30000; acc:  98.08; ppl:  1.07; xent: 0.07; lr: 0.00076; 13119/7831 tok/s;    560 sec
+[2020-03-20 03:06:18,508 INFO] Step 13900/30000; acc:  98.14; ppl:  1.06; xent: 0.06; lr: 0.00076; 12844/7685 tok/s;    561 sec
+[2020-03-20 03:06:20,434 INFO] Step 13950/30000; acc:  98.07; ppl:  1.07; xent: 0.07; lr: 0.00076; 11738/7234 tok/s;    563 sec
+[2020-03-20 03:06:21,165 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:06:22,804 INFO] number of examples: 81252
+[2020-03-20 03:06:24,574 INFO] Step 14000/30000; acc:  97.54; ppl:  1.10; xent: 0.09; lr: 0.00069; 5590/3415 tok/s;    567 sec
+[2020-03-20 03:06:24,575 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:06:24,579 INFO] number of examples: 513
+[2020-03-20 03:06:24,812 INFO] Validation perplexity: 2.24305
+[2020-03-20 03:06:24,812 INFO] Validation accuracy: 88.1706
+[2020-03-20 03:06:24,816 INFO] Saving checkpoint bs_step_14000.pt
+[2020-03-20 03:06:27,426 INFO] Step 14050/30000; acc:  98.38; ppl:  1.07; xent: 0.06; lr: 0.00069; 7634/4696 tok/s;    570 sec
+[2020-03-20 03:06:29,351 INFO] Step 14100/30000; acc:  98.13; ppl:  1.07; xent: 0.07; lr: 0.00069; 11276/6651 tok/s;    572 sec
+[2020-03-20 03:06:31,313 INFO] Step 14150/30000; acc:  98.15; ppl:  1.07; xent: 0.07; lr: 0.00069; 11590/7302 tok/s;    574 sec
+[2020-03-20 03:06:33,328 INFO] Step 14200/30000; acc:  98.21; ppl:  1.06; xent: 0.06; lr: 0.00069; 11275/7054 tok/s;    576 sec
+[2020-03-20 03:06:35,259 INFO] Step 14250/30000; acc:  98.12; ppl:  1.07; xent: 0.06; lr: 0.00069; 12116/7336 tok/s;    578 sec
+[2020-03-20 03:06:37,129 INFO] Step 14300/30000; acc:  98.21; ppl:  1.07; xent: 0.06; lr: 0.00069; 12020/7459 tok/s;    580 sec
+[2020-03-20 03:06:39,176 INFO] Step 14350/30000; acc:  97.99; ppl:  1.07; xent: 0.07; lr: 0.00069; 11010/6466 tok/s;    582 sec
+[2020-03-20 03:06:41,154 INFO] Step 14400/30000; acc:  97.16; ppl:  1.13; xent: 0.12; lr: 0.00069; 12153/7041 tok/s;    584 sec
+[2020-03-20 03:06:42,927 INFO] Step 14450/30000; acc:  97.99; ppl:  1.07; xent: 0.07; lr: 0.00069; 11704/7346 tok/s;    586 sec
+[2020-03-20 03:06:44,800 INFO] Step 14500/30000; acc:  98.40; ppl:  1.05; xent: 0.05; lr: 0.00069; 11621/7196 tok/s;    588 sec
+[2020-03-20 03:06:44,801 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:06:44,804 INFO] number of examples: 513
+[2020-03-20 03:06:45,018 INFO] Validation perplexity: 2.18886
+[2020-03-20 03:06:45,018 INFO] Validation accuracy: 88.95
+[2020-03-20 03:06:45,025 INFO] Saving checkpoint bs_step_14500.pt
+[2020-03-20 03:06:47,711 INFO] Step 14550/30000; acc:  98.29; ppl:  1.06; xent: 0.06; lr: 0.00069; 7258/4672 tok/s;    591 sec
+[2020-03-20 03:06:49,542 INFO] Step 14600/30000; acc:  98.39; ppl:  1.06; xent: 0.05; lr: 0.00069; 11538/7208 tok/s;    592 sec
+[2020-03-20 03:06:51,477 INFO] Step 14650/30000; acc:  98.24; ppl:  1.06; xent: 0.06; lr: 0.00069; 11584/7011 tok/s;    594 sec
+[2020-03-20 03:06:53,284 INFO] Step 14700/30000; acc:  98.22; ppl:  1.06; xent: 0.06; lr: 0.00069; 11573/6969 tok/s;    596 sec
+[2020-03-20 03:06:55,218 INFO] Step 14750/30000; acc:  98.20; ppl:  1.07; xent: 0.06; lr: 0.00069; 10660/6796 tok/s;    598 sec
+[2020-03-20 03:06:57,163 INFO] Step 14800/30000; acc:  98.01; ppl:  1.08; xent: 0.07; lr: 0.00069; 10560/6524 tok/s;    600 sec
+[2020-03-20 03:06:59,019 INFO] Step 14850/30000; acc:  98.30; ppl:  1.07; xent: 0.06; lr: 0.00069; 10955/6823 tok/s;    602 sec
+[2020-03-20 03:07:00,986 INFO] Step 14900/30000; acc:  98.28; ppl:  1.06; xent: 0.06; lr: 0.00069; 10708/6720 tok/s;    604 sec
+[2020-03-20 03:07:02,856 INFO] Step 14950/30000; acc:  98.46; ppl:  1.06; xent: 0.06; lr: 0.00069; 11593/6887 tok/s;    606 sec
+[2020-03-20 03:07:04,700 INFO] Step 15000/30000; acc:  98.54; ppl:  1.05; xent: 0.05; lr: 0.00062; 11985/7305 tok/s;    608 sec
+[2020-03-20 03:07:04,701 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:07:04,705 INFO] number of examples: 513
+[2020-03-20 03:07:05,001 INFO] Validation perplexity: 2.17666
+[2020-03-20 03:07:05,001 INFO] Validation accuracy: 89.1334
+[2020-03-20 03:07:05,012 INFO] Saving checkpoint bs_step_15000.pt
+[2020-03-20 03:07:08,232 INFO] Step 15050/30000; acc:  98.22; ppl:  1.07; xent: 0.06; lr: 0.00062; 6111/3639 tok/s;    611 sec
+[2020-03-20 03:07:10,248 INFO] Step 15100/30000; acc:  98.38; ppl:  1.06; xent: 0.06; lr: 0.00062; 10955/6739 tok/s;    613 sec
+[2020-03-20 03:07:12,357 INFO] Step 15150/30000; acc:  98.61; ppl:  1.05; xent: 0.05; lr: 0.00062; 11115/6555 tok/s;    615 sec
+[2020-03-20 03:07:14,303 INFO] Step 15200/30000; acc:  98.44; ppl:  1.06; xent: 0.06; lr: 0.00062; 11782/7241 tok/s;    617 sec
+[2020-03-20 03:07:15,773 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:07:17,385 INFO] number of examples: 81252
+[2020-03-20 03:07:18,388 INFO] Step 15250/30000; acc:  98.51; ppl:  1.05; xent: 0.05; lr: 0.00062; 5517/3362 tok/s;    621 sec
+[2020-03-20 03:07:20,207 INFO] Step 15300/30000; acc:  98.09; ppl:  1.08; xent: 0.07; lr: 0.00062; 12550/7601 tok/s;    623 sec
+[2020-03-20 03:07:21,981 INFO] Step 15350/30000; acc:  98.70; ppl:  1.04; xent: 0.04; lr: 0.00062; 12019/7266 tok/s;    625 sec
+[2020-03-20 03:07:23,813 INFO] Step 15400/30000; acc:  98.33; ppl:  1.06; xent: 0.06; lr: 0.00062; 11974/7402 tok/s;    627 sec
+[2020-03-20 03:07:25,702 INFO] Step 15450/30000; acc:  98.51; ppl:  1.05; xent: 0.05; lr: 0.00062; 11679/7442 tok/s;    629 sec
+[2020-03-20 03:07:27,605 INFO] Step 15500/30000; acc:  98.67; ppl:  1.04; xent: 0.04; lr: 0.00062; 12316/7454 tok/s;    630 sec
+[2020-03-20 03:07:27,606 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:07:27,615 INFO] number of examples: 513
+[2020-03-20 03:07:27,862 INFO] Validation perplexity: 2.1265
+[2020-03-20 03:07:27,863 INFO] Validation accuracy: 89.0417
+[2020-03-20 03:07:27,869 INFO] Saving checkpoint bs_step_15500.pt
+[2020-03-20 03:07:30,605 INFO] Step 15550/30000; acc:  98.45; ppl:  1.06; xent: 0.06; lr: 0.00062; 7838/4779 tok/s;    633 sec
+[2020-03-20 03:07:32,337 INFO] Step 15600/30000; acc:  98.22; ppl:  1.06; xent: 0.06; lr: 0.00062; 12826/7604 tok/s;    635 sec
+[2020-03-20 03:07:34,268 INFO] Step 15650/30000; acc:  97.29; ppl:  1.12; xent: 0.12; lr: 0.00062; 12510/7140 tok/s;    637 sec
+[2020-03-20 03:07:36,176 INFO] Step 15700/30000; acc:  98.48; ppl:  1.06; xent: 0.06; lr: 0.00062; 11384/7169 tok/s;    639 sec
+[2020-03-20 03:07:37,924 INFO] Step 15750/30000; acc:  98.62; ppl:  1.05; xent: 0.05; lr: 0.00062; 11869/7456 tok/s;    641 sec
+[2020-03-20 03:07:39,825 INFO] Step 15800/30000; acc:  98.76; ppl:  1.04; xent: 0.04; lr: 0.00062; 11689/7310 tok/s;    643 sec
+[2020-03-20 03:07:41,673 INFO] Step 15850/30000; acc:  98.83; ppl:  1.04; xent: 0.04; lr: 0.00062; 11125/7021 tok/s;    645 sec
+[2020-03-20 03:07:43,587 INFO] Step 15900/30000; acc:  98.56; ppl:  1.05; xent: 0.05; lr: 0.00062; 11275/7020 tok/s;    646 sec
+[2020-03-20 03:07:45,414 INFO] Step 15950/30000; acc:  98.19; ppl:  1.07; xent: 0.07; lr: 0.00062; 12012/7051 tok/s;    648 sec
+[2020-03-20 03:07:47,292 INFO] Step 16000/30000; acc:  98.61; ppl:  1.05; xent: 0.05; lr: 0.00056; 11420/7187 tok/s;    650 sec
+[2020-03-20 03:07:47,293 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:07:47,297 INFO] number of examples: 513
+[2020-03-20 03:07:47,595 INFO] Validation perplexity: 2.13535
+[2020-03-20 03:07:47,595 INFO] Validation accuracy: 89.2251
+[2020-03-20 03:07:47,608 INFO] Saving checkpoint bs_step_16000.pt
+[2020-03-20 03:07:50,541 INFO] Step 16050/30000; acc:  98.28; ppl:  1.06; xent: 0.06; lr: 0.00056; 6100/3784 tok/s;    653 sec
+[2020-03-20 03:07:52,424 INFO] Step 16100/30000; acc:  98.43; ppl:  1.06; xent: 0.06; lr: 0.00056; 10970/7021 tok/s;    655 sec
+[2020-03-20 03:07:54,221 INFO] Step 16150/30000; acc:  98.61; ppl:  1.06; xent: 0.05; lr: 0.00056; 11292/7023 tok/s;    657 sec
+[2020-03-20 03:07:56,042 INFO] Step 16200/30000; acc:  98.77; ppl:  1.04; xent: 0.04; lr: 0.00056; 11822/7125 tok/s;    659 sec
+[2020-03-20 03:07:57,764 INFO] Step 16250/30000; acc:  98.88; ppl:  1.04; xent: 0.04; lr: 0.00056; 12945/7859 tok/s;    661 sec
+[2020-03-20 03:07:59,588 INFO] Step 16300/30000; acc:  98.41; ppl:  1.06; xent: 0.05; lr: 0.00056; 11850/7114 tok/s;    662 sec
+[2020-03-20 03:08:01,365 INFO] Step 16350/30000; acc:  98.55; ppl:  1.06; xent: 0.05; lr: 0.00056; 12287/7430 tok/s;    664 sec
+[2020-03-20 03:08:03,299 INFO] Step 16400/30000; acc:  98.69; ppl:  1.05; xent: 0.05; lr: 0.00056; 12112/7144 tok/s;    666 sec
+[2020-03-20 03:08:05,135 INFO] Step 16450/30000; acc:  98.62; ppl:  1.05; xent: 0.05; lr: 0.00056; 12172/7463 tok/s;    668 sec
+[2020-03-20 03:08:06,972 INFO] Step 16500/30000; acc:  98.68; ppl:  1.05; xent: 0.05; lr: 0.00056; 12412/7585 tok/s;    670 sec
+[2020-03-20 03:08:06,973 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:08:06,978 INFO] number of examples: 513
+[2020-03-20 03:08:07,274 INFO] Validation perplexity: 2.1515
+[2020-03-20 03:08:07,274 INFO] Validation accuracy: 89.0876
+[2020-03-20 03:08:07,281 INFO] Saving checkpoint bs_step_16500.pt
+[2020-03-20 03:08:08,620 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:08:10,127 INFO] number of examples: 81252
+[2020-03-20 03:08:12,416 INFO] Step 16550/30000; acc:  98.32; ppl:  1.07; xent: 0.07; lr: 0.00056; 4310/2627 tok/s;    675 sec
+[2020-03-20 03:08:14,221 INFO] Step 16600/30000; acc:  98.79; ppl:  1.04; xent: 0.04; lr: 0.00056; 11988/7291 tok/s;    677 sec
+[2020-03-20 03:08:16,142 INFO] Step 16650/30000; acc:  98.48; ppl:  1.05; xent: 0.05; lr: 0.00056; 11220/6736 tok/s;    679 sec
+[2020-03-20 03:08:18,110 INFO] Step 16700/30000; acc:  98.77; ppl:  1.04; xent: 0.04; lr: 0.00056; 11275/7155 tok/s;    681 sec
+[2020-03-20 03:08:20,026 INFO] Step 16750/30000; acc:  98.82; ppl:  1.05; xent: 0.05; lr: 0.00056; 11929/7454 tok/s;    683 sec
+[2020-03-20 03:08:21,907 INFO] Step 16800/30000; acc:  98.73; ppl:  1.05; xent: 0.05; lr: 0.00056; 12268/7395 tok/s;    685 sec
+[2020-03-20 03:08:23,927 INFO] Step 16850/30000; acc:  98.57; ppl:  1.05; xent: 0.05; lr: 0.00056; 11472/6902 tok/s;    687 sec
+[2020-03-20 03:08:25,958 INFO] Step 16900/30000; acc:  97.67; ppl:  1.11; xent: 0.10; lr: 0.00056; 11371/6647 tok/s;    689 sec
+[2020-03-20 03:08:27,953 INFO] Step 16950/30000; acc:  98.84; ppl:  1.05; xent: 0.05; lr: 0.00056; 11644/6916 tok/s;    691 sec
+[2020-03-20 03:08:29,827 INFO] Step 17000/30000; acc:  98.46; ppl:  1.06; xent: 0.06; lr: 0.00050; 11001/6914 tok/s;    693 sec
+[2020-03-20 03:08:29,828 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:08:29,833 INFO] number of examples: 513
+[2020-03-20 03:08:30,128 INFO] Validation perplexity: 2.25972
+[2020-03-20 03:08:30,128 INFO] Validation accuracy: 88.6749
+[2020-03-20 03:08:30,135 INFO] Saving checkpoint bs_step_17000.pt
+[2020-03-20 03:08:32,979 INFO] Step 17050/30000; acc:  98.91; ppl:  1.04; xent: 0.04; lr: 0.00050; 6824/4296 tok/s;    696 sec
+[2020-03-20 03:08:34,768 INFO] Step 17100/30000; acc:  98.85; ppl:  1.04; xent: 0.04; lr: 0.00050; 11710/7463 tok/s;    698 sec
+[2020-03-20 03:08:36,717 INFO] Step 17150/30000; acc:  98.85; ppl:  1.05; xent: 0.05; lr: 0.00050; 11010/6874 tok/s;    700 sec
+[2020-03-20 03:08:38,583 INFO] Step 17200/30000; acc:  98.49; ppl:  1.06; xent: 0.06; lr: 0.00050; 11830/7173 tok/s;    701 sec
+[2020-03-20 03:08:40,532 INFO] Step 17250/30000; acc:  98.64; ppl:  1.05; xent: 0.05; lr: 0.00050; 10974/6556 tok/s;    703 sec
+[2020-03-20 03:08:42,401 INFO] Step 17300/30000; acc:  98.51; ppl:  1.06; xent: 0.06; lr: 0.00050; 10740/6838 tok/s;    705 sec
+[2020-03-20 03:08:44,360 INFO] Step 17350/30000; acc:  98.59; ppl:  1.05; xent: 0.05; lr: 0.00050; 10660/6650 tok/s;    707 sec
+[2020-03-20 03:08:46,278 INFO] Step 17400/30000; acc:  98.68; ppl:  1.05; xent: 0.05; lr: 0.00050; 10647/6720 tok/s;    709 sec
+[2020-03-20 03:08:48,221 INFO] Step 17450/30000; acc:  98.94; ppl:  1.04; xent: 0.04; lr: 0.00050; 10947/6709 tok/s;    711 sec
+[2020-03-20 03:08:49,948 INFO] Step 17500/30000; acc:  98.88; ppl:  1.04; xent: 0.04; lr: 0.00050; 12530/7556 tok/s;    713 sec
+[2020-03-20 03:08:49,949 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:08:49,964 INFO] number of examples: 513
+[2020-03-20 03:08:50,207 INFO] Validation perplexity: 2.14714
+[2020-03-20 03:08:50,207 INFO] Validation accuracy: 89.4085
+[2020-03-20 03:08:50,214 INFO] Saving checkpoint bs_step_17500.pt
+[2020-03-20 03:08:53,001 INFO] Step 17550/30000; acc:  98.84; ppl:  1.04; xent: 0.04; lr: 0.00050; 7382/4374 tok/s;    716 sec
+[2020-03-20 03:08:54,699 INFO] Step 17600/30000; acc:  98.72; ppl:  1.05; xent: 0.05; lr: 0.00050; 12150/7525 tok/s;    718 sec
+[2020-03-20 03:08:56,443 INFO] Step 17650/30000; acc:  98.67; ppl:  1.05; xent: 0.05; lr: 0.00050; 13548/8044 tok/s;    719 sec
+[2020-03-20 03:08:58,321 INFO] Step 17700/30000; acc:  98.95; ppl:  1.04; xent: 0.04; lr: 0.00050; 12206/7228 tok/s;    721 sec
+[2020-03-20 03:09:00,074 INFO] Step 17750/30000; acc:  98.85; ppl:  1.04; xent: 0.04; lr: 0.00050; 12711/7963 tok/s;    723 sec
+[2020-03-20 03:09:01,243 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:09:03,027 INFO] number of examples: 81252
+[2020-03-20 03:09:04,376 INFO] Step 17800/30000; acc:  98.55; ppl:  1.06; xent: 0.06; lr: 0.00050; 5336/3250 tok/s;    727 sec
+[2020-03-20 03:09:06,259 INFO] Step 17850/30000; acc:  98.90; ppl:  1.04; xent: 0.04; lr: 0.00050; 11681/7127 tok/s;    729 sec
+[2020-03-20 03:09:08,176 INFO] Step 17900/30000; acc:  98.87; ppl:  1.04; xent: 0.04; lr: 0.00050; 11219/6715 tok/s;    731 sec
+[2020-03-20 03:09:10,232 INFO] Step 17950/30000; acc:  98.84; ppl:  1.04; xent: 0.04; lr: 0.00050; 10984/6754 tok/s;    733 sec
+[2020-03-20 03:09:12,111 INFO] Step 18000/30000; acc:  98.97; ppl:  1.04; xent: 0.04; lr: 0.00045; 11637/7412 tok/s;    735 sec
+[2020-03-20 03:09:12,112 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:09:12,115 INFO] number of examples: 513
+[2020-03-20 03:09:12,348 INFO] Validation perplexity: 2.2368
+[2020-03-20 03:09:12,348 INFO] Validation accuracy: 88.5374
+[2020-03-20 03:09:12,355 INFO] Saving checkpoint bs_step_18000.pt
+[2020-03-20 03:09:15,073 INFO] Step 18050/30000; acc:  98.89; ppl:  1.04; xent: 0.04; lr: 0.00045; 7869/4810 tok/s;    738 sec
+[2020-03-20 03:09:16,934 INFO] Step 18100/30000; acc:  98.75; ppl:  1.04; xent: 0.04; lr: 0.00045; 12429/7566 tok/s;    740 sec
+[2020-03-20 03:09:18,760 INFO] Step 18150/30000; acc:  98.61; ppl:  1.05; xent: 0.05; lr: 0.00045; 12554/7355 tok/s;    742 sec
+[2020-03-20 03:09:20,749 INFO] Step 18200/30000; acc:  97.84; ppl:  1.09; xent: 0.09; lr: 0.00045; 11981/6930 tok/s;    744 sec
+[2020-03-20 03:09:22,632 INFO] Step 18250/30000; acc:  98.67; ppl:  1.05; xent: 0.05; lr: 0.00045; 11260/7193 tok/s;    746 sec
+[2020-03-20 03:09:24,524 INFO] Step 18300/30000; acc:  99.02; ppl:  1.04; xent: 0.03; lr: 0.00045; 11443/6992 tok/s;    747 sec
+[2020-03-20 03:09:26,409 INFO] Step 18350/30000; acc:  98.94; ppl:  1.04; xent: 0.04; lr: 0.00045; 11412/7323 tok/s;    749 sec
+[2020-03-20 03:09:28,348 INFO] Step 18400/30000; acc:  98.93; ppl:  1.04; xent: 0.04; lr: 0.00045; 10631/6735 tok/s;    751 sec
+[2020-03-20 03:09:30,336 INFO] Step 18450/30000; acc:  98.80; ppl:  1.04; xent: 0.04; lr: 0.00045; 11404/6888 tok/s;    753 sec
+[2020-03-20 03:09:32,092 INFO] Step 18500/30000; acc:  98.76; ppl:  1.05; xent: 0.05; lr: 0.00045; 12165/7135 tok/s;    755 sec
+[2020-03-20 03:09:32,093 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:09:32,102 INFO] number of examples: 513
+[2020-03-20 03:09:32,354 INFO] Validation perplexity: 2.12785
+[2020-03-20 03:09:32,355 INFO] Validation accuracy: 88.6291
+[2020-03-20 03:09:32,361 INFO] Saving checkpoint bs_step_18500.pt
+[2020-03-20 03:09:35,196 INFO] Step 18550/30000; acc:  98.61; ppl:  1.05; xent: 0.05; lr: 0.00045; 6601/4235 tok/s;    758 sec
+[2020-03-20 03:09:37,086 INFO] Step 18600/30000; acc:  98.63; ppl:  1.05; xent: 0.05; lr: 0.00045; 10728/6575 tok/s;    760 sec
+[2020-03-20 03:09:39,028 INFO] Step 18650/30000; acc:  98.81; ppl:  1.04; xent: 0.04; lr: 0.00045; 10733/6752 tok/s;    762 sec
+[2020-03-20 03:09:40,928 INFO] Step 18700/30000; acc:  98.71; ppl:  1.05; xent: 0.04; lr: 0.00045; 10614/6730 tok/s;    764 sec
+[2020-03-20 03:09:42,721 INFO] Step 18750/30000; acc:  99.08; ppl:  1.04; xent: 0.03; lr: 0.00045; 12505/7342 tok/s;    766 sec
+[2020-03-20 03:09:44,433 INFO] Step 18800/30000; acc:  99.06; ppl:  1.04; xent: 0.04; lr: 0.00045; 12381/7716 tok/s;    767 sec
+[2020-03-20 03:09:46,315 INFO] Step 18850/30000; acc:  98.93; ppl:  1.04; xent: 0.04; lr: 0.00045; 11539/6968 tok/s;    769 sec
+[2020-03-20 03:09:48,195 INFO] Step 18900/30000; acc:  98.64; ppl:  1.05; xent: 0.05; lr: 0.00045; 11546/7126 tok/s;    771 sec
+[2020-03-20 03:09:49,484 INFO] Step 18950/30000; acc:  99.13; ppl:  1.03; xent: 0.03; lr: 0.00045; 18544/10633 tok/s;    772 sec
+[2020-03-20 03:09:51,472 INFO] Step 19000/30000; acc:  98.96; ppl:  1.04; xent: 0.04; lr: 0.00041; 11559/7116 tok/s;    774 sec
+[2020-03-20 03:09:51,473 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:09:51,480 INFO] number of examples: 513
+[2020-03-20 03:09:51,750 INFO] Validation perplexity: 2.23982
+[2020-03-20 03:09:51,750 INFO] Validation accuracy: 88.6749
+[2020-03-20 03:09:51,757 INFO] Saving checkpoint bs_step_19000.pt
+[2020-03-20 03:09:54,670 INFO] Step 19050/30000; acc:  98.89; ppl:  1.04; xent: 0.04; lr: 0.00041; 7047/4295 tok/s;    778 sec
+[2020-03-20 03:09:54,674 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:09:55,962 INFO] number of examples: 81252
+[2020-03-20 03:09:58,484 INFO] Step 19100/30000; acc:  98.77; ppl:  1.05; xent: 0.05; lr: 0.00041; 6136/3709 tok/s;    781 sec
+[2020-03-20 03:10:00,292 INFO] Step 19150/30000; acc:  99.02; ppl:  1.03; xent: 0.03; lr: 0.00041; 11545/7120 tok/s;    783 sec
+[2020-03-20 03:10:02,166 INFO] Step 19200/30000; acc:  98.95; ppl:  1.04; xent: 0.04; lr: 0.00041; 11571/7009 tok/s;    785 sec
+[2020-03-20 03:10:04,096 INFO] Step 19250/30000; acc:  99.04; ppl:  1.03; xent: 0.03; lr: 0.00041; 11362/7249 tok/s;    787 sec
+[2020-03-20 03:10:06,013 INFO] Step 19300/30000; acc:  99.13; ppl:  1.03; xent: 0.03; lr: 0.00041; 12561/7532 tok/s;    789 sec
+[2020-03-20 03:10:08,087 INFO] Step 19350/30000; acc:  98.84; ppl:  1.04; xent: 0.04; lr: 0.00041; 10780/6709 tok/s;    791 sec
+[2020-03-20 03:10:10,053 INFO] Step 19400/30000; acc:  98.86; ppl:  1.04; xent: 0.04; lr: 0.00041; 11726/6948 tok/s;    793 sec
+[2020-03-20 03:10:12,034 INFO] Step 19450/30000; acc:  98.20; ppl:  1.07; xent: 0.07; lr: 0.00041; 11823/6934 tok/s;    795 sec
+[2020-03-20 03:10:13,843 INFO] Step 19500/30000; acc:  98.87; ppl:  1.04; xent: 0.04; lr: 0.00041; 12654/7676 tok/s;    797 sec
+[2020-03-20 03:10:13,844 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:10:13,854 INFO] number of examples: 513
+[2020-03-20 03:10:14,125 INFO] Validation perplexity: 2.25046
+[2020-03-20 03:10:14,125 INFO] Validation accuracy: 88.5374
+[2020-03-20 03:10:14,132 INFO] Saving checkpoint bs_step_19500.pt
+[2020-03-20 03:10:16,805 INFO] Step 19550/30000; acc:  99.01; ppl:  1.04; xent: 0.04; lr: 0.00041; 6786/4312 tok/s;    800 sec
+[2020-03-20 03:10:18,688 INFO] Step 19600/30000; acc:  99.10; ppl:  1.03; xent: 0.03; lr: 0.00041; 11837/7347 tok/s;    802 sec
+[2020-03-20 03:10:20,380 INFO] Step 19650/30000; acc:  99.14; ppl:  1.03; xent: 0.03; lr: 0.00041; 12300/7812 tok/s;    803 sec
+[2020-03-20 03:10:22,155 INFO] Step 19700/30000; acc:  99.04; ppl:  1.04; xent: 0.04; lr: 0.00041; 12299/7718 tok/s;    805 sec
+[2020-03-20 03:10:23,917 INFO] Step 19750/30000; acc:  98.82; ppl:  1.04; xent: 0.04; lr: 0.00041; 12417/7274 tok/s;    807 sec
+[2020-03-20 03:10:25,593 INFO] Step 19800/30000; acc:  99.03; ppl:  1.04; xent: 0.04; lr: 0.00041; 12606/7787 tok/s;    808 sec
+[2020-03-20 03:10:27,292 INFO] Step 19850/30000; acc:  98.73; ppl:  1.04; xent: 0.04; lr: 0.00041; 12199/7641 tok/s;    810 sec
+[2020-03-20 03:10:29,063 INFO] Step 19900/30000; acc:  98.85; ppl:  1.04; xent: 0.04; lr: 0.00041; 11623/7353 tok/s;    812 sec
+[2020-03-20 03:10:30,956 INFO] Step 19950/30000; acc:  99.02; ppl:  1.04; xent: 0.04; lr: 0.00041; 10960/6872 tok/s;    814 sec
+[2020-03-20 03:10:32,840 INFO] Step 20000/30000; acc:  99.07; ppl:  1.03; xent: 0.03; lr: 0.00036; 10984/6716 tok/s;    816 sec
+[2020-03-20 03:10:32,841 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:10:32,852 INFO] number of examples: 513
+[2020-03-20 03:10:33,100 INFO] Validation perplexity: 2.2032
+[2020-03-20 03:10:33,101 INFO] Validation accuracy: 88.5832
+[2020-03-20 03:10:33,109 INFO] Saving checkpoint bs_step_20000.pt
+[2020-03-20 03:10:36,021 INFO] Step 20050/30000; acc:  99.02; ppl:  1.03; xent: 0.03; lr: 0.00036; 6984/4152 tok/s;    819 sec
+[2020-03-20 03:10:38,026 INFO] Step 20100/30000; acc:  98.97; ppl:  1.03; xent: 0.03; lr: 0.00036; 10991/6604 tok/s;    821 sec
+[2020-03-20 03:10:39,926 INFO] Step 20150/30000; acc:  98.87; ppl:  1.04; xent: 0.04; lr: 0.00036; 11259/6877 tok/s;    823 sec
+[2020-03-20 03:10:41,764 INFO] Step 20200/30000; acc:  98.92; ppl:  1.04; xent: 0.04; lr: 0.00036; 12606/7525 tok/s;    825 sec
+[2020-03-20 03:10:43,611 INFO] Step 20250/30000; acc:  99.15; ppl:  1.03; xent: 0.03; lr: 0.00036; 12518/7490 tok/s;    826 sec
+[2020-03-20 03:10:45,440 INFO] Step 20300/30000; acc:  99.01; ppl:  1.03; xent: 0.03; lr: 0.00036; 12360/7617 tok/s;    828 sec
+[2020-03-20 03:10:46,280 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:10:47,883 INFO] number of examples: 81252
+[2020-03-20 03:10:49,863 INFO] Step 20350/30000; acc:  98.95; ppl:  1.04; xent: 0.04; lr: 0.00036; 5234/3197 tok/s;    833 sec
+[2020-03-20 03:10:51,921 INFO] Step 20400/30000; acc:  99.31; ppl:  1.02; xent: 0.02; lr: 0.00036; 10574/6504 tok/s;    835 sec
+[2020-03-20 03:10:53,693 INFO] Step 20450/30000; acc:  99.15; ppl:  1.03; xent: 0.03; lr: 0.00036; 11961/7056 tok/s;    837 sec
+[2020-03-20 03:10:55,682 INFO] Step 20500/30000; acc:  99.07; ppl:  1.03; xent: 0.03; lr: 0.00036; 11434/7203 tok/s;    839 sec
+[2020-03-20 03:10:55,683 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:10:55,692 INFO] number of examples: 513
+[2020-03-20 03:10:55,935 INFO] Validation perplexity: 2.25702
+[2020-03-20 03:10:55,936 INFO] Validation accuracy: 88.9042
+[2020-03-20 03:10:55,945 INFO] Saving checkpoint bs_step_20500.pt
+[2020-03-20 03:10:58,833 INFO] Step 20550/30000; acc:  99.06; ppl:  1.04; xent: 0.04; lr: 0.00036; 7213/4512 tok/s;    842 sec
+[2020-03-20 03:11:00,895 INFO] Step 20600/30000; acc:  99.23; ppl:  1.03; xent: 0.03; lr: 0.00036; 11341/6867 tok/s;    844 sec
+[2020-03-20 03:11:02,822 INFO] Step 20650/30000; acc:  99.15; ppl:  1.03; xent: 0.03; lr: 0.00036; 11659/7235 tok/s;    846 sec
+[2020-03-20 03:11:04,856 INFO] Step 20700/30000; acc:  99.02; ppl:  1.04; xent: 0.04; lr: 0.00036; 11092/6514 tok/s;    848 sec
+[2020-03-20 03:11:06,962 INFO] Step 20750/30000; acc:  98.44; ppl:  1.06; xent: 0.06; lr: 0.00036; 11418/6616 tok/s;    850 sec
+[2020-03-20 03:11:08,840 INFO] Step 20800/30000; acc:  98.90; ppl:  1.04; xent: 0.04; lr: 0.00036; 11044/6932 tok/s;    852 sec
+[2020-03-20 03:11:10,675 INFO] Step 20850/30000; acc:  99.30; ppl:  1.03; xent: 0.03; lr: 0.00036; 11863/7345 tok/s;    854 sec
+[2020-03-20 03:11:12,677 INFO] Step 20900/30000; acc:  99.04; ppl:  1.03; xent: 0.03; lr: 0.00036; 10554/6794 tok/s;    856 sec
+[2020-03-20 03:11:14,467 INFO] Step 20950/30000; acc:  99.17; ppl:  1.03; xent: 0.03; lr: 0.00036; 11806/7375 tok/s;    857 sec
+[2020-03-20 03:11:16,377 INFO] Step 21000/30000; acc:  98.94; ppl:  1.03; xent: 0.03; lr: 0.00033; 11736/7103 tok/s;    859 sec
+[2020-03-20 03:11:16,378 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:11:16,386 INFO] number of examples: 513
+[2020-03-20 03:11:16,623 INFO] Validation perplexity: 2.25518
+[2020-03-20 03:11:16,624 INFO] Validation accuracy: 89.0417
+[2020-03-20 03:11:16,627 INFO] Saving checkpoint bs_step_21000.pt
+[2020-03-20 03:11:19,271 INFO] Step 21050/30000; acc:  99.06; ppl:  1.04; xent: 0.03; lr: 0.00033; 7227/4351 tok/s;    862 sec
+[2020-03-20 03:11:21,150 INFO] Step 21100/30000; acc:  98.94; ppl:  1.04; xent: 0.04; lr: 0.00033; 10970/6994 tok/s;    864 sec
+[2020-03-20 03:11:22,971 INFO] Step 21150/30000; acc:  98.94; ppl:  1.04; xent: 0.04; lr: 0.00033; 11274/6965 tok/s;    866 sec
+[2020-03-20 03:11:24,645 INFO] Step 21200/30000; acc:  99.08; ppl:  1.03; xent: 0.03; lr: 0.00033; 12147/7565 tok/s;    868 sec
+[2020-03-20 03:11:26,432 INFO] Step 21250/30000; acc:  99.08; ppl:  1.03; xent: 0.03; lr: 0.00033; 11788/7398 tok/s;    869 sec
+[2020-03-20 03:11:28,202 INFO] Step 21300/30000; acc:  99.11; ppl:  1.03; xent: 0.03; lr: 0.00033; 12232/7267 tok/s;    871 sec
+[2020-03-20 03:11:30,005 INFO] Step 21350/30000; acc:  99.20; ppl:  1.03; xent: 0.03; lr: 0.00033; 12251/7467 tok/s;    873 sec
+[2020-03-20 03:11:31,723 INFO] Step 21400/30000; acc:  99.01; ppl:  1.03; xent: 0.03; lr: 0.00033; 12571/7487 tok/s;    875 sec
+[2020-03-20 03:11:33,630 INFO] Step 21450/30000; acc:  98.94; ppl:  1.04; xent: 0.04; lr: 0.00033; 11580/7124 tok/s;    877 sec
+[2020-03-20 03:11:35,617 INFO] Step 21500/30000; acc:  99.20; ppl:  1.03; xent: 0.03; lr: 0.00033; 11795/6956 tok/s;    878 sec
+[2020-03-20 03:11:35,619 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:11:35,623 INFO] number of examples: 513
+[2020-03-20 03:11:35,867 INFO] Validation perplexity: 2.20981
+[2020-03-20 03:11:35,867 INFO] Validation accuracy: 88.9959
+[2020-03-20 03:11:35,874 INFO] Saving checkpoint bs_step_21500.pt
+[2020-03-20 03:11:38,637 INFO] Step 21550/30000; acc:  99.15; ppl:  1.03; xent: 0.03; lr: 0.00033; 7590/4664 tok/s;    882 sec
+[2020-03-20 03:11:40,153 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:11:41,656 INFO] number of examples: 81252
+[2020-03-20 03:11:42,580 INFO] Step 21600/30000; acc:  99.29; ppl:  1.03; xent: 0.02; lr: 0.00033; 5714/3483 tok/s;    885 sec
+[2020-03-20 03:11:44,510 INFO] Step 21650/30000; acc:  98.91; ppl:  1.04; xent: 0.04; lr: 0.00033; 11830/7165 tok/s;    887 sec
+[2020-03-20 03:11:46,275 INFO] Step 21700/30000; acc:  99.31; ppl:  1.03; xent: 0.03; lr: 0.00033; 12085/7305 tok/s;    889 sec
+[2020-03-20 03:11:48,146 INFO] Step 21750/30000; acc:  99.08; ppl:  1.03; xent: 0.03; lr: 0.00033; 11728/7250 tok/s;    891 sec
+[2020-03-20 03:11:50,122 INFO] Step 21800/30000; acc:  99.23; ppl:  1.02; xent: 0.02; lr: 0.00033; 11159/7111 tok/s;    893 sec
+[2020-03-20 03:11:52,036 INFO] Step 21850/30000; acc:  99.20; ppl:  1.03; xent: 0.03; lr: 0.00033; 12248/7413 tok/s;    895 sec
+[2020-03-20 03:11:54,050 INFO] Step 21900/30000; acc:  99.05; ppl:  1.04; xent: 0.03; lr: 0.00033; 11672/7116 tok/s;    897 sec
+[2020-03-20 03:11:55,797 INFO] Step 21950/30000; acc:  98.99; ppl:  1.04; xent: 0.04; lr: 0.00033; 12723/7543 tok/s;    899 sec
+[2020-03-20 03:11:57,780 INFO] Step 22000/30000; acc:  98.46; ppl:  1.06; xent: 0.05; lr: 0.00030; 12180/6951 tok/s;    901 sec
+[2020-03-20 03:11:57,782 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:11:57,786 INFO] number of examples: 513
+[2020-03-20 03:11:58,093 INFO] Validation perplexity: 2.21019
+[2020-03-20 03:11:58,093 INFO] Validation accuracy: 89.0417
+[2020-03-20 03:11:58,100 INFO] Saving checkpoint bs_step_22000.pt
+[2020-03-20 03:12:00,945 INFO] Step 22050/30000; acc:  99.13; ppl:  1.03; xent: 0.03; lr: 0.00030; 6862/4321 tok/s;    904 sec
+[2020-03-20 03:12:02,960 INFO] Step 22100/30000; acc:  99.19; ppl:  1.03; xent: 0.03; lr: 0.00030; 10292/6465 tok/s;    906 sec
+[2020-03-20 03:12:04,924 INFO] Step 22150/30000; acc:  99.27; ppl:  1.02; xent: 0.02; lr: 0.00030; 11315/7076 tok/s;    908 sec
+[2020-03-20 03:12:06,864 INFO] Step 22200/30000; acc:  99.24; ppl:  1.03; xent: 0.03; lr: 0.00030; 10597/6688 tok/s;    910 sec
+[2020-03-20 03:12:08,812 INFO] Step 22250/30000; acc:  99.09; ppl:  1.03; xent: 0.03; lr: 0.00030; 11077/6897 tok/s;    912 sec
+[2020-03-20 03:12:10,700 INFO] Step 22300/30000; acc:  98.83; ppl:  1.04; xent: 0.04; lr: 0.00030; 11619/6820 tok/s;    914 sec
+[2020-03-20 03:12:12,647 INFO] Step 22350/30000; acc:  99.19; ppl:  1.03; xent: 0.03; lr: 0.00030; 11020/6936 tok/s;    916 sec
+[2020-03-20 03:12:14,472 INFO] Step 22400/30000; acc:  99.02; ppl:  1.03; xent: 0.03; lr: 0.00030; 10861/6737 tok/s;    917 sec
+[2020-03-20 03:12:16,329 INFO] Step 22450/30000; acc:  99.08; ppl:  1.03; xent: 0.03; lr: 0.00030; 11127/7121 tok/s;    919 sec
+[2020-03-20 03:12:18,114 INFO] Step 22500/30000; acc:  99.06; ppl:  1.03; xent: 0.03; lr: 0.00030; 11380/7077 tok/s;    921 sec
+[2020-03-20 03:12:18,117 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:12:18,132 INFO] number of examples: 513
+[2020-03-20 03:12:18,393 INFO] Validation perplexity: 2.1731
+[2020-03-20 03:12:18,393 INFO] Validation accuracy: 89.0876
+[2020-03-20 03:12:18,396 INFO] Saving checkpoint bs_step_22500.pt
+[2020-03-20 03:12:21,201 INFO] Step 22550/30000; acc:  99.31; ppl:  1.02; xent: 0.02; lr: 0.00030; 6973/4202 tok/s;    924 sec
+[2020-03-20 03:12:23,232 INFO] Step 22600/30000; acc:  99.20; ppl:  1.03; xent: 0.03; lr: 0.00030; 10972/6661 tok/s;    926 sec
+[2020-03-20 03:12:25,049 INFO] Step 22650/30000; acc:  99.07; ppl:  1.03; xent: 0.03; lr: 0.00030; 11851/7114 tok/s;    928 sec
+[2020-03-20 03:12:26,942 INFO] Step 22700/30000; acc:  99.00; ppl:  1.04; xent: 0.04; lr: 0.00030; 11538/6977 tok/s;    930 sec
+[2020-03-20 03:12:28,921 INFO] Step 22750/30000; acc:  99.21; ppl:  1.03; xent: 0.03; lr: 0.00030; 11838/6982 tok/s;    932 sec
+[2020-03-20 03:12:30,776 INFO] Step 22800/30000; acc:  99.14; ppl:  1.03; xent: 0.03; lr: 0.00030; 12050/7389 tok/s;    934 sec
+[2020-03-20 03:12:32,742 INFO] Step 22850/30000; acc:  99.27; ppl:  1.03; xent: 0.03; lr: 0.00030; 11596/7086 tok/s;    936 sec
+[2020-03-20 03:12:33,159 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:12:35,133 INFO] number of examples: 81252
+[2020-03-20 03:12:37,394 INFO] Step 22900/30000; acc:  99.13; ppl:  1.03; xent: 0.03; lr: 0.00030; 5044/3074 tok/s;    940 sec
+[2020-03-20 03:12:39,226 INFO] Step 22950/30000; acc:  99.29; ppl:  1.02; xent: 0.02; lr: 0.00030; 11813/7185 tok/s;    942 sec
+[2020-03-20 03:12:41,162 INFO] Step 23000/30000; acc:  99.29; ppl:  1.02; xent: 0.02; lr: 0.00027; 11134/6684 tok/s;    944 sec
+[2020-03-20 03:12:41,168 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:12:41,178 INFO] number of examples: 513
+[2020-03-20 03:12:41,458 INFO] Validation perplexity: 2.3259
+[2020-03-20 03:12:41,459 INFO] Validation accuracy: 88.9042
+[2020-03-20 03:12:41,465 INFO] Saving checkpoint bs_step_23000.pt
+[2020-03-20 03:12:44,296 INFO] Step 23050/30000; acc:  99.30; ppl:  1.03; xent: 0.02; lr: 0.00027; 7089/4498 tok/s;    947 sec
+[2020-03-20 03:12:46,143 INFO] Step 23100/30000; acc:  99.23; ppl:  1.03; xent: 0.03; lr: 0.00027; 12378/7734 tok/s;    949 sec
+[2020-03-20 03:12:48,181 INFO] Step 23150/30000; acc:  99.30; ppl:  1.02; xent: 0.02; lr: 0.00027; 11322/6825 tok/s;    951 sec
+[2020-03-20 03:12:49,984 INFO] Step 23200/30000; acc:  99.28; ppl:  1.03; xent: 0.03; lr: 0.00027; 12851/7732 tok/s;    953 sec
+[2020-03-20 03:12:51,783 INFO] Step 23250/30000; acc:  98.55; ppl:  1.05; xent: 0.05; lr: 0.00027; 12843/7507 tok/s;    955 sec
+[2020-03-20 03:12:53,612 INFO] Step 23300/30000; acc:  99.30; ppl:  1.02; xent: 0.02; lr: 0.00027; 12699/7542 tok/s;    956 sec
+[2020-03-20 03:12:55,364 INFO] Step 23350/30000; acc:  99.05; ppl:  1.03; xent: 0.03; lr: 0.00027; 11769/7396 tok/s;    958 sec
+[2020-03-20 03:12:57,037 INFO] Step 23400/30000; acc:  99.39; ppl:  1.02; xent: 0.02; lr: 0.00027; 12865/8099 tok/s;    960 sec
+[2020-03-20 03:12:58,609 INFO] Step 23450/30000; acc:  99.27; ppl:  1.03; xent: 0.03; lr: 0.00027; 13318/8488 tok/s;    961 sec
+[2020-03-20 03:13:00,303 INFO] Step 23500/30000; acc:  99.21; ppl:  1.03; xent: 0.03; lr: 0.00027; 12662/7905 tok/s;    963 sec
+[2020-03-20 03:13:00,304 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:13:00,313 INFO] number of examples: 513
+[2020-03-20 03:13:00,504 INFO] Validation perplexity: 2.20175
+[2020-03-20 03:13:00,504 INFO] Validation accuracy: 89.3168
+[2020-03-20 03:13:00,511 INFO] Saving checkpoint bs_step_23500.pt
+[2020-03-20 03:13:03,844 INFO] Step 23550/30000; acc:  99.07; ppl:  1.03; xent: 0.03; lr: 0.00027; 6230/3777 tok/s;    967 sec
+[2020-03-20 03:13:05,699 INFO] Step 23600/30000; acc:  99.22; ppl:  1.02; xent: 0.02; lr: 0.00027; 11533/6891 tok/s;    969 sec
+[2020-03-20 03:13:07,448 INFO] Step 23650/30000; acc:  98.88; ppl:  1.03; xent: 0.03; lr: 0.00027; 11497/7320 tok/s;    970 sec
+[2020-03-20 03:13:09,262 INFO] Step 23700/30000; acc:  99.22; ppl:  1.03; xent: 0.03; lr: 0.00027; 11511/7181 tok/s;    972 sec
+[2020-03-20 03:13:11,147 INFO] Step 23750/30000; acc:  99.21; ppl:  1.03; xent: 0.03; lr: 0.00027; 10839/6842 tok/s;    974 sec
+[2020-03-20 03:13:13,041 INFO] Step 23800/30000; acc:  99.32; ppl:  1.02; xent: 0.02; lr: 0.00027; 11227/6881 tok/s;    976 sec
+[2020-03-20 03:13:14,903 INFO] Step 23850/30000; acc:  99.34; ppl:  1.02; xent: 0.02; lr: 0.00027; 11621/7007 tok/s;    978 sec
+[2020-03-20 03:13:16,705 INFO] Step 23900/30000; acc:  99.17; ppl:  1.03; xent: 0.03; lr: 0.00027; 12510/7412 tok/s;    980 sec
+[2020-03-20 03:13:18,655 INFO] Step 23950/30000; acc:  99.10; ppl:  1.03; xent: 0.03; lr: 0.00027; 10583/6554 tok/s;    982 sec
+[2020-03-20 03:13:20,505 INFO] Step 24000/30000; acc:  99.17; ppl:  1.03; xent: 0.03; lr: 0.00024; 12765/7579 tok/s;    983 sec
+[2020-03-20 03:13:20,510 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:13:20,515 INFO] number of examples: 513
+[2020-03-20 03:13:20,744 INFO] Validation perplexity: 2.21188
+[2020-03-20 03:13:20,744 INFO] Validation accuracy: 89.3627
+[2020-03-20 03:13:20,748 INFO] Saving checkpoint bs_step_24000.pt
+[2020-03-20 03:13:23,602 INFO] Step 24050/30000; acc:  99.38; ppl:  1.02; xent: 0.02; lr: 0.00024; 7408/4387 tok/s;    986 sec
+[2020-03-20 03:13:25,461 INFO] Step 24100/30000; acc:  99.10; ppl:  1.03; xent: 0.03; lr: 0.00024; 11991/7511 tok/s;    988 sec
+[2020-03-20 03:13:26,751 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:13:27,940 INFO] number of examples: 81252
+[2020-03-20 03:13:29,236 INFO] Step 24150/30000; acc:  99.14; ppl:  1.03; xent: 0.03; lr: 0.00024; 6080/3703 tok/s;    992 sec
+[2020-03-20 03:13:30,993 INFO] Step 24200/30000; acc:  99.43; ppl:  1.02; xent: 0.02; lr: 0.00024; 12504/7630 tok/s;    994 sec
+[2020-03-20 03:13:32,849 INFO] Step 24250/30000; acc:  99.39; ppl:  1.02; xent: 0.02; lr: 0.00024; 11588/6936 tok/s;    996 sec
+[2020-03-20 03:13:34,644 INFO] Step 24300/30000; acc:  99.37; ppl:  1.03; xent: 0.03; lr: 0.00024; 12580/7735 tok/s;    998 sec
+[2020-03-20 03:13:36,453 INFO] Step 24350/30000; acc:  99.27; ppl:  1.02; xent: 0.02; lr: 0.00024; 12089/7701 tok/s;    999 sec
+[2020-03-20 03:13:38,402 INFO] Step 24400/30000; acc:  99.40; ppl:  1.02; xent: 0.02; lr: 0.00024; 11954/7308 tok/s;   1001 sec
+[2020-03-20 03:13:40,435 INFO] Step 24450/30000; acc:  99.31; ppl:  1.03; xent: 0.03; lr: 0.00024; 11377/6926 tok/s;   1003 sec
+[2020-03-20 03:13:42,265 INFO] Step 24500/30000; acc:  99.21; ppl:  1.03; xent: 0.03; lr: 0.00024; 12525/7338 tok/s;   1005 sec
+[2020-03-20 03:13:42,267 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:13:42,282 INFO] number of examples: 513
+[2020-03-20 03:13:42,499 INFO] Validation perplexity: 2.22485
+[2020-03-20 03:13:42,499 INFO] Validation accuracy: 89.5919
+[2020-03-20 03:13:42,503 INFO] Saving checkpoint bs_step_24500.pt
+[2020-03-20 03:13:45,343 INFO] Step 24550/30000; acc:  98.79; ppl:  1.04; xent: 0.04; lr: 0.00024; 7743/4479 tok/s;   1008 sec
+[2020-03-20 03:13:47,267 INFO] Step 24600/30000; acc:  99.11; ppl:  1.03; xent: 0.03; lr: 0.00024; 11026/7044 tok/s;   1010 sec
+[2020-03-20 03:13:49,187 INFO] Step 24650/30000; acc:  99.39; ppl:  1.02; xent: 0.02; lr: 0.00024; 11273/6888 tok/s;   1012 sec
+[2020-03-20 03:13:51,071 INFO] Step 24700/30000; acc:  99.30; ppl:  1.02; xent: 0.02; lr: 0.00024; 11414/7324 tok/s;   1014 sec
+[2020-03-20 03:13:52,983 INFO] Step 24750/30000; acc:  99.31; ppl:  1.02; xent: 0.02; lr: 0.00024; 10785/6832 tok/s;   1016 sec
+[2020-03-20 03:13:54,903 INFO] Step 24800/30000; acc:  99.28; ppl:  1.02; xent: 0.02; lr: 0.00024; 11807/7132 tok/s;   1018 sec
+[2020-03-20 03:13:56,800 INFO] Step 24850/30000; acc:  99.03; ppl:  1.03; xent: 0.03; lr: 0.00024; 11261/6605 tok/s;   1020 sec
+[2020-03-20 03:13:58,637 INFO] Step 24900/30000; acc:  99.19; ppl:  1.03; xent: 0.03; lr: 0.00024; 11158/7158 tok/s;   1022 sec
+[2020-03-20 03:14:00,446 INFO] Step 24950/30000; acc:  99.09; ppl:  1.03; xent: 0.03; lr: 0.00024; 11206/6869 tok/s;   1023 sec
+[2020-03-20 03:14:02,410 INFO] Step 25000/30000; acc:  99.27; ppl:  1.03; xent: 0.03; lr: 0.00022; 10612/6676 tok/s;   1025 sec
+[2020-03-20 03:14:02,412 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:14:02,417 INFO] number of examples: 513
+[2020-03-20 03:14:02,660 INFO] Validation perplexity: 2.13698
+[2020-03-20 03:14:02,661 INFO] Validation accuracy: 89.4544
+[2020-03-20 03:14:02,667 INFO] Saving checkpoint bs_step_25000.pt
+[2020-03-20 03:14:05,302 INFO] Step 25050/30000; acc:  99.23; ppl:  1.03; xent: 0.03; lr: 0.00022; 6974/4423 tok/s;   1028 sec
+[2020-03-20 03:14:07,239 INFO] Step 25100/30000; acc:  99.44; ppl:  1.02; xent: 0.02; lr: 0.00022; 11573/6795 tok/s;   1030 sec
+[2020-03-20 03:14:09,100 INFO] Step 25150/30000; acc:  99.30; ppl:  1.02; xent: 0.02; lr: 0.00022; 11390/7098 tok/s;   1032 sec
+[2020-03-20 03:14:11,041 INFO] Step 25200/30000; acc:  99.27; ppl:  1.03; xent: 0.02; lr: 0.00022; 11193/6759 tok/s;   1034 sec
+[2020-03-20 03:14:12,757 INFO] Step 25250/30000; acc:  99.10; ppl:  1.03; xent: 0.03; lr: 0.00022; 12645/7804 tok/s;   1036 sec
+[2020-03-20 03:14:14,443 INFO] Step 25300/30000; acc:  99.31; ppl:  1.02; xent: 0.02; lr: 0.00022; 14166/8123 tok/s;   1037 sec
+[2020-03-20 03:14:16,199 INFO] Step 25350/30000; acc:  99.41; ppl:  1.02; xent: 0.02; lr: 0.00022; 13084/8054 tok/s;   1039 sec
+[2020-03-20 03:14:18,064 INFO] Step 25400/30000; acc:  99.24; ppl:  1.03; xent: 0.03; lr: 0.00022; 12085/7366 tok/s;   1041 sec
+[2020-03-20 03:14:18,069 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:14:19,311 INFO] number of examples: 81252
+[2020-03-20 03:14:21,790 INFO] Step 25450/30000; acc:  99.31; ppl:  1.02; xent: 0.02; lr: 0.00022; 6282/3797 tok/s;   1045 sec
+[2020-03-20 03:14:23,673 INFO] Step 25500/30000; acc:  99.32; ppl:  1.02; xent: 0.02; lr: 0.00022; 11089/6839 tok/s;   1047 sec
+[2020-03-20 03:14:23,674 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:14:23,683 INFO] number of examples: 513
+[2020-03-20 03:14:23,953 INFO] Validation perplexity: 2.28043
+[2020-03-20 03:14:23,953 INFO] Validation accuracy: 89.2251
+[2020-03-20 03:14:23,960 INFO] Saving checkpoint bs_step_25500.pt
+[2020-03-20 03:14:26,793 INFO] Step 25550/30000; acc:  99.30; ppl:  1.02; xent: 0.02; lr: 0.00022; 6947/4208 tok/s;   1050 sec
+[2020-03-20 03:14:28,709 INFO] Step 25600/30000; acc:  99.36; ppl:  1.02; xent: 0.02; lr: 0.00022; 11446/7302 tok/s;   1052 sec
+[2020-03-20 03:14:30,682 INFO] Step 25650/30000; acc:  99.49; ppl:  1.02; xent: 0.02; lr: 0.00022; 12207/7320 tok/s;   1054 sec
+[2020-03-20 03:14:32,637 INFO] Step 25700/30000; acc:  99.32; ppl:  1.02; xent: 0.02; lr: 0.00022; 11436/7118 tok/s;   1056 sec
+[2020-03-20 03:14:34,537 INFO] Step 25750/30000; acc:  99.27; ppl:  1.02; xent: 0.02; lr: 0.00022; 12128/7187 tok/s;   1057 sec
+[2020-03-20 03:14:36,502 INFO] Step 25800/30000; acc:  98.73; ppl:  1.04; xent: 0.04; lr: 0.00022; 11917/6989 tok/s;   1059 sec
+[2020-03-20 03:14:38,531 INFO] Step 25850/30000; acc:  99.29; ppl:  1.02; xent: 0.02; lr: 0.00022; 11262/6832 tok/s;   1061 sec
+[2020-03-20 03:14:40,540 INFO] Step 25900/30000; acc:  99.17; ppl:  1.02; xent: 0.02; lr: 0.00022; 10004/6357 tok/s;   1063 sec
+[2020-03-20 03:14:42,525 INFO] Step 25950/30000; acc:  99.35; ppl:  1.02; xent: 0.02; lr: 0.00022; 11225/6967 tok/s;   1065 sec
+[2020-03-20 03:14:44,463 INFO] Step 26000/30000; acc:  99.39; ppl:  1.02; xent: 0.02; lr: 0.00019; 10742/6823 tok/s;   1067 sec
+[2020-03-20 03:14:44,463 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:14:44,470 INFO] number of examples: 513
+[2020-03-20 03:14:44,783 INFO] Validation perplexity: 2.2478
+[2020-03-20 03:14:44,783 INFO] Validation accuracy: 89.3627
+[2020-03-20 03:14:44,790 INFO] Saving checkpoint bs_step_26000.pt
+[2020-03-20 03:14:47,596 INFO] Step 26050/30000; acc:  99.36; ppl:  1.02; xent: 0.02; lr: 0.00019; 6967/4372 tok/s;   1070 sec
+[2020-03-20 03:14:49,411 INFO] Step 26100/30000; acc:  99.09; ppl:  1.03; xent: 0.03; lr: 0.00019; 12052/7060 tok/s;   1072 sec
+[2020-03-20 03:14:51,246 INFO] Step 26150/30000; acc:  99.27; ppl:  1.02; xent: 0.02; lr: 0.00019; 11516/7114 tok/s;   1074 sec
+[2020-03-20 03:14:53,022 INFO] Step 26200/30000; acc:  99.18; ppl:  1.03; xent: 0.03; lr: 0.00019; 11340/7103 tok/s;   1076 sec
+[2020-03-20 03:14:55,011 INFO] Step 26250/30000; acc:  99.14; ppl:  1.03; xent: 0.03; lr: 0.00019; 10350/6547 tok/s;   1078 sec
+[2020-03-20 03:14:56,922 INFO] Step 26300/30000; acc:  99.26; ppl:  1.02; xent: 0.02; lr: 0.00019; 10860/6809 tok/s;   1080 sec
+[2020-03-20 03:14:58,785 INFO] Step 26350/30000; acc:  99.26; ppl:  1.02; xent: 0.02; lr: 0.00019; 11103/6788 tok/s;   1082 sec
+[2020-03-20 03:15:00,726 INFO] Step 26400/30000; acc:  99.36; ppl:  1.02; xent: 0.02; lr: 0.00019; 11449/6806 tok/s;   1084 sec
+[2020-03-20 03:15:02,592 INFO] Step 26450/30000; acc:  99.28; ppl:  1.02; xent: 0.02; lr: 0.00019; 11808/7095 tok/s;   1085 sec
+[2020-03-20 03:15:04,369 INFO] Step 26500/30000; acc:  99.30; ppl:  1.02; xent: 0.02; lr: 0.00019; 12038/7352 tok/s;   1087 sec
+[2020-03-20 03:15:04,370 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:15:04,383 INFO] number of examples: 513
+[2020-03-20 03:15:04,631 INFO] Validation perplexity: 2.19358
+[2020-03-20 03:15:04,632 INFO] Validation accuracy: 89.0876
+[2020-03-20 03:15:04,638 INFO] Saving checkpoint bs_step_26500.pt
+[2020-03-20 03:15:07,555 INFO] Step 26550/30000; acc:  99.18; ppl:  1.03; xent: 0.03; lr: 0.00019; 7273/4341 tok/s;   1090 sec
+[2020-03-20 03:15:09,542 INFO] Step 26600/30000; acc:  99.40; ppl:  1.02; xent: 0.02; lr: 0.00019; 11636/6962 tok/s;   1092 sec
+[2020-03-20 03:15:11,595 INFO] Step 26650/30000; acc:  99.28; ppl:  1.02; xent: 0.02; lr: 0.00019; 11010/6785 tok/s;   1094 sec
+[2020-03-20 03:15:12,375 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:15:13,961 INFO] number of examples: 81252
+[2020-03-20 03:15:15,643 INFO] Step 26700/30000; acc:  99.23; ppl:  1.02; xent: 0.02; lr: 0.00019; 5718/3493 tok/s;   1099 sec
+[2020-03-20 03:15:17,405 INFO] Step 26750/30000; acc:  99.48; ppl:  1.02; xent: 0.02; lr: 0.00019; 12353/7598 tok/s;   1100 sec
+[2020-03-20 03:15:19,155 INFO] Step 26800/30000; acc:  99.20; ppl:  1.03; xent: 0.03; lr: 0.00019; 12111/7144 tok/s;   1102 sec
+[2020-03-20 03:15:21,466 INFO] Step 26850/30000; acc:  99.46; ppl:  1.02; xent: 0.02; lr: 0.00019; 9841/6200 tok/s;   1104 sec
+[2020-03-20 03:15:23,950 INFO] Step 26900/30000; acc:  99.39; ppl:  1.02; xent: 0.02; lr: 0.00019; 9149/5723 tok/s;   1107 sec
+[2020-03-20 03:15:27,037 INFO] Step 26950/30000; acc:  99.38; ppl:  1.02; xent: 0.02; lr: 0.00019; 7578/4589 tok/s;   1110 sec
+[2020-03-20 03:15:29,927 INFO] Step 27000/30000; acc:  99.22; ppl:  1.02; xent: 0.02; lr: 0.00017; 7809/4846 tok/s;   1113 sec
+[2020-03-20 03:15:29,928 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:15:29,933 INFO] number of examples: 513
+[2020-03-20 03:15:30,476 INFO] Validation perplexity: 2.29664
+[2020-03-20 03:15:30,476 INFO] Validation accuracy: 89.0417
+[2020-03-20 03:15:30,483 INFO] Saving checkpoint bs_step_27000.pt
+[2020-03-20 03:15:34,331 INFO] Step 27050/30000; acc:  99.24; ppl:  1.02; xent: 0.02; lr: 0.00017; 5117/3005 tok/s;   1117 sec
+[2020-03-20 03:15:37,174 INFO] Step 27100/30000; acc:  98.96; ppl:  1.04; xent: 0.04; lr: 0.00017; 8458/4900 tok/s;   1120 sec
+[2020-03-20 03:15:39,726 INFO] Step 27150/30000; acc:  99.13; ppl:  1.03; xent: 0.03; lr: 0.00017; 8134/5105 tok/s;   1123 sec
+[2020-03-20 03:15:42,276 INFO] Step 27200/30000; acc:  99.41; ppl:  1.02; xent: 0.02; lr: 0.00017; 8538/5287 tok/s;   1125 sec
+[2020-03-20 03:15:44,618 INFO] Step 27250/30000; acc:  99.26; ppl:  1.02; xent: 0.02; lr: 0.00017; 9029/5812 tok/s;   1127 sec
+[2020-03-20 03:15:46,651 INFO] Step 27300/30000; acc:  99.39; ppl:  1.02; xent: 0.02; lr: 0.00017; 10405/6500 tok/s;   1130 sec
+[2020-03-20 03:15:49,140 INFO] Step 27350/30000; acc:  99.23; ppl:  1.02; xent: 0.02; lr: 0.00017; 8999/5447 tok/s;   1132 sec
+[2020-03-20 03:15:51,580 INFO] Step 27400/30000; acc:  99.29; ppl:  1.02; xent: 0.02; lr: 0.00017; 8574/5163 tok/s;   1134 sec
+[2020-03-20 03:15:53,967 INFO] Step 27450/30000; acc:  99.21; ppl:  1.02; xent: 0.02; lr: 0.00017; 8637/5507 tok/s;   1137 sec
+[2020-03-20 03:15:56,006 INFO] Step 27500/30000; acc:  99.13; ppl:  1.03; xent: 0.02; lr: 0.00017; 10064/6217 tok/s;   1139 sec
+[2020-03-20 03:15:56,007 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:15:56,022 INFO] number of examples: 513
+[2020-03-20 03:15:56,352 INFO] Validation perplexity: 2.17057
+[2020-03-20 03:15:56,357 INFO] Validation accuracy: 89.271
+[2020-03-20 03:15:56,369 INFO] Saving checkpoint bs_step_27500.pt
+[2020-03-20 03:15:59,251 INFO] Step 27550/30000; acc:  99.26; ppl:  1.02; xent: 0.02; lr: 0.00017; 6266/3902 tok/s;   1142 sec
+[2020-03-20 03:16:01,836 INFO] Step 27600/30000; acc:  99.41; ppl:  1.02; xent: 0.02; lr: 0.00017; 8149/5114 tok/s;   1145 sec
+[2020-03-20 03:16:04,032 INFO] Step 27650/30000; acc:  99.37; ppl:  1.02; xent: 0.02; lr: 0.00017; 9864/5860 tok/s;   1147 sec
+[2020-03-20 03:16:06,459 INFO] Step 27700/30000; acc:  99.33; ppl:  1.02; xent: 0.02; lr: 0.00017; 9103/5549 tok/s;   1149 sec
+[2020-03-20 03:16:09,007 INFO] Step 27750/30000; acc:  99.32; ppl:  1.02; xent: 0.02; lr: 0.00017; 8476/5048 tok/s;   1152 sec
+[2020-03-20 03:16:11,515 INFO] Step 27800/30000; acc:  99.19; ppl:  1.02; xent: 0.02; lr: 0.00017; 8807/5418 tok/s;   1154 sec
+[2020-03-20 03:16:14,348 INFO] Step 27850/30000; acc:  99.38; ppl:  1.02; xent: 0.02; lr: 0.00017; 8283/4885 tok/s;   1157 sec
+[2020-03-20 03:16:17,122 INFO] Step 27900/30000; acc:  99.28; ppl:  1.02; xent: 0.02; lr: 0.00017; 8275/5085 tok/s;   1160 sec
+[2020-03-20 03:16:19,366 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:16:21,523 INFO] number of examples: 81252
+[2020-03-20 03:16:22,732 INFO] Step 27950/30000; acc:  99.47; ppl:  1.02; xent: 0.02; lr: 0.00017; 4016/2448 tok/s;   1166 sec
+[2020-03-20 03:16:25,005 INFO] Step 28000/30000; acc:  99.41; ppl:  1.02; xent: 0.02; lr: 0.00016; 10051/6088 tok/s;   1168 sec
+[2020-03-20 03:16:25,006 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:16:25,018 INFO] number of examples: 513
+[2020-03-20 03:16:25,480 INFO] Validation perplexity: 2.225
+[2020-03-20 03:16:25,480 INFO] Validation accuracy: 89.271
+[2020-03-20 03:16:25,487 INFO] Saving checkpoint bs_step_28000.pt
+[2020-03-20 03:16:29,030 INFO] Step 28050/30000; acc:  99.48; ppl:  1.02; xent: 0.02; lr: 0.00016; 5296/3201 tok/s;   1172 sec
+[2020-03-20 03:16:31,609 INFO] Step 28100/30000; acc:  99.38; ppl:  1.02; xent: 0.02; lr: 0.00016; 8518/5266 tok/s;   1174 sec
+[2020-03-20 03:16:34,562 INFO] Step 28150/30000; acc:  99.42; ppl:  1.02; xent: 0.02; lr: 0.00016; 7470/4760 tok/s;   1177 sec
+[2020-03-20 03:16:36,972 INFO] Step 28200/30000; acc:  99.55; ppl:  1.01; xent: 0.01; lr: 0.00016; 9733/5891 tok/s;   1180 sec
+[2020-03-20 03:16:40,000 INFO] Step 28250/30000; acc:  99.38; ppl:  1.02; xent: 0.02; lr: 0.00016; 7765/4734 tok/s;   1183 sec
+[2020-03-20 03:16:42,708 INFO] Step 28300/30000; acc:  99.33; ppl:  1.02; xent: 0.02; lr: 0.00016; 8204/4864 tok/s;   1186 sec
+[2020-03-20 03:16:45,544 INFO] Step 28350/30000; acc:  99.10; ppl:  1.03; xent: 0.03; lr: 0.00016; 8538/4873 tok/s;   1188 sec
+[2020-03-20 03:16:48,101 INFO] Step 28400/30000; acc:  99.26; ppl:  1.02; xent: 0.02; lr: 0.00016; 8492/5347 tok/s;   1191 sec
+[2020-03-20 03:16:50,378 INFO] Step 28450/30000; acc:  99.36; ppl:  1.02; xent: 0.02; lr: 0.00016; 9110/5723 tok/s;   1193 sec
+[2020-03-20 03:16:52,432 INFO] Step 28500/30000; acc:  99.36; ppl:  1.02; xent: 0.02; lr: 0.00016; 10821/6767 tok/s;   1195 sec
+[2020-03-20 03:16:52,433 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:16:52,443 INFO] number of examples: 513
+[2020-03-20 03:16:52,740 INFO] Validation perplexity: 2.22017
+[2020-03-20 03:16:52,741 INFO] Validation accuracy: 89.5461
+[2020-03-20 03:16:52,748 INFO] Saving checkpoint bs_step_28500.pt
+[2020-03-20 03:16:56,065 INFO] Step 28550/30000; acc:  99.32; ppl:  1.02; xent: 0.02; lr: 0.00016; 5657/3570 tok/s;   1199 sec
+[2020-03-20 03:16:59,033 INFO] Step 28600/30000; acc:  99.35; ppl:  1.02; xent: 0.02; lr: 0.00016; 7269/4526 tok/s;   1202 sec
+[2020-03-20 03:17:01,941 INFO] Step 28650/30000; acc:  99.13; ppl:  1.03; xent: 0.03; lr: 0.00016; 7547/4430 tok/s;   1205 sec
+[2020-03-20 03:17:04,816 INFO] Step 28700/30000; acc:  99.44; ppl:  1.02; xent: 0.02; lr: 0.00016; 7475/4705 tok/s;   1208 sec
+[2020-03-20 03:17:07,624 INFO] Step 28750/30000; acc:  99.05; ppl:  1.03; xent: 0.03; lr: 0.00016; 7061/4380 tok/s;   1211 sec
+[2020-03-20 03:17:10,268 INFO] Step 28800/30000; acc:  99.17; ppl:  1.02; xent: 0.02; lr: 0.00016; 7808/4997 tok/s;   1213 sec
+[2020-03-20 03:17:13,139 INFO] Step 28850/30000; acc:  99.29; ppl:  1.02; xent: 0.02; lr: 0.00016; 7068/4396 tok/s;   1216 sec
+[2020-03-20 03:17:15,930 INFO] Step 28900/30000; acc:  99.34; ppl:  1.02; xent: 0.02; lr: 0.00016; 7710/4647 tok/s;   1219 sec
+[2020-03-20 03:17:18,386 INFO] Step 28950/30000; acc:  99.41; ppl:  1.02; xent: 0.02; lr: 0.00016; 9073/5508 tok/s;   1221 sec
+[2020-03-20 03:17:21,148 INFO] Step 29000/30000; acc:  99.33; ppl:  1.02; xent: 0.02; lr: 0.00014; 7794/4678 tok/s;   1224 sec
+[2020-03-20 03:17:21,149 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:17:21,158 INFO] number of examples: 513
+[2020-03-20 03:17:21,539 INFO] Validation perplexity: 2.12141
+[2020-03-20 03:17:21,539 INFO] Validation accuracy: 89.0876
+[2020-03-20 03:17:21,545 INFO] Saving checkpoint bs_step_29000.pt
+[2020-03-20 03:17:24,714 INFO] Step 29050/30000; acc:  99.25; ppl:  1.02; xent: 0.02; lr: 0.00014; 6121/3702 tok/s;   1228 sec
+[2020-03-20 03:17:26,613 INFO] Step 29100/30000; acc:  99.50; ppl:  1.02; xent: 0.02; lr: 0.00014; 12341/7279 tok/s;   1229 sec
+[2020-03-20 03:17:28,812 INFO] Step 29150/30000; acc:  99.32; ppl:  1.02; xent: 0.02; lr: 0.00014; 10162/6231 tok/s;   1232 sec
+[2020-03-20 03:17:30,865 INFO] Step 29200/30000; acc:  99.38; ppl:  1.02; xent: 0.02; lr: 0.00014; 11105/6786 tok/s;   1234 sec
+[2020-03-20 03:17:31,425 INFO] Loading dataset from data/bs.train.0.pt
+[2020-03-20 03:17:33,383 INFO] number of examples: 81252
+[2020-03-20 03:17:36,633 INFO] Step 29250/30000; acc:  99.43; ppl:  1.02; xent: 0.02; lr: 0.00014; 4068/2479 tok/s;   1240 sec
+[2020-03-20 03:17:39,199 INFO] Step 29300/30000; acc:  99.50; ppl:  1.01; xent: 0.01; lr: 0.00014; 8435/5130 tok/s;   1242 sec
+[2020-03-20 03:17:41,644 INFO] Step 29350/30000; acc:  99.42; ppl:  1.02; xent: 0.02; lr: 0.00014; 8813/5291 tok/s;   1245 sec
+[2020-03-20 03:17:44,256 INFO] Step 29400/30000; acc:  99.32; ppl:  1.02; xent: 0.02; lr: 0.00014; 8495/5391 tok/s;   1247 sec
+[2020-03-20 03:17:46,748 INFO] Step 29450/30000; acc:  99.44; ppl:  1.02; xent: 0.02; lr: 0.00014; 9181/5737 tok/s;   1250 sec
+[2020-03-20 03:17:49,793 INFO] Step 29500/30000; acc:  99.52; ppl:  1.01; xent: 0.01; lr: 0.00014; 7576/4567 tok/s;   1253 sec
+[2020-03-20 03:17:49,796 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:17:49,807 INFO] number of examples: 513
+[2020-03-20 03:17:50,336 INFO] Validation perplexity: 2.25886
+[2020-03-20 03:17:50,344 INFO] Validation accuracy: 89.1334
+[2020-03-20 03:17:50,356 INFO] Saving checkpoint bs_step_29500.pt
+[2020-03-20 03:17:54,178 INFO] Step 29550/30000; acc:  99.38; ppl:  1.02; xent: 0.02; lr: 0.00014; 5286/3180 tok/s;   1257 sec
+[2020-03-20 03:17:57,168 INFO] Step 29600/30000; acc:  99.04; ppl:  1.03; xent: 0.03; lr: 0.00014; 7724/4515 tok/s;   1260 sec
+[2020-03-20 03:18:00,132 INFO] Step 29650/30000; acc:  99.44; ppl:  1.02; xent: 0.02; lr: 0.00014; 7834/4652 tok/s;   1263 sec
+[2020-03-20 03:18:02,912 INFO] Step 29700/30000; acc:  99.21; ppl:  1.02; xent: 0.02; lr: 0.00014; 7417/4661 tok/s;   1266 sec
+[2020-03-20 03:18:05,559 INFO] Step 29750/30000; acc:  99.51; ppl:  1.01; xent: 0.01; lr: 0.00014; 8126/5116 tok/s;   1268 sec
+[2020-03-20 03:18:07,729 INFO] Step 29800/30000; acc:  99.35; ppl:  1.02; xent: 0.02; lr: 0.00014; 9647/6149 tok/s;   1271 sec
+[2020-03-20 03:18:09,801 INFO] Step 29850/30000; acc:  99.36; ppl:  1.02; xent: 0.02; lr: 0.00014; 10353/6464 tok/s;   1273 sec
+[2020-03-20 03:18:12,038 INFO] Step 29900/30000; acc:  99.24; ppl:  1.02; xent: 0.02; lr: 0.00014; 9869/5983 tok/s;   1275 sec
+[2020-03-20 03:18:14,372 INFO] Step 29950/30000; acc:  99.35; ppl:  1.02; xent: 0.02; lr: 0.00014; 9164/5475 tok/s;   1277 sec
+[2020-03-20 03:18:16,791 INFO] Step 30000/30000; acc:  99.12; ppl:  1.03; xent: 0.03; lr: 0.00013; 8284/5275 tok/s;   1280 sec
+[2020-03-20 03:18:16,793 INFO] Loading dataset from data/bs.valid.0.pt
+[2020-03-20 03:18:16,801 INFO] number of examples: 513
+[2020-03-20 03:18:17,203 INFO] Validation perplexity: 2.18417
+[2020-03-20 03:18:17,204 INFO] Validation accuracy: 89.4544
+[2020-03-20 03:18:17,210 INFO] Saving checkpoint bs_step_30000.pt
