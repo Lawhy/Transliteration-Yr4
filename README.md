@@ -1,2 +1,6 @@
 # Transliteration-Yr4
-The Final Year Project (UG4) at UOE
+-------
+### Key Contributions:
+1. DICT dataset;
+2. ACC-ACT (new eval metric);
+3. Multi-task model using Pinyin for English-to-Chinese Transliteration.
